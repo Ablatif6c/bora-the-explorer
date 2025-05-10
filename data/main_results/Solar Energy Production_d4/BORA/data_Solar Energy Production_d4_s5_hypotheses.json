@@ -1,0 +1,1106 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Optimal Mid-Tilt",
+            "rationale": "A tilt angle around 30\u00b0 is often optimal for solar panels in temperate regions, balancing sunlight exposure throughout the day.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 30,
+                    "azimuth": 180,
+                    "system_capacity": 10,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[30.0, 180.0, 10.0, 1.2]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Azimuth Exploration",
+            "rationale": "Exploring a high azimuth angle (270\u00b0) may capture late afternoon sunlight, which can be beneficial for energy production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 20,
+                    "azimuth": 270,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[20.0, 270.0, 15.0, 1.3]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Low Tilt for High Latitude",
+            "rationale": "At higher latitudes, a lower tilt angle (10\u00b0) can help maximize energy capture during summer months when the sun is high.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 10,
+                    "azimuth": 90,
+                    "system_capacity": 5,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[10.0, 90.0, 5.0, 1.1]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Balanced Capacity Ratio",
+            "rationale": "A DC to AC ratio of 1.5 can optimize energy conversion efficiency, especially in systems with higher capacity.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 45,
+                    "azimuth": 0,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[45.0, 0.0, 20.0, 1.5]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Morning Sun Focus",
+            "rationale": "A tilt of 40\u00b0 and azimuth of 60\u00b0 can optimize energy capture during morning hours, which is crucial for daily energy production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 40,
+                    "azimuth": 60,
+                    "system_capacity": 8,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[40.0, 60.0, 8.0, 1.2]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Tilt Exploration",
+            "rationale": "Exploring higher tilt angles (around 70\u00b0) has shown promising results in maximizing energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[70.0, 180.0, 20.0, 1.0]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Afternoon Sun Capture",
+            "rationale": "A tilt of 60\u00b0 and azimuth of 200\u00b0 may optimize energy capture during the afternoon, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 60,
+                    "azimuth": 200,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[60.0, 200.0, 15.0, 1.2]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Moderate Tilt and Capacity",
+            "rationale": "A moderate tilt of 40\u00b0 with a system capacity of 10 kW can balance energy production and efficiency.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 40,
+                    "azimuth": 150,
+                    "system_capacity": 10,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[40.0, 150.0, 10.0, 1.1]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Low Capacity with High Tilt",
+            "rationale": "Testing a lower capacity (5 kW) with a high tilt (75\u00b0) may yield interesting results, as seen in previous high-output configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 160,
+                    "system_capacity": 5,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[75.0, 160.0, 5.0, 1.0]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 68\u00b0 and azimuth of 175\u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 68,
+                    "azimuth": 175,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[68.0, 175.0, 20.0, 1.0]"
+    },
+    "22": {
+        "trust_score": 0.95,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 185,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 185.0, 20.0, 1.0]"
+    },
+    "23": {
+        "trust_score": 0.95,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 80u00b0 with an azimuth of 190u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 80,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[80.0, 190.0, 20.0, 1.0]"
+    },
+    "24": {
+        "trust_score": 0.95,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 75u00b0 and azimuth of 200u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 200,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[75.0, 200.0, 15.0, 1.2]"
+    },
+    "25": {
+        "trust_score": 0.95,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Moderate Tilt with High Capacity",
+            "rationale": "A moderate tilt of 60u00b0 with a system capacity of 20 kW can balance energy production and efficiency, as seen in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 60,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[60.0, 190.0, 20.0, 1.1]"
+    },
+    "26": {
+        "trust_score": 0.95,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 69u00b0 and azimuth of 176u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 69,
+                    "azimuth": 176,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[69.0, 176.0, 20.0, 1.0]"
+    },
+    "32": {
+        "trust_score": 0.799753451929312,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70\u00b0) with an azimuth of 180\u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 180.0, 20.0, 1.0]"
+    },
+    "33": {
+        "trust_score": 0.799753451929312,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 78\u00b0 with an azimuth of 190\u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 78,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[78.0, 190.0, 20.0, 1.0]"
+    },
+    "34": {
+        "trust_score": 0.799753451929312,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76\u00b0 and azimuth of 200\u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 200,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 200.0, 15.0, 1.2]"
+    },
+    "35": {
+        "trust_score": 0.799753451929312,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Tilt with High Capacity",
+            "rationale": "A moderate tilt of 65\u00b0 with a system capacity of 20 kW can balance energy production and efficiency, as seen in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 65,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[65.0, 190.0, 20.0, 1.1]"
+    },
+    "36": {
+        "trust_score": 0.799753451929312,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 70\u00b0 and azimuth of 175\u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 175,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[70.0, 175.0, 20.0, 1.0]"
+    },
+    "43": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 182.0, 20.0, 1.0]"
+    },
+    "44": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 79u00b0 with an azimuth of 190u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 79,
+                    "azimuth": 191,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[79.0, 191.0, 20.0, 1.0]"
+    },
+    "45": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 200u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 77,
+                    "azimuth": 202,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[77.0, 202.0, 15.0, 1.2]"
+    },
+    "46": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Tilt with High Capacity",
+            "rationale": "A moderate tilt of 65u00b0 with a system capacity of 20 kW can balance energy production and efficiency, as seen in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 66,
+                    "azimuth": 191,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[66.0, 191.0, 20.0, 1.1]"
+    },
+    "47": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 70u00b0 and azimuth of 175u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 176,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 176.0, 20.0, 1.0]"
+    },
+    "48": {
+        "trust_score": 0.6661735705252907,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Discarding Poor Performers",
+            "rationale": "Configurations with low tilt angles (0u00b0) and azimuths that do not align with optimal sunlight exposure have consistently underperformed and will be discarded.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 0,
+                    "azimuth": 360,
+                    "system_capacity": 1,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 360.0, 1.0, 1.0]"
+    },
+    "54": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 181,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 181.0, 20.0, 1.0]"
+    },
+    "55": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 79u00b0 with an azimuth of 190u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 79,
+                    "azimuth": 192,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[79.0, 192.0, 20.0, 1.0]"
+    },
+    "56": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 201u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 201,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 201.0, 15.0, 1.2]"
+    },
+    "57": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Tilt with High Capacity",
+            "rationale": "A moderate tilt of 65u00b0 with a system capacity of 20 kW can balance energy production and efficiency, as seen in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 66,
+                    "azimuth": 192,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[66.0, 192.0, 20.0, 1.1]"
+    },
+    "58": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 70u00b0 and azimuth of 176u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 177,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[70.0, 177.0, 20.0, 1.0]"
+    },
+    "59": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Discarding Poor Performers",
+            "rationale": "Configurations with low tilt angles (0u00b0) and azimuths that do not align with optimal sunlight exposure have consistently underperformed and will be discarded.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 1,
+                    "azimuth": 360,
+                    "system_capacity": 1,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 360.0, 1.0, 1.0]"
+    },
+    "64": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 180.0, 20.0, 1.0]"
+    },
+    "65": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 82u00b0 with an azimuth of 192u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 82,
+                    "azimuth": 192,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[82.0, 192.0, 20.0, 1.0]"
+    },
+    "66": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 78u00b0 and azimuth of 205u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 78,
+                    "azimuth": 205,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[78.0, 205.0, 15.0, 1.2]"
+    },
+    "67": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Discarding Poor Performers",
+            "rationale": "Configurations with low tilt angles (0u00b0) and azimuths that do not align with optimal sunlight exposure have consistently underperformed and will be discarded.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 2,
+                    "azimuth": 360,
+                    "system_capacity": 1,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[2.0, 360.0, 1.0, 1.0]"
+    },
+    "71": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 73,
+                    "azimuth": 181,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[73.0, 181.0, 20.0, 1.0]"
+    },
+    "72": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 81u00b0 with an azimuth of 191u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 191,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[81.0, 191.0, 20.0, 1.0]"
+    },
+    "73": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 77u00b0 and azimuth of 201u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 77,
+                    "azimuth": 201,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[77.0, 201.0, 15.0, 1.2]"
+    },
+    "74": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 70u00b0 and azimuth of 176u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 176,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[70.0, 176.0, 20.0, 1.0]"
+    },
+    "77": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "80": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72.5,
+                    "azimuth": 181,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.5, 181.0, 20.0, 1.0]"
+    },
+    "81": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 81u00b0 with an azimuth of 192u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 192.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[81.0, 192.5, 20.0, 1.0]"
+    },
+    "82": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 77u00b0 and azimuth of 201u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 77,
+                    "azimuth": 201.5,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[77.0, 201.5, 15.0, 1.2]"
+    },
+    "83": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 71u00b0 and azimuth of 176u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 176.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 176.5, 20.0, 1.0]"
+    },
+    "85": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 200u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 202,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 202.0, 15.0, 1.2]"
+    },
+    "86": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 71u00b0 and azimuth of 177u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 177,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 177.0, 20.0, 1.0]"
+    },
+    "87": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Discarding Poor Performers",
+            "rationale": "Configurations with low tilt angles (0u00b0) and azimuths that do not align with optimal sunlight exposure have consistently underperformed and will be discarded.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 1,
+                    "azimuth": 359,
+                    "system_capacity": 1,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 359.0, 1.0, 1.0]"
+    },
+    "89": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70u00b0) with an azimuth of 180u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72.5,
+                    "azimuth": 181.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.5, 181.5, 20.0, 1.0]"
+    },
+    "90": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 80u00b0 with an azimuth of 192.5 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 80,
+                    "azimuth": 192.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[80.0, 192.5, 20.0, 1.0]"
+    },
+    "91": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 202.5 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 202.5,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 202.5, 15.0, 1.2]"
+    },
+    "92": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Moderate Tilt with High Capacity",
+            "rationale": "A moderate tilt of 65u00b0 with a system capacity of 20 kW can balance energy production and efficiency, as seen in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 65,
+                    "azimuth": 191.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[65.0, 191.5, 20.0, 1.1]"
+    },
+    "93": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 71u00b0 and azimuth of 177.5 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 177.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 177.5, 20.0, 1.0]"
+    },
+    "94": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Discarding Poor Performers",
+            "rationale": "Configurations with low tilt angles (0u00b0) and azimuths that do not align with optimal sunlight exposure have consistently underperformed and will be discarded.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 1,
+                    "azimuth": 359.5,
+                    "system_capacity": 1,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 359.5, 1.0, 1.0]"
+    },
+    "96": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 80u00b0 with an azimuth of 190u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 192,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[81.0, 192.0, 20.0, 1.0]"
+    },
+    "97": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 202u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 77,
+                    "azimuth": 203,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[77.0, 203.0, 15.0, 1.2]"
+    },
+    "98": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 71u00b0 and azimuth of 177.5u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 178,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 178.0, 20.0, 1.0]"
+    },
+    "100": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 81u00b0 with an azimuth of 192u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 193,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[81.0, 193.0, 20.0, 1.0]"
+    },
+    "101": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Afternoon Sun Optimization",
+            "rationale": "A tilt of 76u00b0 and azimuth of 202u00b0 may optimize energy capture during the afternoon, leveraging previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 78,
+                    "azimuth": 204,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[78.0, 204.0, 15.0, 1.2]"
+    },
+    "102": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Near-Optimal Angles",
+            "rationale": "A tilt of 71u00b0 and azimuth of 177.5u00b0 is close to previously successful configurations and may yield high energy output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 71,
+                    "azimuth": 178,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[71.0, 178.0, 20.0, 1.0]"
+    },
+    "104": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Continuing to explore high tilt angles (around 70\u00b0) with an azimuth of 180\u00b0 has shown consistent high energy outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 72.5,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.5, 182.0, 20.0, 1.0]"
+    },
+    "105": {
+        "trust_score": 0.4992603557879361,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Exploring Higher Tilt Angles",
+            "rationale": "Testing a tilt of 81\u00b0 with an azimuth of 191\u00b0 may further enhance energy capture, building on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 194,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[81.0, 194.0, 20.0, 1.0]"
+    }
+}

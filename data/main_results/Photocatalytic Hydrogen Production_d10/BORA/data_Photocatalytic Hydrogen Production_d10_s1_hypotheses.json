@@ -1,0 +1,680 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Dye and Hole Scavenger Synergy",
+            "rationale": "Combining AcidRed871 as a photosensitizer with L-Cysteine as a hole scavenger may enhance charge separation and light absorption, leading to improved HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 2.0, 0.5, 0.5, 0.5, 1.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Surfactant and Dye Combination",
+            "rationale": "Using SDS as a surfactant may improve the dispersion of the photocatalyst, while MethyleneB can enhance light absorption, potentially increasing HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 2.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 2.0, 0.5, 0.5, 1.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "pH Adjustment with Surfactant",
+            "rationale": "Adjusting pH with NaOH can optimize the photocatalytic environment, while PVP may stabilize the mixture, enhancing HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 1.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.5, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Concentration of P10-MIX1",
+            "rationale": "Maximizing the concentration of the effective photocatalyst P10-MIX1 while balancing other parameters may lead to significant HER improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Mixture for Charge Separation",
+            "rationale": "A balanced approach using multiple components may optimize the photocatalytic process by improving charge separation and light absorption.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 1.0, 0.5, 0.5, 1.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Optimal NaCl and NaOH",
+            "rationale": "Focusing on high P10-MIX1 concentration while maintaining moderate NaCl and NaOH levels has shown to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1",
+            "rationale": "A balanced approach with high P10-MIX1 and moderate NaCl and NaOH, while introducing a small amount of L-Cysteine to enhance charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High NaCl and NaOH with Minimal Dyes",
+            "rationale": "Testing high concentrations of NaCl and NaOH while minimizing the use of dyes to focus on the photocatalytic efficiency of P10-MIX1.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 2.0, 1.0, 3.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Surfactant Effects",
+            "rationale": "Introducing a small amount of SDS as a surfactant to improve dispersion while maintaining high P10-MIX1 and NaCl concentrations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Testing Lower P10-MIX1 with Dyes",
+            "rationale": "Exploring the effects of lower P10-MIX1 concentrations combined with AcidRed871 and L-Cysteine to assess potential synergistic effects.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 2.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 0.0, 1.0, 0.5, 2.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "31": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Optimal NaCl and NaOH",
+            "rationale": "Focusing on high P10-MIX1 concentration while maintaining moderate NaCl and NaOH levels has shown to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.5, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "32": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High P10-MIX1 with Minimal Dyes",
+            "rationale": "Testing high concentrations of P10-MIX1 while minimizing the use of dyes to focus on the photocatalytic efficiency.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 2.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.5]"
+    },
+    "33": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Surfactant Effects with High P10-MIX1",
+            "rationale": "Introducing a small amount of SDS as a surfactant to improve dispersion while maintaining high P10-MIX1 and NaCl concentrations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.5, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "34": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and Surfactant",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl and NaOH, while introducing a small amount of SDS to enhance dispersion.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.5, 1.0, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "46": {
+        "trust_score": 0.7512187462616301,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Optimal NaCl and L-Cysteine",
+            "rationale": "Focusing on high P10-MIX1 concentration while maintaining moderate NaCl and introducing L-Cysteine has shown to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "47": {
+        "trust_score": 0.7512187462616301,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High P10-MIX1 with Minimal Dyes and Enhanced L-Cysteine",
+            "rationale": "Testing high concentrations of P10-MIX1 while minimizing the use of dyes and maximizing L-Cysteine to focus on photocatalytic efficiency.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 2.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "48": {
+        "trust_score": 0.7512187462616301,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Surfactant Effects with High P10-MIX1 and L-Cysteine",
+            "rationale": "Introducing a small amount of SDS as a surfactant to improve dispersion while maintaining high P10-MIX1 and L-Cysteine concentrations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "49": {
+        "trust_score": 0.7512187462616301,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and L-Cysteine",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl, and L-Cysteine to enhance charge separation and maximize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "60": {
+        "trust_score": 0.5966683633774853,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and Minimal Dyes",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl, and L-Cysteine to enhance charge separation and maximize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "61": {
+        "trust_score": 0.5966683633774853,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Testing Lower P10-MIX1 with Enhanced L-Cysteine",
+            "rationale": "Exploring the effects of lower P10-MIX1 concentrations combined with increased L-Cysteine to assess potential synergistic effects.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 2.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 2.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "71": {
+        "trust_score": 0.40239046853029664,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Optimal NaCl and NaOH",
+            "rationale": "Focusing on high P10-MIX1 concentration while maintaining moderate NaCl and NaOH levels has shown to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.5]"
+    },
+    "72": {
+        "trust_score": 0.40239046853029664,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and Minimal Dyes",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl, and L-Cysteine to enhance charge separation and maximize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.5]"
+    },
+    "81": {
+        "trust_score": 0.4379596277880115,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "High P10-MIX1 with Enhanced NaCl and NaOH",
+            "rationale": "Testing high concentrations of P10-MIX1 while increasing NaCl and NaOH to explore their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 2.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "82": {
+        "trust_score": 0.4379596277880115,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and L-Cysteine",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl, and L-Cysteine to enhance charge separation and maximize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "90": {
+        "trust_score": 0.44505646976042823,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Optimal NaCl and NaOH",
+            "rationale": "Focusing on high P10-MIX1 concentration while maintaining moderate NaCl and NaOH levels has shown to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.5, 0.75, 4.0, 0.0, 0.0, 0.0, 0.5]"
+    },
+    "91": {
+        "trust_score": 0.44505646976042823,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Mixture with High P10-MIX1 and Minimal Dyes",
+            "rationale": "A balanced approach with high P10-MIX1, moderate NaCl, and L-Cysteine to enhance charge separation and maximize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.5]"
+    },
+    "96": {
+        "trust_score": 0.639334364607617,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High P10-MIX1 with Enhanced L-Cysteine",
+            "rationale": "Testing high concentrations of P10-MIX1 while maximizing L-Cysteine to focus on photocatalytic efficiency.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.5, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "97": {
+        "trust_score": 0.639334364607617,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploring Surfactant Effects with High P10-MIX1 and L-Cysteine",
+            "rationale": "Introducing a small amount of SDS as a surfactant to improve dispersion while maintaining high P10-MIX1 and L-Cysteine concentrations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 1.5, 4.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "103": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    }
+}

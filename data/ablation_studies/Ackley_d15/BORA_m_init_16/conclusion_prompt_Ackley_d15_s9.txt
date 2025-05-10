@@ -1,0 +1,523 @@
+You generated the following comments in the previous iterations:
+## Iteration 22:
+ {
+    "comment": "As we progress through iteration 21 of the Bayesian Optimization process, it becomes clear that certain parameter combinations yield significantly higher target values compared to others. The highest target value observed is 9.303 from iteration 2, achieved with all parameters set to -5. Other notable results include the configurations from iterations 9 (target 8.472) and 20 (target 9.112), indicating that regions around mid-range values elicit better performance. Conversely, extreme configurations\u2014such as settings at the lower bound (-30 for all parameters) and the maximum bound (20 for all)\u2014produce low outputs, with the lowest value recorded being 1.041 at iteration 7. The data underscores the importance of balancing parameter values, particularly aiming for combinations that blend lower negative inputs with mid-range positive inputs. Moving forward, we should focus on hypotheses that refine exploration in the mid-range of the parameter space while avoiding extremes notorious for producing poor outcomes. This strategy maximizes our chance of uncovering regions of the parameter space that consistently lead to higher target values, ensuring an efficient and informed optimization process.",
+    "hypotheses": [
+        {
+            "name": "Mid-Range Balanced Exploration",
+            "rationale": "Exploring balanced midpoints around previously high-target results can yield increased outputs, focusing on combinations of lower and mid-range values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -5,
+                    "x_4": 3,
+                    "x_5": -2,
+                    "x_6": 1,
+                    "x_7": -4,
+                    "x_8": 3,
+                    "x_9": -1,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 4,
+                    "x_13": 4,
+                    "x_14": -3
+                }
+            ]
+        },
+        {
+            "name": "Lower Bound Exploration with Variation",
+            "rationale": "Mixing low boundary parameters with mid-range variations could help identify effective patterns leading to higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -10,
+                    "x_2": -5,
+                    "x_3": -3,
+                    "x_4": -5,
+                    "x_5": 5,
+                    "x_6": -10,
+                    "x_7": 10,
+                    "x_8": 5,
+                    "x_9": -6,
+                    "x_10": -3,
+                    "x_11": 4,
+                    "x_12": 0,
+                    "x_13": -2,
+                    "x_14": 3
+                }
+            ]
+        },
+        {
+            "name": "Positive Mixed Exploration",
+            "rationale": "Using strong positive values mixed with negative inputs based on performance trends could lead to discovering peaks within the parameter space.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": -5,
+                    "x_4": -10,
+                    "x_5": 2,
+                    "x_6": -5,
+                    "x_7": 15,
+                    "x_8": 8,
+                    "x_9": 0,
+                    "x_10": 5,
+                    "x_11": -5,
+                    "x_12": -2,
+                    "x_13": 3,
+                    "x_14": -3
+                }
+            ]
+        },
+        {
+            "name": "Focused Exploration Around Previous Peaks",
+            "rationale": "Exploring around areas with known high target outputs can help confirm regions conducive to maximization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": -3,
+                    "x_2": -5,
+                    "x_3": -6,
+                    "x_4": -5,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": -3,
+                    "x_8": 0,
+                    "x_9": 5,
+                    "x_10": -5,
+                    "x_11": -1,
+                    "x_12": -4,
+                    "x_13": 1,
+                    "x_14": -5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 41:
+ {
+    "comment": "As we reach iteration 40 of the Bayesian Optimization process, the analysis of our collected data presents a clearer understanding of the parameter landscape. The highest target value recorded is 12.825 from iteration 22, achieved with specific mid-range combinations. The insights reveal that configurations yielding high outputs typically fall within moderate ranges, particularly around points combining lower negative and mid-range positive values. The iteration data indicates that strictly extreme configurations, such as those adhering to lower (-30) or upper (20) bounds, yield lower target values. For example, iteration 1 produced the lowest output at 1.995, with similarly poor outcomes from iterations 3 and 7. The promising subspaces appear to be those with a blend of mid-range positive values alongside mild negative inputs, highlighting previously successful areas for further exploration. Moving forward, the hypotheses should emphasize sampling around the successful mid-range configurations while avoiding extremes. This strategic adjustment will enhance our chances of uncovering optimal parameter combinations that maximize the target output while refining our understanding of valuable subspaces in the parameter landscape.",
+    "hypotheses": [
+        {
+            "name": "Enhanced Mid-Range Exploration",
+            "rationale": "Targeting mid-range parameters by adjusting around previously successful configurations can leverage observed peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": -2,
+                    "x_2": 5,
+                    "x_3": -4,
+                    "x_4": 2,
+                    "x_5": 0,
+                    "x_6": 2,
+                    "x_7": -1,
+                    "x_8": 3,
+                    "x_9": -1,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 4,
+                    "x_13": 2,
+                    "x_14": -2
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive Mid-Range",
+            "rationale": "Utilizing a mix of strong positive values with moderate negative parameters can help identify potential peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 4,
+                    "x_2": 1,
+                    "x_3": -2,
+                    "x_4": -6,
+                    "x_5": 3,
+                    "x_6": -1,
+                    "x_7": 10,
+                    "x_8": 6,
+                    "x_9": -2,
+                    "x_10": 4,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": -4
+                }
+            ]
+        },
+        {
+            "name": "Refined Low-Mid Boundary",
+            "rationale": "Exploring low-mid boundary configurations can uncover subtle interactions yielding higher outputs without resorting to extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15,
+                    "x_1": -5,
+                    "x_2": -2,
+                    "x_3": -1,
+                    "x_4": 3,
+                    "x_5": 0,
+                    "x_6": -2,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": -3,
+                    "x_10": -1,
+                    "x_11": -3,
+                    "x_12": 2,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        {
+            "name": "Targeted Search Around Peak",
+            "rationale": "Concentrating on configurations close to the peak previously recorded can help solidify our understanding of the optimal regions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -6,
+                    "x_4": 3,
+                    "x_5": -1,
+                    "x_6": 2,
+                    "x_7": -4,
+                    "x_8": 3,
+                    "x_9": -1,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": -3
+                }
+            ]
+        }
+    ]
+}
+## Iteration 60:
+ {
+    "comment": "As we reach iteration 59, the latest evaluations have unveiled crucial patterns in the parameter landscape. The highest recorded target value now stands at 13.669 from iteration 41, achieved with a strategic combination of parameters around mid-range values. The data confirms that configurations yielding high outputs typically lie within a moderate balance of negative and positive inputs. Focused subspaces, particularly where mild negatives are mixed with moderate positives, produced the best results. Conversely, extreme configurations, such as those pushing all parameters to the bounds of -30 or 20, consistently yield lower target values, with the lowest set at 1.041 in iteration 7. These findings emphasize the importance of avoiding extreme parameter settings. Moving forward, previous hypotheses, especially those exploring extreme values, will be revised or discarded in favor of more promising mid-range explorations that build upon the successful configurations identified in the data. The proposed hypotheses will utilize refined combinations of established successful parameter sets to enhance the optimization process continually.",
+    "hypotheses": [
+        {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "This hypothesis targets slightly nuanced combinations around previously successful configurations to further leverage potential peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -4,
+                    "x_4": 3,
+                    "x_5": -1,
+                    "x_6": 2,
+                    "x_7": -3,
+                    "x_8": 4,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": -2
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive-Mid Boundary",
+            "rationale": "This proposal combines moderate positive values with mild negatives, acknowledging successful patterns noted in earlier iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 4,
+                    "x_2": 2,
+                    "x_3": -3,
+                    "x_4": -2,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 9,
+                    "x_8": 6,
+                    "x_9": -2,
+                    "x_10": 4,
+                    "x_11": -1,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": -3
+                }
+            ]
+        },
+        {
+            "name": "Targeted Exploration Around High-Value Points",
+            "rationale": "Focusing on areas near previous high outputs will enhance the confirmation of optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": -0.5,
+                    "x_2": 6,
+                    "x_3": -5,
+                    "x_4": 3,
+                    "x_5": -1,
+                    "x_6": 1,
+                    "x_7": -3,
+                    "x_8": 3,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": -2
+                }
+            ]
+        },
+        {
+            "name": "Low-Mid Boundary Configuration",
+            "rationale": "Exploring values around the low-mid boundary might uncover beneficial interactions for maximizing targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": -5,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": 4,
+                    "x_5": 0,
+                    "x_6": -1,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": -2,
+                    "x_10": -3,
+                    "x_11": -2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        }
+    ]
+}
+## Iteration 81:
+ {
+    "comment": "As we reach iteration 80 of the Bayesian Optimization process, extensive analysis of the collected data uncovers vital insights into the parameter landscape. The maximum target value recorded is now 13.669 from iteration 41, achieved with a configuration of moderate negative and low positive values. This trend reinforces the efficacy of a careful blend of these inputs in generating higher outputs. The insights imply that optimal configurations consistently dwell within moderate ranges, particularly when integrating mild negative values with mid-range positives. Conversely, configurations that push all parameters to extreme values\u2014both high (20) and low (-30)\u2014have continuously underperformed, often falling below target values of 3, showcasing their detrimental impact on maximization efforts. Moving forward, it is clear that our hypotheses should prioritize focused exploration around the previously identified peaks while discarding less efficient strategies that overly exploit extremes. Thus, the following revised hypotheses aim to delve deeper into the promising parameter combinations identified through earlier iterations, optimizing our search for maximum target outputs effectively.",
+    "hypotheses": [
+        {
+            "name": "Refined Mid-Range Parameter Exploration",
+            "rationale": "Focusing on slight variations around successful mid-range configurations is expected to enhance the likelihood of maximizing the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 5,
+                    "x_3": -4,
+                    "x_4": 4,
+                    "x_5": -1,
+                    "x_6": 2,
+                    "x_7": -2,
+                    "x_8": 4,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 3,
+                    "x_14": -1
+                }
+            ]
+        },
+        {
+            "name": "Moderate Positive Mix Exploration",
+            "rationale": "Utilizing moderate positive parameters balanced with mild negatives can reveal new peaks in target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 3,
+                    "x_2": 1,
+                    "x_3": -2,
+                    "x_4": -3,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 8,
+                    "x_8": 5,
+                    "x_9": -2,
+                    "x_10": 3,
+                    "x_11": -1,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": -2
+                }
+            ]
+        },
+        {
+            "name": "Targeted Search Around High Performing Points",
+            "rationale": "Concentrating on points near previously high target outputs refines understanding of optimal parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -5,
+                    "x_4": 3,
+                    "x_5": -1,
+                    "x_6": 1,
+                    "x_7": -3,
+                    "x_8": 3,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": -2
+                }
+            ]
+        },
+        {
+            "name": "Boundary Falloff Minimization Exploration",
+            "rationale": "Exploring configurations that skirt around the extreme boundaries but remain within mid-range values will prevent detrimental outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15,
+                    "x_1": -2,
+                    "x_2": 3,
+                    "x_3": 0,
+                    "x_4": 4,
+                    "x_5": 0,
+                    "x_6": -2,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": -1,
+                    "x_10": -3,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        }
+    ]
+}
+
+
+We have now finished the optimization, and below is the complete dataset of 105 experiments:
+ Iteration     x_0     x_1     x_2     x_3     x_4     x_5     x_6     x_7     x_8     x_9    x_10    x_11    x_12    x_13    x_14  target
+         1 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000   1.995
+         2  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000   9.303
+         3  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000   2.312
+         4 -10.000   0.000  10.000 -10.000   0.000  10.000 -10.000   0.000  10.000 -10.000   0.000  10.000 -10.000   0.000  10.000   5.852
+         5 -15.000  10.000  -5.000  15.000 -20.000   5.000 -10.000  20.000 -25.000   5.000 -15.000  20.000  10.000  -5.000   0.000   3.185
+         6  15.720 -20.275  -6.839  -4.698 -24.746   1.445 -19.255 -18.805  -9.559  16.925  19.607  10.168  -1.719   7.721 -15.455   1.138
+         7 -26.506 -19.028 -16.663 -24.702  19.851   3.016  -8.109  19.005   8.825 -16.512   5.385 -21.237   4.226 -20.173  -2.502   1.041
+         8   7.459   8.453 -19.891 -19.002 -25.276   8.131  -5.556 -29.745   2.446  12.046 -12.691 -20.046 -26.068  -9.503 -10.276   0.946
+         9  -6.239  -3.727  -1.415  -5.459  -3.645  -2.461  -5.684  -3.738  -2.193  -6.565  -4.457  -1.698  -5.887  -3.863  -1.696   8.472
+        10  -4.965  18.500   5.245   0.670 -15.878  13.360  -9.961 -13.209   5.218   0.192  13.331   4.207  -0.288 -12.833 -11.749   2.822
+        11  -5.007  -7.378  -4.653  -3.386  -2.571 -10.253  -2.769  -4.161  -7.621  -7.506  -8.863  -6.077  -5.081  -3.547  -4.163   6.216
+        12  -8.362  -5.737 -20.411 -16.451   2.229 -18.749  -7.758   5.946 -11.998 -29.615  19.388  14.567 -16.818   4.292 -14.121   1.111
+        13 -12.500   8.726  -4.751 -23.877 -10.147   3.941   7.939 -23.459   2.134 -13.502  14.613  14.711  13.662 -20.662 -29.721   1.008
+        14  -4.966  -3.862  -5.478  -6.088  -6.533  -1.608  -6.530  -5.391  -3.377  -3.078  -2.807  -4.788  -4.939  -5.982  -5.421   7.670
+        15   0.868   5.305  -1.491  -8.441 -15.237  -8.131   1.359  -7.197 -25.615  -3.902  -3.493  -3.695  -7.078  -8.238  -5.666   3.209
+        16  -5.429  -3.641  -3.867  -4.257  -4.344  -5.705  -4.486  -5.872  -3.742  -7.167  -3.805  -2.476  -4.883  -4.381  -5.857   7.788
+        17  -5.310  -5.842  -3.848  -5.764  -4.487  -3.637  -5.518  -3.259  -5.068  -4.266  -6.400  -5.576  -5.672  -4.701  -2.051   7.585
+        18  -1.963 -11.423   1.374  -5.949   4.697   3.153  -7.308 -10.680 -11.361   3.898  -3.577   3.029 -24.763 -11.998  -0.364   3.379
+        19   0.697  -8.591   5.491  -4.289 -14.922  -1.433  -9.938   3.150  10.107  -1.869   5.717   5.311  -0.509  -3.736 -17.105   4.348
+        20 -20.938  -5.452  -5.185 -14.352   5.835  -0.990  -8.778  -1.654  -9.521  -9.371  -3.221  -9.025 -14.070  -3.082   9.112   3.385
+        21  12.693  -4.862   1.267  -8.393 -10.934 -24.073  -6.784  -5.871 -10.263  -4.087  -8.465  -5.141   3.803  -8.802  -7.897   3.407
+        22  -2.000   0.000   5.000  -5.000   3.000  -2.000   1.000  -4.000   3.000  -1.000   0.000   2.000   4.000   4.000  -3.000  12.825
+        23 -20.000 -10.000  -5.000  -3.000  -5.000   5.000 -10.000  10.000   5.000  -6.000  -3.000   4.000   0.000  -2.000   3.000   6.257
+        24  10.000   5.000   0.000  -5.000 -10.000   2.000  -5.000  15.000   8.000   0.000   5.000  -5.000  -2.000   3.000  -3.000   7.361
+        25  -4.000  -3.000  -5.000  -6.000  -5.000   0.000   0.000  -3.000   0.000   5.000  -5.000  -1.000  -4.000   1.000  -5.000  11.358
+        26 -12.818 -12.764   8.970   1.419  -7.160   3.694   1.806 -11.406 -13.884   1.185  -0.694   2.224   6.099  -0.072   0.633   4.851
+        27 -15.862   7.277   2.564  -2.112  -6.419  -5.563   9.391  -2.526   3.121  -2.156 -10.712  -3.755   6.155  15.488  -5.139   4.247
+        28 -10.979  10.393   4.820  -3.706   8.449  -2.157  -0.103  10.756   3.158   8.015  -3.474  -4.048   3.524   6.417  -0.324   5.793
+        29   6.977  -7.668  -8.904 -12.297  -2.998  -2.398  -0.128  -1.884   4.116  -1.006  -1.246   2.375 -15.705   9.530   0.678   5.379
+        30  -3.931  -5.288  -2.766  -8.369   2.838  -2.345  -7.648  -9.362  -0.125  -8.919 -19.212   9.288  -3.346   6.662   1.923   4.581
+        31   0.719  -3.060 -10.183 -12.679 -10.508  -2.477   1.428   5.091  -1.726   8.818 -10.949  -6.022  -1.835   6.099  -9.944   5.122
+        32   6.717   4.531  -0.517 -10.513  -2.928  12.197   2.590 -19.524   8.735  -1.978   4.644   5.647   2.695   0.333 -12.096   3.865
+        33 -10.507   9.264  16.096  -7.756   2.848  -1.759  -1.009 -11.086  -1.114  10.680   4.085   1.774   3.604   3.303 -10.034   4.698
+        34  -2.075  -6.206   8.168   6.403  -1.394  -5.623  -0.678  -0.029   4.856  -9.617  -1.139   4.782  -1.860  16.439 -11.331   5.185
+        35  -0.060   6.626 -14.910  -3.555  -2.534  -2.550   6.625  10.460   7.290  -1.175 -10.567  17.166  -0.249   5.566   2.151   4.093
+        36  -3.316  -8.208  13.069  -9.424   5.461   3.923  -0.838  -0.124  16.567   4.112  -2.991   3.152   7.675  -0.300  -8.183   4.935
+        37  -2.591  -3.094 -13.619  -4.932 -17.358  -4.610  -8.520  -2.194   2.284   7.903   4.507   7.901  -4.408  -4.225  -0.195   4.698
+        38   2.439   1.396   8.932 -17.926   6.778  -3.150   4.654  -9.249   4.803 -12.104   6.557  -6.933  11.720   7.712  -6.418   3.924
+        39  -6.023  -2.734  -0.276  -1.441 -18.467  -5.512  -2.807  -3.613  11.451   0.356  -4.998  -9.575  -2.703  -0.424   4.634   4.929
+        40 -10.145   5.357  12.338 -12.168  -0.037  10.268   3.437   0.686  -2.994  -7.184  -4.481  -1.795  12.984   2.827 -10.021   4.630
+        41  -3.000  -2.000   5.000  -4.000   2.000   0.000   2.000  -1.000   3.000  -1.000   1.000   3.000   4.000   2.000  -2.000  13.669
+        42   8.000   4.000   1.000  -2.000  -6.000   3.000  -1.000  10.000   6.000  -2.000   4.000   0.000   1.000   2.000  -4.000  10.026
+        43 -15.000  -5.000  -2.000  -1.000   3.000   0.000  -2.000   5.000   6.000  -3.000  -1.000  -3.000   2.000  -1.000   0.000   9.525
+        44  -2.000   0.000   5.000  -6.000   3.000  -1.000   2.000  -4.000   3.000  -1.000   0.000   2.000   5.000   4.000  -3.000  12.374
+        45  -2.705   1.569   6.049   6.759  -4.075  -9.160  -2.416   2.802  -6.518   3.777   6.323  11.152  17.368  -2.419   7.671   4.770
+        46   5.861   4.147   3.082   2.368   9.853   2.439  -2.488   3.943  -5.239   8.627  -1.349  16.631  -8.650   0.045  -4.939   5.508
+        47  -3.343  -7.652  -2.471  -6.403   3.155  -5.637  -3.729  17.155  -5.098   4.380  -3.233  -6.506  -4.845   8.796   5.263   5.201
+        48  -6.161   2.026  -1.783  -3.734  -3.386  -1.890   0.868  -5.838   9.251   9.065  -6.322   7.152  12.724  -4.379 -20.752   4.422
+        49   6.509  -6.319   1.902  -1.524  14.042  -3.520  -9.508  -8.553   5.730  -1.405  -4.699   0.429  10.860  -2.535  -4.425   5.150
+        50  -2.421  -4.487  14.718   1.688  12.267  12.562  -2.285   3.213   2.407   8.591  -7.963   6.872  -4.884   2.770  -7.805   4.517
+        51   4.643   9.798   4.549  -0.102  -3.118   5.257   5.855   5.474  -6.591 -13.916  -7.775   6.215   6.979  -2.066  -0.460   5.785
+        52 -19.506  -0.346  -2.728 -13.788   1.133   7.467  -0.306   7.036   9.108  -4.152  -1.488 -15.382  -7.164  -2.267  -3.400   3.738
+        53  -6.925  -5.437  -1.248   5.012   6.218 -10.959   2.714   4.169  -2.989  -2.978  16.434  -1.866  -2.259   9.284  10.832   5.259
+        54   2.011   0.485   5.329  -5.980   9.313   9.025 -10.943   1.162 -10.232  -4.253  -2.035   0.387   1.890   1.594  -1.469   6.712
+        55 -12.036  -0.066   1.072   1.991   9.868   7.256  13.944   4.113  -1.756   0.907  -9.661  -3.200  -1.074 -10.211 -12.061   5.391
+        56   7.218   0.925   0.024 -13.043   1.836  -8.358   7.954   4.153   8.336  12.487  11.539  -3.127  -2.165   3.408  -8.313   4.882
+        57  -1.529  -1.249  16.889   6.814   9.759   7.199  10.274   4.660  -6.320 -13.117  -5.274  -2.503  -1.757  -4.675  -5.062   4.422
+        58  12.558   7.157 -10.151   0.835   9.022   5.510   0.043  10.441   2.404  -3.852   6.542  -8.642   1.104  -5.765   3.455   5.167
+        59   3.913   2.236  -8.069  -0.943 -13.001   2.951  -3.050   1.699   7.578  -9.804   2.541  -4.203  -6.853   3.384  -7.148   6.457
+        60  -1.000   0.000   5.000  -4.000   3.000  -1.000   2.000  -3.000   4.000   0.000   1.000   2.000   5.000   4.000  -2.000  13.020
+        61   7.000   4.000   2.000  -3.000  -2.000   2.000   0.000   9.000   6.000  -2.000   4.000  -1.000   2.000   3.000  -3.000  10.843
+        62  -1.000  -0.500   6.000  -5.000   3.000  -1.000   1.000  -3.000   3.000   0.000   1.000   2.000   5.000   4.000  -2.000  12.433
+        63 -10.000  -5.000  -1.000   0.000   4.000   0.000  -1.000   5.000   6.000  -2.000  -3.000  -2.000   1.000   0.000   1.000  11.195
+        64  -8.075 -14.108 -11.759  -4.249   3.288   9.268   3.993  -0.078  -6.311  -4.225   7.868   1.059  -1.381   6.557  -7.534   5.206
+        65  -6.547   7.865  12.363   3.496  10.409  -6.845  13.134  -4.888  13.980  -4.304   9.430  -4.884  11.983  -0.902  16.366   3.263
+        66 -14.916   1.015  11.490  -1.654   0.823   1.928  -7.345   7.400  -4.345  -7.246   6.316  -1.561   8.681   0.706   1.679   5.349
+        67   3.266  16.806  -6.575 -18.230  -7.405   0.611  -2.468   7.457   6.085  -7.093   9.515  12.997   2.085   8.163   0.096   3.552
+        68  -2.263  -0.744  -2.582 -10.657   0.125  -5.646  -1.030  -4.307   4.046   7.397   1.851   6.182   3.726   9.536  10.160   6.528
+        69 -16.274   0.214  -3.305   5.753  -5.348  -9.244   0.880 -10.521   0.608  -2.800  -5.526  -4.870  10.016   3.055  -0.752   5.302
+        70   1.646  -9.083  -0.958  -5.508  13.552   6.911  -7.620  -1.676   8.607  -4.915   6.120   0.563   6.071   2.616  11.437   5.113
+        71  14.401   4.609   5.652   3.414  -6.996   1.568 -10.266   5.855   7.495   3.627  -8.766   3.831   6.739  12.844  -1.030   4.595
+        72   4.441  -2.250   4.595 -15.287  -0.826  -4.874  10.090   2.953  -0.312   5.641  -0.689  -3.116  -1.419   1.345   8.927   6.236
+        73 -10.294  13.355  -1.163   1.967  -5.776  10.631  10.290  -2.138   7.339  -3.201   0.829  10.156  -9.520   5.547   2.584   4.600
+        74  17.862  13.904  10.097  -4.621 -11.715   3.128   0.599   9.432   9.071  -1.829   4.964   1.201  14.717   6.310   5.643   3.524
+        75  -9.089 -10.592  -3.680   2.765   0.135  -7.156   8.492   4.963  12.641  13.106  -3.815   7.742  19.723  -2.516   4.082   3.690
+        76   6.126  -3.722   1.255   9.639 -13.260  10.103  -0.409  17.912  10.799   2.480   4.904  -2.570  -0.486  -0.449  18.441   3.292
+        77   0.506   8.561  -5.202  -6.370  -8.858  -7.087  -8.522  13.361  -0.704  -7.695  -4.611  -5.639  -1.904  -0.050  -0.225   5.500
+        78  -6.169  -6.304   5.755  -4.047   0.068 -11.128   4.960  -9.949   7.375  10.304  11.267   0.667  -6.305  -6.423   7.576   4.928
+        79   5.551  -9.723  -6.984   6.012   6.612  10.023  -0.913   1.093   8.983   0.893  -5.163   8.941  -9.389  -2.926 -18.120   4.814
+        80   4.927   1.399   3.376   9.136  -2.708  -6.422   0.827  12.204   8.514 -18.936  -7.182  -1.037  10.419  -1.278 -10.153   4.115
+        81  -1.000   1.000   5.000  -4.000   4.000  -1.000   2.000  -2.000   4.000   0.000   1.000   2.000   5.000   3.000  -1.000  13.199
+        82   6.000   3.000   1.000  -2.000  -3.000   1.000   0.000   8.000   5.000  -2.000   3.000  -1.000   2.000   3.000  -2.000  11.949
+        83  -1.000   0.000   5.000  -5.000   3.000  -1.000   1.000  -3.000   3.000   0.000   1.000   2.000   5.000   4.000  -2.000  13.046
+        84 -15.000  -2.000   3.000   0.000   4.000   0.000  -2.000   4.000   5.000  -1.000  -3.000   2.000   1.000   0.000   1.000   9.944
+        85  -0.055  12.762 -22.722  19.577   8.734  17.899 -15.558 -28.560 -28.938 -26.740 -29.037 -29.351  12.225 -28.126  11.510   0.500
+        86 -29.087  -6.734 -26.594  14.495  11.461 -27.906 -18.942 -28.289 -28.277 -25.015  19.387 -19.581 -29.878 -26.785   2.874   0.465
+        87 -25.268 -29.148 -27.485   7.191  -9.293  11.276 -29.969 -29.973  18.873  14.684 -26.275  -7.728  13.482  12.862 -21.121   0.671
+        88   1.816  -2.141 -29.424   8.195   2.988  -4.926  -3.805 -14.325  -5.994   3.028   0.602  -7.871   3.455  10.751  -2.700   3.264
+        89 -16.441 -28.310  -0.568  19.433 -22.703 -25.299   7.060 -16.824  16.850  17.218 -28.721  16.608 -27.180 -29.270  15.682   0.382
+        90 -29.691  16.593 -13.737  16.083 -22.384 -29.332  13.596 -25.946 -12.837 -28.215 -25.709 -28.759 -23.589 -10.922 -25.523   0.327
+        91   5.316   3.541   0.138   2.247  -0.374   4.910   6.950   9.333  14.241  -1.085   5.092  -2.104   0.710  -9.985 -12.803   5.573
+        92  -1.854  -0.059   0.463  -3.174   1.130  -0.403   0.526   0.153   2.874  -0.263   0.305   1.432   2.257   2.287  -1.733  14.664
+        93  15.550 -24.872  15.858  10.991 -25.722 -26.125   5.652  -7.200  18.975 -23.511 -29.395 -21.825 -29.678 -10.415 -28.722   0.504
+        94  17.400  17.761  18.214 -15.842  19.379 -17.487  16.931 -18.227 -23.653 -23.768 -28.265 -29.058 -22.420  18.452  18.147   0.450
+        95 -11.213 -27.456 -11.385 -27.025  10.031  18.961 -21.332  17.620 -23.299 -27.563 -26.259  17.150  11.741 -28.845 -28.384   0.445
+        96   1.189  -8.643 -13.214   0.153   8.384  -0.523   6.543   8.608   7.245   5.935  -0.102  -4.951   2.294   6.363   4.108   5.771
+        97   3.553 -28.792 -21.890  15.490 -23.680 -19.867  19.353  18.265 -12.366  15.270 -28.908 -28.997  -7.566 -16.967 -26.463   0.477
+        98 -21.554   9.475 -26.768   3.145 -29.378  -2.100 -27.036  16.270   2.566 -19.367 -28.999 -26.273  18.906 -26.303 -27.892   0.522
+        99 -29.986 -29.674  -4.996   7.057   9.917  18.432 -29.791  17.670 -17.444 -13.970 -29.039 -27.327  14.590  14.392 -24.900   0.664
+       100 -28.893 -26.586  10.337  19.986  14.988 -29.890 -18.054   5.561  12.449 -25.573  12.978 -19.716 -29.523  16.223 -29.853   0.562
+       101   1.482 -29.468 -29.527  11.995 -29.189  19.460  14.714 -26.805 -17.298 -26.287  -5.538   8.233  16.390 -28.570  -4.160   0.283
+       102 -29.097 -22.326  16.026  10.658 -20.026  14.725  15.226 -19.926   4.753  17.111  -9.726 -29.711 -27.920  18.944 -27.210   0.986
+       103  17.392  -2.479 -29.627  15.061  13.312  17.998  18.415 -22.332 -13.839 -20.087 -21.393 -29.125 -21.398   9.072 -29.783   0.541
+       104  -0.543  -9.005   8.131   4.122 -15.311   5.988   4.326  11.402   2.453   5.212  -5.557   3.315   3.777  -3.487  -4.971   5.209
+       105 -20.936 -26.464  19.431  -8.084   5.782 -12.058 -28.850 -25.519  18.321 -29.950 -24.103  19.645 -29.085  18.702 -23.834   0.651
+
+**Task:**
+Please explain briefly (<250 words) how your hypotheses evolved and particularly, how your hypotheses changed from the initial set in light of experimental data. End it with a table summary showing how your confidence in the hypotheses evolved during the optimization.
+
+\n```md

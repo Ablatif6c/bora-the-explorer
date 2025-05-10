@@ -1,0 +1,84 @@
+{
+  "name": "Photocatalytic Hydrogen Production",
+  "domain": "chemistry",
+  "description": "The experiment is about maximizing the rate of hydrogen production from a photocatalyst mixture of different chemicals in water. The mixture is exposed to ultraviolet and visible light to generate hydrogen, and the amount produced is measured using gas chromatography. The goal is to enhance the hydrogen evolution rate (HER) through modifying the quantity of the chemicals such as adjustments to pH, ionic strength, addition of dyes and surfactants and so on, in the mixture.",
+  "constraint": "the sum of all parameters excluding P10-MIX1 should not exceed 5 to fit inside the vial.",
+  "parameters": [
+    {
+      "name": "AcidRed871_0gL",
+      "description": "A dye that could be used as a photosensitizer or to study dye degradation efficiency under photocatalytic conditions",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "L-Cysteine-100gL",
+      "description": "An amino acid that can act as a hole scavenger in photocatalytic processes, potentially enhancing hydrogen production by improving charge separation efficiency",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "MethyleneB_250mgL",
+
+      "description": "Methylene blue dye",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "NaCl-3M",
+
+      "description": "Sodium chloride",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "NaOH-1M",
+      "description": "Sodium hydroxide",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "P10-MIX1",
+      "description": "A photocatalyst that is a conjugated polymer and shows good Hydrogen Evolution Rate",
+      "bounds": [1, 5],
+      "type": "discrete",
+      "step": 0.2
+    },
+    {
+      "name": "PVP-1wt",
+      "description": "Polyvinylpyrrolidone",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "RhodamineB1_0gL",
+      "description": "Rhodamine dye",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "SDS-1wt",
+      "description": "Sodium dodecyl sulphate",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    },
+    {
+      "name": "Sodiumsilicate-1wt",
+      "description": "Sodium silicate",
+      "bounds": [0, 5],
+      "type": "discrete",
+      "step": 0.25
+    }
+  ],
+  "target": {
+    "name": "Hydrogen Evolution Rate (µmol/h)",
+    "description": "The rate of hydrogen production in the photocatalytic system"
+  }
+}

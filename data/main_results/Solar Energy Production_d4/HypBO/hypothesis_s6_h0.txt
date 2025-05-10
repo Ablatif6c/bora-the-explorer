@@ -1,0 +1,11 @@
+{
+    "name": "Optimal Solar Panel Configuration",
+    "rationale": "Based on general principles of solar energy production, a tilt angle of around 30-40° is often optimal for maximizing solar energy capture in many locations, while the azimuth should ideally face true south (around 180°) in the northern hemisphere to maximize exposure to sunlight throughout the day. A system capacity of 10 kW is a popular choice that balances efficiency and output for residential or moderate commercial settings, and a dc/ac ratio of around 1.2 is commonly used to ensure optimal performance without overloading the inverter.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.2
+    }
+}

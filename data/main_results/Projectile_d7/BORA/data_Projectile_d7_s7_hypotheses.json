@@ -1,0 +1,863 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Angle High Velocity",
+            "rationale": "A low pitch angle combined with a high initial velocity is expected to produce a flatter trajectory, potentially allowing the projectile to cover more horizontal distance quickly.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 10,
+                    "yaw_deg": 0,
+                    "v0": 45,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[10, 0, 45, 1500, 0, 1, 1]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimal Height and Moderate Spin",
+            "rationale": "Releasing the projectile from a moderate height with a reasonable spin may stabilize its flight and improve accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 0,
+                    "v0": 30,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1.5,
+                    "mass": 0.5
+                }
+            ]
+        },
+        "point": "[30.0, 0.0, 30.0, 1000.0, 90.0, 1.5, 0.5]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Angle Low Velocity",
+            "rationale": "A high pitch angle with low velocity may lead to a high arc, allowing the projectile to drop closer to the target, especially if the target is at a fixed distance.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 70,
+                    "yaw_deg": 0,
+                    "v0": 10,
+                    "spin_rpm": 0,
+                    "spin_axis_deg": 0,
+                    "h0": 0.5,
+                    "mass": 0.1
+                }
+            ]
+        },
+        "point": "[70.0, 0.0, 10.0, 0.0, 0.0, 0.5, 0.1]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Approach",
+            "rationale": "A balanced combination of moderate pitch, yaw, and velocity may provide a good starting point for exploring the parameter space effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 15,
+                    "v0": 25,
+                    "spin_rpm": 500,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 15, 25, 500, 45, 1, 2]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Extreme Yaw for Lateral Adjustment",
+            "rationale": "Using extreme yaw angles may help in understanding how lateral adjustments affect the landing position, potentially revealing new insights into the projectile's trajectory.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 20,
+                    "yaw_deg": -150,
+                    "v0": 35,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 180,
+                    "h0": 0.8,
+                    "mass": 0.75
+                }
+            ]
+        },
+        "point": "[20.0, -150.0, 35.0, 2000.0, 180.0, 0.8, 0.75]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 10, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 25,
+                    "yaw_deg": 5,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[25.0, 5.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slightly Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 0,
+                    "v0": 25,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 0.0, 25.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "19": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Pitch with Increased Velocity",
+            "rationale": "This hypothesis tests a low pitch angle with increased velocity, aiming for a flatter trajectory that could cover more horizontal distance quickly.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 15,
+                    "yaw_deg": 0,
+                    "v0": 35,
+                    "spin_rpm": 1200,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[15, 0, 35, 1200, 0, 1, 1]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Higher Yaw with Moderate Pitch",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 30,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 30.0, 25.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Low Angle Approach",
+            "rationale": "This hypothesis revisits the low angle approach with a focus on optimizing the initial velocity and spin to stabilize the projectile's flight.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 10,
+                    "yaw_deg": 0,
+                    "v0": 30,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[10, 0, 30, 1500, 0, 1, 1]"
+    },
+    "27": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 18, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 0,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 0.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "28": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slightly Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 0,
+                    "v0": 27,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 0.0, 27.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "29": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Higher Yaw with Moderate Pitch",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 15,
+                    "v0": 26,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 15.0, 26.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "30": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 20,
+                    "yaw_deg": 0,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[20, 0, 25, 1000, 0, 1, 1]"
+    },
+    "35": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 5,
+                    "v0": 29,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 5.0, 29.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "36": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 10,
+                    "v0": 26,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 10.0, 26.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "37": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Moderate Pitch with Increased Yaw",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments while maintaining a reasonable score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 15,
+                    "v0": 27,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 15.0, 27.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "38": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy, while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 22,
+                    "yaw_deg": 0,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[22, 0, 25, 1000, 0, 1, 1]"
+    },
+    "39": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 25,
+                    "yaw_deg": 5,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[25, 5, 26, 900, 0, 1, 1]"
+    },
+    "47": {
+        "trust_score": 0.8047726152917966,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 10,
+                    "v0": 29,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 10.0, 29.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "48": {
+        "trust_score": 0.8047726152917966,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 36,
+                    "yaw_deg": 5,
+                    "v0": 27,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[36.0, 5.0, 27.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "49": {
+        "trust_score": 0.8047726152917966,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Moderate Pitch with Increased Yaw",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments while maintaining a reasonable score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 31,
+                    "yaw_deg": 20,
+                    "v0": 27,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[31.0, 20.0, 27.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "50": {
+        "trust_score": 0.8047726152917966,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy, while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 23,
+                    "yaw_deg": 5,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[23, 5, 25, 1000, 0, 1, 1]"
+    },
+    "51": {
+        "trust_score": 0.8047726152917966,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 26,
+                    "yaw_deg": 10,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[26, 10, 26, 900, 0, 1, 1]"
+    },
+    "61": {
+        "trust_score": 0.5827009644130473,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 5,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 5.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "62": {
+        "trust_score": 0.5827009644130473,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 5,
+                    "v0": 27,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 5.0, 27.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "63": {
+        "trust_score": 0.5827009644130473,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Moderate Pitch with Increased Yaw",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments while maintaining a reasonable score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 20,
+                    "v0": 27,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 20.0, 27.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "64": {
+        "trust_score": 0.5827009644130473,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy, while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 21,
+                    "yaw_deg": 2,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[21, 2, 25, 1000, 0, 1, 1]"
+    },
+    "65": {
+        "trust_score": 0.5827009644130473,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 27,
+                    "yaw_deg": 8,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[27, 8, 26, 900, 0, 1, 1]"
+    },
+    "74": {
+        "trust_score": 0.3912286184191054,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 8,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 8.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "75": {
+        "trust_score": 0.3912286184191054,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 28,
+                    "yaw_deg": 5,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[28, 5, 26, 900, 0, 1, 1]"
+    },
+    "83": {
+        "trust_score": 0.39877531115028936,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 6,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 6.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "84": {
+        "trust_score": 0.39877531115028936,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 7,
+                    "v0": 27,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 7.0, 27.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "85": {
+        "trust_score": 0.39877531115028936,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Moderate Pitch with Increased Yaw",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments while maintaining a reasonable score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 16,
+                    "v0": 27,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 16.0, 27.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "86": {
+        "trust_score": 0.39877531115028936,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy, while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 22,
+                    "yaw_deg": 1,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[22, 1, 25, 1000, 0, 1, 1]"
+    },
+    "87": {
+        "trust_score": 0.39877531115028936,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 28,
+                    "yaw_deg": 6,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[28, 6, 26, 900, 0, 1, 1]"
+    },
+    "96": {
+        "trust_score": 0.4226995205530349,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 27, this hypothesis focuses on a moderate pitch and velocity to maximize horizontal distance while maintaining accuracy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 4,
+                    "v0": 28,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 45,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 4.0, 28.0, 1000.0, 45.0, 1.0, 1.5]"
+    },
+    "97": {
+        "trust_score": 0.4226995205530349,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Higher Pitch with Moderate Velocity",
+            "rationale": "This hypothesis explores a slightly higher pitch angle while maintaining a moderate velocity, which may help in achieving a better arc towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 3,
+                    "v0": 27,
+                    "spin_rpm": 800,
+                    "spin_axis_deg": 0,
+                    "h0": 1.2,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35.0, 3.0, 27.0, 800.0, 0.0, 1.2, 1.0]"
+    },
+    "98": {
+        "trust_score": 0.4226995205530349,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Moderate Pitch with Increased Yaw",
+            "rationale": "This hypothesis aims to explore the effects of a moderate pitch angle combined with a higher yaw angle to assess lateral adjustments while maintaining a reasonable score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 18,
+                    "v0": 27,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 90,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 18.0, 27.0, 1000.0, 90.0, 1.0, 1.5]"
+    },
+    "99": {
+        "trust_score": 0.4226995205530349,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Testing Lower Pitch with Moderate Velocity",
+            "rationale": "This hypothesis tests a lower pitch angle with a moderate velocity, aiming for a balance between distance and accuracy, while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 22,
+                    "yaw_deg": 2,
+                    "v0": 25,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[22, 2, 25, 1000, 0, 1, 1]"
+    },
+    "100": {
+        "trust_score": 0.4226995205530349,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Slightly Lower Pitch",
+            "rationale": "This hypothesis tests a slightly lower pitch angle to see if it can still achieve a reasonable score while maintaining a moderate velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 28,
+                    "yaw_deg": 7,
+                    "v0": 26,
+                    "spin_rpm": 900,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[28, 7, 26, 900, 0, 1, 1]"
+    }
+}

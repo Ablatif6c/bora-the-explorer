@@ -1,0 +1,15 @@
+{
+    "name": "Balanced Growth Conditions for Sugar Beet Optimization",
+    "rationale": "For optimal biomass production, sugar beet thrives under conditions that allow for sufficient light, warmth, and moisture without excessive stresses. High irradiance fosters growth, while temperatures that are warm but not extreme are essential. Moderate vapor pressure will help with transpiration, and some rain is necessary for soil moisture, balanced with initial water in the soil. This configuration prioritizes optimal growth factors while minimizing stressors.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "irrad": 6500,
+        "tmin": 10,
+        "tmax": 28,
+        "vap": 2,
+        "wind": 0.5,
+        "rain": 5,
+        "wav": 40,
+        "SMLIM": 0.7
+    }
+}

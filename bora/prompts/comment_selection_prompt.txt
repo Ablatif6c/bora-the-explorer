@@ -1,0 +1,13 @@
+The Bayesian Optimization is in progress and is currently at iteration [iteration]. [previous_comments]
+
+[new_data_count] new experimental data has been obtained giving us currently a dataset of [data_count] experiments:
+[dataset]
+
+**Task:**
+Using the points suggested by the optimizer below, give 2 hypotheses maximizing [target]. Each hypothesis must only contain 1 unique point from the optimizer suggestions.
+
+The Bayesian Optimizer suggestions these points to try next:
+[suggestions]
+
+Important: Only provide your response in the exact JSON response format described at the beginning of our chat, without any additional syntax or libraries. Remember the hypotheses points must be chosen from the ones recommended by the optimizer.
+\n```json

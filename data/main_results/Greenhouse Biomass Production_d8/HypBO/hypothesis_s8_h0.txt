@@ -1,0 +1,17 @@
+```
+{
+    "name": "Optimal Conditions for Sugar Beet",
+    "rationale": "To maximize biomass production of sugar beet in a greenhouse, it's essential to provide adequate irradiance for photosynthesis, optimal temperature for growth, and appropriate moisture levels. High irradiance (around 7000 kJ/m2/day) supports strong photosynthetic activity. A daily minimum temperature of about 15°C ensures healthy growth, while a maximum of 25°C avoids heat stress. Vapor pressure around 2 kPa allows for effective transpiration, and a wind speed of 1 m/s helps with cooling without stressing the plants. Rainfall should be minimal but sufficient to maintain soil moisture, setting it to 5 mm. The initial water in the soil profile should be around 70 cm, paired with a maximum moisture content in the rooting zone of 0.8, providing a conducive environment for growth.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 2,
+        "wind": 1,
+        "rain": 5,
+        "wav": 70,
+        "SMLIM": 0.8
+    }
+}
+```

@@ -1,0 +1,14 @@
+{
+    "name": "Precision Flight Parameters",
+    "rationale": "For optimal accuracy, a pitch angle of around 50 degrees can offer a good trajectory that balances vertical reach and forward distance. A yaw angle of 0 degrees remains ideal for aiming directly at the target. An initial velocity of 20 m/s is sufficient to achieve decent distance without overshooting, especially with a higher angle. The spin rate can be set at 1200 rpm to enhance stability while reducing potential drift. Keeping the spin axis at 0 degrees ensures the throw remains aligned with the intended path. Launching from a height of 1 m takes advantage of elevation, and a projectile mass of about 0.8 kg is favorable to ensure both accuracy and effective propulsion.",
+    "confidence": 0.7,
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 20,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 0.8
+    }
+}

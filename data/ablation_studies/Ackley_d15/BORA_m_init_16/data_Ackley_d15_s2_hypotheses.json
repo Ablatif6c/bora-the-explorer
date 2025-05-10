@@ -1,0 +1,530 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Central Exploration",
+            "rationale": "This point is centered within the bounds, providing a balanced starting position to explore interactions among multiple parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -5.0,
+                    "x_2": -5.0,
+                    "x_3": -5.0,
+                    "x_4": -5.0,
+                    "x_5": -5.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -5.0,
+                    "x_9": -5.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -5.0,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Negative Extremes",
+            "rationale": "Exploring the limits of lower bounds may uncover nonlinear effects or unexpected results in target maximization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": -30.0,
+                    "x_2": -30.0,
+                    "x_3": -30.0,
+                    "x_4": -30.0,
+                    "x_5": -30.0,
+                    "x_6": -30.0,
+                    "x_7": -30.0,
+                    "x_8": -30.0,
+                    "x_9": -30.0,
+                    "x_10": -30.0,
+                    "x_11": -30.0,
+                    "x_12": -30.0,
+                    "x_13": -30.0,
+                    "x_14": -30.0
+                }
+            ]
+        },
+        "point": "[-30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0, -30.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Boundary Exploration",
+            "rationale": "This point on the upper bound may reveal interesting behavior at the limits and its effects on the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20.0,
+                    "x_1": 20.0,
+                    "x_2": 20.0,
+                    "x_3": 20.0,
+                    "x_4": 20.0,
+                    "x_5": 20.0,
+                    "x_6": 20.0,
+                    "x_7": 20.0,
+                    "x_8": 20.0,
+                    "x_9": 20.0,
+                    "x_10": 20.0,
+                    "x_11": 20.0,
+                    "x_12": 20.0,
+                    "x_13": 20.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Diverse Highs and Lows",
+            "rationale": "This hypothesis mixes high and low values to uncover complex interactions leading to maximization not evident from uniform sampling.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15.0,
+                    "x_1": -15.0,
+                    "x_2": 10.0,
+                    "x_3": -10.0,
+                    "x_4": 5.0,
+                    "x_5": -5.0,
+                    "x_6": 0.0,
+                    "x_7": -20.0,
+                    "x_8": 20.0,
+                    "x_9": -30.0,
+                    "x_10": 10.0,
+                    "x_11": -5.0,
+                    "x_12": 15.0,
+                    "x_13": -10.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[15.0, -15.0, 10.0, -10.0, 5.0, -5.0, 0.0, -20.0, 20.0, -30.0, 10.0, -5.0, 15.0, -10.0, 0.0]"
+    },
+    "5": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Mid-range Exploration",
+            "rationale": "Exploring a combination of mid-range values that previously yielded success provides a pathway to further optimization of parameter interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -3.0,
+                    "x_2": 0.0,
+                    "x_3": 3.0,
+                    "x_4": -5.0,
+                    "x_5": 0.0,
+                    "x_6": -4.0,
+                    "x_7": -2.0,
+                    "x_8": 4.0,
+                    "x_9": 1.0,
+                    "x_10": 2.0,
+                    "x_11": 1.0,
+                    "x_12": -2.0,
+                    "x_13": -1.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[-5.0, -3.0, 0.0, 3.0, -5.0, 0.0, -4.0, -2.0, 4.0, 1.0, 2.0, 1.0, -2.0, -1.0, 0.0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Positive Shift Exploration",
+            "rationale": "Investigating points around moderate positive values could elicit higher performance as indicated by earlier iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": -6.0,
+                    "x_2": -1.0,
+                    "x_3": 5.0,
+                    "x_4": 10.0,
+                    "x_5": 5.0,
+                    "x_6": -2.0,
+                    "x_7": 6.0,
+                    "x_8": 3.0,
+                    "x_9": 7.0,
+                    "x_10": -1.0,
+                    "x_11": 1.0,
+                    "x_12": 4.0,
+                    "x_13": -3.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[2.0, -6.0, -1.0, 5.0, 10.0, 5.0, -2.0, 6.0, 3.0, 7.0, -1.0, 1.0, 4.0, -3.0, -2.0]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Exploratory Mixed Values",
+            "rationale": "Exploring combinations that mix positive and negative values could reveal synergistic effects in parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3.0,
+                    "x_1": -5.0,
+                    "x_2": 2.0,
+                    "x_3": 4.0,
+                    "x_4": 8.0,
+                    "x_5": -3.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 2.0,
+                    "x_9": 1.0,
+                    "x_10": 3.0,
+                    "x_11": -4.0,
+                    "x_12": 6.0,
+                    "x_13": 1.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[3.0, -5.0, 2.0, 4.0, 8.0, -3.0, 5.0, -5.0, 2.0, 1.0, 3.0, -4.0, 6.0, 1.0, -2.0]"
+    },
+    "52": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Refined Balanced Mid-range Exploration",
+            "rationale": "Focusing on mid-range parameter combinations that yielded higher results can further optimize interaction among variables.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -4.0,
+                    "x_2": 0.5,
+                    "x_3": 3.0,
+                    "x_4": -3.0,
+                    "x_5": 0.0,
+                    "x_6": -3.0,
+                    "x_7": -1.0,
+                    "x_8": 3.5,
+                    "x_9": 1.5,
+                    "x_10": 1.0,
+                    "x_11": 1.0,
+                    "x_12": -1.5,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-4.0, -4.0, 0.5, 3.0, -3.0, 0.0, -3.0, -1.0, 3.5, 1.5, 1.0, 1.0, -1.5, 0.0, -0.5]"
+    },
+    "53": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Exploratory Mixed Values",
+            "rationale": "Utilizing both positive and negative values around previously successful ranges can reveal untapped synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": -4.0,
+                    "x_2": 1.0,
+                    "x_3": 4.0,
+                    "x_4": 7.0,
+                    "x_5": -2.0,
+                    "x_6": 4.0,
+                    "x_7": -2.5,
+                    "x_8": 2.0,
+                    "x_9": 0.5,
+                    "x_10": 2.0,
+                    "x_11": -3.0,
+                    "x_12": 5.0,
+                    "x_13": 2.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[2.0, -4.0, 1.0, 4.0, 7.0, -2.0, 4.0, -2.5, 2.0, 0.5, 2.0, -3.0, 5.0, 2.0, -1.0]"
+    },
+    "54": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Positive Quadrant Focus",
+            "rationale": "Emphasizing positive parameters with some moderate negative values could yield beneficial interactions, enhancing target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4.0,
+                    "x_1": 5.0,
+                    "x_2": 0.0,
+                    "x_3": 3.0,
+                    "x_4": 6.0,
+                    "x_5": 2.0,
+                    "x_6": 1.0,
+                    "x_7": 0.0,
+                    "x_8": 5.0,
+                    "x_9": 3.0,
+                    "x_10": 2.0,
+                    "x_11": 1.0,
+                    "x_12": 1.0,
+                    "x_13": 0.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[4.0, 5.0, 0.0, 3.0, 6.0, 2.0, 1.0, 0.0, 5.0, 3.0, 2.0, 1.0, 1.0, 0.0, -1.0]"
+    },
+    "72": {
+        "trust_score": 0.7895352700996757,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Enhanced Balanced Mid-range Exploration",
+            "rationale": "Targeting refined mid-range combinations based on successful interactions to maximize output potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": -2.0,
+                    "x_2": 1.0,
+                    "x_3": 2.0,
+                    "x_4": -1.0,
+                    "x_5": 0.5,
+                    "x_6": -3.0,
+                    "x_7": -1.0,
+                    "x_8": 4.0,
+                    "x_9": 1.5,
+                    "x_10": 1.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-3.0, -2.0, 1.0, 2.0, -1.0, 0.5, -3.0, -1.0, 4.0, 1.5, 1.5, 1.0, -1.0, 0.0, -0.5]"
+    },
+    "73": {
+        "trust_score": 0.7895352700996757,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Strategic Mixed Values Exploration",
+            "rationale": "Combining moderate positive and selectively negative values to capture beneficial interactions based on prior successes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": -2.0,
+                    "x_2": 3.0,
+                    "x_3": 4.0,
+                    "x_4": 6.0,
+                    "x_5": -1.0,
+                    "x_6": 2.0,
+                    "x_7": -1.0,
+                    "x_8": 4.0,
+                    "x_9": 0.0,
+                    "x_10": 2.0,
+                    "x_11": -2.0,
+                    "x_12": 3.0,
+                    "x_13": -1.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, -2.0, 3.0, 4.0, 6.0, -1.0, 2.0, -1.0, 4.0, 0.0, 2.0, -2.0, 3.0, -1.0, 0.0]"
+    },
+    "74": {
+        "trust_score": 0.7895352700996757,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Mid-range Positive Focus",
+            "rationale": "This hypothesis emphasizes positive parameters while integrating moderate negatives to maximize potential interactions based on general observations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3.0,
+                    "x_1": 3.0,
+                    "x_2": 0.0,
+                    "x_3": 2.0,
+                    "x_4": 4.0,
+                    "x_5": 1.0,
+                    "x_6": -1.0,
+                    "x_7": 0.0,
+                    "x_8": 3.0,
+                    "x_9": 1.0,
+                    "x_10": 1.0,
+                    "x_11": 0.0,
+                    "x_12": 2.0,
+                    "x_13": 0.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[3.0, 3.0, 0.0, 2.0, 4.0, 1.0, -1.0, 0.0, 3.0, 1.0, 1.0, 0.0, 2.0, 0.0, -1.0]"
+    },
+    "75": {
+        "trust_score": 0.7895352700996757,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Exploratory Negative Shift",
+            "rationale": "This hypothesis aims to explore lightly negative combinations in mixed settings to better understand their influence alongside positive parameters.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -3.0,
+                    "x_2": -1.0,
+                    "x_3": 2.0,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": 1.0,
+                    "x_7": -2.0,
+                    "x_8": 1.0,
+                    "x_9": 0.0,
+                    "x_10": 1.0,
+                    "x_11": -1.0,
+                    "x_12": 0.0,
+                    "x_13": 0.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.0, -3.0, -1.0, 2.0, -1.0, -2.0, 1.0, -2.0, 1.0, 0.0, 1.0, -1.0, 0.0, 0.0, -1.0]"
+    },
+    "92": {
+        "trust_score": 0.822868603433009,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Optimized Mid-range Exploration",
+            "rationale": "This point integrates refined mid-range values based on successful configurations, targeting synergies around previously identified successful interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -2.0,
+                    "x_2": 0.5,
+                    "x_3": 2.0,
+                    "x_4": -2.0,
+                    "x_5": 1.0,
+                    "x_6": -3.0,
+                    "x_7": -1.0,
+                    "x_8": 4.0,
+                    "x_9": 1.0,
+                    "x_10": 1.0,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[-3.5, -2.0, 0.5, 2.0, -2.0, 1.0, -3.0, -1.0, 4.0, 1.0, 1.0, 1.0, -1.0, 0.0, 0.0]"
+    },
+    "93": {
+        "trust_score": 0.822868603433009,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Positive & Negative Exploration",
+            "rationale": "Focusing on moderate positive and strategically selected negative values aims to unveil novel synergies potentially leading to higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": 2.0,
+                    "x_2": 1.0,
+                    "x_3": 4.0,
+                    "x_4": 5.0,
+                    "x_5": 0.0,
+                    "x_6": 2.0,
+                    "x_7": -1.0,
+                    "x_8": 3.0,
+                    "x_9": 1.0,
+                    "x_10": 2.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[2.0, 2.0, 1.0, 4.0, 5.0, 0.0, 2.0, -1.0, 3.0, 1.0, 2.0, 0.0, -1.0, 1.0, -0.5]"
+    },
+    "94": {
+        "trust_score": 0.822868603433009,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Diverse Interaction Exploration",
+            "rationale": "Investigating a range of mid-range values across both positive and negative regions to uncover synergistic interactions that could maximize target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": -1.0,
+                    "x_2": 0.0,
+                    "x_3": 1.0,
+                    "x_4": 1.0,
+                    "x_5": -0.5,
+                    "x_6": 0.5,
+                    "x_7": 0.0,
+                    "x_8": 2.0,
+                    "x_9": 1.0,
+                    "x_10": 2.0,
+                    "x_11": 1.0,
+                    "x_12": 0.0,
+                    "x_13": -1.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-1.0, -1.0, 0.0, 1.0, 1.0, -0.5, 0.5, 0.0, 2.0, 1.0, 2.0, 1.0, 0.0, -1.0, -0.5]"
+    },
+    "95": {
+        "trust_score": 0.822868603433009,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Controlled Negative Influence",
+            "rationale": "Exploring mild negative shifts allows for investigating their interactions alongside positive parameters without compromising overall performance.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -2.0,
+                    "x_2": -1.0,
+                    "x_3": 1.0,
+                    "x_4": -0.5,
+                    "x_5": -0.5,
+                    "x_6": 1.0,
+                    "x_7": 0.0,
+                    "x_8": 1.0,
+                    "x_9": 0.0,
+                    "x_10": 1.0,
+                    "x_11": -0.5,
+                    "x_12": -0.5,
+                    "x_13": 0.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.0, -2.0, -1.0, 1.0, -0.5, -0.5, 1.0, 0.0, 1.0, 0.0, 1.0, -0.5, -0.5, 0.0, -1.0]"
+    }
+}

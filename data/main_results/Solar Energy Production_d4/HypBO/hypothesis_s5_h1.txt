@@ -1,0 +1,11 @@
+{
+    "name": "Balanced Solar Efficiency Settings",
+    "rationale": "Considering the geographic and climatic influence on solar energy production, a tilt angle of 45° can effectively capture sunlight year-round in various locations. An azimuth angle of 210° can be suitable for regions where the sun's path is shifted slightly southwest, capturing afternoon sun. A system capacity of 15 kW is a strong yet feasible option for maximizing energy output while ensuring equipment efficiency. A DC/AC ratio of 1.4 provides a good trade-off between maximizing output and maintaining manageable losses.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "tilt": 45,
+        "azimuth": 210,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.4
+    }
+}

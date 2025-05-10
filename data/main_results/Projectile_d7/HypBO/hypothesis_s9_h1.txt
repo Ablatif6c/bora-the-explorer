@@ -1,0 +1,14 @@
+{
+    "name": "Balanced Launch Parameters for Accuracy",
+    "rationale": "To effectively reach the target while maximizing the score, a launch angle of around 40 degrees strikes a good balance between height and distance. A yaw of 0 degrees ensures the projectile is aimed directly at the target. A slightly higher initial velocity of 35 m/s provides additional distance while maintaining stability. Adding modest spin at 700 RPM enhances trajectory stability, and launching from a height of 1.5 meters increases the effective distance due to gravity's influence. A projectile mass of 2 kg is sufficient to maintain stability while allowing for considerable acceleration.",
+    "confidence": "0.80",
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 700,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 2
+    }
+}

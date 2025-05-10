@@ -1,0 +1,14 @@
+{
+    "name": "Initial Estimate for Optimal Throw",
+    "rationale": "Based on principles of projectile motion, a launch angle (pitch_deg) of around 45° is optimal for achieving maximum range in ideal conditions. A yaw_deg of 0° aims straight at the target. The initial velocity (v0) should be significant, so I estimate around 30 m/s for a good balance of distance and height. A modest spin (spin_rpm) can help stabilize the projectile; I suggest around 1000 rpm. Setting the spin_axis_deg to 0° aligns with the target direction. A release height (h0) of 1 m provides a slight advantage, and a moderate mass (mass) of 1 kg maintains reasonable dynamics for the throw.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

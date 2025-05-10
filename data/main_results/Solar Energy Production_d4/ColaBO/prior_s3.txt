@@ -1,0 +1,10 @@
+{
+    "rationale":"In maximizing solar energy production, an optimal tilt angle is typically around 30 to 40 degrees for mid-latitudes to capture sunlight effectively throughout the day. The azimuth angle should ideally face true south in the northern hemisphere or true north in the southern hemisphere, which would generally be around 180 degrees for the northern hemisphere. A higher system capacity will allow for greater energy production, and a DC to AC ratio of about 1.2 to 1.3 is often efficient, balancing energy losses in inversion and ensuring proper utilization of solar energy. Based on this knowledge, a tentative point that balances all these aspects is chosen.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.25
+    }
+}

@@ -1,0 +1,1421 @@
+The Bayesian Optimization is in progress and is currently at iteration 103. You generated the following comments in the previous iterations and your suggestion points were subsequently evaluated and appended to the dataset:
+## Iteration 8:
+{
+    "comment": "At iteration 7, we have gathered significant insights from the experimental data comprising 7 iterations. The maximum target value observed is 9.303, achieved during the first iteration when all parameters were set to -5.0, highlighting the potential of the mid-range parameter region for further exploration. The next highest target at 6.363 was noted during iteration 6, showcasing a combination of moderate negative values across the parameters, indicating the value of exploring around this region. Moreover, configurations with extreme settings typically yielded lower results, such as in iteration 2, which produced a target of only 2.312. This data illustrates that mid-range and negative clusters represent the most promising subspaces for maximizing targets. It is essential to target the promising areas while avoiding detrimental configurations. Thus, our new hypotheses will focus on various neighboring points around the previously successful configurations, capitalizing on learned data and avoiding previously tested points.",
+    "hypotheses": [
+        {
+            "name": "Mid-range Alternative Exploration",
+            "rationale": "Exploring nearby mid-range offsets could uncover additional target value peaks neighboring the previously successful configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -5.0,
+                    "x_2": -6.0,
+                    "x_3": -5.0,
+                    "x_4": -4.0,
+                    "x_5": -5.0,
+                    "x_6": -4.5,
+                    "x_7": -5.0,
+                    "x_8": -6.0,
+                    "x_9": -4.0,
+                    "x_10": -5.0,
+                    "x_11": -5.5,
+                    "x_12": -4.5,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        {
+            "name": "Targeted Negative Value Exploration",
+            "rationale": "Exploring localized variations around the negative values observed may uncover additional peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -7.0,
+                    "x_1": -7.0,
+                    "x_2": -3.0,
+                    "x_3": -5.0,
+                    "x_4": -3.0,
+                    "x_5": -3.0,
+                    "x_6": -7.0,
+                    "x_7": -5.0,
+                    "x_8": -7.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -3.0,
+                    "x_13": -7.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        {
+            "name": "Explore Mid-range Offsets",
+            "rationale": "Investigating slight variations from successful mid-point configurations may yield new insights on neighboring interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -4.5,
+                    "x_2": -5.5,
+                    "x_3": -6.0,
+                    "x_4": -5.0,
+                    "x_5": -6.5,
+                    "x_6": -5.5,
+                    "x_7": -4.0,
+                    "x_8": -5.0,
+                    "x_9": -4.5,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -6.5,
+                    "x_13": -4.5,
+                    "x_14": -5.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 16:
+{
+    "comment": "As we hit iteration 15 in our Bayesian Optimization experiment, we have gained valuable insights from the extensive dataset compiled from 15 iterations. The highest target value recorded so far is 9.303, achieved in the first iteration with all parameters set to -5.0, underscoring the potential of mid-range configurations for further exploration. Close contenders include iteration 9 with a target value of 9.002, derived from a carefully structured set of negative parameters. Other configurations with targets above 8.0, such as those from iterations 6 and 8, suggest promising areas of exploration around moderate negative and mid-range values. In stark contrast, extreme parameter settings consistently underperform, with targets as low as 2.312 observed in iterations featuring values set entirely at their positive limits. This trend emphasizes that configurations near the mid-range and strategic negative clusters are more beneficial, while extreme configurations are detrimental to achieving high target values. Moving forward, we will refine our hypotheses to focus on variations near previously successful configurations while carefully avoiding paths that led to low-performance outcomes. The emphasis will be on leveraging learned behavior to explore potential interactions that can maximize the target significantly.",
+    "hypotheses": [
+        {
+            "name": "Refined Mid-range Variation",
+            "rationale": "Focusing on variations near the previously successful mid-range clusters can unveil additional peaks in target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -4.0,
+                    "x_2": -6.5,
+                    "x_3": -4.5,
+                    "x_4": -4.0,
+                    "x_5": -5.0,
+                    "x_6": -4.5,
+                    "x_7": -4.5,
+                    "x_8": -6.0,
+                    "x_9": -4.5,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -5.5,
+                    "x_13": -4.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Negative Exploration",
+            "rationale": "Investigating localized variations around strong negative points can entice new relationships maximizing performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": -8.0,
+                    "x_2": -3.0,
+                    "x_3": -5.0,
+                    "x_4": -5.0,
+                    "x_5": -3.0,
+                    "x_6": -8.0,
+                    "x_7": -5.0,
+                    "x_8": -8.0,
+                    "x_9": -4.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -3.0,
+                    "x_13": -8.0,
+                    "x_14": -8.0
+                }
+            ]
+        },
+        {
+            "name": "Mid-range with Positive Bias",
+            "rationale": "Aiming for minor positive adjustments amid mid-range configurations may illuminate new peaks in targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": 0.0,
+                    "x_2": -5.0,
+                    "x_3": -4.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -4.0,
+                    "x_13": -1.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        {
+            "name": "Focused High-density Exploration",
+            "rationale": "Testing a concentration of parameters within slightly adjusted boundaries can reveal interaction effects and performance peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": -2.0,
+                    "x_2": -3.5,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -3.5,
+                    "x_6": -2.0,
+                    "x_7": -2.0,
+                    "x_8": -2.5,
+                    "x_9": -2.0,
+                    "x_10": -2.5,
+                    "x_11": -3.0,
+                    "x_12": -3.5,
+                    "x_13": -2.0,
+                    "x_14": -2.5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 23:
+{
+    "comment": "As we reach iteration 22 of the Bayesian Optimization experiment, the accumulated dataset reveals vital patterns in parameter interactions and target performance. The highest target value recorded is **12.065**, achieved in iteration 19, indicating promising results arising from configurations with moderate negative values combined with slight positive adjustments. Notably, configurations around negative values, especially near -2.5 for many parameters, demonstrate a compelling synergy that leads to high target outcomes. Successful attempts also showcased configurations with one significant negative parameter and several near-zero parameters, such as those recorded in iterations 18 and 19, emphasizing the effectiveness of balanced negative and near-zero values. In stark contrast, configurations purely at positive bounds consistently underperform, with the all-20 setup yielding the lowest target value of **2.312**, thereby identifying this range as detrimental. Moving forward, we will refine our hypotheses, concentrating on optimized mid-negative configurations, exploring localized variations around successful points, and including slight positive shifts to reveal potential new peaks in target performance. Emphasizing these areas while avoiding extreme configurations will be central to further maximizing the outcomes of our Bayesian Optimization approach.",
+    "hypotheses": [
+        {
+            "name": "Optimized Mid-negative Exploration",
+            "rationale": "Targeting configurations within the mid-negative region is anticipated to reveal interactions contributing to maximum function performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -6.0,
+                    "x_2": -4.0,
+                    "x_3": -3.0,
+                    "x_4": -5.0,
+                    "x_5": -6.0,
+                    "x_6": -4.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -5.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -5.0,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        {
+            "name": "Strategic Low Negative Adjustment",
+            "rationale": "Exploring variations around the highest observed target values may yield additional performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -4.0,
+                    "x_2": -3.5,
+                    "x_3": -4.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -4.0,
+                    "x_13": -1.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        {
+            "name": "Slight Positive Variant Near Zero",
+            "rationale": "Testing points near zero with slight positive adjustments may uncover new peaks, considering previous high-performance configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 1.5,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -0.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -1.5,
+                    "x_8": -0.5,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 0.5,
+                    "x_12": -0.5,
+                    "x_13": -0.5,
+                    "x_14": -1.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 28:
+{
+    "comment": "As we enter iteration 28 of our Bayesian Optimization experiment, the cumulative dataset from 27 experiments reveals significant insights into the parameter interactions and their effects on target performance. The highest observed target value is **16.044**, achieved in iteration 25, showcasing a configuration that blends near-zero and slight positive values while keeping other parameters in the mid-negative range. Furthermore, configurations around moderate negative values such as -4.0 to -3.0 have consistently yielded high targets, underscoring the potential of this subspace. Conversely, configurations with extreme positive values, such as those seen in iteration 2 with all parameters set to 20.0, consistently produce the lowest target values recorded, at **2.312**, reinforcing these configurations as detrimental to our goal. Moving forward, we will focus our hypotheses on exploring the synergy between moderate negative values and slight positive adjustments, honing in on promising combinations previously indicated in high-performance iterations. New hypotheses will be crafted to encourage targeted exploration of these regions, while previously ineffective hypotheses centered on extreme values will be discarded. By emphasizing localized variations around successful configurations and strategically chosen positive adjustments, we aim to further maximize the rewarding configurations in this ongoing optimization process.",
+    "hypotheses": [
+        {
+            "name": "Negative with Positive Synergy",
+            "rationale": "Exploring a configuration that combines negative and slight positive values should reveal interactions leading to higher target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 2.0,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -2.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Refined Mid-negative Variant",
+            "rationale": "Targeting configurations within a mid-negative range can be further refined to uncover potentially undiscovered maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.5,
+                    "x_2": -3.0,
+                    "x_3": -4.0,
+                    "x_4": -4.5,
+                    "x_5": -5.0,
+                    "x_6": -4.0,
+                    "x_7": -4.5,
+                    "x_8": -5.0,
+                    "x_9": -3.5,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -4.0,
+                    "x_13": -4.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        {
+            "name": "Positive Adjustment within Zero Threshold",
+            "rationale": "Testing slight positive deviations within a cluster of negative settings can help uncover hidden optimal points.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -2.5,
+                    "x_7": 0.5,
+                    "x_8": -2.0,
+                    "x_9": -1.0,
+                    "x_10": -2.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Localized Exploration Near High-Value Points",
+            "rationale": "Variations around previously high-performing setups can unveil new peaks in target performance through localized exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 0.0,
+                    "x_2": -3.0,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -1.0,
+                    "x_6": -3.0,
+                    "x_7": -1.5,
+                    "x_8": -2.5,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": 0.5,
+                    "x_14": -1.5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 34:
+{
+    "comment": "As we progress into iteration 34 of our Bayesian Optimization experiment, we have accumulated valuable insights from 33 iterations. The highest observed target value is **16.044**, achieved in iteration 25. This configuration successfully combines slight positive values with moderate negatives, indicating that balancing these values is crucial for achieving high performance levels. Observations throughout the dataset reveal that effective subspaces for maximizing the target typically include clusters around moderate negative values (specifically between -4.0 and -3.0), often combined with slight positive tweaks. Configuration points near zero have also tended to produce favorable outcomes, exemplified by iteration 28, where the target value reached **15.822**. In contrast, configurations featuring extreme positive values, such as those found in iteration 2 (all parameters set to 20.0), resulted in the lowest target values, with **2.312** being particularly detrimental to our goals. As we move forward, it will be essential to refine our hypotheses to emphasize promising interactions observed in previous experiments and to isolate regions that exhibited consistent success while discarding those configurations that continually performed poorly. Our next hypotheses will focus on scouting localized variations around previous maximums and strategically adjusting towards slight positive values to uncover potential new peaks in target performance.",
+    "hypotheses": [
+        {
+            "name": "Mid-negative with Positive Offset",
+            "rationale": "Aiming to replicate successful interactions by targeting a blend of moderate negative values combined with slight positive adjustments.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -1.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Localized Optimization Near Maxima",
+            "rationale": "Exploring the area around the highest observed target values to expose further peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.0,
+                    "x_2": -1.5,
+                    "x_3": -0.5,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": -1.0,
+                    "x_9": 0.5,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Extended Gentle Negative Exploration",
+            "rationale": "Investigating adjustments around the mid-negative with slight positive shifts to capture unforeseen interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -4.0,
+                    "x_4": -3.5,
+                    "x_5": -4.4,
+                    "x_6": -3.0,
+                    "x_7": -2.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -4.0,
+                    "x_11": -3.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        {
+            "name": "Positive-Balanced Negative Test",
+            "rationale": "Exploring configurations featuring balanced negative and slight positive adjustments to better understand optimal points across dimensions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -2.0,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -1.0,
+                    "x_7": 0.5,
+                    "x_8": -1.5,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 40:
+{
+    "comment": "As we enter iteration 39 of our Bayesian Optimization experiment, we have gained significant insights from the accumulated dataset of 39 iterations. The highest observed target value achieved so far is **16.195**, recorded during iteration 35, highlighting the success of configurations that blend moderate negative values with slight positive adjustments. Target values show that configurations around mid-negative values, particularly between -4.0 and -3.0, when combined with minor positive tweaks, yield consistently favorable outcomes. Configurations solely at extreme positive values (such as those with all parameters set to 20.0) have continually underperformed, resulting in the lowest recorded target of **2.312**. This pattern emphasizes the importance of exploring within the mid-negative ranges while incorporating slight positive values to enhance target performance. Going forward, we will refine our hypotheses, focusing on the successful parameter interactions observed in previous iterations to better explore these promising subspaces. New hypotheses will be designed to probe localized variations around identified maxima, aiming to uncover more potential peaks in performance while steering clear of previously ineffective extreme configurations.",
+    "hypotheses": [
+        {
+            "name": "Enhanced Mid-negative Exploration",
+            "rationale": "Further exploring configurations within the mid-negative range is expected to yield additional insights and interactions that maximize target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -3.0,
+                    "x_2": -4.0,
+                    "x_3": -4.0,
+                    "x_4": -3.5,
+                    "x_5": -3.5,
+                    "x_6": -4.0,
+                    "x_7": -3.0,
+                    "x_8": -5.0,
+                    "x_9": -3.5,
+                    "x_10": -3.0,
+                    "x_11": -3.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        {
+            "name": "Slight Positive Adjustment Near Mid-negative",
+            "rationale": "Integrating slight positive values with moderate negatives can leverage previously observed synergies for maximum target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -0.5,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Localized Exploration Around High Performers",
+            "rationale": "Focusing on variations around the highest yielding configurations may uncover new peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -2.0,
+                    "x_4": -1.5,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        {
+            "name": "Balanced Negative-Positive Hybrid",
+            "rationale": "Targeting a balance between minor positive values and negative constraints could unlock new understanding about optimal parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 1.5,
+                    "x_2": -1.0,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -1.5,
+                    "x_9": 0.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 49:
+{
+    "comment": "As we conclude iteration 48 of our Bayesian Optimization experiment, our dataset now encompasses valuable insights gained from 48 distinct evaluations. The highest target value recorded is **16.195**, achieved in iteration 35, primarily through configurations that combine moderate negative values, particularly clustered around -3.5 to -2.0, with slight positive adjustments. This interaction highlights the significant synergy within these parameter regions that yields superior target performance. In contrast, configurations strictly at extreme positive settings, such as those where all parameters are set to 20, consistently yield the lowest target outcomes, with a notably poor performance of **2.312** documented in iteration 2. The data suggests that high-performance configurations often encompass clusters of moderate negatives with slight positive shifts, while extreme values should be avoided. Moving forward, our hypotheses will focus on exploring localized variations around previously identified maxima while further integrating slight positive adjustments into existing successful parameter combinations to maximize outcomes. Given these findings, the following refined hypotheses will be implemented to enhance target performance.",
+    "hypotheses": [
+        {
+            "name": "Optimized Mid-negative with Positive Balance",
+            "rationale": "Exploring a blend of mid-negative values with slight positive adjustments is anticipated to unveil interactions that maximize target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -2.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Focused Neighborhood Exploration",
+            "rationale": "Targeting points in close proximity to currently known high-performers may lead to the discovery of additional peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -2.0,
+                    "x_9": 0.5,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Slight Adjustments Around Zero",
+            "rationale": "Investigating point combinations that edit mid-negative settings with slight positive values around zero might uncover untapped optimal areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 54:
+{
+    "comment": "As we conclude iteration 53 of our Bayesian Optimization experiment, the accumulated dataset provides rich insights into parameter interactions and target performance. The highest observed target value is now **16.351**, achieved in iteration 51 through configurations that utilize moderate negative values, particularly clustered between **-4.0** and **-2.0**, complemented with slight positive adjustments. This successful configuration illustrates the significant synergy within the mid-negative and near-zero regions of the parameter space. Conversely, configurations strictly at extreme positive values, such as those set to **20.0**, have consistently demonstrated poor outcomes, with previous iterations recording the lowest target value of **2.312**. Other detrimental settings include combinations of values skewing heavily towards extreme negatives without positive compensation, which generally yield minimal target outcomes. Moving forward, we will refine our hypotheses by focusing on exploring localized variations around successfully high-performing configurations whilst incorporating slight positive adjustments. Previous hypotheses centered on extreme parameter settings will be discarded to maximize the target further. Our new propositions will concentrate on melding moderate negatives with judicious positive offsets to unveil additional synergistic interactions that enhance performance.",
+    "hypotheses": [
+        {
+            "name": "Balanced Negative-Positive Interaction",
+            "rationale": "Targeting a mix of moderate negative values with slight positive offsets could exploit the interactions leading to high performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.5,
+                    "x_2": -2.5,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Refined Mid-negative Value Exploration",
+            "rationale": "Delving deeper into the mid-negative ranges may reveal intricate parameter interactions that maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.5,
+                    "x_2": -3.5,
+                    "x_3": -4.0,
+                    "x_4": -4.0,
+                    "x_5": -4.5,
+                    "x_6": -4.0,
+                    "x_7": -3.5,
+                    "x_8": -4.0,
+                    "x_9": -3.5,
+                    "x_10": -3.5,
+                    "x_11": -4.0,
+                    "x_12": -4.0,
+                    "x_13": -3.5,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        {
+            "name": "Localized Exploration Near High-Value Points",
+            "rationale": "Focusing on variations around previously identified high-performing setups may help uncover additional peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": -2.0,
+                    "x_9": 0.5,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Exploration of Extreme Values",
+            "rationale": "Testing extreme negative values with slight positive adjustments will help understand the impact of severe parameter skewing.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": -20.0,
+                    "x_2": -20.0,
+                    "x_3": -20.0,
+                    "x_4": -20.0,
+                    "x_5": -20.0,
+                    "x_6": -20.0,
+                    "x_7": -20.0,
+                    "x_8": -20.0,
+                    "x_9": -20.0,
+                    "x_10": -20.0,
+                    "x_11": -20.0,
+                    "x_12": -20.0,
+                    "x_13": -20.0,
+                    "x_14": -20.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 63:
+{
+    "comment": "As we conclude iteration 62 of our Bayesian Optimization experiment, the cumulative dataset now comprises 62 distinct evaluations. The highest recorded target value is **16.351**, achieved through configurations blending moderate negative values, primarily around **-4.0** to **-2.0**, with slight positive adjustments. This finding emphasizes the effective synergy between these ranges, reinforcing the strategy of combining negative values with small positive offsets to maximize target performance. Conversely, configurations strictly utilizing extreme positive values (specifically those set entirely to **20.0**) and extreme negative values have consistently underperformed, leading to the lowest recorded targets of **2.312**. Patterns in the data further indicate that configurations nearing zero on certain parameters yield favorable outcomes. Moving forward, our hypotheses will be refined to emphasize localized explorations around successful configurations while discarding ineffective extremes. We will target interactions within promising subspaces to uncover potential new peaks in performance. The following hypotheses focus on optimizing successful parameter combinations to enhance target maximization.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "Integrating moderate negative values around previously successful configurations with slight positive tweaks serves to maximize target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -2.0,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Balanced Negative Exploration Near High-Value Points",
+            "rationale": "Targeting variations around previously high-performing setups will help uncover additional peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Localized Adjustments Around Zero",
+            "rationale": "Exploring combinations that test mid-negative settings with slight positive increments could reveal untapped opportunities for increased performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": 0.5,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Exploring Slight Extremes with Positive Samples",
+            "rationale": "Testing marginal negative and slight positive combinations will help evaluate their combined effect on the target function.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.0,
+                    "x_2": -3.5,
+                    "x_3": -3.0,
+                    "x_4": -2.5,
+                    "x_5": 1.0,
+                    "x_6": -2.0,
+                    "x_7": -2.0,
+                    "x_8": -1.0,
+                    "x_9": 1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -0.5,
+                    "x_14": -2.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 72:
+{
+    "comment": "As we conclude iteration 71 in our Bayesian Optimization experiment, the analyzed dataset reveals significant insights into the parameter interactions and their impacts on target performance. The highest observed target value is now **16.351**, achieved in iteration 51. This configuration effectively combines moderate negative values, primarily ranging between **-4.0** and **-2.0**, with slight positive adjustments, highlighting the effective synergy in this subspace. Additionally, successful configurations emphasize the importance of slight positive shifts to enhance performance without straying into extreme positive or negative territories, which have consistently yielded the lowest outcomes, notably **2.312** from configurations at the positive bounds and similarly detrimental results from extreme negative or skewed settings.Given this understanding, we will refine our hypotheses to focus on exploring localized variations around these previously identified maxima while actively incorporating slight positive adjustments. The strategy will aim to hone in on clusters of moderate negative values paired with minor positive shifts, in recognition that these often yield superior target results. The following hypotheses seek to capitalize on these insights to further optimize target performance in the ongoing experimentation.",
+    "hypotheses": [
+        {
+            "name": "Moderate Negative with Positive Integration",
+            "rationale": "Exploring configurations incorporating moderate negative values with slight positive shifts is expected to reveal high performance based on previous successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Further Exploration of Mid-negative Clusters",
+            "rationale": "Refining the search around previously successful mid-negative values is likely to uncover new optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -2.0,
+                    "x_2": -2.0,
+                    "x_3": -3.5,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -3.5
+                }
+            ]
+        },
+        {
+            "name": "Testing Positive Shifts Within Negative Clusters",
+            "rationale": "Within moderate negative clusters, applying slight positive adjustments might optimize interactions leading to higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Explore Near Zero for Potential Peaks",
+            "rationale": "Points near zero, balanced with moderate negatives, could unveil unexplored optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": -1.0,
+                    "x_3": -1.0,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Refine Positive Adjustments in Negative Clusters",
+            "rationale": "Earlier hypotheses about extreme positive value adjustments have proven ineffective; thus, refinement to moderate adjustments is beneficial.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 82:
+{
+    "comment": "As we proceed through our Bayesian Optimization experiment, the investigation into parameter interactions continues to yield valuable insights. The highest recorded target, **16.986**, illustrates the effectiveness of blending moderate negative values with slight positive adjustments. This successful configuration highlights the importance of localized exploration around these parameters to uncover potential peaks in performance. Our ongoing analysis underscores the necessity to avoid extreme configurations, particularly those set entirely at the positive bounds or with severe negative skews, which consistently lead to suboptimal outcomes. In refining our hypotheses, we aim to strategically explore promising configurations while capitalizing on synergistic interactions that maximize the target function.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "This configuration blends moderate negatives integrated with slight positive tweaks, expected to enhance performance based on past trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": -2.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Exploration of Mid-negative Clusters",
+            "rationale": "Focusing on localized variations around previously successful mid-negative values is likely to unveil new optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        {
+            "name": "Targeting Positive Shifts Within Negative Clusters",
+            "rationale": "Testing combinations of moderate negative parameters augmented with slight positive values is likely to yield optimal interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Explore Near Zero for Potential Peaks",
+            "rationale": "Exploring combinations that integrate positive values with negative clusters may unveil new optimal configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 0.0,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -2.0,
+                    "x_5": -0.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 88:
+{
+    "comment": "As we conclude iteration 87 of our Bayesian Optimization experiment, our dataset reveals critical insights into parameter interactions and their impacts on performance. The highest recorded target value is **16.986**, achieved in iteration 75, highlighting the effectiveness of configurations that blend moderate negative values primarily between **-4.0** and **-2.0** with slight positive adjustments. This promising combination suggests that localized exploration within this parameter subspace is key to uncovering potential peaks in performance. Conversely, configurations heavily skewed towards extreme positive values and extreme negative values consistently yield poor outcomes, with the worst recorded target at **1.212** in iterations focused on entirely negative parameter settings or pure positives. This pattern emphasizes the importance of avoiding extremes in our future explorations. Moving forward, the hypotheses will be refined to focus on leveraging successful combinations identified so far by exploring subtle variations around these configurations and integrating strategic positive offsets. Discarding previously tested extreme configurations will be essential to enhancing our optimization process.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "Integrating moderate negative values paired with slight positive adjustments is expected to yield optimal target outcomes based on past successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Exploration of Mid-negative Clusters",
+            "rationale": "Refining searches around previously identified mid-negative values may uncover new optimal configurations, enhancing target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": -3.0,
+                    "x_14": -3.5
+                }
+            ]
+        },
+        {
+            "name": "Testing Positive Shifts Within Negative Clusters",
+            "rationale": "Integrating slight positive adjustments within moderate negative clusters may optimize interactions leading to higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Explore Points Near Zero for Potential Peaks",
+            "rationale": "Testing combinations near zero alongside moderate negatives could unveil new optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 0.0,
+                    "x_2": -1.0,
+                    "x_3": -1.0,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        {
+            "name": "Refined Positive Adjustments in Negative Clusters",
+            "rationale": "Testing moderate adjustments to previous extreme hypotheses could yield insights leading to better outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.5,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        }
+    ]
+}
+## Iteration 95:
+{
+    "comment": "As we expand our Bayesian Optimization experiment, recent analyses continue to highlight the significant interplay between moderate negative values combined with slight positive shifts, yielding the highest observed target of **16.986**. This successful configuration emphasizes the effectiveness of localized exploration within certain parameter regions, particularly between **-4.0** and **-2.0** for negatives, along with strategic positive adjustments. The results reaffirm that extreme configurations, especially those skirting the boundaries of the parameter space, yield poorer performance outcomes and should be systematically avoided. As we refine our hypotheses, we will target promising configurations informed by prior successes while continuing to incorporate minimal positive tweaks to explore potentially optimal interactions. The following refined hypotheses focus on maximizing target values by integrating established insights.",
+    "hypotheses": [
+        {
+            "name": "Integrated Moderate Negatives with Positive Shift",
+            "rationale": "Exploring configurations that blend moderate negative values with slight positive adjustments is anticipated to further optimize the observed target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        {
+            "name": "Intensive Exploration of Mid-negative Clusters",
+            "rationale": "Focusing on localized variations around successful moderate negative configurations will maximize chances of uncovering new high-performance setups.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -3.5,
+                    "x_2": -2.5,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -3.0,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.5,
+                    "x_12": -1.5,
+                    "x_13": -4.0,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        {
+            "name": "Localized Positive Shifts in Successful Clusters",
+            "rationale": "Testing slight positive adjustments within previously successful configurations can optimize interactions and induce better outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 0.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -2.5,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        {
+            "name": "Explore Points Near Zero for Potential Peaks",
+            "rationale": "Testing combinations near zero alongside moderate negatives could unveil new optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 0.5,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -0.5,
+                    "x_10": -1.0,
+                    "x_11": 1.0,
+                    "x_12": -1.5,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        }
+    ]
+}
+
+
+9 new experimental data has been obtained giving us currently a dataset of 103 experiments:
+ Iteration     x_0     x_1     x_2     x_3     x_4     x_5     x_6     x_7     x_8     x_9    x_10    x_11    x_12    x_13    x_14  target
+         1  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000  -5.000   9.303
+         2  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000   2.312
+         3 -20.000 -15.000 -10.000  -5.000   0.000   5.000  10.000  15.000 -20.000 -15.000 -10.000  -5.000   0.000   5.000 -20.000   3.649
+         4 -20.000 -20.000  20.000  20.000 -20.000  20.000 -20.000  20.000 -20.000  20.000 -20.000  20.000 -20.000  20.000 -20.000   2.312
+         5  18.000  18.000  18.000  19.000  19.000  18.000  18.000  19.000  19.000  18.000  19.000  18.000  19.000  18.000  19.000   2.443
+         6  -0.994  -2.250  -5.053  -6.305  -6.015  -8.822  -8.533 -11.331  -0.989  -3.795  -3.501  -6.309  -6.013  -8.824  -0.988   6.363
+         7  -6.821  -6.298  -3.907  -3.390  -4.734  -2.337  -3.680  -1.296  -6.828  -4.432  -5.782  -3.385  -4.736  -2.334  -6.829   7.788
+         8  -4.000  -5.000  -6.000  -5.000  -4.000  -5.000  -4.500  -5.000  -6.000  -4.000  -5.000  -5.500  -4.500  -5.000  -5.000   8.499
+         9  -7.000  -7.000  -3.000  -5.000  -3.000  -3.000  -7.000  -5.000  -7.000  -3.000  -3.000  -3.000  -3.000  -7.000  -7.000   9.002
+        10  -5.000  -4.500  -5.500  -6.000  -5.000  -6.500  -5.500  -4.000  -5.000  -4.500  -5.000  -5.000  -6.500  -4.500  -5.000   7.346
+        11  -7.664  -8.931  -2.098  -4.923  -1.114   9.413  -3.702  -9.873 -22.274  -0.732  -9.714 -11.910   7.291  -1.630 -13.331   3.352
+        12 -17.597  -6.587  -5.622   4.128  -4.832   4.438  -4.345  -7.548   9.758   8.052  -4.393  -1.296 -12.549  -6.639  -6.781   4.013
+        13  -5.792  -5.806  -3.517  -3.893  -5.432  -3.100  -5.066  -6.503  -4.461  -6.163  -4.657  -4.503  -3.195  -6.113  -5.123   7.580
+        14  -2.699   1.324  -2.956  -7.722  -0.757   4.555  -1.063 -17.131 -12.767 -16.665  -2.266  -7.150 -16.931  -7.212  -3.116   3.673
+        15  -4.157  -1.324 -12.403  -8.006 -11.614   4.013   6.779  -2.540   1.458 -10.041  -6.800   5.607  -2.780   4.344   5.204   5.404
+        16  -4.500  -4.000  -6.500  -4.500  -4.000  -5.000  -4.500  -4.500  -6.000  -4.500  -5.000  -5.000  -5.500  -4.500  -5.000   7.650
+        17  -8.000  -8.000  -3.000  -5.000  -5.000  -3.000  -8.000  -5.000  -8.000  -4.000  -3.000  -3.000  -3.000  -8.000  -8.000   8.106
+        18  -4.000   0.000  -5.000  -4.000  -3.000  -2.000  -5.000  -5.000  -4.000  -3.000  -5.000  -5.000  -4.000  -1.000  -5.000  10.977
+        19  -2.500  -2.000  -3.500  -2.000  -2.500  -3.500  -2.000  -2.000  -2.500  -2.000  -2.500  -3.000  -3.500  -2.000  -2.500  12.065
+        20  -9.088   0.559  -8.574   2.434   4.460   3.703   8.778  -1.221  -9.666   2.809   5.588   2.688 -11.021  -2.753  -2.809   6.007
+        21  -3.661  -8.290  -9.760   6.835   4.240  -6.677   1.514   9.215  -4.500 -10.782   8.093   6.683  -5.989  -6.144  -7.310   5.068
+        22 -11.676 -16.456 -13.607   1.143  -6.301  -1.995 -11.286 -17.134  -7.875  -6.090   4.365  -2.779   5.926  -5.076  -5.820   3.590
+        23  -5.000  -6.000  -4.000  -3.000  -5.000  -6.000  -4.000  -5.000  -4.000  -5.000  -3.000  -3.000  -5.000  -5.000  -5.000   9.863
+        24  -4.000  -4.000  -3.500  -4.500  -3.000  -2.000  -5.000  -5.000  -4.000  -3.000  -5.000  -5.000  -4.000  -1.000  -4.000  10.364
+        25  -1.500   1.500  -1.000  -0.500  -0.500  -1.500  -1.000  -1.500  -0.500  -1.000  -1.500   0.500  -0.500  -0.500  -1.000  16.044
+        26  -2.853   8.267   4.382  -6.554  16.733   9.004  -0.822 -13.314  -1.868  -1.085  -6.425   6.292   1.876   0.529   6.246   4.837
+        27   0.300  12.753  -3.055 -13.990  16.365  -7.459   4.386   3.183  -1.026   2.474   3.079   3.618  -1.669  -8.926   8.346   4.444
+        28  -1.000   2.000  -1.000  -0.500  -2.500  -1.500  -2.000  -1.000   0.000  -1.000  -1.500   1.000  -1.000  -1.000  -1.500  15.822
+        29  -4.000  -3.500  -3.000  -4.000  -4.500  -5.000  -4.000  -4.500  -5.000  -3.500  -3.000  -3.000  -4.000  -4.000  -5.000   9.705
+        30  -2.500   1.000  -2.000  -1.500  -1.000  -2.000  -2.500   0.500  -2.000  -1.000  -2.000   0.000  -1.500  -1.500  -1.000  14.906
+        31  -3.000   0.000  -3.000  -2.000  -2.500  -1.000  -3.000  -1.500  -2.500  -1.000  -1.000  -2.000  -1.500   0.500  -1.500  13.968
+        32   3.331   6.379  -1.489  -1.591  -8.807 -10.936  -3.681   1.970  -8.810 -10.083  13.912   4.863   9.539  -5.073   1.294   5.011
+        33   8.710   8.070   0.345   4.216  -4.551  -1.526   9.559  17.217   6.611  10.447  -5.483  14.016   3.500  -9.236  -0.076   3.751
+        34  -3.000   1.500  -2.000  -1.500  -3.000  -2.500  -2.000  -1.000   0.000  -2.000  -1.500   1.000  -1.000  -1.000  -1.500  14.543
+        35  -1.500  -1.000  -1.500  -0.500  -1.000  -2.000  -1.000  -0.500  -1.000   0.500  -1.500   0.000  -1.500  -1.000  -1.000  16.195
+        36  -4.500  -3.000  -2.000  -4.000  -3.500  -4.400  -3.000  -2.000  -4.000  -3.000  -4.000  -3.500  -4.000  -3.000  -4.000  10.692
+        37  -2.000   2.000  -2.000  -2.000  -1.000  -2.000  -1.000   0.500  -1.500  -1.000  -0.500   0.000  -1.000   1.000  -1.500  15.895
+        38   1.413  -9.373  -8.088  -2.226   2.491  -9.475   2.481   0.448  12.834   5.243  12.520  -8.611  -0.557   5.269   8.863   4.568
+        39  -1.263   2.584  -1.696   0.009   1.539 -11.734   3.125   8.274   5.482   1.090   9.588   4.874  -6.868   5.222 -11.460   5.903
+        40  -3.500  -3.000  -4.000  -4.000  -3.500  -3.500  -4.000  -3.000  -5.000  -3.500  -3.000  -3.500  -4.000  -3.000  -4.000  10.219
+        41  -2.000   2.000  -2.000  -1.500  -3.000  -1.500  -2.000  -0.500   0.500  -1.000  -1.000   0.000  -0.500  -1.000  -1.500  15.152
+        42  -2.500   1.000  -1.500  -2.000  -1.500  -2.000  -1.500  -1.000   0.500  -2.000  -1.500   0.000  -1.000   0.500  -2.000  15.047
+        43  -1.500   1.500  -1.000  -2.000  -2.500  -1.000  -1.500  -1.000  -1.500   0.000  -1.000   0.500  -1.000  -1.500  -1.000  15.533
+        44  17.342  -0.836   8.841   7.651 -13.526  -1.831   0.285  -3.933 -10.589  16.389   8.677   2.334 -12.322  18.305   3.600   2.524
+        45 -14.132   1.087  14.829  -2.584 -12.272   0.461   4.808   5.758   4.957  11.577  -3.594   2.824   0.488   1.417  -5.351   4.542
+        46   6.728 -27.420  17.877  -2.077 -29.203 -20.935 -29.984  17.237 -20.873 -10.979 -28.530   9.656 -14.512 -29.734 -25.822   0.678
+        47   0.512   4.880 -13.956  -2.513   6.215  12.525 -14.005  -0.885  -6.591  17.499  -1.546  -4.362   3.565  10.695 -15.346   2.960
+        48  10.679  -8.214  13.130  17.221   4.913  -3.957   4.535  -4.301   4.566   6.186   2.194   0.040  19.117   5.910 -13.401   3.379
+        49  -3.500   1.000  -2.000  -3.000  -3.500  -1.500  -2.000  -0.500   0.500  -2.000  -1.000   0.000  -1.000  -2.000  -1.500  13.968
+        50  -2.000  -1.500  -2.000  -1.500  -3.000  -1.500  -1.500  -1.000  -2.000   0.500  -1.000   0.500  -1.000  -1.000  -1.500  14.920
+        51  -2.500   1.000  -1.500  -1.000  -1.500  -1.500  -2.000  -1.000   0.000  -1.000   0.000   0.000  -1.000  -1.000  -1.000  16.351
+        52 -28.828  17.216   0.479 -30.000 -25.872 -26.195 -30.000   4.088 -30.000  -7.484  19.041  20.000  -4.094 -27.936  20.000   1.214
+        53 -17.417 -13.618  -2.883 -25.725  16.419 -26.150 -26.469  17.707  18.200 -24.641 -23.624 -27.414   7.943 -25.386 -29.051   0.301
+        54  -3.500   1.500  -2.500  -1.000  -3.000  -2.000  -1.500  -0.500   0.500  -2.000  -1.000   0.000  -1.500  -1.000  -1.000  14.347
+        55  -4.000  -3.500  -3.500  -4.000  -4.000  -4.500  -4.000  -3.500  -4.000  -3.500  -3.500  -4.000  -4.000  -3.500  -4.000   9.566
+        56  -2.000   1.000  -1.500  -1.000  -1.500  -1.500  -1.000  -0.500  -2.000   0.500  -1.000   0.500  -1.000   0.500  -1.000  16.016
+        57 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000 -20.000   2.312
+        58  19.461 -29.046  17.788  -9.814   4.712 -26.789 -25.550 -19.233  17.485 -14.417  17.986 -21.532 -25.035  14.883 -25.702   0.527
+        59   2.903 -15.080  11.797   4.226   1.307  -1.558 -11.889  -2.843  -0.533   3.655  -0.092   2.960  -6.029  -4.024  -2.834   6.089
+        60  19.523  19.183  18.223  19.339 -24.767 -24.350  16.309 -29.910 -21.275 -24.431  10.948  18.099 -26.553 -17.790 -26.272   0.421
+        61 -26.002  19.443 -28.931  14.261 -24.545 -26.155 -23.832 -28.497 -21.456  19.231 -16.376 -28.619 -22.172  12.125   9.282   0.379
+        62  -0.622   0.545   0.029   0.176   0.306  -1.856  -1.733  -0.085  -0.014   0.518   2.294   0.838  -1.500  -0.520  -1.450  16.161
+        63  -3.500   1.000  -2.500  -2.000  -3.000  -1.500  -2.000  -0.500   0.500  -2.000  -1.000   0.000  -1.500  -1.000  -1.000  14.407
+        64  -4.000  -3.000  -2.000  -1.000  -3.000  -2.000  -1.500  -1.000   0.000  -2.000  -1.000   0.500  -1.000   0.500  -1.000  14.746
+        65  -2.500   1.000  -1.500  -1.000  -1.500  -1.500  -1.000  -0.500   0.000  -1.000   0.500   0.500  -1.000   1.000  -1.000  16.104
+        66  -1.500  -1.000  -3.500  -3.000  -2.500   1.000  -2.000  -2.000  -1.000   1.000   0.000   0.000  -1.000  -0.500  -2.000  14.859
+        67  19.126 -27.589  16.968 -26.609  11.480   8.052 -28.603 -19.949  19.909 -21.504 -24.664  19.172 -24.818 -22.802  15.560   0.499
+        68 -25.068   8.594 -18.605  20.000 -30.000 -26.675 -30.000   9.976  10.636 -30.000  20.000  20.000 -30.000 -30.000 -30.000   1.119
+        69 -25.316  20.000 -30.000  20.000 -22.094 -30.000  19.550  20.000   7.757   4.445 -30.000 -20.062 -30.000 -25.040 -29.005   1.170
+        70 -30.000  20.000 -19.921  20.000 -16.041  20.000 -30.000 -15.445  20.000 -30.000 -30.000 -16.891  18.441 -19.237  12.625   1.192
+        71  20.000  20.000 -30.000  20.000 -22.524  20.000 -23.663 -30.000 -12.382 -30.000  20.000  20.000 -30.000 -30.000  -7.840   1.272
+        72  -3.000   1.000  -2.500  -1.500  -3.000  -2.000  -1.500  -0.500   0.500  -2.000  -1.000   0.000  -1.000  -1.000  -1.500  14.676
+        73  -3.500  -2.000  -2.000  -3.500  -3.000  -2.500  -2.000  -1.000  -4.000  -3.000  -3.000  -2.500  -4.000  -3.000  -3.500  11.717
+        74  -2.500   0.500  -2.000  -1.500  -1.000  -1.500  -2.000  -0.500   0.000  -1.000  -1.500   0.000  -1.000   1.500  -1.000  15.533
+        75  -1.000   1.000  -1.000  -1.000  -2.000  -1.000  -1.500  -0.500   0.500   0.000  -1.000   0.000  -1.500  -1.000  -1.000  16.986
+        76  -1.500   2.000  -2.000  -1.000  -1.500  -1.500  -2.000  -1.500   0.500  -1.000   0.000   0.500  -1.000  -1.500  -1.000  15.533
+        77  20.000  19.866  20.000   3.415  20.000  17.796 -26.112 -28.163 -30.000  -1.518  20.000  20.000  20.000 -28.499 -30.000   1.112
+        78 -30.000 -30.000  14.483  20.000  15.223 -30.000  20.000  20.000  20.000   3.892  -1.610  20.000 -30.000 -30.000  11.951   1.450
+        79 -17.146  20.000  20.000 -30.000 -19.294   2.844 -30.000  18.156  20.000   6.209 -30.000 -30.000   8.355 -30.000  20.000   1.436
+        80 -30.000  20.000  20.000 -26.951  20.000  -5.972 -30.000 -30.000 -30.000 -30.000 -28.496  10.857  20.000 -16.576  11.582   1.212
+        81 -30.000  -4.202  20.000  20.000 -27.950 -30.000  -8.266 -30.000 -30.000 -17.545  16.873 -29.351  17.186   2.752 -22.514   0.916
+        82  -3.000  -2.000  -2.500  -1.500  -2.000  -1.000  -1.500  -0.500   0.500  -2.000  -1.000   0.000  -1.500  -1.000  -1.000  14.966
+        83  -4.000  -3.000  -2.000  -3.000  -3.000  -2.500  -1.500  -1.000  -4.000  -3.000  -3.000  -2.000  -1.500  -1.000  -2.000  12.929
+        84  -2.500   1.000  -2.000  -1.500  -1.000  -1.500  -2.000  -0.500   0.000  -1.000  -1.000   0.500  -1.000   1.000  -1.500  15.704
+        85  -1.000   0.000  -1.000  -0.500  -2.000  -0.500  -1.000  -0.500   0.000  -1.000  -0.500   1.000  -1.000   0.000  -0.500  17.442
+        86  20.000  20.000 -28.532 -29.625  20.000 -17.355 -24.945 -30.000  20.000 -30.000  20.000 -19.936  13.699  -1.811  18.594   0.937
+        87   2.530 -30.000  20.000 -30.000 -30.000 -12.438 -19.059  20.000 -24.051 -30.000  18.691  20.000  20.000  20.000  20.000   1.357
+        88  -3.000   1.000  -2.500  -1.500  -3.000  -2.000  -1.500  -0.500   0.500  -2.000  -1.000   0.000  -1.500  -1.000  -1.000  14.676
+        89  -4.000  -3.000  -2.000  -3.000  -3.000  -2.500  -2.000  -1.000  -4.000  -3.000  -3.000  -2.000  -1.500  -3.000  -3.500  12.415
+        90  -2.500   0.500  -2.000  -1.500  -1.000  -1.500  -2.000  -0.500   0.000  -1.000  -1.000   0.500  -1.000   1.500  -1.000  15.608
+        91  -1.000   0.000  -1.000  -1.000  -2.000  -1.000  -1.500  -0.500   0.500  -1.000  -0.500   1.000  -1.000   0.000  -0.500  17.081
+        92  -2.000   1.500  -1.500  -1.000  -1.500  -1.500  -2.000  -1.500   0.500  -1.000   0.000   0.500  -1.000  -1.500  -1.000  15.533
+        93 -30.000  20.000 -28.280 -21.162  14.670 -20.513  16.790  -8.777 -16.925 -30.000 -30.000 -30.000  20.000 -21.868  20.000   1.122
+        94  19.574 -23.908 -11.384  20.000 -30.000   6.114 -21.865  20.000 -27.174  -9.925 -30.000 -30.000 -25.769  20.000 -30.000   1.262
+        95  -3.500   1.500  -2.000  -1.000  -3.000  -1.500  -1.000  -0.500   0.500  -2.000  -1.000   0.000  -1.000  -1.000  -1.500  14.789
+        96  -4.500  -3.500  -2.500  -3.000  -3.000  -3.000  -2.000  -0.500  -4.000  -3.000  -3.000  -2.500  -1.500  -4.000  -3.000  11.364
+        97  -2.000   0.000  -1.500  -1.000  -1.000  -1.500  -2.000  -0.500   0.500  -1.000  -2.500   0.500  -1.000   1.500  -1.000  15.608
+        98  -1.500   0.500  -1.000  -0.500  -1.000  -1.500  -1.000  -0.500   0.000  -0.500  -1.000   1.000  -1.500   0.000  -0.500  16.765
+        99  20.000  17.886  20.000  20.000  20.000 -30.000  -1.616  12.542  13.579 -30.000 -25.239   8.440 -30.000 -30.000  20.000   1.018
+       100 -30.000 -30.000  20.000 -30.000 -14.214 -12.712 -25.055 -30.000 -15.592  20.000 -30.000 -25.926  -4.264  20.000  20.000   1.359
+       101 -25.466  17.806 -30.000  20.000  20.000  20.000  20.000  20.000 -30.000  20.000  20.000  20.000  13.064 -30.000  20.000   1.728
+       102  11.513  -1.146  13.828   3.839  -6.106  16.889  -3.842   5.461  -3.716 -15.754  -7.677 -16.157  -3.330   4.578  10.884   3.119
+       103  16.119  20.000 -28.048  -8.480 -30.000 -27.309 -22.831 -30.000  -8.868  20.000  20.000  20.000  20.000 -30.000  20.000   1.464
+
+**Task:**
+- Reflect on your previous hypotheses and on the entire data.
+- What do we know from the data?
+- Continue live commenting on the optimization progress.
+- What are the subspaces that maximize target the most?
+- What are the subspaces that are detrimental and minimize target?
+- Improve your previous hypotheses for maximizing target in the light of the new comment and learnings. Feel free to also discard some hypotheses that have proven to be performing consistently poorly in previous iterations, and/or propose new ones. Additionally for each hypothesis, give a single point you want the Bayesian Optimizer to try.
+
+Important: Only provide your response in the exact JSON response format described at the beginning of our chat, without any additional syntax or libraries.
+\n```json

@@ -1,0 +1,392 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Hole Scavenger Focus",
+            "rationale": "Increasing L-Cysteine may improve charge separation efficiency, thus enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Ionic Strength Variation",
+            "rationale": "Exploring the effect of NaCl on HER, as ionic strength can influence the photocatalytic activity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 2.0,
+                    "NaCl-3M": 3.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 2.0, 3.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "pH Adjustment Exploration",
+            "rationale": "Adjusting pH with NaOH may optimize the reaction environment for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 5.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 5.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Surfactant Influence",
+            "rationale": "Investigating the role of SDS as a surfactant to stabilize the photocatalyst and enhance HER.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 5.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 5.0, 0.0]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaCl",
+            "rationale": "Increasing L-Cysteine while maintaining a moderate NaCl concentration may enhance charge separation and ionic strength, leading to improved HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.5, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Surfactant and Hole Scavenger Combination",
+            "rationale": "Combining L-Cysteine with a surfactant like SDS may stabilize the photocatalyst and enhance HER through improved charge dynamics.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 2.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 2.0, 0.0]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Ionic Strength and pH",
+            "rationale": "Adjusting NaOH to optimize pH while maintaining a balanced ionic strength with NaCl could create a favorable environment for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "25": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High L-Cysteine with Minimal Dyes",
+            "rationale": "Focusing on L-Cysteine while minimizing the use of dyes may prevent interference and enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "40": {
+        "trust_score": 0.6256569782486,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Enhanced L-Cysteine and NaCl",
+            "rationale": "Increasing L-Cysteine to 3.0 g/L while maintaining NaCl at 1.0 g/L may further enhance charge separation and ionic strength, leading to improved HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "41": {
+        "trust_score": 0.6256569782486,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Optimized Surfactant and Hole Scavenger",
+            "rationale": "Combining L-Cysteine with a surfactant like SDS at 1.5 g/L may stabilize the photocatalyst and enhance HER through improved charge dynamics.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 1.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 1.5, 0.0]"
+    },
+    "42": {
+        "trust_score": 0.6256569782486,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Ionic Strength and pH Optimization",
+            "rationale": "Adjusting NaOH to 0.5 g/L while maintaining NaCl at 1.0 g/L could create a favorable environment for HER, optimizing pH and ionic strength.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "43": {
+        "trust_score": 0.6256569782486,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Minimized Dyes with High L-Cysteine",
+            "rationale": "Focusing on L-Cysteine at 2.5 g/L while minimizing the use of dyes may prevent interference and enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "74": {
+        "trust_score": 0.5346352925469127,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaCl",
+            "rationale": "Increasing L-Cysteine to 3.0 g/L while maintaining NaCl at 1.5 g/L may further enhance charge separation and ionic strength, leading to improved HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 1.5, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "75": {
+        "trust_score": 0.5346352925469127,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Surfactant and Hole Scavenger Combination",
+            "rationale": "Combining L-Cysteine with a surfactant like SDS at 2.0 g/L may stabilize the photocatalyst and enhance HER through improved charge dynamics.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 2.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 2.0, 0.0]"
+    },
+    "76": {
+        "trust_score": 0.5346352925469127,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Minimized Dyes with High L-Cysteine",
+            "rationale": "Focusing on L-Cysteine at 2.0 g/L while minimizing the use of dyes may prevent interference and enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "91": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "105": {
+        "trust_score": 0.3394301733735779,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Minimized Dyes with High L-Cysteine",
+            "rationale": "Focusing on L-Cysteine at 2.0 g/L while minimizing the use of dyes may prevent interference and enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.5, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    }
+}

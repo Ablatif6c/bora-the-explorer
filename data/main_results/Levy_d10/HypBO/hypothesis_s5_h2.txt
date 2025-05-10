@@ -1,0 +1,19 @@
+```
+{
+    "name": "mixed_positive_negative_guess",
+    "rationale": "To explore different regions of the parameter space, a point combining both positive and negative values, such as (3.0, -3.0, 3.0, -3.0, 3.0, -3.0, 3.0, -3.0, 3.0, -3.0), may reveal interesting behavior in the objective function. This mix allows testing values in both positive and negative regions, which can sometimes lead to finding a global maximum in a non-convex landscape.",
+    "confidence": 0.5,
+    "optimum_location": {
+        "x_0": 3.0,
+        "x_1": -3.0,
+        "x_2": 3.0,
+        "x_3": -3.0,
+        "x_4": 3.0,
+        "x_5": -3.0,
+        "x_6": 3.0,
+        "x_7": -3.0,
+        "x_8": 3.0,
+        "x_9": -3.0
+    }
+}
+```

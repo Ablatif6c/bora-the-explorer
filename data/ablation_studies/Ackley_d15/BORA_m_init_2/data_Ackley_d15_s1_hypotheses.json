@@ -1,0 +1,1574 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Central Point",
+            "rationale": "Choosing a point near the center of the parameter space enables exploration of the function behavior in a balanced way, potentially identifying an optimal region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": 0.0,
+                    "x_2": 10.0,
+                    "x_3": 5.0,
+                    "x_4": -5.0,
+                    "x_5": 15.0,
+                    "x_6": 0.0,
+                    "x_7": -10.0,
+                    "x_8": 20.0,
+                    "x_9": -3.0,
+                    "x_10": 1.0,
+                    "x_11": 12.0,
+                    "x_12": -6.0,
+                    "x_13": 3.0,
+                    "x_14": -15.0
+                }
+            ]
+        },
+        "point": "[-5.0, 0.0, 10.0, 5.0, -5.0, 15.0, 0.0, -10.0, 20.0, -3.0, 1.0, 12.0, -6.0, 3.0, -15.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Extreme Positive Values",
+            "rationale": "This point focuses on the upper bound across several parameters which may reveal interesting behavior at the edges of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": 20.0,
+                    "x_1": 15.0,
+                    "x_2": 10.0,
+                    "x_3": 20.0,
+                    "x_4": 5.0,
+                    "x_5": 20.0,
+                    "x_6": 18.0,
+                    "x_7": 15.0,
+                    "x_8": 20.0,
+                    "x_9": 10.0,
+                    "x_10": 5.0,
+                    "x_11": 12.0,
+                    "x_12": 18.0,
+                    "x_13": 15.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[20.0, 15.0, 10.0, 20.0, 5.0, 20.0, 18.0, 15.0, 20.0, 10.0, 5.0, 12.0, 18.0, 15.0, 20.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Diverse Mixed Values",
+            "rationale": "By selecting a mix of positive and negative values, this point aims to probe into diverse interactions and behaviors that could arise from conflicting parameter settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": 10.0,
+                    "x_2": -5.0,
+                    "x_3": 15.0,
+                    "x_4": 0.0,
+                    "x_5": -10.0,
+                    "x_6": 20.0,
+                    "x_7": -30.0,
+                    "x_8": 5.0,
+                    "x_9": 0.0,
+                    "x_10": 10.0,
+                    "x_11": 5.0,
+                    "x_12": -15.0,
+                    "x_13": -5.0,
+                    "x_14": 10.0
+                }
+            ]
+        },
+        "point": "[-20.0, 10.0, -5.0, 15.0, 0.0, -10.0, 20.0, -30.0, 5.0, 0.0, 10.0, 5.0, -15.0, -5.0, 10.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Clustered Values",
+            "rationale": "This selection explores the behavior of the function near a specific clustered region, potentially beneficial in locating local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": -10.0,
+                    "x_2": -8.0,
+                    "x_3": -12.0,
+                    "x_4": -5.0,
+                    "x_5": -10.0,
+                    "x_6": -7.0,
+                    "x_7": -15.0,
+                    "x_8": -9.0,
+                    "x_9": -10.0,
+                    "x_10": -11.0,
+                    "x_11": -12.0,
+                    "x_12": -6.0,
+                    "x_13": -10.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-10.0, -10.0, -8.0, -12.0, -5.0, -10.0, -7.0, -15.0, -9.0, -10.0, -11.0, -12.0, -6.0, -10.0, -7.0]"
+    },
+    "5": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "8": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Central Exploration",
+            "rationale": "Focusing on the central region has shown potential. Further exploring adjustments within this range may uncover better local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": 2.0,
+                    "x_2": 8.0,
+                    "x_3": 6.0,
+                    "x_4": 0.0,
+                    "x_5": 12.0,
+                    "x_6": 3.0,
+                    "x_7": -7.0,
+                    "x_8": 18.0,
+                    "x_9": -1.0,
+                    "x_10": 5.0,
+                    "x_11": 10.0,
+                    "x_12": -6.0,
+                    "x_13": 4.0,
+                    "x_14": -10.0
+                }
+            ]
+        },
+        "point": "[-5.0, 2.0, 8.0, 6.0, 0.0, 12.0, 3.0, -7.0, 18.0, -1.0, 5.0, 10.0, -6.0, 4.0, -10.0]"
+    },
+    "9": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Focused Exploration Near Best Performing Area",
+            "rationale": "By exploring within the vicinity of the best performing result from iteration 1, this point aims to fine-tune the configuration for potential improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": 1.0,
+                    "x_2": 12.0,
+                    "x_3": 6.0,
+                    "x_4": -4.0,
+                    "x_5": 14.0,
+                    "x_6": 1.0,
+                    "x_7": -8.0,
+                    "x_8": 19.0,
+                    "x_9": -2.0,
+                    "x_10": 1.5,
+                    "x_11": 11.0,
+                    "x_12": -7.0,
+                    "x_13": 2.0,
+                    "x_14": -14.0
+                }
+            ]
+        },
+        "point": "[-4.0, 1.0, 12.0, 6.0, -4.0, 14.0, 1.0, -8.0, 19.0, -2.0, 1.5, 11.0, -7.0, 2.0, -14.0]"
+    },
+    "10": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploration of Mid-Range Values",
+            "rationale": "Sampling diverse mid-level values may catch sensitivities in the target function that previous iterations overlooked.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 5.0,
+                    "x_2": 0.0,
+                    "x_3": 10.0,
+                    "x_4": -2.0,
+                    "x_5": 8.0,
+                    "x_6": 4.0,
+                    "x_7": -12.0,
+                    "x_8": 15.0,
+                    "x_9": -5.0,
+                    "x_10": 6.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -8.0
+                }
+            ]
+        },
+        "point": "[-10.0, 5.0, 0.0, 10.0, -2.0, 8.0, 4.0, -12.0, 15.0, -5.0, 6.0, 9.0, -4.0, 2.0, -8.0]"
+    },
+    "12": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Refined Mid-Range Configuration",
+            "rationale": "This configuration builds on the successful mid-range values, aiming to fine-tune parameters to discover potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": 3.0,
+                    "x_2": 8.0,
+                    "x_3": 6.5,
+                    "x_4": 1.0,
+                    "x_5": 11.0,
+                    "x_6": 4.0,
+                    "x_7": -6.0,
+                    "x_8": 16.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -9.0
+                }
+            ]
+        },
+        "point": "[-8.0, 3.0, 8.0, 6.5, 1.0, 11.0, 4.0, -6.0, 16.0, -2.0, 5.0, 10.0, -4.0, 3.0, -9.0]"
+    },
+    "13": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Exploring Near Best Performers",
+            "rationale": "Targeting variations near the best-performing settings from iteration 10 may help identify further optimizations in the parameter space.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -6.5,
+                    "x_1": 2.5,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 2.0,
+                    "x_5": 12.0,
+                    "x_6": 5.0,
+                    "x_7": -7.0,
+                    "x_8": 15.0,
+                    "x_9": -1.0,
+                    "x_10": 6.0,
+                    "x_11": 9.5,
+                    "x_12": -3.0,
+                    "x_13": 4.0,
+                    "x_14": -8.0
+                }
+            ]
+        },
+        "point": "[-6.5, 2.5, 7.0, 8.0, 2.0, 12.0, 5.0, -7.0, 15.0, -1.0, 6.0, 9.5, -3.0, 4.0, -8.0]"
+    },
+    "14": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Continued Mid-Range Exploration",
+            "rationale": "Ongoing exploration of mid-range values may uncover sensitivities previously overlooked, promoting a deeper understanding of the underlying function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 4.0,
+                    "x_2": 2.0,
+                    "x_3": 7.0,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 8.5,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-10.0, 4.0, 2.0, 7.0, -1.0, 9.0, 5.0, -5.0, 16.0, -3.0, 5.5, 8.5, -4.0, 1.5, -6.0]"
+    },
+    "18": {
+        "trust_score": 0.7984895490704741,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined Mid-Range Optimization",
+            "rationale": "Focusing on configurations around the observed maximum will help identify potential local maxima for enhanced target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.5,
+                    "x_1": 3.0,
+                    "x_2": 9.0,
+                    "x_3": 6.0,
+                    "x_4": 1.0,
+                    "x_5": 11.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -2.0,
+                    "x_10": 6.0,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-8.5, 3.0, 9.0, 6.0, 1.0, 11.0, 5.0, -5.0, 17.0, -2.0, 6.0, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "19": {
+        "trust_score": 0.7984895490704741,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Near Optimal Configuration",
+            "rationale": "This point is chosen to fine-tune parameters close to previous successful settings around iteration 10, seeking optimized results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -6.0,
+                    "x_1": 2.0,
+                    "x_2": 8.0,
+                    "x_3": 7.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": 4.5,
+                    "x_7": -6.0,
+                    "x_8": 16.0,
+                    "x_9": -2.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -5.0,
+                    "x_13": 2.0,
+                    "x_14": -8.0
+                }
+            ]
+        },
+        "point": "[-6.0, 2.0, 8.0, 7.0, 0.0, 10.0, 4.5, -6.0, 16.0, -2.0, 5.5, 10.0, -5.0, 2.0, -8.0]"
+    },
+    "20": {
+        "trust_score": 0.7984895490704741,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploration of Successful Mid-Range",
+            "rationale": "Focusing on the successful regions previously identified may yield additional insights into local sensitivities within the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 3.5,
+                    "x_2": 6.5,
+                    "x_3": 8.0,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 4.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.5,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 3.5, 6.5, 8.0, 0.0, 9.0, 4.0, -5.0, 15.0, -3.0, 5.0, 9.0, -3.5, 2.0, -6.0]"
+    },
+    "21": {
+        "trust_score": 0.7984895490704741,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Investigate Lower Values",
+            "rationale": "Approaching lower ranges for (x_0) may reveal insights into function behavior at less explored settings, balancing exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -11.0,
+                    "x_1": 1.0,
+                    "x_2": 5.0,
+                    "x_3": 7.0,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -6.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 7.0,
+                    "x_11": 8.5,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-11.0, 1.0, 5.0, 7.0, -1.0, 9.0, 5.0, -6.0, 15.0, -3.0, 7.0, 8.5, -4.0, 1.5, -5.0]"
+    },
+    "25": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Point",
+            "rationale": "Building on the highest target value achieved, this configuration seeks to further refine parameters just around the known optimum.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.0,
+                    "x_2": 6.5,
+                    "x_3": 7.0,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.0, 6.5, 7.0, -1.0, 9.0, 5.0, -5.0, 16.0, -2.0, 5.0, 9.0, -3.0, 2.0, -6.0]"
+    },
+    "26": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploration Close to Best Value",
+            "rationale": "Targeting variations around the best-performing settings from previous iterations may help uncover further local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": 3.0,
+                    "x_2": 8.5,
+                    "x_3": 6.5,
+                    "x_4": 1.0,
+                    "x_5": 11.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -2.0,
+                    "x_10": 6.0,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-8.0, 3.0, 8.5, 6.5, 1.0, 11.0, 5.0, -5.0, 17.0, -2.0, 6.0, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "27": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Investigate Less Explored Mid-Range",
+            "rationale": "This hypothesis aims to further probe mid-range values that haven't been extensively explored previously, as they may yield new insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 2.5,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": 4.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 8.0,
+                    "x_12": -3.5,
+                    "x_13": 2.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-9.5, 2.5, 7.0, 8.0, 0.0, 10.0, 4.0, -5.0, 15.0, -3.0, 5.5, 8.0, -3.5, 2.0, -5.0]"
+    },
+    "28": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "High Value Configurations from Previous Bests",
+            "rationale": "This hypothesis centers on configurations that resulted in previously high values, encouraging exploration around such regions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 5.0,
+                    "x_2": 1.0,
+                    "x_3": 6.0,
+                    "x_4": -1.0,
+                    "x_5": 8.0,
+                    "x_6": 5.0,
+                    "x_7": -6.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 6.0,
+                    "x_11": 9.5,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-10.0, 5.0, 1.0, 6.0, -1.0, 8.0, 5.0, -6.0, 17.0, -1.0, 6.0, 9.5, -3.0, 1.5, -6.0]"
+    },
+    "32": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "This configuration seeks to hone in on previous successful mid-range parameters to discover additional local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.0,
+                    "x_2": 6.5,
+                    "x_3": 7.0,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.0, 6.5, 7.0, 0.0, 9.0, 5.0, -5.0, 16.0, -2.0, 5.0, 9.0, -3.0, 2.0, -6.0]"
+    },
+    "33": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploring Close to Best Value from Iteration 25",
+            "rationale": "Targeting slight variations around the successful settings found in iteration 25 may yield further optimizations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.5,
+                    "x_2": 6.0,
+                    "x_3": 8.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.5,
+                    "x_10": 6.0,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.5, 6.0, 8.0, 1.0, 10.0, 5.0, -5.0, 17.0, -1.5, 6.0, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "34": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Mid-Range Value Diversification",
+            "rationale": "Exploring previously untouched mid-range values may yield new insights and sensitivities in the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.5,
+                    "x_2": 7.0,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 11.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.5, 7.0, 7.5, 0.0, 11.0, 5.0, -5.0, 15.0, -3.0, 5.5, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "35": {
+        "trust_score": 0.8318228824038073,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Investigating Slightly Lower Configurations",
+            "rationale": "Exploring configurations just below the previously explored mid-range may reveal sensitivities and new dynamics in the function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.0,
+                    "x_2": 5.0,
+                    "x_3": 7.0,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 4.0,
+                    "x_7": -4.0,
+                    "x_8": 16.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 8.0,
+                    "x_12": -4.5,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.0, 5.0, 7.0, -1.0, 9.0, 4.0, -4.0, 16.0, -3.0, 5.5, 8.0, -4.5, 1.5, -5.0]"
+    },
+    "37": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Refined Mid-Range Configuration",
+            "rationale": "This configuration aims to fine-tune parameters near previously optimal settings around (x_0 = -9.0, x_1 = 4.0) to enhance target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.0,
+                    "x_2": 6.0,
+                    "x_3": 7.0,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.0, 6.0, 7.0, 0.0, 9.0, 5.0, -5.0, 16.0, -2.0, 5.0, 9.0, -3.0, 2.0, -6.0]"
+    },
+    "38": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Near Optimal Exploration",
+            "rationale": "Focusing on slight variations around the best-performing settings from iteration 25 aims for incremental improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.5,
+                    "x_2": 6.5,
+                    "x_3": 7.5,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 6.0,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.5, 6.5, 7.5, 1.0, 10.0, 5.0, -5.0, 17.0, -1.0, 6.0, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "39": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Diversified Mid-Range Exploration",
+            "rationale": "This hypothesis seeks configurations within the previously unexplored mid-range that may reveal new insights into the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.0,
+                    "x_2": 7.0,
+                    "x_3": 7.0,
+                    "x_4": 0.0,
+                    "x_5": 11.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.0, 7.0, 7.0, 0.0, 11.0, 5.0, -5.0, 15.0, -3.0, 5.5, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "40": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Investigate Lower Bound Configurations",
+            "rationale": "Exploring configurations slightly closer to lower ranges may help identify new sensitivities in the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.0,
+                    "x_2": 5.0,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -6.0,
+                    "x_8": 15.0,
+                    "x_9": -4.0,
+                    "x_10": 5.0,
+                    "x_11": 8.0,
+                    "x_12": -4.5,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.0, 5.0, 6.5, -1.0, 9.0, 5.0, -6.0, 15.0, -4.0, 5.0, 8.0, -4.5, 1.5, -5.0]"
+    },
+    "42": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Refined Mid-Range Configuration",
+            "rationale": "This configuration seeks to fine-tune parameters based on previous high-performance settings, aiming to capture potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.0,
+                    "x_2": 6.5,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.5,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.0, 6.5, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.5, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "43": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Slight Variation from Best Performers",
+            "rationale": "Exploring minor adjustments around configurations previously associated with the highest outputs may yield additional insights into local optimums.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.5,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": -1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.5, 7.0, 8.0, -1.0, 10.0, 5.0, -5.0, 16.0, -1.0, 5.5, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "44": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Diversified Mid-Range Exploration",
+            "rationale": "Investigating a variety of mid-range configurations that have not been extensively explored may uncover sensitivities in the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.5,
+                    "x_2": 7.5,
+                    "x_3": 7.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 9.0,
+                    "x_12": -3.5,
+                    "x_13": 2.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.5, 7.5, 7.0, 0.0, 10.0, 5.0, -5.0, 15.0, -3.0, 5.5, 9.0, -3.5, 2.0, -5.0]"
+    },
+    "45": {
+        "trust_score": 1.0,
+        "plateau_duration": 0,
+        "hypothesis": {
+            "name": "Investigate Low Bound Parameters",
+            "rationale": "Exploring configurations at the lower bounds may provide new insights into the function's behavior and potential interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.5,
+                    "x_2": 5.5,
+                    "x_3": 7.0,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.5,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.5, 5.5, 7.0, -1.0, 9.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -4.5, 1.5, -5.0]"
+    },
+    "49": {
+        "trust_score": 0.8214984872103116,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined Mid-Range Optimization",
+            "rationale": "This hypothesis focuses on fine-tuning parameters near the previously highest target outputs, particularly around configurations yielding best results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.5,
+                    "x_2": 6.5,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.5, 6.5, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.0, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "50": {
+        "trust_score": 0.8214984872103116,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploration of Nearby Optimals",
+            "rationale": "Targeting slight variations around configurations from iteration 37 may help identify incremental improvements in maximizing the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.0,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.5,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.0, 7.0, 8.0, 1.0, 10.0, 5.5, -5.0, 17.0, -1.0, 5.5, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "51": {
+        "trust_score": 0.8214984872103116,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Investigation of Mid-Range Configurations",
+            "rationale": "By exploring mid-range values that haven't been extensively tested, we aim to uncover potential sensitivities in the underlying function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 4.0,
+                    "x_2": 6.2,
+                    "x_3": 7.4,
+                    "x_4": 0.5,
+                    "x_5": 10.5,
+                    "x_6": 4.8,
+                    "x_7": -4.5,
+                    "x_8": 15.5,
+                    "x_9": -2.0,
+                    "x_10": 5.2,
+                    "x_11": 9.2,
+                    "x_12": -3.0,
+                    "x_13": 2.5,
+                    "x_14": -5.5
+                }
+            ]
+        },
+        "point": "[-10.5, 4.0, 6.2, 7.4, 0.5, 10.5, 4.8, -4.5, 15.5, -2.0, 5.2, 9.2, -3.0, 2.5, -5.5]"
+    },
+    "52": {
+        "trust_score": 0.8214984872103116,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Explore Lower Bound Configurations",
+            "rationale": "Investigating configurations at the lower bounds may provide new insights into the function's behavior and potential interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.5,
+                    "x_2": 5.5,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.5,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.5, 5.5, 6.5, -1.0, 9.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -4.5, 1.5, -5.0]"
+    },
+    "59": {
+        "trust_score": 0.642829000478879,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Optimization",
+            "rationale": "Refining parameters around previously successful configurations that yielded high targets will help identify additional local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.5,
+                    "x_2": 6.8,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.5,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.5, 6.8, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.5, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "60": {
+        "trust_score": 0.642829000478879,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Adjustments Near Best Configuration",
+            "rationale": "Targeting minor variations around the best-performing settings from iteration 37 could yield incremental improvements in maximizing the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.0,
+                    "x_2": 7.0,
+                    "x_3": 7.5,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.5,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.0, 7.0, 7.5, 1.0, 10.0, 5.5, -5.0, 17.0, -1.0, 5.5, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "61": {
+        "trust_score": 0.642829000478879,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Investigation of Untested Mid-Range Values",
+            "rationale": "Exploring mid-range configurations that have not been extensively tested may unveil new sensitivities in the underlying function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 3.0,
+                    "x_2": 8.0,
+                    "x_3": 7.0,
+                    "x_4": 0.5,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 3.0, 8.0, 7.0, 0.5, 10.0, 5.0, -5.0, 15.0, -3.0, 5.0, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "62": {
+        "trust_score": 0.642829000478879,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Investigate Lower Bound Configurations",
+            "rationale": "Exploring parameter configurations near the lower bounds could provide insights into potential interactions and underlying dynamics.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -11.0,
+                    "x_1": 2.5,
+                    "x_2": 5.5,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-11.0, 2.5, 5.5, 6.5, -1.0, 9.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -4.0, 1.5, -5.0]"
+    },
+    "69": {
+        "trust_score": 0.4636917166287433,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Optimization",
+            "rationale": "By fine-tuning parameters around previously successful configurations, this hypothesis aims to capture additional local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.5,
+                    "x_2": 6.8,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.5, 6.8, 7.5, 0.0, 9.0, 5.0, -5.0, 17.0, -1.0, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "70": {
+        "trust_score": 0.4636917166287433,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variations Near Best Configuration",
+            "rationale": "Exploring minor adjustments around the high-performing settings from iteration 37 could yield incremental improvements in target maximization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.2,
+                    "x_2": 6.5,
+                    "x_3": 7.0,
+                    "x_4": 0.5,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.3,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.2, 6.5, 7.0, 0.5, 10.0, 5.0, -5.0, 17.0, -1.0, 5.3, 10.0, -4.0, 3.0, -6.0]"
+    },
+    "71": {
+        "trust_score": 0.4636917166287433,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Mid-Range Exploration",
+            "rationale": "Investigating previously untested mid-range configurations may reveal new sensitivities and insights into the target function's behavior.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.0,
+                    "x_2": 8.0,
+                    "x_3": 7.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 4.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.0, 8.0, 7.0, 1.0, 10.0, 4.0, -5.0, 15.0, -3.0, 5.0, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "72": {
+        "trust_score": 0.4636917166287433,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Lower Bound Investigations",
+            "rationale": "Exploring configurations near the lower bounds may provide insights into potential interactions and the underlying dynamics of the function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.5,
+                    "x_2": 5.5,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.5,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.5, 5.5, 6.5, -1.0, 9.0, 5.0, -5.0, 15.0, -3.0, 5.5, 9.0, -4.0, 1.5, -5.0]"
+    },
+    "79": {
+        "trust_score": 0.4707521826437882,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Mid-Range Optimization",
+            "rationale": "Targeting configurations around previously high-performing parameters to identify potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.5,
+                    "x_1": 4.2,
+                    "x_2": 6.7,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.5,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-8.5, 4.2, 6.7, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.5, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "80": {
+        "trust_score": 0.4707521826437882,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variation Near Best Configuration",
+            "rationale": "Exploring slight adjustments around the best-performing settings from iteration 37 to maximize the target function.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.2,
+                    "x_2": 6.5,
+                    "x_3": 7.0,
+                    "x_4": 0.5,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.2, 6.5, 7.0, 0.5, 10.0, 5.0, -5.0, 17.0, -1.0, 5.5, 10.0, -4.0, 3.0, -6.0]"
+    },
+    "81": {
+        "trust_score": 0.4707521826437882,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Untested Mid-Range Values",
+            "rationale": "Investigating mid-range configurations that have not undergone extensive testing may reveal new sensitivities in the function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.5,
+                    "x_2": 8.0,
+                    "x_3": 7.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -3.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.5, 8.0, 7.0, 1.0, 10.0, 5.0, -5.0, 15.0, -3.0, 5.0, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "82": {
+        "trust_score": 0.4707521826437882,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Investigation of Lower Boundary Configurations",
+            "rationale": "Exploring configurations near lower bounds might provide insights into interactions that have yet to be observed.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.0,
+                    "x_2": 5.0,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.0, 5.0, 6.5, -1.0, 9.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -4.0, 1.5, -5.0]"
+    },
+    "89": {
+        "trust_score": 0.47410383787595345,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Configuration",
+            "rationale": "Fine-tuning parameters near previously identified local maxima aims to capture additional performance benefits.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.5,
+                    "x_2": 6.8,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.5,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.5, 6.8, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.5, 5.0, 9.0, -4.0, 2.0, -7.0]"
+    },
+    "90": {
+        "trust_score": 0.47410383787595345,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variation Near Best Configuration",
+            "rationale": "Exploring slight adjustments around the best-performing settings from iteration 37 could yield incremental improvements in maximizing the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.2,
+                    "x_2": 6.6,
+                    "x_3": 7.2,
+                    "x_4": 0.3,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -4.5,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.2, 6.6, 7.2, 0.3, 10.0, 5.0, -4.5, 17.0, -1.0, 5.5, 10.0, -4.0, 3.0, -6.0]"
+    },
+    "91": {
+        "trust_score": 0.47410383787595345,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Investigation of Untested Mid-Range Values",
+            "rationale": "Focusing on mid-range configurations that have not undergone intensive testing may expose new sensitivities and improve understanding of the function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.5,
+                    "x_2": 8.5,
+                    "x_3": 7.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -4.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -2.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.5, 8.5, 7.0, 1.0, 10.0, 5.0, -4.0, 15.0, -2.0, 5.0, 9.0, -2.0, 1.5, -5.0]"
+    },
+    "92": {
+        "trust_score": 0.47410383787595345,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Lower Boundary Configurations",
+            "rationale": "Investigating configurations near lower bounds might provide insights into interactions not previously observed.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.5,
+                    "x_1": 2.0,
+                    "x_2": 5.5,
+                    "x_3": 6.5,
+                    "x_4": -1.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.5, 2.0, 5.5, 6.5, -1.0, 9.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -4.0, 1.5, -5.0]"
+    },
+    "99": {
+        "trust_score": 0.4750156184346889,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Refinement",
+            "rationale": "Building on the previously successful parameters, this configuration aims to discover additional local maxima through fine-tuning.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.0,
+                    "x_1": 4.5,
+                    "x_2": 6.5,
+                    "x_3": 7.5,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 16.0,
+                    "x_9": -1.5,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -4.0,
+                    "x_13": 2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-9.0, 4.5, 6.5, 7.5, 0.0, 9.0, 5.0, -5.0, 16.0, -1.5, 5.0, 9.0, -4.0, 2.0, -6.0]"
+    },
+    "100": {
+        "trust_score": 0.4750156184346889,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variation Near Best Configuration",
+            "rationale": "Exploring slight adjustments around the best-performing settings from iteration 37 may yield incremental improvements in maximizing the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": 4.2,
+                    "x_2": 6.6,
+                    "x_3": 7.0,
+                    "x_4": 0.5,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 17.0,
+                    "x_9": -1.0,
+                    "x_10": 5.5,
+                    "x_11": 10.0,
+                    "x_12": -4.0,
+                    "x_13": 3.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-9.5, 4.2, 6.6, 7.0, 0.5, 10.0, 5.0, -5.0, 17.0, -1.0, 5.5, 10.0, -4.0, 3.0, -7.0]"
+    },
+    "101": {
+        "trust_score": 0.4750156184346889,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Investigation of Untested Mid-Range Values",
+            "rationale": "This hypothesis explores mid-range configurations that have not undergone extensive testing, potentially revealing new sensitivities related to the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 3.5,
+                    "x_2": 8.0,
+                    "x_3": 7.0,
+                    "x_4": 1.0,
+                    "x_5": 10.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 15.0,
+                    "x_9": -2.0,
+                    "x_10": 5.0,
+                    "x_11": 9.0,
+                    "x_12": -3.0,
+                    "x_13": 1.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-10.0, 3.5, 8.0, 7.0, 1.0, 10.0, 5.0, -5.0, 15.0, -2.0, 5.0, 9.0, -3.0, 1.5, -5.0]"
+    },
+    "102": {
+        "trust_score": 0.4750156184346889,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Explore Lower Boundary Configurations",
+            "rationale": "Investigating parameter configurations near the lower bounds may provide insights into function behavior and potential interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.7,
+                    "x_1": 3.0,
+                    "x_2": 6.2,
+                    "x_3": 7.4,
+                    "x_4": -1.5,
+                    "x_5": 8.5,
+                    "x_6": 4.5,
+                    "x_7": -5.5,
+                    "x_8": 15.5,
+                    "x_9": -2.5,
+                    "x_10": 5.2,
+                    "x_11": 8.8,
+                    "x_12": -4.2,
+                    "x_13": 1.5,
+                    "x_14": -5.5
+                }
+            ]
+        },
+        "point": "[-10.7, 3.0, 6.2, 7.4, -1.5, 8.5, 4.5, -5.5, 15.5, -2.5, 5.2, 8.8, -4.2, 1.5, -5.5]"
+    }
+}

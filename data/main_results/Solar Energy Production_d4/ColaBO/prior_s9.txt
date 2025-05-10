@@ -1,0 +1,10 @@
+{
+    "rationale": "To maximize solar energy production, the tilt angle should ideally be set to the latitude of the location where the panel is installed, adjusted for seasonal change. A tilt of around 30° is commonly effective for a range of latitudes. The azimuth angle should be set to south (around 180°) to maximize sunlight exposure during the day. A system capacity around 10 kW is considered optimal for home installations, providing a balance between size and efficiency. A DC to AC ratio of about 1.2 is typical, allowing for optimal energy harvesting without significant losses.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.2
+    }
+}

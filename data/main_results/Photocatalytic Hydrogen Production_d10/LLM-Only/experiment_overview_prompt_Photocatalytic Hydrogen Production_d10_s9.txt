@@ -1,0 +1,22 @@
+You are about to start experiments to find the best parameter settings maximizing Hydrogen Evolution Rate (Âµmol/h).
+
+**Experiment Overview:**
+The experiment is about maximizing the rate of hydrogen production from a photocatalyst mixture of different chemicals in water. The mixture is exposed to ultraviolet and visible light to generate hydrogen, and the amount produced is measured using gas chromatography. The goal is to enhance the hydrogen evolution rate (HER) through modifying the quantity of the chemicals such as adjustments to pH, ionic strength, addition of dyes and surfactants and so on, in the mixture.
+
+**Optimization Parameters:**
+The experiment design space is defined by the parameters below, including their bounds and any relevant constraints:
+- AcidRed871_0gL: A dye that could be used as a photosensitizer or to study dye degradation efficiency under photocatalytic conditions. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- L-Cysteine-100gL: An amino acid that can act as a hole scavenger in photocatalytic processes, potentially enhancing hydrogen production by improving charge separation efficiency. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- MethyleneB_250mgL: Methylene blue dye. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- NaCl-3M: Sodium chloride. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- NaOH-1M: Sodium hydroxide. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- P10-MIX1: A photocatalyst that is a conjugated polymer and shows good Hydrogen Evolution Rate. This parameter bounds are (1, 5). Its discretization step size is 0.2.
+- PVP-1wt: Polyvinylpyrrolidone. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- RhodamineB1_0gL: Rhodamine dye. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- SDS-1wt: Sodium dodecyl sulphate. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+- Sodiumsilicate-1wt: Sodium silicate. This parameter bounds are (0, 5). Its discretization step size is 0.25.
+
+The constraint of the experiment is that the sum of all parameters excluding P10-MIX1 should not exceed 5 to fit inside the vial.
+
+**Task**
+First, in approximately 200 words, provide a clear and concise overview of this experiment. Summarize the experimental goal, describe the parameters and eventual constraints that will guide the optimization process, and explain the intended outcome.

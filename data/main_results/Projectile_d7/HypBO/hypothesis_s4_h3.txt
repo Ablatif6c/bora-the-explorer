@@ -1,0 +1,14 @@
+{
+    "name": "Targeted Launch Configuration",
+    "rationale": "For maximizing the score while aiming for a target located at (50, 0), a pitch angle of 35° offers a good trade-off for distance and height, as it allows the projectile to travel far while preventing it from going too high. Keeping the yaw at 0° ensures a direct throw towards the target. An initial velocity of 38 m/s provides sufficient speed to reach the target without overshooting. A spin rate of 800 rpm helps stabilize the projectile path while minimizing drag. A launch height of 0.8 m can optimize the initial conditions for the projectile's flight. A mass of 1 kg is ideal for achieving a balance between propulsion and aerodynamic effects.",
+    "confidence": "0.72",
+    "optimum_location": {
+        "pitch_deg": 35,
+        "yaw_deg": 0,
+        "v0": 38,
+        "spin_rpm": 800,
+        "spin_axis_deg": 0,
+        "h0": 0.8,
+        "mass": 1
+    }
+}

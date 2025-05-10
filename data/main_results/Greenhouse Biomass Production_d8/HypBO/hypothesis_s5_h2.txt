@@ -1,0 +1,17 @@
+```
+{
+    "name": "Optimized Greenhouse Conditions for Sugar Beet",
+    "rationale": "This configuration focuses on maximizing light availability and maintaining ideal temperature ranges for sugar beet, while also ensuring adequate water retention in the soil profile. The selected wind and rain values minimize plant stress, creating an environment conducive to high biomass production.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "irrad": 7800,
+        "tmin": 12,
+        "tmax": 26,
+        "vap": 6,
+        "wind": 0.8,
+        "rain": 2,
+        "wav": 75,
+        "SMLIM": 0.85
+    }
+}
+```

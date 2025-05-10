@@ -1,0 +1,14 @@
+{
+    "name": "High-Performance Launch Configuration",
+    "rationale": "To achieve maximum accuracy in hitting the target at (50, 0), a pitch angle of 50 degrees can provide a good balance between vertical height and horizontal distance. A yaw angle of 0 degrees remains optimal as it aims directly at the target. An initial velocity of 45 m/s allows the projectile to cover the range efficiently while compensating for the vertical component. A moderate mass (around 2 kg) helps in maintaining the projectile's stability during flight, and a release height of 1.5 meters can improve initial conditions for launch dynamics. Spin can be minimal as it may not significantly influence the direct hit on the target in this scenario.",
+    "confidence": "0.80",
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 45,
+        "spin_rpm": 100,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 2
+    }
+}

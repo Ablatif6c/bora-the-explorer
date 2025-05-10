@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Extreme Negative Bound Exploration",
+            "rationale": "This hypothesis targets the boundary at the extreme negative values, which can often provide insights into the behavior of the function near constraints.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -30,
+                    "x_2": -30,
+                    "x_3": -30,
+                    "x_4": -30,
+                    "x_5": -30,
+                    "x_6": -30,
+                    "x_7": -30,
+                    "x_8": -30,
+                    "x_9": -30,
+                    "x_10": -30,
+                    "x_11": -30,
+                    "x_12": -30,
+                    "x_13": -30,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Mid-Space Sampling",
+            "rationale": "Exploring a mid-range configuration may reveal standard behavior of the function across typical parameters, offering a baseline understanding.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -10,
+                    "x_5": 15,
+                    "x_6": -5,
+                    "x_7": 5,
+                    "x_8": -10,
+                    "x_9": 10,
+                    "x_10": 5,
+                    "x_11": 0,
+                    "x_12": -5,
+                    "x_13": 10,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, 10, -10, 15, -5, 5, -10, 10, 5, 0, -5, 10, 0]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Positive Extremes and Neutral Mix",
+            "rationale": "By combining maximum values for some parameters with neutral values for others, we can investigate potential oppositional effects on the function output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": -5,
+                    "x_6": -10,
+                    "x_7": -15,
+                    "x_8": -20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": -20,
+                    "x_12": -10,
+                    "x_13": 20,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[20, 15, 10, 5, 0, -5, -10, -15, -20, 20, 20, -20, -10, 20, 0]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Balanced Positive Configuration",
+            "rationale": "This configuration seeks to assess the behavior of the function with evenly distributed values towards the positive range, potentially leading to an optimal output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 10,
+                    "x_4": 5,
+                    "x_5": 10,
+                    "x_6": 15,
+                    "x_7": 0,
+                    "x_8": -5,
+                    "x_9": 5,
+                    "x_10": 10,
+                    "x_11": 15,
+                    "x_12": 10,
+                    "x_13": 15,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[15, 10, 15, 10, 5, 10, 15, 0, -5, 5, 10, 15, 10, 15, 5]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Diverse Parameter Extremes",
+            "rationale": "Exploring various combinations of maximum and minimum values will help to identify how extreme parameter settings affect overall performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": -30,
+                    "x_2": 20,
+                    "x_3": -30,
+                    "x_4": 20,
+                    "x_5": -30,
+                    "x_6": 20,
+                    "x_7": -30,
+                    "x_8": 20,
+                    "x_9": -30,
+                    "x_10": 20,
+                    "x_11": -30,
+                    "x_12": 20,
+                    "x_13": -30,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Optimized Mid-Space Mixing",
+            "rationale": "Adjusting the parameters in the mid-space to find optimal combinations may lead to further improvements based on the previous highest-performing hypothesis.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 3,
+                    "x_2": 6,
+                    "x_3": 9,
+                    "x_4": -8,
+                    "x_5": 14,
+                    "x_6": -3,
+                    "x_7": 7,
+                    "x_8": -7,
+                    "x_9": 8,
+                    "x_10": 7,
+                    "x_11": 2,
+                    "x_12": -4,
+                    "x_13": 9,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-2, 3, 6, 9, -8, 14, -3, 7, -7, 8, 7, 2, -4, 9, 1]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Further Enhanced Balanced Configuration",
+            "rationale": "Exploring configurations that continue to blend positive and neutral values could help identify further optimal outputs, leveraging previously tested successful values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 5,
+                    "x_2": 20,
+                    "x_3": 15,
+                    "x_4": 5,
+                    "x_5": -5,
+                    "x_6": 10,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 10,
+                    "x_10": 5,
+                    "x_11": 15,
+                    "x_12": 10,
+                    "x_13": 15,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 5, 20, 15, 5, -5, 10, 0, 0, 10, 5, 15, 10, 15, 10]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Moderate-Space and High Values Integration",
+            "rationale": "Utilizing a configuration that maximizes some parameters while moderating others can help to clarify beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 10,
+                    "x_2": 20,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -10,
+                    "x_7": 5,
+                    "x_8": -5,
+                    "x_9": 20,
+                    "x_10": 10,
+                    "x_11": 0,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[15, 10, 20, 5, 0, 10, -10, 5, -5, 20, 10, 0, 5, 10, 5]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Diverse Configuration Exploration",
+            "rationale": "Testing combinations that explore diverse parameter settings can illuminate interactions that may be beneficial or detrimental.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15,
+                    "x_1": 20,
+                    "x_2": -10,
+                    "x_3": 15,
+                    "x_4": -20,
+                    "x_5": 20,
+                    "x_6": -5,
+                    "x_7": 10,
+                    "x_8": 20,
+                    "x_9": -10,
+                    "x_10": 10,
+                    "x_11": -15,
+                    "x_12": 20,
+                    "x_13": -10,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-15, 20, -10, 15, -20, 20, -5, 10, 20, -10, 10, -15, 20, -10, 0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Optimized Mid-Space Refinement",
+            "rationale": "Refining mid-range values further based on previous successful results, focusing on maintaining balanced yet slightly optimistic settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": 7,
+                    "x_3": 8,
+                    "x_4": -6,
+                    "x_5": 12,
+                    "x_6": -1,
+                    "x_7": 6,
+                    "x_8": -6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 1,
+                    "x_12": -3,
+                    "x_13": 8,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 2, 7, 8, -6, 12, -1, 6, -6, 7, 6, 1, -3, 8, 2]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Enhanced Balanced Sampling",
+            "rationale": "Blending slightly higher positive values while keeping some neutral entries based on the previous successful balanced configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 4,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 0,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 12,
+                    "x_12": 9,
+                    "x_13": 14,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[8, 4, 15, 12, 4, 0, 10, 2, 1, 8, 6, 12, 9, 14, 7]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Moderate-High Integration with Focus",
+            "rationale": "Formulating configurations that exploit optimal medial values while emphasizing some high parameters can elucidate beneficial pairings.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 9,
+                    "x_2": 18,
+                    "x_3": 7,
+                    "x_4": 1,
+                    "x_5": 8,
+                    "x_6": -8,
+                    "x_7": 5,
+                    "x_8": -2,
+                    "x_9": 19,
+                    "x_10": 11,
+                    "x_11": 3,
+                    "x_12": 4,
+                    "x_13": 9,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[15, 9, 18, 7, 1, 8, -8, 5, -2, 19, 11, 3, 4, 9, 6]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Adjacent Parameter Space Exploration",
+            "rationale": "Experimenting with parameters that are closely grouped to see how small changes impact the outcome and discover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 17,
+                    "x_2": 0,
+                    "x_3": 12,
+                    "x_4": -5,
+                    "x_5": 15,
+                    "x_6": 5,
+                    "x_7": 8,
+                    "x_8": 18,
+                    "x_9": -5,
+                    "x_10": 8,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 15,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[0, 17, 0, 12, -5, 15, 5, 8, 18, -5, 8, 1, 7, 15, 4]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Refined Mid-Space Configuration",
+            "rationale": "Continuing to explore mid-range values with slight adjustments based on the success of previous configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 6,
+                    "x_2": 8,
+                    "x_3": 7,
+                    "x_4": -5,
+                    "x_5": 11,
+                    "x_6": 0,
+                    "x_7": 7,
+                    "x_8": -3,
+                    "x_9": 8,
+                    "x_10": 5,
+                    "x_11": 1,
+                    "x_12": -2,
+                    "x_13": 9,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-1, 6, 8, 7, -5, 11, 0, 7, -3, 8, 5, 1, -2, 9, 3]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Enhanced Positive and Neutral Configuration",
+            "rationale": "Blending slightly higher positive values while incorporating neutral parameters to capture beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 5,
+                    "x_2": 16,
+                    "x_3": 13,
+                    "x_4": 6,
+                    "x_5": 0,
+                    "x_6": 9,
+                    "x_7": 3,
+                    "x_8": 0,
+                    "x_9": 9,
+                    "x_10": 7,
+                    "x_11": 14,
+                    "x_12": 10,
+                    "x_13": 12,
+                    "x_14": 8
+                }
+            ]
+        },
+        "point": "[9, 5, 16, 13, 6, 0, 9, 3, 0, 9, 7, 14, 10, 12, 8]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "High Positive and Moderate Mix",
+            "rationale": "Utilizing high positive values for key parameters alongside moderate ones to maximize beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 10,
+                    "x_2": 20,
+                    "x_3": 6,
+                    "x_4": 1,
+                    "x_5": 9,
+                    "x_6": -6,
+                    "x_7": 4,
+                    "x_8": -1,
+                    "x_9": 19,
+                    "x_10": 12,
+                    "x_11": 4,
+                    "x_12": 4,
+                    "x_13": 10,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[18, 10, 20, 6, 1, 9, -6, 4, -1, 19, 12, 4, 4, 10, 7]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Adjacent Parameter Tweaking",
+            "rationale": "Experimenting with closely grouped parameters to explore how small fluctuations affect the outcome.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 18,
+                    "x_2": 1,
+                    "x_3": 11,
+                    "x_4": -4,
+                    "x_5": 14,
+                    "x_6": 4,
+                    "x_7": 9,
+                    "x_8": 17,
+                    "x_9": 0,
+                    "x_10": 9,
+                    "x_11": 2,
+                    "x_12": 6,
+                    "x_13": 14,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[1, 18, 1, 11, -4, 14, 4, 9, 17, 0, 9, 2, 6, 14, 5]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Refined Positive Mid-Range Exploration",
+            "rationale": "This hypothesis explores values that are primarily positive yet modest, building on the successful runs that highlighted mid-space effectiveness.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 5,
+                    "x_2": 10,
+                    "x_3": 9,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 1,
+                    "x_7": 4,
+                    "x_8": 9,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 0,
+                    "x_12": 4,
+                    "x_13": 10,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 5, 10, 9, 3, 8, 1, 4, 9, 7, 6, 0, 4, 10, 2]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Balanced Positive Configuration",
+            "rationale": "Building on previous findings, this hypothesis blends slightly elevated positive values with some neutral entries to sustain performance while capturing interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 3,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 11,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 15, 12, 5, 1, 10, 2, 3, 11, 8, 14, 9, 11, 7]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Adjacent and Slight Variations",
+            "rationale": "This configuration tests minor adjustments within previously successful parameters to dig deeper into where effectiveness lies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 16,
+                    "x_2": 2,
+                    "x_3": 11,
+                    "x_4": -4,
+                    "x_5": 13,
+                    "x_6": 5,
+                    "x_7": 10,
+                    "x_8": 16,
+                    "x_9": -2,
+                    "x_10": 10,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": 15,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[2, 16, 2, 11, -4, 13, 5, 10, 16, -2, 10, 2, 5, 15, 5]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Expanded Moderate Configurations",
+            "rationale": "This hypothesis seeks to test broader ranges around the previously successful regions while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 12,
+                    "x_2": 10,
+                    "x_3": 8,
+                    "x_4": 2,
+                    "x_5": 5,
+                    "x_6": 8,
+                    "x_7": 3,
+                    "x_8": 7,
+                    "x_9": 14,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 7,
+                    "x_13": 13,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[5, 12, 10, 8, 2, 5, 8, 3, 7, 14, 6, 3, 7, 13, 6]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Refined Mid-Positive Configuration",
+            "rationale": "Targeting a balanced mix of high and mid positive values while keeping some parameters neutral to explore effective configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 6,
+                    "x_2": 10,
+                    "x_3": 9,
+                    "x_4": 2,
+                    "x_5": 7,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 7,
+                    "x_10": 5,
+                    "x_11": 2,
+                    "x_12": 4,
+                    "x_13": 11,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[3, 6, 10, 9, 2, 7, 0, 5, 8, 7, 5, 2, 4, 11, 3]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Balanced Positive Exploration",
+            "rationale": "Blending positive values while exploring slight variations could solve for beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 14,
+                    "x_3": 13,
+                    "x_4": 4,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 4,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 14, 13, 4, 1, 10, 2, 4, 10, 7, 13, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Moderate-High Shift",
+            "rationale": "Integrating parameters toward the higher persistent values from successful ranges could yield unforeseen advantages.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 8,
+                    "x_2": 20,
+                    "x_3": 9,
+                    "x_4": 1,
+                    "x_5": 8,
+                    "x_6": -5,
+                    "x_7": 5,
+                    "x_8": 0,
+                    "x_9": 19,
+                    "x_10": 10,
+                    "x_11": 4,
+                    "x_12": 3,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[15, 8, 20, 9, 1, 8, -5, 5, 0, 19, 10, 4, 3, 11, 6]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Adjacent Value Exploration",
+            "rationale": "Experimenting with parameters stacked in ranges that yielded success in previous iterations to reveal more beneficial configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 15,
+                    "x_2": 3,
+                    "x_3": 12,
+                    "x_4": -3,
+                    "x_5": 13,
+                    "x_6": 5,
+                    "x_7": 9,
+                    "x_8": 15,
+                    "x_9": 1,
+                    "x_10": 8,
+                    "x_11": 2,
+                    "x_12": 6,
+                    "x_13": 14,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[1, 15, 3, 12, -3, 13, 5, 9, 15, 1, 8, 2, 6, 14, 5]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Refined Mid-Positive Configuration",
+            "rationale": "This hypothesis explores primarily positive but moderate values, building on successful configurations to further maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 7,
+                    "x_2": 12,
+                    "x_3": 10,
+                    "x_4": 2,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 1,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[4, 7, 12, 10, 2, 9, 1, 6, 10, 8, 6, 1, 5, 10, 4]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Enhanced Balanced Configuration",
+            "rationale": "Blending slightly higher positive values while incorporating neutral and moderate parameters to sustain performance and capture interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 4,
+                    "x_2": 14,
+                    "x_3": 11,
+                    "x_4": 3,
+                    "x_5": 2,
+                    "x_6": 9,
+                    "x_7": 2,
+                    "x_8": 5,
+                    "x_9": 8,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 4, 14, 11, 3, 2, 9, 2, 5, 8, 7, 13, 8, 12, 5]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Moderate-High Integration",
+            "rationale": "Using moderate-high values throughout key parameters to explore beneficial interactions while avoiding potential extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 16,
+                    "x_1": 7,
+                    "x_2": 19,
+                    "x_3": 8,
+                    "x_4": 2,
+                    "x_5": 10,
+                    "x_6": -4,
+                    "x_7": 6,
+                    "x_8": 1,
+                    "x_9": 17,
+                    "x_10": 9,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[16, 7, 19, 8, 2, 10, -4, 6, 1, 17, 9, 5, 6, 10, 5]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Adjacent Value Exploration",
+            "rationale": "Testing configuration variations based on closely grouped parameters to discern effective patterns within successful ranges.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 12,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -2,
+                    "x_5": 11,
+                    "x_6": 6,
+                    "x_7": 8,
+                    "x_8": 13,
+                    "x_9": 0,
+                    "x_10": 7,
+                    "x_11": 3,
+                    "x_12": 6,
+                    "x_13": 15,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[2, 12, 5, 10, -2, 11, 6, 8, 13, 0, 7, 3, 6, 15, 4]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Refined Mid-Positive Configuration Update",
+            "rationale": "Building on successful outcomes, this hypothesis targets predominantly positive moderate values with slight modifications.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 7,
+                    "x_2": 11,
+                    "x_3": 9,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[4, 7, 11, 9, 4, 8, 2, 5, 10, 8, 6, 3, 5, 10, 3]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Enhanced Balanced Positive Exploration",
+            "rationale": "This hypothesis involves blending slightly higher positive configurations with reduced neutral entries to discover beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 15,
+                    "x_3": 13,
+                    "x_4": 5,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 6, 15, 13, 5, 1, 10, 2, 5, 10, 7, 13, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Moderate-High Integration with New Values",
+            "rationale": "Focusing on integrating higher persistent values while retaining moderate parameters to explore interactions that potentially enhance outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 9,
+                    "x_2": 20,
+                    "x_3": 10,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 2,
+                    "x_9": 18,
+                    "x_10": 10,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[15, 9, 20, 10, 3, 9, 0, 5, 2, 18, 10, 5, 6, 11, 6]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Adjacent and Incremental Adjustments",
+            "rationale": "Testing slight variations around previously successful mid-range values to identify synergistic effects that could lead to improved target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 15,
+                    "x_2": 5,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 11,
+                    "x_6": 5,
+                    "x_7": 8,
+                    "x_8": 14,
+                    "x_9": 1,
+                    "x_10": 9,
+                    "x_11": 2,
+                    "x_12": 6,
+                    "x_13": 15,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[3, 15, 5, 12, 0, 11, 5, 8, 14, 1, 9, 2, 6, 15, 5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Refined Mid-Positive Configuration",
+            "rationale": "This hypothesis seeks to maintain a balanced approach by incorporating predominantly positive moderate values, building on effective configurations from previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 9,
+                    "x_2": 13,
+                    "x_3": 10,
+                    "x_4": 2,
+                    "x_5": 8,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[5, 9, 13, 10, 2, 8, 1, 5, 10, 7, 6, 3, 5, 10, 4]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Enhanced Balanced Configuration",
+            "rationale": "This configuration blends slightly elevated positive values with some neutral entries to sustain performance while capturing interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 5,
+                    "x_9": 9,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 16, 12, 4, 1, 10, 2, 5, 9, 8, 14, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Moderate-High Value Exploration",
+            "rationale": "Focusing on integrating higher values for key parameters while maintaining moderate levels across others to explore possible synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 9,
+                    "x_2": 20,
+                    "x_3": 10,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 0,
+                    "x_7": 6,
+                    "x_8": 1,
+                    "x_9": 19,
+                    "x_10": 10,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 9, 20, 10, 3, 8, 0, 6, 1, 19, 10, 5, 6, 11, 6]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Subtle Parameter Adjustments",
+            "rationale": "Making slight tweaks around successful values to explore potential synergies and facilitate better outcomes across configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 15,
+                    "x_2": 5,
+                    "x_3": 12,
+                    "x_4": 1,
+                    "x_5": 11,
+                    "x_6": 6,
+                    "x_7": 8,
+                    "x_8": 14,
+                    "x_9": 2,
+                    "x_10": 9,
+                    "x_11": 2,
+                    "x_12": 6,
+                    "x_13": 15,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 15, 5, 12, 1, 11, 6, 8, 14, 2, 9, 2, 6, 15, 5]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Balanced Positive Mid-Range Configuration",
+            "rationale": "This hypothesis focuses on a configuration predominantly featuring moderate positive values, aiming to build on previous successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 14,
+                    "x_3": 11,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 0,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 5,
+                    "x_13": 12,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 7, 14, 11, 3, 8, 0, 6, 10, 8, 6, 3, 5, 12, 5]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Moderate Gradient Configuration",
+            "rationale": "Utilizing a gradient of primarily moderate values to explore beneficial interactions among parameters, anticipating synergy.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 8,
+                    "x_2": 13,
+                    "x_3": 10,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 2,
+                    "x_12": 8,
+                    "x_13": 11,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[5, 8, 13, 10, 4, 9, 1, 5, 9, 10, 7, 2, 8, 11, 4]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Further Incremental Positive Exploration",
+            "rationale": "This configuration aims to showcase small increases in positive parameters while keeping others moderate to seek beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 5,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 2,
+                    "x_8": 4,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 5, 15, 12, 5, 1, 10, 2, 4, 11, 8, 14, 8, 13, 6]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Expanded Positive Configuration",
+            "rationale": "This hypothesis seeks to incorporate slightly higher values while remaining within the proven successful ranges from earlier iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 2,
+                    "x_5": 7,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 7,
+                    "x_10": 12,
+                    "x_11": 3,
+                    "x_12": 6,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 17, 12, 2, 7, 2, 5, 9, 7, 12, 3, 6, 10, 5]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Refined Balanced Mid-Positive Configuration",
+            "rationale": "This hypothesis continues to prioritize balanced configurations, leaning towards moderate positive values while retaining some neutral entries to maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 7,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 5,
+                    "x_13": 12,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[5, 7, 15, 11, 3, 8, 2, 5, 9, 8, 6, 3, 5, 12, 4]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Moderate Positive Shift with Stability",
+            "rationale": "Exploring parameters with a slight elevation of positive values can unearth beneficial interactions while ensuring a steady baseline of moderate inputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 1,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 8, 15, 11, 4, 1, 10, 3, 4, 10, 7, 14, 9, 11, 6]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Slightly Elevated Configuration",
+            "rationale": "This configuration retains a balance while introducing uniformly elevated values aimed at enhancing synergy among parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 9,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 2,
+                    "x_6": 11,
+                    "x_7": 2,
+                    "x_8": 6,
+                    "x_9": 10,
+                    "x_10": 8,
+                    "x_11": 15,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 9, 17, 12, 5, 2, 11, 2, 6, 10, 8, 15, 8, 13, 7]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "In-depth Positive Exploration",
+            "rationale": "Investigating close clusters in the positive parameter ranges to maximize potential beneficial outcomes without venturing towards extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 10,
+                    "x_2": 14,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 2,
+                    "x_6": 8,
+                    "x_7": 3,
+                    "x_8": 9,
+                    "x_9": 7,
+                    "x_10": 10,
+                    "x_11": 4,
+                    "x_12": 7,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 10, 14, 12, 3, 2, 8, 3, 9, 7, 10, 4, 7, 11, 5]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis targets a balanced mix of moderate positive values, incorporating slightly higher values to enhance target maximization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 7,
+                    "x_2": 14,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 3,
+                    "x_12": 5,
+                    "x_13": 12,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[5, 7, 14, 11, 4, 8, 2, 5, 9, 8, 6, 3, 5, 12, 4]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis seeks configuration variations around successful mid-space values, focusing on moderate increases in positive parameters to identify beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 9,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 5,
+                    "x_5": 2,
+                    "x_6": 9,
+                    "x_7": 2,
+                    "x_8": 5,
+                    "x_9": 11,
+                    "x_10": 7,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 13,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[8, 9, 15, 11, 5, 2, 9, 2, 5, 11, 7, 14, 9, 13, 6]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Moderate High-Value Configuration",
+            "rationale": "This hypothesis focuses on maintaining moderate values while integrating some higher configurations selectively to explore improved target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 20,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 11,
+                    "x_9": 10,
+                    "x_10": 10,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 10,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 10, 20, 12, 3, 8, 1, 5, 11, 10, 10, 6, 7, 10, 6]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Expanded Moderate and Positive Values",
+            "rationale": "This configuration seeks to explore a broader range of moderate and positive values, looking for subtle interactions that could yield higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 8,
+                    "x_2": 19,
+                    "x_3": 11,
+                    "x_4": 2,
+                    "x_5": 9,
+                    "x_6": 3,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 8, 19, 11, 2, 9, 3, 6, 10, 9, 11, 5, 6, 11, 5]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while incorporating some neutral parameters to enhance target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 2,
+                    "x_12": 4,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 8, 16, 12, 3, 9, 1, 6, 10, 7, 6, 2, 4, 11, 5]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring a balanced configuration to seek beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 6,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[9, 8, 15, 12, 6, 3, 10, 3, 5, 10, 7, 13, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Moderate High-Value Exploration",
+            "rationale": "Integrating moderately high values strategically can uncover potential synergies that maximize target outputs while retaining balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 11,
+                    "x_1": 9,
+                    "x_2": 19,
+                    "x_3": 10,
+                    "x_4": 2,
+                    "x_5": 9,
+                    "x_6": -1,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 18,
+                    "x_10": 10,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[11, 9, 19, 10, 2, 9, -1, 5, 4, 18, 10, 6, 7, 10, 5]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Slight Parameter Adjustments",
+            "rationale": "Exploring incremental adjustments around previously effective configurations can reveal beneficial interactions to enhance outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 1,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 4,
+                    "x_8": 8,
+                    "x_9": 7,
+                    "x_10": 10,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 11, 15, 11, 1, 3, 10, 4, 8, 7, 10, 5, 6, 11, 6]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis focuses on maintaining a mix of moderate positive values while exploring slight elevations to maximize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 8, 16, 12, 3, 9, 1, 6, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring a balanced configuration to seek beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 4,
+                    "x_8": 6,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 13,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[10, 9, 16, 12, 5, 4, 10, 4, 6, 11, 8, 14, 9, 13, 7]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Integrating moderately high values for essential parameters while maintaining others at moderate levels could uncover potential synergies and maximize outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 17,
+                    "x_10": 10,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[15, 10, 18, 12, 3, 9, 0, 5, 5, 17, 10, 7, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to find finer interactions and enhance potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 12,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 9,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 8,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 12, 15, 11, 2, 3, 9, 5, 8, 8, 11, 6, 7, 13, 5]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This updated hypothesis focuses on maintaining a mix of moderate and slightly elevated positive values while incorporating neutral parameters to enhance target outputs based on prior successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 8, 15, 11, 4, 9, 1, 6, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis explores slight increases in positive parameters while ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 9,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[9, 9, 15, 12, 5, 3, 10, 3, 5, 10, 7, 13, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Moderate High-Value Exploration",
+            "rationale": "Focusing on integrating moderately high values while keeping others at moderate levels can uncover potential synergies and maximize target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 12,
+                    "x_1": 8,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[12, 8, 18, 12, 4, 9, 1, 5, 5, 15, 10, 7, 8, 11, 5]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis aims to slightly adjust effective moderate parameters to find finer interactions, enhancing potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 11, 15, 12, 2, 3, 10, 5, 8, 9, 11, 6, 7, 13, 5]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while exploring slight elevations to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 5,
+                    "x_11": 3,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 9, 16, 11, 4, 8, 2, 4, 10, 7, 5, 3, 6, 11, 5]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 11,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[9, 10, 15, 12, 5, 3, 10, 3, 6, 11, 7, 13, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Integrating slightly elevated positive values while retaining others at moderate levels can uncover potential synergies and maximize outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 17,
+                    "x_10": 10,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 10, 18, 12, 3, 9, 0, 5, 5, 17, 10, 7, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to find finer interactions, enhancing potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 15, 12, 2, 3, 10, 5, 8, 9, 11, 6, 7, 13, 5]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while exploring slight elevations to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 9,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 9, 15, 11, 4, 9, 1, 6, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 13,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 9,
+                    "x_7": 2,
+                    "x_8": 6,
+                    "x_9": 10,
+                    "x_10": 8,
+                    "x_11": 13,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[10, 9, 16, 13, 5, 4, 9, 2, 6, 10, 8, 13, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Integrating moderately high values while retaining others at moderate levels can uncover potential synergies and maximize outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 13,
+                    "x_1": 11,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 16,
+                    "x_10": 11,
+                    "x_11": 8,
+                    "x_12": 7,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[13, 11, 17, 12, 4, 8, 2, 5, 6, 16, 11, 8, 7, 12, 6]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to find finer interactions, enhancing potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 10,
+                    "x_4": 2,
+                    "x_5": 4,
+                    "x_6": 11,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 9,
+                    "x_10": 10,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 11, 15, 10, 2, 4, 11, 5, 7, 9, 10, 6, 8, 13, 5]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Balanced Configuration with New Adjustments",
+            "rationale": "This hypothesis aims to explore minor adjustments to balanced settings while focusing on positive values to identify optimal configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 8,
+                    "x_2": 14,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 1,
+                    "x_6": 9,
+                    "x_7": 4,
+                    "x_8": 11,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 12,
+                    "x_12": 7,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 8, 14, 12, 5, 1, 9, 4, 11, 10, 7, 12, 7, 11, 5]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while exploring slight elevations to maximize target outputs based on prior successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 10,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 8, 16, 10, 4, 9, 1, 5, 10, 7, 5, 4, 6, 11, 5]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 9,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 11,
+                    "x_10": 7,
+                    "x_11": 13,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[10, 9, 15, 12, 5, 4, 10, 3, 6, 11, 7, 13, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Integrating moderately high values strategically can uncover potential synergies that maximize target outputs while retaining balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 12,
+                    "x_1": 8,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[12, 8, 18, 12, 4, 9, 0, 5, 5, 15, 10, 7, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to find finer interactions, enhancing potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 15, 12, 3, 3, 10, 5, 9, 9, 11, 6, 7, 13, 5]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Expanded Moderate and Positive Values",
+            "rationale": "This configuration seeks to explore a broader range of moderate and positive values, looking for subtle interactions that could yield higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 10,
+                    "x_2": 17,
+                    "x_3": 13,
+                    "x_4": 3,
+                    "x_5": 7,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 11,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 10,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[8, 10, 17, 13, 3, 7, 2, 5, 10, 8, 11, 5, 6, 10, 4]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while exploring slight elevations to maximize target outputs based on prior successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 8, 15, 11, 3, 8, 2, 6, 10, 7, 6, 5, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters, ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 7,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[10, 8, 16, 12, 5, 3, 10, 3, 7, 11, 8, 14, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Moderate High-Value Exploration",
+            "rationale": "Integrating moderately high values strategically can uncover potential synergies while maximizing target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 13,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 10, 18, 13, 4, 9, 0, 5, 5, 15, 10, 8, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to identify finer interactions that enhance potential target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 4,
+                    "x_6": 11,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 10,
+                    "x_10": 12,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 15, 12, 3, 4, 11, 5, 8, 10, 12, 7, 8, 11, 5]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Balanced Configuration with New Adjustments",
+            "rationale": "This hypothesis aims to explore minor adjustments to balanced settings while focusing on positive values to identify optimal configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 9,
+                    "x_2": 14,
+                    "x_3": 11,
+                    "x_4": 5,
+                    "x_5": 2,
+                    "x_6": 9,
+                    "x_7": 4,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 7,
+                    "x_11": 11,
+                    "x_12": 7,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 9, 14, 11, 5, 2, 9, 4, 10, 8, 7, 11, 7, 10, 5]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis maintains a blend of moderate positive values while exploring slight elevations to maximize target outputs based on prior successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 10,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 8, 16, 10, 4, 9, 1, 5, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 11,
+                    "x_1": 9,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 4,
+                    "x_8": 6,
+                    "x_9": 9,
+                    "x_10": 8,
+                    "x_11": 13,
+                    "x_12": 10,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[11, 9, 15, 12, 5, 3, 10, 4, 6, 9, 8, 13, 10, 12, 6]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Integrating moderately high values strategically can uncover potential synergies that maximize target outputs while retaining balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 12,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[12, 10, 18, 12, 4, 9, 0, 5, 5, 15, 10, 7, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to slightly adjust effective moderate parameters to identify finer interactions that enhance potential outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 10,
+                    "x_10": 12,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 11, 15, 12, 3, 3, 10, 5, 8, 10, 12, 7, 8, 13, 5]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis aims to blend moderate positive values while subtly elevating specific parameters based on previous successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 8,
+                    "x_2": 16,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 8, 16, 11, 4, 9, 1, 5, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis focuses on making slight increases to positive parameters while ensuring that the overall configuration remains balanced to foster beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 6,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[10, 9, 16, 12, 6, 3, 10, 3, 6, 11, 8, 14, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Targeting moderately high values for key parameters while retaining others at moderate levels could uncover synergistic effects that maximize target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 10, 18, 12, 4, 9, 1, 5, 6, 15, 10, 8, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Targeted Parameter Exploration",
+            "rationale": "This hypothesis proposes slight adjustments to effective moderate parameters to identify any synergistic interactions more thoroughly.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 15, 12, 3, 3, 10, 5, 8, 9, 11, 6, 8, 13, 5]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis continues to explore configurations that leverage the benefits of moderately elevated positive values while ensuring balance across parameters to optimize the target output effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 9, 16, 11, 4, 9, 1, 6, 10, 7, 6, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while maintaining balanced configurations to identify beneficial interactions for enhancing target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 6,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 13,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[10, 10, 15, 12, 6, 4, 10, 3, 6, 11, 8, 13, 9, 12, 6]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Moderate High-Value Integration",
+            "rationale": "Targeting moderately high values for key parameters while retaining others at moderate levels could uncover synergistic interactions that further maximize target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[14, 10, 18, 12, 4, 9, 0, 5, 5, 15, 10, 8, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to identify finer interactions by slightly adjusting effective moderate parameters to enhance potential outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 10,
+                    "x_10": 12,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 13,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 11, 15, 12, 3, 3, 10, 5, 8, 10, 12, 6, 8, 13, 5]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Exploration of Higher Parameters",
+            "rationale": "This hypothesis focuses on testing slightly higher values in effective mid-range settings to uncover beneficial interactions for maximizing the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 9,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 11,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 12,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 9, 17, 12, 3, 8, 2, 5, 11, 10, 7, 6, 7, 12, 5]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis emphasizes a blend of moderate positive values while exploring slight elevations to maximize target outputs based on prior successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 9,
+                    "x_2": 16,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 6,
+                    "x_8": 10,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 8
+                }
+            ]
+        },
+        "point": "[5, 9, 16, 11, 4, 9, 1, 6, 10, 7, 6, 4, 5, 11, 8]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis seeks to explore slight increases in positive parameters while ensuring balanced configurations create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 10,
+                    "x_2": 16,
+                    "x_3": 12,
+                    "x_4": 6,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 10,
+                    "x_10": 8,
+                    "x_11": 14,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[10, 10, 16, 12, 6, 4, 10, 3, 6, 10, 8, 14, 9, 12, 7]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Moderate High-Value Synergy Exploration",
+            "rationale": "Targeting moderately high values for key parameters while retaining others at moderate levels to uncover synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 14,
+                    "x_1": 10,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 9,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[14, 10, 18, 12, 5, 9, 1, 5, 5, 15, 10, 8, 8, 12, 9]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis aims to identify finer interactions by slightly adjusting effective moderate parameters to enhance potential outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 14,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 10, 15, 12, 3, 3, 10, 5, 8, 9, 11, 6, 6, 14, 5]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Exploration of Enhanced Parameters",
+            "rationale": "This hypothesis focuses on testing slightly higher values in effective mid-range settings to uncover beneficial interactions for maximizing the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 9,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 11,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 9, 17, 12, 3, 8, 2, 5, 11, 10, 7, 6, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis continues to explore configurations that leverage the benefits of moderately elevated positive values while ensuring balance across parameters to optimize the target output effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 10,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 9,
+                    "x_9": 7,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 8, 15, 10, 4, 8, 2, 5, 9, 7, 5, 4, 5, 11, 5]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while ensuring balanced configurations create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 11,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 7,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 7,
+                    "x_9": 11,
+                    "x_10": 8,
+                    "x_11": 13,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[11, 10, 15, 12, 7, 4, 10, 3, 7, 11, 8, 13, 9, 12, 7]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Moderate High-Value Synergy Exploration",
+            "rationale": "This hypothesis investigates moderately high values for key parameters while maintaining balance to uncover synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 13,
+                    "x_1": 11,
+                    "x_2": 19,
+                    "x_3": 12,
+                    "x_4": 5,
+                    "x_5": 8,
+                    "x_6": 1,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 15,
+                    "x_10": 11,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[13, 11, 19, 12, 5, 8, 1, 5, 6, 15, 11, 8, 8, 12, 9]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Targeted Incremental Exploration",
+            "rationale": "This hypothesis seeks to identify finer interactions by slightly adjusting effective moderate parameters to enhance potential outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 4,
+                    "x_5": 3,
+                    "x_6": 10,
+                    "x_7": 5,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 11,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 14,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 11, 15, 12, 4, 3, 10, 5, 8, 9, 11, 6, 6, 14, 5]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Exploration of Enhanced Parameters",
+            "rationale": "This hypothesis focuses on testing slightly higher values in effective mid-range settings to uncover beneficial interactions for maximizing the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 10,
+                    "x_2": 17,
+                    "x_3": 12,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 11,
+                    "x_9": 10,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[8, 10, 17, 12, 3, 8, 2, 5, 11, 10, 7, 6, 8, 12, 6]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Refined Balanced Positive Configuration",
+            "rationale": "This hypothesis continues to explore configurations that leverage the benefits of moderately elevated positive values while ensuring balance across parameters to optimize the target output effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 10,
+                    "x_2": 15,
+                    "x_3": 11,
+                    "x_4": 4,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 10, 15, 11, 4, 8, 2, 5, 10, 8, 6, 4, 6, 11, 5]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Incremental Positive Exploration",
+            "rationale": "This hypothesis aims to explore slight increases in positive parameters while maintaining balanced configurations to create beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 11,
+                    "x_1": 11,
+                    "x_2": 15,
+                    "x_3": 13,
+                    "x_4": 6,
+                    "x_5": 4,
+                    "x_6": 10,
+                    "x_7": 3,
+                    "x_8": 6,
+                    "x_9": 12,
+                    "x_10": 8,
+                    "x_11": 15,
+                    "x_12": 9,
+                    "x_13": 12,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[11, 11, 15, 13, 6, 4, 10, 3, 6, 12, 8, 15, 9, 12, 7]",
+        "action": "LLM"
+    }
+}

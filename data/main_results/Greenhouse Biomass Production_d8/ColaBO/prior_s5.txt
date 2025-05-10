@@ -1,0 +1,14 @@
+{
+    "rationale":"Based on general knowledge of greenhouse conditions for optimal sugar beet growth, high irradiance (around 7000 kJ/m2/day) fosters photosynthesis, while moderate temperatures (tmin around 15°C and tmax around 25°C) are ideal for growth. Adequate vapor pressure (around 2 kPa) will help maintain humidity, and a low wind speed (around 1 m/s) can prevent moisture loss. Optimal rainfall should be moderate (around 10 mm), ensuring that water content in the soil is sufficient but not excessive. The initial moisture content (SMLIM) should be high (around 0.8) to support growth during the month. Thus, selecting these values is expected to maximize biomass production.",
+    "confidence": "0.9",
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 2,
+        "wind": 1,
+        "rain": 10,
+        "wav": 80,
+        "SMLIM": 0.8
+    }
+}

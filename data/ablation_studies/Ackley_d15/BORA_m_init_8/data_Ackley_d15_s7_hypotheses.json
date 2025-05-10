@@ -1,0 +1,1197 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Center Exploration",
+            "rationale": "Sampling near the center of the parameter space may reveal the function's general behavior and help identify any central peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -10,
+                    "x_5": 15,
+                    "x_6": -5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": -10,
+                    "x_11": 15,
+                    "x_12": -5,
+                    "x_13": 0,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, 10, -10, 15, -5, 0, 5, 10, -10, 15, -5, 0, 5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Boundary Exploration",
+            "rationale": "Exploring the boundaries of the parameter space may uncover extreme behaviors of the function, which could lead to high target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": 20,
+                    "x_2": -30,
+                    "x_3": 20,
+                    "x_4": -30,
+                    "x_5": 20,
+                    "x_6": -30,
+                    "x_7": 20,
+                    "x_8": -30,
+                    "x_9": 20,
+                    "x_10": -30,
+                    "x_11": 20,
+                    "x_12": -30,
+                    "x_13": 20,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Positive Cluster",
+            "rationale": "Focusing on positive values may help identify regions where the function behaves favorably, especially if it is sensitive to positive inputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 15,
+                    "x_4": 10,
+                    "x_5": 15,
+                    "x_6": 10,
+                    "x_7": 15,
+                    "x_8": 10,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 15,
+                    "x_12": 10,
+                    "x_13": 15,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Negative Cluster",
+            "rationale": "Sampling a cluster of negative values may reveal how the function behaves in this region, which could be critical for understanding its overall shape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -15,
+                    "x_2": -10,
+                    "x_3": -5,
+                    "x_4": -20,
+                    "x_5": -15,
+                    "x_6": -10,
+                    "x_7": -5,
+                    "x_8": -20,
+                    "x_9": -15,
+                    "x_10": -10,
+                    "x_11": -5,
+                    "x_12": -20,
+                    "x_13": -15,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Mixed Strategy",
+            "rationale": "Combining both positive and negative values in a single point may help identify interactions between parameters that influence the target function.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": 5,
+                    "x_2": -15,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": -5,
+                    "x_6": 15,
+                    "x_7": -10,
+                    "x_8": 5,
+                    "x_9": -20,
+                    "x_10": 10,
+                    "x_11": -15,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-10, 5, -15, 10, 0, -5, 15, -10, 5, -20, 10, -15, 0, 5, -10]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Focusing on the central region where the highest target was observed may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 15,
+                    "x_6": -5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": -10,
+                    "x_11": 15,
+                    "x_12": -5,
+                    "x_13": 0,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 5, 5, 10, 0, 15, -5, 0, 5, 10, -10, 15, -5, 0, 5]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Positive Value Exploration",
+            "rationale": "Exploring combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 10,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": 15,
+                    "x_5": 10,
+                    "x_6": 5,
+                    "x_7": 10,
+                    "x_8": 15,
+                    "x_9": 10,
+                    "x_10": 5,
+                    "x_11": 10,
+                    "x_12": 15,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[15, 10, 5, 10, 15, 10, 5, 10, 15, 10, 5, 10, 15, 10, 5]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Mixed Positive and Neutral",
+            "rationale": "Combining positive and neutral values may help identify interactions that yield higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 10,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 0,
+                    "x_11": 15,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 10, 5, 10, 0, 5, 5, 0, 5, 10, 0, 15, 5, 10, 0]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Boundary Avoidance",
+            "rationale": "Avoiding extreme boundaries and focusing on mid-range values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": 10,
+                    "x_4": -5,
+                    "x_5": 5,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": -5,
+                    "x_10": 0,
+                    "x_11": 5,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-10, 5, 0, 10, -5, 5, 0, 5, 10, -5, 0, 5, 0, 5, 0]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Mid-Range Values",
+            "rationale": "Sampling mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 0,
+                    "x_11": 5,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, 5, 0, 10, -5, 0, 5, 5, 0, 5, 0, 5, 5]"
+    },
+    "26": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Exploration",
+            "rationale": "Focusing on mid-range values that have previously yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 1,
+                    "x_2": 6,
+                    "x_3": 4,
+                    "x_4": 1,
+                    "x_5": 9,
+                    "x_6": -4,
+                    "x_7": 1,
+                    "x_8": 6,
+                    "x_9": 4,
+                    "x_10": 1,
+                    "x_11": 6,
+                    "x_12": 1,
+                    "x_13": 4,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[-4, 1, 6, 4, 1, 9, -4, 1, 6, 4, 1, 6, 1, 4, 6]"
+    },
+    "27": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Positive and Neutral Combination",
+            "rationale": "Exploring combinations of positive and neutral values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 0,
+                    "x_11": 15,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 5, 5, 10, 0, 5, 5, 0, 5, 10, 0, 15, 5, 10, 0]"
+    },
+    "28": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Sampling slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 2,
+                    "x_2": 3,
+                    "x_3": 5,
+                    "x_4": -1,
+                    "x_5": 6,
+                    "x_6": 0,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-2, 2, 3, 5, -1, 6, 0, 3, 4, 2, 1, 5, 2, 3, 1]"
+    },
+    "29": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Avoiding Extreme Negatives",
+            "rationale": "Avoiding extreme negative values and focusing on mid-range positive values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 0,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 5, 0, 5, 0, 5, 0, 5, 10, 0, 5, 5, 0, 5, 5]"
+    },
+    "30": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 1,
+                    "x_2": 4,
+                    "x_3": 3,
+                    "x_4": -2,
+                    "x_5": 7,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-3, 1, 4, 3, -2, 7, 1, 2, 3, 1, 2, 4, 1, 3, 2]"
+    },
+    "37": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Focusing on previously successful mid-range values that yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 4,
+                    "x_2": 6,
+                    "x_3": 9,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 4,
+                    "x_7": 1,
+                    "x_8": 6,
+                    "x_9": 9,
+                    "x_10": 1,
+                    "x_11": 14,
+                    "x_12": 6,
+                    "x_13": 9,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 4, 6, 9, 1, 6, 4, 1, 6, 9, 1, 14, 6, 9, 1]"
+    },
+    "38": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 10,
+                    "x_2": 6,
+                    "x_3": 10,
+                    "x_4": 5,
+                    "x_5": 10,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 10,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 10,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 10, 6, 10, 5, 10, 6, 5, 10, 5, 6, 10, 5, 10, 5]"
+    },
+    "39": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 3,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 6,
+                    "x_6": 1,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 3, 4, 5, 0, 6, 1, 3, 4, 2, 1, 5, 2, 3, 1]"
+    },
+    "40": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoiding Extreme Negatives",
+            "rationale": "Continuing to avoid extreme negative values while focusing on mid-range positive values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 2,
+                    "x_2": 4,
+                    "x_3": 3,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-3, 2, 4, 3, 0, 5, 1, 2, 3, 1, 2, 4, 1, 3, 2]"
+    },
+    "41": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 1,
+                    "x_2": 3,
+                    "x_3": 4,
+                    "x_4": -1,
+                    "x_5": 6,
+                    "x_6": 0,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-2, 1, 3, 4, -1, 6, 0, 3, 4, 2, 1, 5, 2, 3, 1]"
+    },
+    "47": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Focusing on previously successful mid-range values that yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 1,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": -1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 1,
+                    "x_10": 3,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 4,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-2, 1, 5, 4, -1, 6, 2, 3, 4, 1, 3, 5, 2, 4, 3]"
+    },
+    "48": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 11,
+                    "x_2": 7,
+                    "x_3": 11,
+                    "x_4": 6,
+                    "x_5": 11,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 11,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 11,
+                    "x_12": 6,
+                    "x_13": 11,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 11, 7, 11, 6, 11, 7, 6, 11, 6, 7, 11, 6, 11, 6]"
+    },
+    "49": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 1,
+                    "x_5": 7,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-2, 4, 5, 6, 1, 7, 2, 4, 5, 3, 2, 6, 3, 4, 2]"
+    },
+    "50": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Avoiding Extreme Negatives",
+            "rationale": "Continuing to avoid extreme negative values while focusing on mid-range positive values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 3,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 3,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 4,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-2, 3, 5, 4, 1, 6, 2, 3, 4, 2, 3, 5, 2, 4, 3]"
+    },
+    "51": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 7,
+                    "x_6": 1,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 2, 4, 5, 0, 7, 1, 4, 5, 3, 2, 6, 3, 4, 2]"
+    },
+    "60": {
+        "trust_score": 0.8241067939934003,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Focusing on previously successful mid-range values that yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 1,
+                    "x_2": 5,
+                    "x_3": 3,
+                    "x_4": 0,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 5,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-4, 1, 5, 3, 0, 6, 2, 3, 4, 1, 2, 5, 1, 3, 2]"
+    },
+    "61": {
+        "trust_score": 0.8241067939934003,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 12,
+                    "x_2": 8,
+                    "x_3": 12,
+                    "x_4": 7,
+                    "x_5": 12,
+                    "x_6": 8,
+                    "x_7": 7,
+                    "x_8": 12,
+                    "x_9": 7,
+                    "x_10": 8,
+                    "x_11": 12,
+                    "x_12": 7,
+                    "x_13": 12,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 12, 8, 12, 7, 12, 8, 7, 12, 7, 8, 12, 7, 12, 7]"
+    },
+    "62": {
+        "trust_score": 0.8241067939934003,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 1,
+                    "x_5": 7,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-2, 4, 5, 6, 1, 7, 2, 4, 5, 3, 2, 6, 3, 4, 1]"
+    },
+    "63": {
+        "trust_score": 0.8241067939934003,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Avoiding Extreme Negatives",
+            "rationale": "Continuing to avoid extreme negative values while focusing on mid-range positive values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 3,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 3,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 4,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-1, 3, 5, 4, 1, 6, 2, 3, 4, 2, 3, 5, 2, 4, 3]"
+    },
+    "64": {
+        "trust_score": 0.8241067939934003,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 1,
+                    "x_2": 3,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 7,
+                    "x_6": 1,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-2, 1, 3, 5, 0, 7, 1, 4, 5, 3, 2, 6, 3, 4, 2]"
+    },
+    "74": {
+        "trust_score": 0.6502234477999745,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 12,
+                    "x_2": 9,
+                    "x_3": 12,
+                    "x_4": 8,
+                    "x_5": 12,
+                    "x_6": 9,
+                    "x_7": 8,
+                    "x_8": 12,
+                    "x_9": 8,
+                    "x_10": 9,
+                    "x_11": 12,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 8
+                }
+            ]
+        },
+        "point": "[8, 12, 9, 12, 8, 12, 9, 8, 12, 8, 9, 12, 8, 12, 8]"
+    },
+    "75": {
+        "trust_score": 0.6502234477999745,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 3,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 3,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 3, 4, 5, 1, 6, 2, 3, 4, 2, 1, 5, 2, 3, 1]"
+    },
+    "84": {
+        "trust_score": 0.47621095855769396,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Focusing on previously successful mid-range values that yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 2,
+                    "x_2": 4,
+                    "x_3": 3,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-3, 2, 4, 3, 0, 5, 1, 2, 3, 1, 2, 4, 1, 3, 1]"
+    },
+    "85": {
+        "trust_score": 0.47621095855769396,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 11,
+                    "x_2": 10,
+                    "x_3": 11,
+                    "x_4": 9,
+                    "x_5": 11,
+                    "x_6": 10,
+                    "x_7": 9,
+                    "x_8": 11,
+                    "x_9": 9,
+                    "x_10": 10,
+                    "x_11": 11,
+                    "x_12": 9,
+                    "x_13": 11,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[9, 11, 10, 11, 9, 11, 10, 9, 11, 9, 10, 11, 9, 11, 9]"
+    },
+    "86": {
+        "trust_score": 0.47621095855769396,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 3,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 3, 4, 5, 1, 6, 2, 4, 5, 3, 2, 6, 3, 4, 1]"
+    },
+    "87": {
+        "trust_score": 0.47621095855769396,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": 3,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 7,
+                    "x_6": 1,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 2, 3, 5, 0, 7, 1, 4, 5, 3, 2, 6, 3, 4, 2]"
+    },
+    "93": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "99": {
+        "trust_score": 0.6521041645642937,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Focusing on previously successful mid-range values that yielded high targets may help identify optimal settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 2,
+                    "x_2": 4,
+                    "x_3": 3,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-3, 2, 4, 3, 0, 5, 1, 2, 3, 1, 2, 4, 1, 3, 0]"
+    },
+    "100": {
+        "trust_score": 0.6521041645642937,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of New Positive Combinations",
+            "rationale": "Sampling new combinations of positive values may reveal regions where the function behaves favorably.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9,
+                    "x_1": 12,
+                    "x_2": 10,
+                    "x_3": 12,
+                    "x_4": 8,
+                    "x_5": 12,
+                    "x_6": 9,
+                    "x_7": 8,
+                    "x_8": 12,
+                    "x_9": 8,
+                    "x_10": 9,
+                    "x_11": 12,
+                    "x_12": 8,
+                    "x_13": 12,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[9, 12, 10, 12, 8, 12, 9, 8, 12, 8, 9, 12, 8, 12, 10]"
+    },
+    "101": {
+        "trust_score": 0.6521041645642937,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Combination",
+            "rationale": "Exploring slightly negative values combined with positive values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 3,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 3, 4, 5, 1, 6, 2, 4, 5, 3, 2, 6, 3, 4, 2]"
+    },
+    "102": {
+        "trust_score": 0.6521041645642937,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Avoiding Extreme Negatives",
+            "rationale": "Continuing to avoid extreme negative values while focusing on mid-range positive values may help improve target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 3,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 1,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 3,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 3,
+                    "x_11": 5,
+                    "x_12": 2,
+                    "x_13": 4,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[-2, 3, 5, 4, 1, 6, 2, 3, 4, 2, 3, 5, 2, 4, 4]"
+    },
+    "103": {
+        "trust_score": 0.6521041645642937,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of New Mid-Range Combinations",
+            "rationale": "Sampling new combinations of mid-range values may uncover interactions that lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": 3,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 7,
+                    "x_6": 1,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": 2,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 4,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-1, 2, 3, 5, 0, 7, 1, 4, 5, 3, 2, 6, 3, 4, 3]"
+    }
+}

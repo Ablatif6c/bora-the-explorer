@@ -1,0 +1,669 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Approach",
+            "rationale": "This point is selected to explore a balanced combination of values, potentially capturing synergistic effects among parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 10,
+                    "x_3": -5,
+                    "x_4": 15,
+                    "x_5": 2,
+                    "x_6": -10,
+                    "x_7": 5,
+                    "x_8": 0,
+                    "x_9": -15,
+                    "x_10": -20,
+                    "x_11": 20,
+                    "x_12": 7,
+                    "x_13": -10,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 0, 10, -5, 15, 2, -10, 5, 0, -15, -20, 20, 7, -10, 5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Positive Cluster",
+            "rationale": "This point is clustered in a more positive region while still being diverse, exploring how the function performs near the upper limits.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 15,
+                    "x_2": 18,
+                    "x_3": 12,
+                    "x_4": 10,
+                    "x_5": 17,
+                    "x_6": 19,
+                    "x_7": 11,
+                    "x_8": 8,
+                    "x_9": 6,
+                    "x_10": 14,
+                    "x_11": 16,
+                    "x_12": 20,
+                    "x_13": 2,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[10, 15, 18, 12, 10, 17, 19, 11, 8, 6, 14, 16, 20, 2, 5]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Negative Extremes Exploration",
+            "rationale": "Exploring a combination of negative extremes to investigate the impact of lower values on the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -25,
+                    "x_2": -20,
+                    "x_3": -30,
+                    "x_4": -15,
+                    "x_5": -10,
+                    "x_6": -5,
+                    "x_7": -28,
+                    "x_8": -30,
+                    "x_9": -12,
+                    "x_10": -18,
+                    "x_11": -6,
+                    "x_12": -30,
+                    "x_13": -30,
+                    "x_14": -15
+                }
+            ]
+        },
+        "point": "[-30, -25, -20, -30, -15, -10, -5, -28, -30, -12, -18, -6, -30, -30, -15]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Midpoint Exploration",
+            "rationale": "This point hones in on mid-range values across parameters, likely providing a good trade-off for complex interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 5,
+                    "x_2": -10,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -15,
+                    "x_7": 10,
+                    "x_8": 5,
+                    "x_9": 2,
+                    "x_10": -5,
+                    "x_11": 0,
+                    "x_12": -12,
+                    "x_13": 20,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 5, -10, 5, 0, 10, -15, 10, 5, 2, -5, 0, -12, 20, 1]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Substantial Positive Outliers",
+            "rationale": "This point is closer to the upper bound, allowing for the exploration of potentially higher function values in a region that may have high peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 5,
+                    "x_4": 20,
+                    "x_5": 12,
+                    "x_6": 8,
+                    "x_7": 18,
+                    "x_8": 14,
+                    "x_9": 2,
+                    "x_10": 4,
+                    "x_11": 7,
+                    "x_12": 0,
+                    "x_13": 10,
+                    "x_14": 13
+                }
+            ]
+        },
+        "point": "[10, 15, 10, 5, 20, 12, 8, 18, 14, 2, 4, 7, 0, 10, 13]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Optimized Positive Range",
+            "rationale": "Targeting a combination of positive values based on previous successful configurations, aiming to balance parameters for maximum response.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 14,
+                    "x_2": 15,
+                    "x_3": 5,
+                    "x_4": 18,
+                    "x_5": 12,
+                    "x_6": 8,
+                    "x_7": 14,
+                    "x_8": 10,
+                    "x_9": 6,
+                    "x_10": 4,
+                    "x_11": 15,
+                    "x_12": 2,
+                    "x_13": 7,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[10, 14, 15, 5, 18, 12, 8, 14, 10, 6, 4, 15, 2, 7, 9]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Central Balanced Exploration",
+            "rationale": "Exploring balanced central parameter values to understand interactions that may yield higher target values previously missed.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 3,
+                    "x_2": -5,
+                    "x_3": 2,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": -4,
+                    "x_7": 10,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 3,
+                    "x_11": 8,
+                    "x_12": 0,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[2, 3, -5, 2, 7, 6, -4, 10, 1, 0, 3, 8, 0, 4, 5]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "High x_1 and x_4 Emphasis",
+            "rationale": "This point focuses on maximizing x_1 and x_4 based on their correlation with higher outputs recorded in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 18,
+                    "x_2": -10,
+                    "x_3": 0,
+                    "x_4": 19,
+                    "x_5": 8,
+                    "x_6": 5,
+                    "x_7": 12,
+                    "x_8": 7,
+                    "x_9": 1,
+                    "x_10": -2,
+                    "x_11": 14,
+                    "x_12": -1,
+                    "x_13": 11,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-1, 18, -10, 0, 19, 8, 5, 12, 7, 1, -2, 14, -1, 11, 3]"
+    },
+    "25": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Mid-range Extremes",
+            "rationale": "This sample seeks to assess a combination of slightly negative and slightly positive values for better exploration of the function's shape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 6,
+                    "x_2": -8,
+                    "x_3": 3,
+                    "x_4": 11,
+                    "x_5": 2,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 4,
+                    "x_9": -5,
+                    "x_10": 0,
+                    "x_11": 5,
+                    "x_12": 1,
+                    "x_13": 10,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[-3, 6, -8, 3, 11, 2, -2, 9, 4, -5, 0, 5, 1, 10, 4]"
+    },
+    "26": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Avoiding Detrimental Areas",
+            "rationale": "This hypothesis proposes avoiding previously identified detrimental areas, focusing slightly away from extremes of both negative and positive bounds.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": 8,
+                    "x_2": -10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 3,
+                    "x_6": -5,
+                    "x_7": 8,
+                    "x_8": -2,
+                    "x_9": 2,
+                    "x_10": -10,
+                    "x_11": 6,
+                    "x_12": -1,
+                    "x_13": 15,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-20, 8, -10, 4, 5, 3, -5, 8, -2, 2, -10, 6, -1, 15, 0]"
+    },
+    "42": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Enhanced Positive Values",
+            "rationale": "Targeting high performance in regions with positive values for x_1 and x_4 based on previously successful configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 18,
+                    "x_2": 5,
+                    "x_3": 0,
+                    "x_4": 19,
+                    "x_5": 12,
+                    "x_6": 8,
+                    "x_7": 10,
+                    "x_8": 10,
+                    "x_9": 2,
+                    "x_10": 5,
+                    "x_11": 15,
+                    "x_12": -1,
+                    "x_13": 7,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[5, 18, 5, 0, 19, 12, 8, 10, 10, 2, 5, 15, -1, 7, 9]"
+    },
+    "43": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Balanced Mid-range Exploration",
+            "rationale": "This hypothesis revolves around a blend of mid-range parameters to capture interactions that might enhance the target's performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 10,
+                    "x_2": 0,
+                    "x_3": 4,
+                    "x_4": 10,
+                    "x_5": 6,
+                    "x_6": 2,
+                    "x_7": 7,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 3,
+                    "x_11": 8,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[1, 10, 0, 4, 10, 6, 2, 7, 3, 1, 3, 8, 0, 5, 4]"
+    },
+    "44": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Reinforcing x_1 and x_4",
+            "rationale": "This hypothesis focuses on maximizing x_1 and x_4 further, which have shown higher correlations with increased target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 19,
+                    "x_2": -5,
+                    "x_3": 0,
+                    "x_4": 20,
+                    "x_5": 8,
+                    "x_6": 6,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 2,
+                    "x_10": -2,
+                    "x_11": 14,
+                    "x_12": 0,
+                    "x_13": 10,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[1, 19, -5, 0, 20, 8, 6, 12, 5, 2, -2, 14, 0, 10, 3]"
+    },
+    "45": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Avoiding Deep Negatives",
+            "rationale": "This hypothesis steers clear of combinations leading to extreme negative values across parameters, as it corresponds with lower target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 8,
+                    "x_2": 2,
+                    "x_3": 3,
+                    "x_4": 10,
+                    "x_5": 7,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 6,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[-1, 8, 2, 3, 10, 7, 0, 5, 1, 2, -1, 6, 1, 2, 4]"
+    },
+    "61": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Maximizing High x_1 and x_4",
+            "rationale": "Reinforcing the findings that high values for x_1 and x_4 are positively correlated with increased target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 19,
+                    "x_2": 5,
+                    "x_3": 1,
+                    "x_4": 20,
+                    "x_5": 13,
+                    "x_6": 8,
+                    "x_7": 11,
+                    "x_8": 9,
+                    "x_9": 3,
+                    "x_10": 5,
+                    "x_11": 14,
+                    "x_12": -2,
+                    "x_13": 7,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[5, 19, 5, 1, 20, 13, 8, 11, 9, 3, 5, 14, -2, 7, 10]"
+    },
+    "62": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Blending Positive and Moderate Values",
+            "rationale": "Combining higher values of x_1 and x_4 while exploring central values for other parameters to uncover synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 10,
+                    "x_2": 2,
+                    "x_3": 4,
+                    "x_4": 10,
+                    "x_5": 5,
+                    "x_6": 2,
+                    "x_7": 6,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 4,
+                    "x_11": 7,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[1, 10, 2, 4, 10, 5, 2, 6, 3, 1, 4, 7, 1, 3, 5]"
+    },
+    "63": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Guarding Against Negative Influences",
+            "rationale": "This hypothesis is focused on steering clear of detrimental combinations by emphasizing safe and positive ranges for parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 9,
+                    "x_2": 2,
+                    "x_3": 1,
+                    "x_4": 10,
+                    "x_5": 7,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 6,
+                    "x_12": 2,
+                    "x_13": 4,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[-1, 9, 2, 1, 10, 7, 0, 5, 2, 1, 0, 6, 2, 4, 4]"
+    },
+    "64": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Exploratory Positive Range Assessment",
+            "rationale": "Investigating mid to high combinations, while maintaining a focus on parameters that previously yielded positive outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 15,
+                    "x_2": 3,
+                    "x_3": 5,
+                    "x_4": 19,
+                    "x_5": 6,
+                    "x_6": 3,
+                    "x_7": 8,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 8,
+                    "x_12": 1,
+                    "x_13": 6,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[5, 15, 3, 5, 19, 6, 3, 8, 4, 2, 1, 8, 1, 6, 3]"
+    },
+    "82": {
+        "trust_score": 0.8311629681792501,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Maximizing High x_1 and x_4",
+            "rationale": "Reinforcing findings that high values for x_1 and x_4 are critical for increasing target outcomes, focusing on the most successful region identified.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 19,
+                    "x_2": 5,
+                    "x_3": 1,
+                    "x_4": 20,
+                    "x_5": 12,
+                    "x_6": 9,
+                    "x_7": 11,
+                    "x_8": 8,
+                    "x_9": 3,
+                    "x_10": 5,
+                    "x_11": 14,
+                    "x_12": 0,
+                    "x_13": 8,
+                    "x_14": 9
+                }
+            ]
+        },
+        "point": "[5, 19, 5, 1, 20, 12, 9, 11, 8, 3, 5, 14, 0, 8, 9]"
+    },
+    "83": {
+        "trust_score": 0.8311629681792501,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Moderate Exploration with High x_1",
+            "rationale": "Exploring moderate values for other parameters while maintaining high x_1, mimicking previously successful configurations with a slight variation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 18,
+                    "x_2": 2,
+                    "x_3": 4,
+                    "x_4": 18,
+                    "x_5": 6,
+                    "x_6": 4,
+                    "x_7": 8,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 4,
+                    "x_11": 8,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[1, 18, 2, 4, 18, 6, 4, 8, 3, 1, 4, 8, 1, 3, 5]"
+    },
+    "84": {
+        "trust_score": 0.8311629681792501,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Blending High Outputs with Safety",
+            "rationale": "This hypothesis aims to achieve a blend of high outputs while steering clear of negative influences, ensuring safe and effective exploration.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 9,
+                    "x_2": 2,
+                    "x_3": 1,
+                    "x_4": 11,
+                    "x_5": 7,
+                    "x_6": 2,
+                    "x_7": 5,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 7,
+                    "x_12": 1,
+                    "x_13": 4,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[-1, 9, 2, 1, 11, 7, 2, 5, 2, 1, 1, 7, 1, 4, 4]"
+    },
+    "85": {
+        "trust_score": 0.8311629681792501,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Exploratory Mid-range Assessment",
+            "rationale": "Investigating mid to high combinations, retaining a focus on parameters that previously yielded positive outputs, particularly x_1 and x_4.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 15,
+                    "x_2": 2,
+                    "x_3": 5,
+                    "x_4": 19,
+                    "x_5": 8,
+                    "x_6": 3,
+                    "x_7": 8,
+                    "x_8": 4,
+                    "x_9": 2,
+                    "x_10": 2,
+                    "x_11": 9,
+                    "x_12": 1,
+                    "x_13": 6,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[3, 15, 2, 5, 19, 8, 3, 8, 4, 2, 2, 9, 1, 6, 4]"
+    },
+    "86": {
+        "trust_score": 0.8311629681792501,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Avoiding Detrimental Extremes",
+            "rationale": "This hypothesis focuses on preventing combinations leading to extreme negative impacts across parameters, honing in on safer positive regions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 10,
+                    "x_2": 2,
+                    "x_3": 3,
+                    "x_4": 11,
+                    "x_5": 7,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 3,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 6,
+                    "x_12": 1,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[0, 10, 2, 3, 11, 7, 4, 5, 3, 2, 0, 6, 1, 3, 5]"
+    }
+}

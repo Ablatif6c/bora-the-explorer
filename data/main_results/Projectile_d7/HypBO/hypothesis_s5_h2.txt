@@ -1,0 +1,14 @@
+{
+    "name": "balanced_parameter_throw",
+    "rationale": "To achieve optimal scoring, factors such as angle, velocity, and release conditions must be balanced. A pitch angle of 40 degrees offers a good trade-off between distance and height, allowing the projectile to travel further while still having enough height to maintain accuracy. A yaw of 0 means aim directly at the target, maximizing hit potential. Setting the initial velocity to 35 m/s strikes a balance between distance and control, enhancing accuracy in reaching the target. A spin of 1200 RPM will help stabilize the flight without excessive drag. Releasing from a height of 1.5 meters optimizes gravitational effects, aiding distance. A mass of 0.75 kg is ideal for maintaining trajectory. Overall, this configuration is expected to result in a high landing score.",
+    "confidence": "0.7",
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 0.75
+    }
+}

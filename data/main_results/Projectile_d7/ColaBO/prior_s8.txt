@@ -1,0 +1,13 @@
+{
+    "rationale": "To maximize the score, I consider the practical principles of projectile motion. A higher launch angle (pitch_deg) improves vertical distance coverage, while an adequately high speed (v0) enhances horizontal distance. A pitch angle around 45 degrees is often optimal for maximum range, but adjustments are necessary depending on the target's vertical position. To minimize error, I'd recommend a yaw angle of 0 degrees for a direct throw, as it would aim straight at the target. A spin could stabilize the projectile's flight; thus, a moderate spin rate (spin_rpm) is chosen. Given the scenario, a height (h0) around 2 m can help as it gives more airtime, while a moderate mass (mass) provides enough weight to resist air drag without compromising velocity.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 2,
+        "mass": 1
+    }
+}

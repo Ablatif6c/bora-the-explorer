@@ -1,0 +1,14 @@
+{
+    "name": "High Velocity Option",
+    "rationale": "Considering the physics of projectile motion, achieving a high score involves balancing elevation and distance. A pitch angle of 50 degrees is slightly higher than 45 and helps achieve better height, which can increase range due to gravitational effects. The yaw should remain at 0 to maintain a direct aim at the target. Setting the initial velocity close to the maximum allows for a longer flight time before hitting the ground, while minimal spin can maintain a stable trajectory. A release height of 1.5 meters and a mass around 0.5 kg keeps the projectile manageable yet effective for distance.",
+    "confidence": "0.75",
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 45,
+        "spin_rpm": 100,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 0.5
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Balanced Solar Panel Setup",
+    "rationale": "Research indicates that a tilt angle of approximately 25° to 35° provides optimal energy gain across various climates and seasons. An azimuth angle of 200° focuses on maximizing exposure in the late afternoon sun, which may increase overall energy production. A system capacity of 15 kW suits larger installations, optimizing for higher production. A DC to AC ratio of 1.3 ensures that the system can adequately handle peak production times without being constrained by inverter size.",
+    "confidence": 0.82,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 200,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.3
+    }
+}

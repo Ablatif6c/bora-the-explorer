@@ -1,0 +1,2227 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Maximized Cysteine and Catalyst",
+            "rationale": "L-Cysteine is expected to play a crucial role in optimizing charge carrier dynamics; combined with higher P10-MIX1 dosage may yield excellent results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Combining Amino Acid and Low Dye",
+            "rationale": "Focusing on low dye concentrations while maximizing the amino acid allows the role of hole scavenging and electron transfer pathways to be evaluated more closely.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 2.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.25, 0.0, 0.25, 2.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": "FAILED",
+        "point": "[0.0, 0.0, 0.75, 0.75, 0.0, 3.2, 0.0, 0.5, 0.5, 1.0]",
+        "action": "Random"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Optimized Hole Scavenger and Catalyst Ratio",
+            "rationale": "Leveraging the most successful configuration with a strong hole scavenger, this hypothesis maximizes L-Cysteine and maintains a high P10-MIX1 dosage to further enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Minimal Dye with High Catalyst Test",
+            "rationale": "Focusing on the removal of inhibiting dyes while maximizing P10-MIX1 and strategically utilizing L-Cysteine will allow for greater hydrogen production potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Balanced Ionic Strength with High L-Cysteine",
+            "rationale": "Exploring combinations with lower ionic strength through NaCl and NaOH while maintaining a significant L-Cysteine concentration will enhance the understanding of charge dynamics in relation to HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.25, 0.0, 0.5, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine and P10-MIX1",
+            "rationale": "Leveraging the successful configurations to further enhance the amounts of both L-Cysteine and P10-MIX1 is expected to yield the maximum HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Low Ionic Strength and Dyes",
+            "rationale": "Reducing the ionic strength while maximizing L-Cysteine and maintaining a negligible presence of dyes to determine the optimal interaction with HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine and High P10-MIX1 Variation",
+            "rationale": "Maximizing both L-Cysteine and P10-MIX1 with a slightly varied concentration of another parameter to explore its effects on HER enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Maximizing L-Cysteine with Low Sodium Silicate",
+            "rationale": "Maximizing L-Cysteine concentration while keeping Sodium Silicate low allows us to further explore its influence alongside optimal catalyst levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Exploring Lower L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Testing a lower L-Cysteine concentration complemented with a higher sodium silicate level to evaluate any synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Exploring Lower L-Cysteine with High P10-MIX1",
+            "rationale": "This hypothesis tests the effects of a slightly lower concentration of L-Cysteine while maximizing P10-MIX1 to assess other potential optimizing factors without compromising the overall performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "High L-Cysteine with Maximum P10-MIX1 Variation",
+            "rationale": "This iteration maintains high concentrations of both L-Cysteine and P10-MIX1, providing a unique adjustment to experiment with other parameters to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.25, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Sodium Silicate Focus with Reduced L-Cysteine",
+            "rationale": "In this hypothesis, we will explore the effect of varying sodium silicate levels while reducing L-Cysteine slightly to gauge any synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1",
+            "rationale": "This hypothesis tests a slight reduction in L-Cysteine (3.50 g/L) while ensuring P10-MIX1 remains high to explore interactions that might enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Exploring Sodium Silicate with Higher Concentration",
+            "rationale": "Testing a higher sodium silicate concentration while maintaining a moderate level of L-Cysteine (3.0 g/L) to evaluate any possible synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine and P10-MIX1 with Varied Sodium Silicate",
+            "rationale": "Continuing to explore optimal levels of L-Cysteine and P10-MIX1 while varying sodium silicate should uncover beneficial interactions for enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "L-Cysteine with Controlled Sodium Silicate and Low NaOH",
+            "rationale": "Testing intermediate L-Cysteine with higher sodium silicate and minimal NaOH may yield fresh insights into their synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Synergistic Evaluation of Sodium Silicate with Lower L-Cysteine",
+            "rationale": "This hypothesis investigates the impact of a lower concentration of L-Cysteine paired with a higher sodium silicate level to determine potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Varied Sodium Silicate",
+            "rationale": "Continuing with high levels of L-Cysteine and varying sodium silicate allows us to test new interactions and synergies in the system.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Optimized L-Cysteine at Moderate Level with High P10-MIX1",
+            "rationale": "Exploring a configuration with slightly lower L-Cysteine while ensuring P10-MIX1 remains high may reveal beneficial incremental effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Exploring Sodium Silicate with Lower NaOH and High L-Cysteine",
+            "rationale": "Testing the impact of low NaOH while maintaining high L-Cysteine and varying sodium silicate may yield fresh insights into their synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.25, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine and Sodium Silicate Variation",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while experimenting with a more moderate concentration of sodium silicate to observe potential enhancements in HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Evaluating Lower L-Cysteine with High P10-MIX1 and Minimal Additives",
+            "rationale": "Testing a slightly reduced concentration of L-Cysteine paired with maximum P10-MIX1 and minimal additives to maintain advantageous interactions for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Controlled Sodium Silicate with Low Ionic Strength",
+            "rationale": "Testing a configuration with controlled sodium silicate and a focus on low ionic strength to observe the effects on HER while maintaining a high level of L-Cysteine.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": "FAILED",
+        "point": "[0.0, 0.5, 0.5, 0.5, 0.0, 2.8, 0.75, 0.25, 0.5, 0.25]",
+        "action": "Random"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Higher Sodium Silicate",
+            "rationale": "Testing a slightly lower level of L-Cysteine with increased sodium silicate to evaluate potential enhancements in HER through synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Low Additives and Sodium Silicate Variance",
+            "rationale": "Testing a moderate level of L-Cysteine with minimum additives and alternating sodium silicate levels could yield valuable interactions for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine and Maximized P10-MIX1 with Lower Sodium Silicate",
+            "rationale": "Exploring a moderate concentration of L-Cysteine with maximum P10-MIX1 and a lower sodium silicate adjustment may yield beneficial interactions for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Increased Sodium Silicate",
+            "rationale": "By optimizing the balance of L-Cysteine and exploring sodium silicate's potential benefits, we can further enhance the Hydrogen Evolution Rate.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Varying Sodium Silicate",
+            "rationale": "Testing for potential benefits in synergy between maintained high levels of P10-MIX1 and reducing L-Cysteine alongside sodium silicate adjustments to explore new hydrogen production potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Slightly Reduced L-Cysteine with High P10-MIX1 and Alternative Sodium Silicate",
+            "rationale": "Testing a slightly reduced L-Cysteine while maintaining high P10-MIX1 and changing sodium silicate may reveal beneficial interactions that enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Exploring Reduced L-Cysteine with High Sodium Silicate",
+            "rationale": "This configuration aims to discover how a lower concentration of L-Cysteine combined with high sodium silicate impacts HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Increased Sodium Silicate and High P10-MIX1",
+            "rationale": "Investigating the impact of lower L-Cysteine while maintaining high P10-MIX1 and varying sodium silicate to observe any change in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Higher Sodium Silicate with Low NaOH",
+            "rationale": "Exploring the effects of increased sodium silicate while keeping NaOH low could reveal positive interactions that benefit HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine and Baseline Sodium Silicate",
+            "rationale": "Testing a moderate concentration of L-Cysteine alongside a baseline sodium silicate level aims to uncover synergies in enhancing the HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Evaluating Low L-Cysteine with High Sodium Silicate",
+            "rationale": "Exploring the impact of reduced L-Cysteine combined with increased sodium silicate levels could provide insights into their interaction's effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Low L-Cysteine with Varied Sodium Silicate",
+            "rationale": "Assessing the impact of lower L-Cysteine alongside a moderate sodium silicate concentration may help discover new interactions affecting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Exploring the modifications in sodium silicate at moderate L-Cysteine levels aims to potentially enhance the synergistic impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Exploring Lower L-Cysteine with Minimal Sodium Silicate",
+            "rationale": "Testing lower levels of L-Cysteine while also minimizing sodium silicate can uncover new interactions that affect HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Enhanced Sodium Silicate and High P10-MIX1",
+            "rationale": "Investigating the effects of lower L-Cysteine concentrations paired with high sodium silicate and P10-MIX1 to determine potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High Sodium Silicate Exploration",
+            "rationale": "By maintaining a moderate level of L-Cysteine and testing a higher concentration of sodium silicate, this hypothesis seeks to reveal any potential synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Slightly Increased Sodium Silicate",
+            "rationale": "This hypothesis examines the effects of lowering L-Cysteine concentration while exploring a slightly increased sodium silicate concentration to evaluate its impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Elevated Sodium Silicate",
+            "rationale": "Testing moderate levels of L-Cysteine alongside a heightened concentration of sodium silicate aims to explore potential synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Exploring L-Cysteine with Enhanced Sodium Silicate at Mid-Level",
+            "rationale": "Investigating moderate L-Cysteine (3.00 g/L) with a higher sodium silicate concentration (1.50 g/L) to assess potential improvements in HER dynamics.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing the balance of L-Cysteine and sodium silicate while keeping P10-MIX1 at a high level may further optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Lower Sodium Silicate",
+            "rationale": "Testing a moderate level of L-Cysteine alongside maximum P10-MIX1 and a reduced sodium silicate to evaluate potential synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Increased Sodium Silicate Variation",
+            "rationale": "Testing a moderate concentration of L-Cysteine combined with a higher amount of sodium silicate may yield beneficial interactions boosting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with High P10-MIX1 and Increased Sodium Silicate",
+            "rationale": "Examining the effects of a lower concentration of L-Cysteine while maximizing P10-MIX1 and augmenting sodium silicate can help identify new dynamics affecting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing the balance of L-Cysteine while keeping P10-MIX1 at a high level may further optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Lower Sodium Silicate",
+            "rationale": "Testing a moderate level of L-Cysteine alongside maximum P10-MIX1 and a reduced sodium silicate to evaluate potential synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Enhanced Sodium Silicate and Max P10-MIX1",
+            "rationale": "Exploring lower L-Cysteine levels alongside maximum P10-MIX1 and varied sodium silicate may uncover beneficial interactions that positively influence HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Exploring Lower L-Cysteine with High Sodium Silicate",
+            "rationale": "Testing lower concentrations of L-Cysteine accompanied by higher sodium silicate levels while keeping P10-MIX1 at maximum capacity may reveal beneficial interactions impacting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": "FAILED",
+        "point": "[0.75, 0.25, 0.0, 0.0, 0.0, 2.0, 0.75, 0.5, 0.75, 0.5]",
+        "action": "Random"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with High Sodium Silicate and P10-MIX1 Variation",
+            "rationale": "Exploring lower concentrations of L-Cysteine while enhancing sodium silicate levels could help identify novel interactions that impact HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Exploring Synergies with Enhanced Sodium Silicate",
+            "rationale": "Investigating the effects of higher sodium silicate levels alongside high P10-MIX1 while keeping a moderate concentration of L-Cysteine may help reveal beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing the balance of L-Cysteine while keeping P10-MIX1 at a high level may further optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with High Sodium Silicate",
+            "rationale": "Exploring the effects of reduced L-Cysteine combined with increased sodium silicate levels could provide insights into their interaction's effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Further enhancing L-Cysteine while keeping P10-MIX1 at a high level may optimize the potential for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Lower Sodium Silicate",
+            "rationale": "Testing a moderate concentration of L-Cysteine alongside maximum P10-MIX1 and a reduced sodium silicate may reveal new synergies for HER enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Sodium Silicate Adjustment with Increased L-Cysteine",
+            "rationale": "Testing a variation in sodium silicate at a slightly increased L-Cysteine concentration aims to uncover potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": "FAILED",
+        "point": "[0.5, 0.5, 0.75, 0.5, 0.5, 1.2, 0.25, 0.0, 0.25, 0.5]",
+        "action": "Random"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Lower Sodium Silicate",
+            "rationale": "Maintaining a high concentration of L-Cysteine while reducing sodium silicate may optimize HER while testing for beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with High Sodium Silicate",
+            "rationale": "Evaluating lower L-Cysteine concentrations along with varying sodium silicate may yield insights into their interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Reduced L-Cysteine and Increased Sodium Silicate",
+            "rationale": "Exploring lower concentrations of L-Cysteine alongside higher sodium silicate levels while keeping P10-MIX1 at maximum may provide insights into interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Increased Sodium Silicate",
+            "rationale": "Testing lower concentrations of L-Cysteine combined with heightened sodium silicate levels may provide insights into their interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Minimal NaOH",
+            "rationale": "Maintaining moderate concentrations of L-Cysteine and P10-MIX1 while minimizing NaOH may yield new synergies that enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.25, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Exploring Lower L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Testing reduced concentrations of L-Cysteine alongside increased sodium silicate levels while keeping P10-MIX1 at maximum may provide insights into beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.75
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.75]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Enhanced Sodium Silicate and P10-MIX1",
+            "rationale": "Investigating lower L-Cysteine concentrations alongside increased sodium silicate levels while maintaining P10-MIX1 at maximum may yield insights into their interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": "FAILED",
+        "point": "[0.0, 0.0, 0.25, 0.25, 0.75, 2.4, 0.5, 0.5, 0.5, 0.75]",
+        "action": "Random"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Exploring Higher Sodium Silicate with Moderate L-Cysteine",
+            "rationale": "Investigating a mid-range concentration of L-Cysteine (2.75 g/L) with increased sodium silicate levels may uncover beneficial interactions affecting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.75, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Increased Sodium Silicate at 0.5",
+            "rationale": "Testing a reduced concentration of 2.0 g/L L-Cysteine paired with lower sodium silicate to assess new interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Adjusted Sodium Silicate Levels",
+            "rationale": "Exploring lower concentrations of L-Cysteine alongside distinct sodium silicate adjustments while keeping P10-MIX1 at a high level may reveal new interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing the balance of L-Cysteine while keeping P10-MIX1 at a high level may further optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Enhanced Sodium Silicate and Max P10-MIX1",
+            "rationale": "Exploring lower concentrations of L-Cysteine alongside enhanced sodium silicate levels may reveal beneficial interactions impacting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Low L-Cysteine with Varied Sodium Silicate Adjusted",
+            "rationale": "Investigating 1.0 g/L of L-Cysteine combined with 0.75 g/L sodium silicate while maintaining P10-MIX1 at maximum may yield new insights into HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.75
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.75]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with Increased Sodium Silicate",
+            "rationale": "Investigating the effects of further reducing L-Cysteine levels alongside elevated sodium silicate may reveal new interactions impacting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.75
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.75]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Exploring Reduced L-Cysteine with Low Sodium Silicate",
+            "rationale": "Testing lower concentrations of L-Cysteine while minimizing the sodium silicate level may uncover new interactions impacting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Testing moderate concentrations of L-Cysteine with increased sodium silicate aims to evaluate potential synergies in HER enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.75
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.75]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": "FAILED",
+        "point": "[1.0, 0.0, 0.75, 0.25, 0.0, 2.4, 0.5, 1.0, 0.25, 0.0]",
+        "action": "Random"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Balanced L-Cysteine with Low Sodium Silicate",
+            "rationale": "Exploring a lower concentration of L-Cysteine at 2.0 g/L while maintaining sodium silicate at 0.25 g/L and P10-MIX1 at maximum aims to determine interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with Elevated Sodium Silicate",
+            "rationale": "Investigating a lower concentration of L-Cysteine (1.75 g/L) combined with increased sodium silicate (1.00 g/L) may provide insights into interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.0]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing L-Cysteine while keeping P10-MIX1 at a high level may optimize HER through effective interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Enhanced Sodium Silicate and Max P10-MIX1",
+            "rationale": "Exploring reduced L-Cysteine alongside increased sodium silicate may uncover interaction benefits for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Lower Sodium Silicate",
+            "rationale": "Maintaining a high concentration of L-Cysteine while reducing sodium silicate may optimize HER through effective interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Testing moderate concentrations of L-Cysteine with increased sodium silicate may evaluate potential synergies in HER enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and New Sodium Silicate",
+            "rationale": "Testing moderate concentrations of L-Cysteine with increased sodium silicate aims to evaluate potential synergies in HER enhancement across a unique configuration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with Increased Sodium Silicate Variation",
+            "rationale": "Testing lower concentrations of L-Cysteine in combination with increased sodium silicate levels aims to uncover new interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Maximizing L-Cysteine and P10-MIX1 Balanced with Sodium Silicate",
+            "rationale": "By keeping L-Cysteine and P10-MIX1 at high levels while adjusting sodium silicate, we expect synergistic improvements in HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Sodium Silicate",
+            "rationale": "Testing slightly lower L-Cysteine with increased sodium silicate while keeping P10-MIX1 high may yield new interaction benefits.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.5]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": "FAILED",
+        "point": "[0.75, 0.0, 0.25, 0.75, 0.25, 2.6, 0.75, 0.0, 0.5, 0.25]",
+        "action": "Random"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Low L-Cysteine with Varying Sodium Silicate and Max P10-MIX1 (Alternative)",
+            "rationale": "Testing lower concentrations of L-Cysteine combined with different sodium silicate levels while maintaining P10-MIX1 at maximum could reveal novel interactions affecting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.25
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.25]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Evaluating Moderate L-Cysteine with Adjusted High Sodium Silicate",
+            "rationale": "Testing moderate concentrations of L-Cysteine with an elevated level of sodium silicate may provide insights into enhanced interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.75
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.75]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Further Evaluation of Lower L-Cysteine with Enhanced Sodium Silicate",
+            "rationale": "Continuing to explore how reduced L-Cysteine concentrations paired with increased sodium silicate can affect HER positively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with Increased Sodium Silicate",
+            "rationale": "Exploring a configuration with a moderate L-Cysteine concentration combined with increased sodium silicate could reveal new synergies that enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.0]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with Increased Sodium Silicate Variation",
+            "rationale": "Exploring reduced concentrations of L-Cysteine alongside enhanced sodium silicate levels while keeping P10-MIX1 at maximum may yield insights into their interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 1.75
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 1.75]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with Adjusted Sodium Silicate and High P10-MIX1",
+            "rationale": "Investigating lower concentrations of L-Cysteine (1.5 g/L) paired with a different sodium silicate level may reveal interaction effects on HER when combined with maximum P10-MIX1.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 3.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 3.0]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": "FAILED",
+        "point": "[0.75, 0.5, 0.0, 0.0, 0.25, 3.8, 0.25, 0.25, 0.75, 0.75]",
+        "action": "Random"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Exploring Low L-Cysteine with Adjusted Sodium Silicate at 2.5",
+            "rationale": "Investigating lower concentrations of L-Cysteine combined with increased sodium silicate may uncover new insights into interaction dynamics affecting HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 2.5
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 2.5]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Adjusted Sodium Silicate",
+            "rationale": "Enhancing the balance of L-Cysteine while keeping P10-MIX1 at a high level may further optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.25
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.25]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Lower Sodium Silicate",
+            "rationale": "Testing a moderate level of L-Cysteine alongside maximum P10-MIX1 and a reduced sodium silicate to evaluate potential synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine with High P10-MIX1 and Low Sodium Silicate",
+            "rationale": "Testing moderate L-Cysteine with maximum P10-MIX1 while minimizing sodium silicate aims to evaluate potential interactions that enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Lower L-Cysteine with High Sodium Silicate and P10-MIX1",
+            "rationale": "Exploring lower concentrations of L-Cysteine with increased sodium silicate while keeping P10-MIX1 high may yield new insights into their interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 3.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 3.0]",
+        "action": "LLM"
+    }
+}

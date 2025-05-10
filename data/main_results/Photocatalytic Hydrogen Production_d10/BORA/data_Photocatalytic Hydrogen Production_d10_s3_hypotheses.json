@@ -1,0 +1,530 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Dye and Scavenger",
+            "rationale": "Combining a moderate amount of dye with a hole scavenger may enhance charge separation and light absorption, leading to improved HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Increasing the surfactant concentration may improve dispersion and accessibility of the photocatalyst, enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.5, 1.0, 0.5, 5.0, 2.0, 0.0, 0.5, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Dye-Heavy Mixture",
+            "rationale": "Utilizing a higher concentration of dyes may enhance light absorption and promote more efficient photocatalytic reactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 2.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 2.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.5,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[2.0, 0.0, 2.0, 0.5, 0.0, 5.0, 0.0, 0.5, 0.0, 0.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimized pH and Ionic Strength",
+            "rationale": "Adjusting pH and ionic strength can significantly influence the photocatalytic activity, potentially leading to higher HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Minimalist Approach",
+            "rationale": "A minimalist approach with fewer components may reduce competition for active sites and enhance HER efficiency.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaCl",
+            "rationale": "Building on the successful combination of L-Cysteine and NaCl, this hypothesis aims to further explore their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 2.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Dye and Scavenger",
+            "rationale": "Revisiting the combination of a moderate amount of dye with a hole scavenger to enhance charge separation and light absorption.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 0.5, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Exploring the effects of increased surfactant concentration to improve dispersion and accessibility of the photocatalyst.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.0, 0.5, 5.0, 2.0, 0.0, 0.5, 0.0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Minimalist Approach with Hole Scavenger",
+            "rationale": "A minimalist approach focusing on essential components, particularly a hole scavenger, to enhance HER efficiency.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Dye-Free High Ionic Strength",
+            "rationale": "Testing the effects of high ionic strength without dyes to assess its impact on HER.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 5.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 5.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "35": {
+        "trust_score": 0.670127480919408,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaCl",
+            "rationale": "Building on the successful combination of L-Cysteine and NaCl, this hypothesis aims to further explore their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 2.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "36": {
+        "trust_score": 0.670127480919408,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced Dye and Scavenger",
+            "rationale": "Revisiting the combination of a moderate amount of dye with a hole scavenger to enhance charge separation and light absorption, while minimizing detrimental effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 0.5, 1.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "37": {
+        "trust_score": 0.670127480919408,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Exploring the effects of increased surfactant concentration to improve dispersion and accessibility of the photocatalyst, while maintaining effective components.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.5,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.0, 0.5, 5.0, 2.5, 0.0, 0.5, 0.0]"
+    },
+    "38": {
+        "trust_score": 0.670127480919408,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Enhanced Hole Scavenger Focus",
+            "rationale": "Increasing the concentration of L-Cysteine while minimizing other components to maximize its beneficial effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "68": {
+        "trust_score": 0.5730947173251507,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Dye and Scavenger",
+            "rationale": "Revisiting the combination of a moderate amount of dye with a hole scavenger to enhance charge separation and light absorption, while minimizing detrimental effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.75,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 0.75, 1.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "69": {
+        "trust_score": 0.5730947173251507,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Exploring the effects of increased surfactant concentration to improve dispersion and accessibility of the photocatalyst, while maintaining effective components.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.75,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.0, 0.5, 5.0, 2.0, 0.0, 0.75, 0.0]"
+    },
+    "70": {
+        "trust_score": 0.5730947173251507,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Enhanced Hole Scavenger Focus",
+            "rationale": "Increasing the concentration of L-Cysteine while minimizing other components to maximize its beneficial effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "71": {
+        "trust_score": 0.5730947173251507,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Dye-Free High Ionic Strength",
+            "rationale": "Testing the effects of high ionic strength without dyes to assess its impact on HER.",
+            "confidence": "low",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 4.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 4.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "84": {
+        "trust_score": 0.3783528224479231,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Balanced Dye and Scavenger",
+            "rationale": "Revisiting the combination of a moderate amount of dye with a hole scavenger to enhance charge separation and light absorption, while minimizing detrimental effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.75,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.75, 1.0, 0.5, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "85": {
+        "trust_score": 0.3783528224479231,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Exploring the effects of increased surfactant concentration to improve dispersion and accessibility of the photocatalyst, while maintaining effective components.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 0.5, 5.0, 2.0, 0.0, 0.0, 0.0]"
+    },
+    "86": {
+        "trust_score": 0.3783528224479231,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Enhanced Hole Scavenger Focus",
+            "rationale": "Increasing the concentration of L-Cysteine while minimizing other components to maximize its beneficial effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "100": {
+        "trust_score": 0.3353090235851743,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "High Surfactant and Catalyst",
+            "rationale": "Exploring the effects of increased surfactant concentration to improve dispersion and accessibility of the photocatalyst, while maintaining effective components.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 2.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.0, 0.5, 5.0, 2.0, 0.0, 0.0, 0.0]"
+    }
+}

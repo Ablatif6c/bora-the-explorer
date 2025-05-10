@@ -1,0 +1,16 @@
+```
+{
+    "rationale": "In greenhouse conditions, optimal biomass production for sugar beet typically occurs with high irradiance, moderate temperatures, adequate water, and low wind speed to retain humidity. Therefore, a high irradiance value maximizes photosynthesis. For temperature, a tmin of around 15°C and tmax of around 25°C are conducive to growth. The vapor pressure should be kept at a reasonable level (around 1 kPa) for photosynthesis without causing stress. Minimal wind speed helps maintain humidity which is crucial for growth, while moderate rainfall ensures the soil is not too dry. A wav value of 40 cm provides adequate initial moisture, and an SMLIM of 0.5 allows for effective water retention.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 1,
+        "wind": 1,
+        "rain": 5,
+        "wav": 40,
+        "SMLIM": 0.5
+    }
+}
+```

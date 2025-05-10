@@ -1,0 +1,14 @@
+{
+    "name": "High Angle Precision Strategy",
+    "rationale": "Maximizing score may also benefit from utilizing a higher pitch angle for more vertical lift. A pitch of 55 degrees can allow the projectile to reach a higher apex before descending towards the target, helping to minimize horizontal distance travel errors. The yaw should remain at 0 to ensure direct targeting toward (50, 0). A slightly lower initial velocity of around 35 m/s will help control the projectile’s flight path more clearly, while enabling sufficient range. A spin of 200 rpm provides stability without excessive complexity in trajectory, and releasing the projectile from a height of 1.2 m helps optimize the launch. The mass is set to 1 kg to provide a good balance of momentum and control.",
+    "confidence": "0.65",
+    "optimum_location": {
+        "pitch_deg": 55,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 200,
+        "spin_axis_deg": 0,
+        "h0": 1.2,
+        "mass": 1
+    }
+}

@@ -1,0 +1,24 @@
+```
+{
+    "name": "High Variation Guess for Global Maximum",
+    "rationale": "To explore potential variability within the function's response, a combination of extreme values and lower values across the parameters may yield interesting results. Setting alternating parameters to high values (20) while others are set to low values (-30) could reveal interactions that might indicate the location of a global maximum.",
+    "confidence": 0.65,
+    "optimum_location": {
+        "x_0": 20,
+        "x_1": -30,
+        "x_2": 20,
+        "x_3": -30,
+        "x_4": 20,
+        "x_5": -30,
+        "x_6": 20,
+        "x_7": -30,
+        "x_8": 20,
+        "x_9": -30,
+        "x_10": 20,
+        "x_11": -30,
+        "x_12": 20,
+        "x_13": -30,
+        "x_14": 20
+    }
+}
+```

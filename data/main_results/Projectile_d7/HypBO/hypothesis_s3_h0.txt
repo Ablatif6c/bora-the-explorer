@@ -1,0 +1,14 @@
+{
+    "name": "Optimal Projectile Launch Settings",
+    "rationale": "To maximize the score, it's essential to achieve a balance between launch angle, initial velocity, and other rotational and positional factors. Experimentally, a launch angle around 45 degrees tends to yield the best distances in projectile motion. A yaw of 0 degrees means the projectile is aimed directly at the target. A high initial velocity maximizes distance, while moderate spin can stabilize the projectile. Releasing from a small height (0.5m) helps utilize gravitational effects without excessive descent time. Choosing a mass just heavy enough (1kg) to keep it stable yet allow for substantial speed is optimal.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 0.5,
+        "mass": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "rationale":"Based on general principles of solar energy production, solar panels typically perform well when tilted at angles close to the latitude of the location and facing south in the northern hemisphere (or north in the southern hemisphere). For azimuth, 180° is generally optimal in the northern hemisphere. A system_capacity of around 10 kW is a common effective size for residential settings, while a dc_ac_ratio around 1.2 is seen as favorable for maximizing energy output without overloading the inverter. Given these considerations, I propose the following settings as a likely global optimum.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.2
+    }
+}

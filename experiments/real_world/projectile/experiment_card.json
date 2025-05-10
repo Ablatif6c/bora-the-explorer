@@ -1,0 +1,53 @@
+{
+  "name": "Projectile",
+  "domain": "physics",
+  "description": "We simulate a person located at (x=0, y=0) throwing a ball projectile toward a target located at (50, 0). We measure where the projectile lands and how close it comes to the target which is the distance error. Based on this distance error we map the result to a score (0-100), where higher scores mean a closer landing to the target. The goal is to maximize the score by adjusting the parameters and eventually hit the target.",
+  "parameters": [
+    {
+      "name": "pitch_deg",
+      "description": "The angle at which the projectile is released relative to the horizontal plane (0° = parallel to the ground, 90° = straight up).",
+      "bounds": [-30, 90],
+      "type": "continuous"
+    },
+    {
+      "name": "yaw_deg",
+      "description": "Left-right aiming angle in the horizontal plane; 0 degree = aiming straight, positive or negative angles for left/right.",
+      "bounds": [-180, 180],
+      "type": "continuous"
+    },
+    {
+      "name": "v0",
+      "description": "Magnitude of the initial velocity (how hard the projectile is thrown). (in m/s).",
+      "bounds": [0, 50],
+      "type": "continuous"
+    },
+    {
+      "name": "spin_rpm",
+      "description": "Revolutions per minute that the projectile spins upon release.",
+      "bounds": [0, 3000],
+      "type": "continuous"
+    },
+    {
+      "name": "spin_axis_deg",
+      "description": "Orientation of the spin axis in the xy-plane; 0 deg aligns with +x-axis, 90 deg aligns with +y-axis, etc.",
+      "bounds": [-180, 180],
+      "type": "continuous"
+    },
+    {
+      "name": "h0",
+      "description": "The vertical position from which the projectile is released (above ground level) (m).",
+      "bounds": [0, 2],
+      "type": "continuous"
+    },
+    {
+      "name": "mass",
+      "description": "Mass of the projectile (kg).",
+      "bounds": [0.01, 10],
+      "type": "continuous"
+    }
+  ],
+  "target": {
+    "name": "Score",
+    "description": "The closer the projectile lands to the target, the better. Range [0, 1]."
+  }
+}

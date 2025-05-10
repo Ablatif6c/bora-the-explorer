@@ -1,0 +1,16 @@
+```json
+{
+    "name": "Alternative Initial Guess for Global Maximum",
+    "rationale": "Another strategic guess to optimize the score might utilize a slightly higher angle to account for air resistance and potential ballistics effects. An angle of 50 degrees can provide a good trajectory while still allowing distance coverage. Keeping the yaw at 0 directs the throw straight towards the target. An initial velocity of 40 m/s is aggressive enough to ensure the projectile reaches the target effectively. A higher spin at 1500 RPM may improve stability in flight. Launching from 1.5m can also enhance the trajectory and increase potential distance covered. A mass of 0.5 kg provides lightness for speed but sufficient mass for stability, promoting better control during flight.",
+    "confidence": "0.6",
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 40,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 0.5
+    }
+}
+```

@@ -1,0 +1,17 @@
+```
+{
+    "name": "Maximized Resource Availability for Sugar Beet",
+    "rationale": "To achieve the highest biomass production in sugar beet, it's crucial to simulate conditions that encourage vigorous growth and resource availability. A high irradiance level of around 7200 kJ/m2/day optimally promotes photosynthesis. Setting the daily minimum temperature to 12°C and a maximum at 22°C provides a supportive thermal range that prevents stress and promotes metabolic activities. A vapor pressure of 1 kPa allows for efficient transpiration without excessive moisture loss. A moderate wind speed of 1.5 m/s enhances air circulation, preventing fungal issues while being gentle on the plants. Limiting rainfall to 7 mm supports moisture without saturation, while initializing the soil water content at 80 cm and setting the maximum moisture content at 0.85 ensures the plants have access to sufficient water throughout growth.",
+    "confidence": "0.78",
+    "optimum_location": {
+        "irrad": 7200,
+        "tmin": 12,
+        "tmax": 22,
+        "vap": 1,
+        "wind": 1.5,
+        "rain": 7,
+        "wav": 80,
+        "SMLIM": 0.85
+    }
+}
+```

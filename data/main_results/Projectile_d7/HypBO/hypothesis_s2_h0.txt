@@ -1,0 +1,14 @@
+{
+    "name": "optimized_throw_parameters",
+    "rationale": "To maximize the accuracy of the projectile throw, we should consider throwing at an optimal angle (around 45 degrees) for distance while taking advantage of a reasonable initial velocity. A forward pitch combined with minimal yaw allows for a direct throw towards the target, while accounting for an optimal spin for stability and flight time.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 0.5
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Enhanced Solar Optimization Strategy",
+    "rationale": "Research suggests that a tilt angle of approximately 40° often yields higher energy output in northern hemisphere climates, as it aligns well with the sun's trajectory. An azimuth angle of 195° can provide additional benefits by slightly adjusting from true south, helping to capture the late afternoon sun. A system capacity of 15 kW enhances potential output without oversizing, and a DC to AC ratio of 1.2 provides a good balance for system efficiency and power yield.",
+    "confidence": "0.75",
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 195,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.2
+    }
+}

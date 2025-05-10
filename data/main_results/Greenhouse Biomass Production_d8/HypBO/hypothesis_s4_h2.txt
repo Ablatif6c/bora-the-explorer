@@ -1,0 +1,15 @@
+{
+    "name": "Ideal Growth Environment for Biomass Maximization",
+    "rationale": "By optimizing for high irradiance and moderate temperatures, this setup aims to create an environment conducive to fast biomass production. The selected values consider the need for sufficient water without causing stress to the plants, ensuring a combination of good light exposure and stable moisture conditions.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "irrad": 7200,
+        "tmin": 12,
+        "tmax": 22,
+        "vap": 1.8,
+        "wind": 0.7,
+        "rain": 4,
+        "wav": 85,
+        "SMLIM": 0.65
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Optimal Throw Parameters",
+    "rationale": "To maximize the score, we need to achieve an optimal launch that balances height and distance. A launch angle of around 45 degrees generally offers the best balance for distance. Considering the target is directly in front, a yaw angle of 0 degrees is ideal. A moderate initial velocity, such as around 25 m/s, should be effective in hitting the target due to the projectile motion. A sensible spin might help for stability, so around 1000 rpm is a reasonable guess. The spin axis can be aligned with the x-axis (0 degrees), to avoid any lateral deviation. The height from which the projectile is launched should be at 1 m for a slight advantage, and a mass of around 1 kg offers a good compromise for distance and mechanics.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 25,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

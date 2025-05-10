@@ -1,0 +1,15 @@
+{
+    "name": "Optimal Growth Parameters for Sugar Beet Production",
+    "rationale": "Maximizing biomass production in sugar beet requires a fine balance between light exposure, sufficient warmth, and moisture retention. High irradiance supports vigorous photosynthesis, while maintaining moderate temperatures avoids heat stress. Adequate mean vapor pressure promotes transpiration, and limited wind helps maintain plant integrity. The selected parameters aim to create a thriving environment that enhances growth potential.",
+    "confidence": 0.80,
+    "optimum_location": {
+        "irrad": 6800,
+        "tmin": 14,
+        "tmax": 26,
+        "vap": 3.5,
+        "wind": 1.2,
+        "rain": 7,
+        "wav": 45,
+        "SMLIM": 0.65
+    }
+}

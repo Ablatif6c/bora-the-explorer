@@ -1,0 +1,14 @@
+{
+    "name": "optimized_throw_parameters_v2",
+    "rationale": "Considering the physics of projectile motion and the need for stability during flight, we can adjust the parameters to focus on a slightly higher pitch to optimize for both range and height. A lower yaw angle keeps the aim aligned with the target, and a moderate initial velocity ensures enough distance without excessive loss to drag. The spin aids in flight stabilization while maintaining a lightweight projectile for maximum efficiency.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 5,
+        "v0": 35,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 0.3
+    }
+}

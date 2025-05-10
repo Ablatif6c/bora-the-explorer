@@ -1,0 +1,740 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Tilt for Winter Optimization",
+            "rationale": "A higher tilt angle is often beneficial in winter months to capture lower sun angles, potentially maximizing energy production during this season.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 180,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[75.0, 180.0, 15.0, 1.2]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Equatorial Positioning",
+            "rationale": "Setting the azimuth to 0\u00b0 (true south) with a moderate tilt can optimize energy capture throughout the day, especially in equatorial regions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 30,
+                    "azimuth": 0,
+                    "system_capacity": 10,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 0.0, 10.0, 1.5]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Balanced Capacity and Efficiency",
+            "rationale": "A moderate system capacity with a slightly higher DC to AC ratio can enhance efficiency, especially in regions with consistent sunlight.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 45,
+                    "azimuth": 90,
+                    "system_capacity": 12,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[45.0, 90.0, 12.0, 1.4]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Maximize Morning Production",
+            "rationale": "A tilt angle of around 60\u00b0 and azimuth of 75\u00b0 can optimize energy capture during morning hours, which is crucial for daily energy production.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 60,
+                    "azimuth": 75,
+                    "system_capacity": 8,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[60.0, 75.0, 8.0, 1.1]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Evening Optimization",
+            "rationale": "Adjusting the azimuth to 300\u00b0 with a tilt of 40\u00b0 can enhance energy capture during evening hours, which may be beneficial in certain geographical locations.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 40,
+                    "azimuth": 300,
+                    "system_capacity": 5,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[40.0, 300.0, 5.0, 1.3]"
+    },
+    "12": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 85\u00b0 and azimuth of 180\u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 85,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[85.0, 180.0, 20.0, 1.0]"
+    },
+    "13": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Maximize Energy with Slightly Lower Tilt",
+            "rationale": "A tilt of 80\u00b0 with a slight adjustment in azimuth to 190\u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 80,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[80.0, 190.0, 20.0, 1.0]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploring Higher Capacity",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 90\u00b0 and azimuth of 180\u00b0 could further enhance energy production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 90,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[90.0, 180.0, 20.0, 1.0]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 75\u00b0 and azimuth of 170\u00b0 may provide a balance between morning and afternoon energy capture.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 170,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[75.0, 170.0, 15.0, 1.2]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Testing Lower Tilt with High Capacity",
+            "rationale": "Exploring a lower tilt of 70\u00b0 with a high system capacity of 20 kW and azimuth of 200\u00b0 could yield interesting results.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 200,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[70.0, 200.0, 20.0, 1.0]"
+    },
+    "24": {
+        "trust_score": 0.6996177374178678,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88u00b0 and azimuth of 180u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.0, 180.0, 20.0, 1.0]"
+    },
+    "25": {
+        "trust_score": 0.6996177374178678,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87u00b0 with a slight adjustment in azimuth to 185u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87,
+                    "azimuth": 185,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.0, 185.0, 20.0, 1.0]"
+    },
+    "26": {
+        "trust_score": 0.6996177374178678,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89u00b0 and azimuth of 180u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.0, 180.0, 20.0, 1.0]"
+    },
+    "27": {
+        "trust_score": 0.6996177374178678,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 76u00b0 and azimuth of 175u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 175,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 175.0, 15.0, 1.2]"
+    },
+    "28": {
+        "trust_score": 0.6996177374178678,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with High Capacity",
+            "rationale": "Testing a tilt of 72u00b0 with a high system capacity of 20 kW and azimuth of 200u00b0 could yield interesting results, providing a new angle of exploration.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 200,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 200.0, 20.0, 1.0]"
+    },
+    "37": {
+        "trust_score": 0.6310398579322225,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88u00b0 and azimuth of 182u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.0, 182.0, 20.0, 1.0]"
+    },
+    "38": {
+        "trust_score": 0.6310398579322225,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87u00b0 with a slight adjustment in azimuth to 183u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87,
+                    "azimuth": 183,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.0, 183.0, 20.0, 1.0]"
+    },
+    "39": {
+        "trust_score": 0.6310398579322225,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89u00b0 and azimuth of 182u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.0, 182.0, 20.0, 1.0]"
+    },
+    "40": {
+        "trust_score": 0.6310398579322225,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 76u00b0 and azimuth of 178u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 178,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.0, 178.0, 15.0, 1.2]"
+    },
+    "41": {
+        "trust_score": 0.6310398579322225,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with High Capacity",
+            "rationale": "Testing a tilt of 72u00b0 with a high system capacity of 20 kW and azimuth of 202u00b0 could yield interesting results, providing a new angle of exploration.",
+            "confidence": "low",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 202,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[72.0, 202.0, 20.0, 1.0]"
+    },
+    "51": {
+        "trust_score": 0.49493739458483427,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with Moderate Capacity",
+            "rationale": "Testing a tilt of 28.16\u00b0 with an azimuth of 126.01\u00b0 and a system capacity of 1.62 kW may reveal how lower tilt angles can still capture energy effectively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 28.16,
+                    "azimuth": 126.01,
+                    "system_capacity": 1.62,
+                    "dc_ac_ratio": 1.07
+                }
+            ]
+        },
+        "point": "[28.16, 126.01, 1.62, 1.07]"
+    },
+    "52": {
+        "trust_score": 0.49493739458483427,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Testing Slightly Higher Tilt with Increased Capacity",
+            "rationale": "A tilt of 30.14\u00b0 and azimuth of 129.57\u00b0 with a system capacity of 2.79 kW could provide insights into the performance of moderate tilt angles combined with higher capacity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 30.14,
+                    "azimuth": 129.57,
+                    "system_capacity": 2.79,
+                    "dc_ac_ratio": 1.31
+                }
+            ]
+        },
+        "point": "[30.14, 129.57, 2.79, 1.31]"
+    },
+    "63": {
+        "trust_score": 0.44931586218350666,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88.5u00b0 and azimuth of 181u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88.5,
+                    "azimuth": 181,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.5, 181.0, 20.0, 1.0]"
+    },
+    "64": {
+        "trust_score": 0.44931586218350666,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87.5u00b0 with a slight adjustment in azimuth to 182.5u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87.5,
+                    "azimuth": 182.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.5, 182.5, 20.0, 1.0]"
+    },
+    "65": {
+        "trust_score": 0.44931586218350666,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89.5u00b0 and azimuth of 181.5u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89.5,
+                    "azimuth": 181.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.5, 181.5, 20.0, 1.0]"
+    },
+    "66": {
+        "trust_score": 0.44931586218350666,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 76.5u00b0 and azimuth of 179u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76.5,
+                    "azimuth": 179,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.5, 179.0, 15.0, 1.2]"
+    },
+    "67": {
+        "trust_score": 0.44931586218350666,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with Moderate Capacity",
+            "rationale": "Testing a tilt of 30.5u00b0 with an azimuth of 130.5u00b0 and a system capacity of 3.5 kW may reveal how lower tilt angles can still capture energy effectively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 30.5,
+                    "azimuth": 130.5,
+                    "system_capacity": 3.5,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[30.5, 130.5, 3.5, 1.1]"
+    },
+    "77": {
+        "trust_score": 0.4469176758849612,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88.7u00b0 and azimuth of 181.2u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88.7,
+                    "azimuth": 181.2,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.7, 181.2, 20.0, 1.0]"
+    },
+    "78": {
+        "trust_score": 0.4469176758849612,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87.8u00b0 with a slight adjustment in azimuth to 182.3u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87.8,
+                    "azimuth": 182.3,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.8, 182.3, 20.0, 1.0]"
+    },
+    "79": {
+        "trust_score": 0.4469176758849612,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89.2u00b0 and azimuth of 181.8u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89.2,
+                    "azimuth": 181.8,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.2, 181.8, 20.0, 1.0]"
+    },
+    "80": {
+        "trust_score": 0.4469176758849612,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 76.8u00b0 and azimuth of 179.5u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76.8,
+                    "azimuth": 179.5,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.8, 179.5, 15.0, 1.2]"
+    },
+    "81": {
+        "trust_score": 0.4469176758849612,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with Moderate Capacity",
+            "rationale": "Testing a tilt of 31.0u00b0 with an azimuth of 131.0u00b0 and a system capacity of 3.8 kW may reveal how lower tilt angles can still capture energy effectively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 31.0,
+                    "azimuth": 131.0,
+                    "system_capacity": 3.8,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[31.0, 131.0, 3.8, 1.1]"
+    },
+    "90": {
+        "trust_score": 0.44500362227395146,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88.9u00b0 and azimuth of 181.5u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88.9,
+                    "azimuth": 181.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.9, 181.5, 20.0, 1.0]"
+    },
+    "91": {
+        "trust_score": 0.44500362227395146,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87.5u00b0 with a slight adjustment in azimuth to 182.0u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87.5,
+                    "azimuth": 182.0,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.5, 182.0, 20.0, 1.0]"
+    },
+    "92": {
+        "trust_score": 0.44500362227395146,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89.0u00b0 and azimuth of 181.0u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89.0,
+                    "azimuth": 181.0,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.0, 181.0, 20.0, 1.0]"
+    },
+    "93": {
+        "trust_score": 0.44500362227395146,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 77.0u00b0 and azimuth of 179.0u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 77.0,
+                    "azimuth": 179.0,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[77.0, 179.0, 15.0, 1.2]"
+    },
+    "94": {
+        "trust_score": 0.44500362227395146,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Lower Tilt with Moderate Capacity",
+            "rationale": "Testing a tilt of 31.5u00b0 with an azimuth of 132.0u00b0 and a system capacity of 3.8 kW may reveal how lower tilt angles can still capture energy effectively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 31.5,
+                    "azimuth": 132.0,
+                    "system_capacity": 3.8,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[31.5, 132.0, 3.8, 1.1]"
+    },
+    "102": {
+        "trust_score": 0.48644317641846574,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Refined High Tilt and Optimal Azimuth",
+            "rationale": "Building on the successful configurations, a tilt of 88.2u00b0 and azimuth of 181.8u00b0 should maximize energy capture during peak sunlight hours.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88.2,
+                    "azimuth": 181.8,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[88.2, 181.8, 20.0, 1.0]"
+    },
+    "103": {
+        "trust_score": 0.48644317641846574,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Tilt",
+            "rationale": "A tilt of 87.0u00b0 with a slight adjustment in azimuth to 182.5u00b0 may capture additional energy while maintaining high production levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87.0,
+                    "azimuth": 182.5,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[87.0, 182.5, 20.0, 1.0]"
+    },
+    "104": {
+        "trust_score": 0.48644317641846574,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Testing Maximum Capacity with High Tilt",
+            "rationale": "Testing a higher system capacity of 20 kW with a tilt of 89.5u00b0 and azimuth of 181.2u00b0 could further enhance energy production, as previous configurations with this tilt have shown promise.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89.5,
+                    "azimuth": 181.2,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.0
+                }
+            ]
+        },
+        "point": "[89.5, 181.2, 20.0, 1.0]"
+    },
+    "105": {
+        "trust_score": 0.48644317641846574,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Moderate Tilt for Balanced Performance",
+            "rationale": "A moderate tilt of 76.5u00b0 and azimuth of 178.5u00b0 may provide a balance between morning and afternoon energy capture, based on previous successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 76.5,
+                    "azimuth": 178.5,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[76.5, 178.5, 15.0, 1.2]"
+    }
+}

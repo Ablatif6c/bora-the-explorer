@@ -1,0 +1,10 @@
+{
+    "rationale":"To maximize solar energy production, the azimuth angle should face true south in the northern hemisphere (approximately 180°) to capture the most sunlight throughout the day. The tilt angle is generally optimized around the latitude of the location, so an angle of around 30° is often effective for many regions. A higher system capacity can lead to more energy production, thus I suggest the maximum capacity of 20 kW. Lastly, a DC to AC ratio of 1.5 is beneficial for ensuring that the inverter is fully utilized while preventing clipping in high solar irradiance conditions.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 20,
+        "dc_ac_ratio": 1.5
+    }
+}

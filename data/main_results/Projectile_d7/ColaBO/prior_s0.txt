@@ -1,0 +1,13 @@
+{
+    "rationale":"To maximize the score, we want to achieve an optimal launch angle and speed that allows the projectile to reach its target as efficiently as possible. A launch angle (pitch_deg) of around 45° is often considered optimal for maximizing range in projectile motion. For yaw_deg, a value of 0° ensures the projectile is aimed straight at the target. The initial velocity (v0) should be sufficiently high but not excessively so, hence I chose 30 m/s as a balanced starting point. Spin can help stabilize the projectile's flight, so a mid-range spin of 1500 rpm is chosen. For spin_axis_deg, aligning with the +x-axis (0°) is logical to simplify the spin parameter's impact. The height (h0) should be above the ground for better launch conditions, so I set it to 1 m. Finally, a mass of 1 kg offers a reasonable trade-off between inertia and control. Overall, these settings balance maximizing range and accuracy.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

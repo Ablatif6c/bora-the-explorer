@@ -1,0 +1,2376 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Balanced Additive Combination",
+            "rationale": "This hypothesis combines moderate amounts of different additives to achieve a synergistic effect, optimizing the environment for HER without overwhelming the system.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.5,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 1.0, 0.5, 3.0, 0.5, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Dye Dominance",
+            "rationale": "Utilizing a higher concentration of dyes may enhance light absorption and increase the photocatalytic activity, thus improving HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 2.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 2.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[2.0, 0.0, 2.0, 0.5, 0.0, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Cysteine Enhancement",
+            "rationale": "Incorporating L-Cysteine as a hole scavenger could significantly improve charge dynamics, thereby increasing the HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.5, 1.0, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": "FAILED",
+        "point": "[0.75, 0.0, 0.75, 0.0, 0.0, 3.2, 0.25, 0.0, 0.25, 0.5]",
+        "action": "Random"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Cysteine and Catalyst Optimization",
+            "rationale": "Maximizing L-Cysteine concentration in conjunction with an effective P10-MIX1 aims to enhance charge dynamics for optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Balanced Additive Exploration",
+            "rationale": "Testing low concentrations of multiple additives alongside significant P10-MIX1 support may yield a balanced and enhanced HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.25,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.25, 0.5, 0.25, 0.25, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "NaOH and Catalyst Adjustment",
+            "rationale": "Introducing NaOH at a controlled level alongside P10-MIX1 aims to optimize pH and catalyze improved HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 2.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Enhanced Cysteine and Catalyst Focus",
+            "rationale": "Leveraging increased L-Cysteine concentration at 3.5 g/L with optimal P10-MIX1 at 4.0 is expected to significantly improve HER through superior charge dynamics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Cysteine and NaOH Optimization",
+            "rationale": "Introducing a calibrated increase of NaOH while keeping L-Cysteine at 3.0 g/L aims to enhance overall photocatalytic performance by optimizing pH and charge dynamics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Minimal Additive Configuration",
+            "rationale": "Testing the effect of lowering all other components to near-zero levels while maximizing L-Cysteine and maintaining a high P10-MIX1 concentration ensures reduced competition for active sites.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Enhanced Cysteine with Incremental NaOH",
+            "rationale": "Adjusting NaOH to 1.5 g/L while maintaining L-Cysteine at 3.5 g/L may foster an optimal environment for HER enhancement.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 1.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Enhanced Cysteine Optimization",
+            "rationale": "Leveraging a high L-Cysteine concentration of 4.0 g/L alongside P10-MIX1 at 4.0 g/L aims to maximize HER by promoting effective charge dynamics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Cysteine and NaOH Enhancement",
+            "rationale": "Introducing NaOH at a slightly lower level (1.0 g/L) while maintaining L-Cysteine at 3.0 g/L may improve photocatalytic performance by optimizing pH.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Minimal Additive Configuration",
+            "rationale": "Testing with all other components minimized while maximizing L-Cysteine and maintaining a high concentration of P10-MIX1 should reduce competition for active sites.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Enhanced Cysteine and Catalyst Optimization",
+            "rationale": "Maintaining a high concentration of L-Cysteine at 4.0 g/L alongside P10-MIX1 at 4.0 g/L is expected to significantly enhance HER through improved charge dynamics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Cysteine and NaOH Enhancement",
+            "rationale": "Introducing NaOH at 1.0 g/L while keeping L-Cysteine at 3.0 g/L aims to enhance overall photocatalytic performance by optimizing pH.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Cysteine with Minimal Additives",
+            "rationale": "Maximizing L-Cysteine at 3.5 g/L while minimizing all other components ensures reduced competition for active sites while supporting charge transfer.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH",
+            "rationale": "This hypothesis seeks to enhance photocatalytic performance by maintaining L-Cysteine at 4.0 g/L while introducing a slight increase in NaOH to optimize pH for charge dynamics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Optimal Cysteine with Minimal Additives",
+            "rationale": "This configuration minimizes all extraneous components while maximizing L-Cysteine and maintaining a stable P10-MIX1 level to enhance HER through reduced competition.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Balanced Cysteine with New NaOH Configuration",
+            "rationale": "Introducing a distinct NaOH level alongside L-Cysteine at 3.0 g/L aims to further explore the effects of pH on photocatalytic performance while maintaining P10-MIX1.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 2.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH - New",
+            "rationale": "By maintaining L-Cysteine at 4.0 g/L and increasing NaOH to 1.0 g/L, we aim to create a more favorable pH environment for enhanced HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Cysteine with Moderate NaOH - New Point",
+            "rationale": "This hypothesis retains L-Cysteine at 3.0 g/L while exploring a distinct NaOH level to optimize photocatalytic performance through pH adjustments.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Balanced Cysteine with Minimal Additives - New Configuration",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while also engaging different NaOH configurations to assess the pH's impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Cysteine Exploration with NaCl Inclusion - Different NaCl Level",
+            "rationale": "Introducing NaCl at a controlled level may influence ionic interactions that could serve to enhance HER results when coupled with L-Cysteine.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 1.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "L-Cysteine with Adjusted NaOH and Minimal Additives",
+            "rationale": "This setup focuses on maintaining L-Cysteine at 3.0 g/L while testing a lower NaOH concentration, aiming to optimize pH and minimize the impact of competing additives.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "New Exploration with High Cysteine and Moderate NaOH",
+            "rationale": "This hypothesis targets a high concentration of L-Cysteine while exploring a moderate NaOH level to assess the impact on pH and overall HER performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 1.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH - New Configuration",
+            "rationale": "This point maintains L-Cysteine at 4.0 g/L, while testing a reduced NaOH concentration of 0.75 g/L to optimize pH and ensure minimal disturbance from competing additives.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH - Revised",
+            "rationale": "This hypothesis retains L-Cysteine at 4.0 g/L while adjusting NaOH to optimize pH for enhanced HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Cysteine with Minimal NaCl - New Configuration",
+            "rationale": "This configuration maximizes L-Cysteine while testing lower NaCl levels to examine their effect on HER without interference.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.5, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Balanced Cysteine with Optimal NaOH",
+            "rationale": "Retaining L-Cysteine at 3.0 g/L while fine-tuning NaOH may provide an effective balance for enhanced HER through pH stabilization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH - Revised",
+            "rationale": "This hypothesis retains L-Cysteine at 4.0 g/L while adjusting NaOH to ensure optimal pH for enhanced HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Cysteine with Minimal NaCl - New Configuration",
+            "rationale": "This configuration aims to maximize L-Cysteine while testing lower NaCl levels to examine its effect on HER without interference.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Balanced Cysteine with Optimal NaOH - Revised",
+            "rationale": "Retaining L-Cysteine at 3.0 g/L while fine-tuning NaOH may provide an effective balance for enhanced HER through pH stabilization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaOH - Revised",
+            "rationale": "This hypothesis maintains L-Cysteine at 4.0 g/L while optimizing NaOH at 0.5 g/L for enhanced pH stability and improved HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Minimal Chemical Interference",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing all competing additives to optimize HER through reduced substrate interference.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Balanced Cysteine at 3.0 g/L with NaOH Adjustment",
+            "rationale": "This configuration retains L-Cysteine at 3.0 g/L and explores NaOH levels, focusing on fine-tuning to optimize HER effectively.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Moderate Cysteine with New NaOH Focus",
+            "rationale": "Testing L-Cysteine at 3.0 g/L with NaOH adjusted to 1.75 g/L aims to examine the effect of elevated pH on photocatalytic performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "High Cysteine with Adjusted NaCl and Low pH Enhancement",
+            "rationale": "This configuration keeps L-Cysteine at 4.0 g/L, adjusts NaCl to 0.5 g/L, and sets NaOH low at 0.25 g/L to assess pH balance effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.5, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Exploring Lower Sodium Chloride with High Cysteine",
+            "rationale": "This configuration retains L-Cysteine at 3.5 g/L while exploring a reduced NaCl concentration of 0.25 g/L to study its effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.25, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "High Cysteine with Optimal NaOH",
+            "rationale": "Maintaining L-Cysteine at 4.0 g/L while optimizing NaOH at 0.5 g/L is expected to enhance HER through pH stabilization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Maximizing Cysteine with Low NaCl",
+            "rationale": "This setup explores high L-Cysteine at 4.0 g/L while minimizing NaCl to see its effects on HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Cysteine with Moderate NaCl Exploration",
+            "rationale": "This hypothesis retains L-Cysteine at 3.0 g/L while introducing moderate NaCl levels to explore the effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "High Cysteine with Optimal NaOH and Low NaCl",
+            "rationale": "Retaining L-Cysteine at 4.0 g/L while optimizing NaOH at 0.5 g/L is expected to enhance HER through pH stabilization and minimal interference from NaCl.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Maximizing Cysteine with Minimal Chemical Interference",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing all competing additives to optimize HER through reduced substrate interference.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Moderate NaOH and High NaCl",
+            "rationale": "This configuration retains L-Cysteine at a moderate level while testing NaOH at 0.75 g/L and increasing NaCl to investigate their effects on HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 1.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl",
+            "rationale": "Maintaining L-Cysteine at 4.0 g/L while minimizing sodium chloride allows for ideal electrochemical conditions and maximized HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Optimized Cysteine with Moderate NaOH",
+            "rationale": "Targeting L-Cysteine at 3.5 g/L with moderate NaOH should yield favorable conditions for HER enhancement through optimal pH.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Balancing Cysteine and NaCl",
+            "rationale": "Exploring L-Cysteine at 3.0 g/L with a slight increase in NaCl to study its ionic interaction effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Cysteine with Optimal NaOH and Low NaCl",
+            "rationale": "Maintaining L-Cysteine at 4.0 g/L while optimizing NaOH at 0.5 g/L and minimizing NaCl should further enhance HER through stable conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Reduced NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while further minimizing NaCl levels enhances ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Balancing Cysteine and Moderate NaOH Exploration",
+            "rationale": "Aiming for L-Cysteine at 3.0 g/L while adjusting NaOH may reveal optimal pH levels that support HER enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "High Cysteine with New NaOH and Lower NaCl",
+            "rationale": "This point maintains L-Cysteine at 4.0 g/L while varying NaOH to 0.75 g/L and NaCl to 0.25 g/L to optimize the pH and assess how low ionic conditions affect HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.25, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Minimal NaCl and Moderate NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while adjusting NaCl to 0.75 g/L and NaOH to 0.25 g/L aims to optimize the ionic environment while investigating their effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.75, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Cysteine Exploration with High NaCl and Low NaOH",
+            "rationale": "Exploring L-Cysteine at 3.5 g/L with increased NaCl at 1.0 g/L and reduced NaOH at 0.0 g/L may provide insights into ion concentration effects on HER performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 1.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaCl and NaOH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L with NaOH at 1.0 g/L and NaCl adjusted to 0.5 g/L allows exploration of the effects of ionic strength in charge dynamics on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Elevated NaCl and NaOH",
+            "rationale": "Exploring L-Cysteine at 3.0 g/L with NaOH set at 1.25 g/L and NaCl adjusted to 0.75 g/L may provide insights into how increased ionic strength impacts HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.75, 1.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl and Adjusted NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.5 g/L while adjusting NaOH to explore optimal conditions for HER may yield favorable results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.25, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Exploring L-Cysteine with Low NaCl and Higher NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L while adjusting NaOH to a higher concentration aims to explore its effects on HER enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Maximized Cysteine with Low Ionic Strength",
+            "rationale": "Testing L-Cysteine at 4.0 g/L with reduced NaCl levels aims to examine the effects of ionic strength on charge dynamics and HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.25, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Elevated NaCl and Moderate NaOH",
+            "rationale": "Exploring L-Cysteine at 3.0 g/L with NaOH at 0.75 g/L and NaCl at 0.5 g/L may provide insights into how increased ionic strength impacts HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Cysteine Exploration with High NaCl and Moderate NaOH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L with increased NaCl at 1.0 g/L and moderate NaOH at 0.5 g/L may reveal interactions that affect HER performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 1.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl and Adjusted NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "New Exploration with High Cysteine and Minimal NaCl",
+            "rationale": "This configuration tests L-Cysteine at 4.0 g/L while minimizing NaCl levels, focusing on enhancing ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaOH and NaCl",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while adjusting NaOH and maintaining NaCl at a moderate level may yield favorable HER results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while adjusting NaOH to a lower concentration of 0.5 g/L aims to enhance HER through stable conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Exploring L-Cysteine with Adjusted NaCl",
+            "rationale": "This hypothesis maintains L-Cysteine at 3.5 g/L and explores a moderate NaCl level of 0.5 g/L while keeping NaOH at 0.25 g/L to examine ionic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Minimal NaCl and Increased NaOH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while reducing NaCl concentration to 0.0 g/L and increasing NaOH to 0.75 g/L to assess its effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl and Optimized NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while keeping NaCl low and adjusting NaOH aims to enhance HER through stable and optimal conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaCl and NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.5 g/L while adjusting NaOH and moderating NaCl levels may yield favorable HER results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Cysteine Exploration with Low NaCl and Higher pH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L with NaOH adjusted to 0.75 g/L while minimizing NaCl aims to optimize pH and HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl and Optimized NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH aims to enhance HER through stable conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaCl and Adjusted NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.5 g/L while adjusting NaOH to explore optimal conditions for HER may yield favorable results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.25, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Cysteine Exploration with Low NaCl and Higher pH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L with NaOH adjusted to 0.75 g/L while minimizing NaCl aims to optimize pH and HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Low NaCl and Adjusted NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and finetuning NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Optimized Cysteine at 3.5 g/L with Low NaCl",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while adjusting NaCl down to further enhance ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Moderate NaCl and High NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L while maintaining moderate NaCl levels and an increased NaOH will explore the effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH and Low NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Moderate NaCl and Adjusted NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.5 g/L while adjusting NaOH and moderating NaCl levels may yield favorable HER results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.25, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Exploration with Low NaCl and Higher pH",
+            "rationale": "Testing L-Cysteine at 3.5 g/L with NaOH adjusted to 0.75 g/L while minimizing NaCl aims to optimize pH and HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Increased NaCl and Low NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L with a higher NaCl concentration of 0.5 g/L while keeping NaOH at 0.0 g/L to explore the effect of ionic strength on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Maximized Cysteine with Low NaCl and Adjusted NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and adjusting NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Reduced NaCl and Increased NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.0 g/L while lowering NaCl and increasing NaOH may provide insights into optimizing ionic strength and pH for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.25, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Balanced Cysteine with Adjusted NaOH and Low NaCl",
+            "rationale": "Exploring L-Cysteine at 3.5 g/L with NaCl minimized to zero and adjusting NaOH to explore its effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Cysteine Level with Enhanced pH Management",
+            "rationale": "Testing L-Cysteine at 3.0 g/L with NaCl at 0.5 g/L and NaOH adjusted to 1.25 g/L seeks to optimize HER by enhancing the pH environment.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 1.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH and Low NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH to optimize pH dynamics can enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Optimized Cysteine at 3.5 g/L with Low NaCl",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while adjusting NaCl to further enhance ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Cysteine Exploration at 3.0 g/L with Low NaCl and Higher NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L while maintaining low NaCl levels and increasing NaOH aims to explore pH optimization effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH and Low NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH aims to enhance HER through stable conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Adjusted NaCl and NaOH",
+            "rationale": "Maintaining L-Cysteine at 3.5 g/L while adjusting NaCl to explore optimal conditions for HER may yield favorable results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Exploring L-Cysteine at 3.0 g/L with Low NaCl and Adjusted NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L while maintaining low NaCl levels and adjusting NaOH aims to explore pH optimization effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH and Low NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH to enhance pH dynamics can potentially maximize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Optimized Cysteine at 3.5 g/L with Low NaCl",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while minimizing NaCl levels should enhance ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Exploring L-Cysteine at 3.0 g/L with Low NaCl and Increased NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L while minimizing NaCl and increasing NaOH aims to optimize pH conditions for HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.0, 0.75, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Adjusted NaCl and Upgraded NaOH",
+            "rationale": "Exploring L-Cysteine at 3.5 g/L with NaCl increased to 0.75 g/L and NaOH at 0.25 g/L to optimize ionic interactions for enhanced HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.75, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Cysteine at 4.0 g/L with Adjusted NaCl and Low NaOH",
+            "rationale": "Testing L-Cysteine at 4.0 g/L with NaCl increased to 0.25 g/L and NaOH reduced to 0.25 g/L aims to optimize ionic interactions while maintaining low competing influences.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.25, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Increased NaCl and Moderate NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L with NaCl boosted to 0.75 g/L and NaOH set at 0.5 g/L aims to understand the effects of higher ionic strength on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.75, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Moderate NaCl and Increased NaOH",
+            "rationale": "Exploring L-Cysteine at 3.0 g/L with NaCl set at 0.25 g/L and NaOH increased to 1.25 g/L to assess effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.25, 1.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Increased NaCl and Low NaOH",
+            "rationale": "This setup maintains L-Cysteine at 3.5 g/L while increasing NaCl to 0.5 g/L and lowering NaOH to 0.0 g/L, examining how these adjustments may enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.5, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Cysteine Maximization with Optimized NaOH and Low NaCl",
+            "rationale": "Testing L-Cysteine at 4.0 g/L while minimizing NaCl and fine-tuning NaOH aims to enhance HER through stable conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 4.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 4.0, 0.0, 0.0, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Optimized Cysteine at 3.5 g/L with Low NaCl",
+            "rationale": "Testing L-Cysteine at 3.5 g/L while minimizing NaCl levels should enhance ionic interactions favorable for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.0, 0.25, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Increased NaCl and Optimized NaOH",
+            "rationale": "Testing L-Cysteine at 3.0 g/L with NaCl raised to 0.5 g/L and adjusting NaOH to explore the impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 0.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Cysteine at 3.0 g/L with Moderate NaCl and Increased NaOH",
+            "rationale": "This configuration explores L-Cysteine at 3.0 g/L with NaCl set at 0.5 g/L and NaOH increased to 1.5 g/L to examine how these settings might optimize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.0, 0.0, 0.5, 1.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Cysteine at 3.5 g/L with Increased NaCl and Lower NaOH",
+            "rationale": "This configuration assesses L-Cysteine set to 3.5 g/L with NaCl increased to 0.75 g/L while maintaining NaOH at 0.0 g/L to explore effects on HER performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 3.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 3.5, 0.0, 0.75, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    }
+}

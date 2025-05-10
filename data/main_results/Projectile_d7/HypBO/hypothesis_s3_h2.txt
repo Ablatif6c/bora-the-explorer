@@ -1,0 +1,14 @@
+{
+    "name": "Elevated Launch Strategy",
+    "rationale": "The combination of launch parameters should effectively utilize projectile motion for optimal accuracy towards the target. A launch angle of around 50 degrees can provide a good balance between height and distance. A yaw of 0 degrees directs the throw straight towards the target. A moderately high initial velocity of about 35 m/s facilitates a significant range. Setting the spin rate to around 1200 rpm can enhance stability during flight. Releasing the projectile from a height of 1 meter maximizes both the potential energy at launch and the time in the air for accurate landing. A mass of 0.8 kg is sufficient to maintain velocity while ensuring enough control.",
+    "confidence": "0.7",
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 0.8
+    }
+}

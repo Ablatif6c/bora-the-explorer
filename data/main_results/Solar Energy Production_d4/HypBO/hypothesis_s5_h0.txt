@@ -1,0 +1,11 @@
+{
+    "name": "Optimal Solar Panel Orientation",
+    "rationale": "Based on the general principles of solar energy harnessing, a tilt angle of around 30° to 40° is often optimal for latitude considerations, maximizing solar incidence. An azimuth angle of 180° (south) benefits most areas in the Northern Hemisphere where solar energy is predominantly harvested. A system capacity of around 10 kW is a middle ground that balances efficiency and practical deployment. A DC/AC ratio of around 1.2 to 1.3 maximizes power output without significant losses.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.25
+    }
+}

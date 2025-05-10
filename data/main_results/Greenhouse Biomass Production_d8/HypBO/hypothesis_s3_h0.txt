@@ -1,0 +1,15 @@
+{
+    "name": "Optimal Greenhouse Conditions for Sugar Beet Growth",
+    "rationale": "To maximize biomass production in a greenhouse for sugar beet, optimal conditions include higher irradiance, moderate temperatures, sufficient moisture, and minimal wind stress. A higher irradiance level will promote photosynthesis, while temperature extremes should be avoided. Ideal conditions likely include warm temperatures, adequate but not excessive moisture, and minimal stress from wind. The chosen values reflect a balanced approach to these factors.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 30,
+        "vap": 3,
+        "wind": 1,
+        "rain": 10,
+        "wav": 50,
+        "SMLIM": 0.8
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Highly Efficient Performance Settings",
+    "rationale": "For regions with consistent sun exposure, a tilt angle of 40° can be beneficial as it helps maximize direct solar gain, particularly in summer months. Retaining an azimuth of 180° ensures maximum sunlight interception throughout the day. A higher system capacity of 18 kW is advantageous for large-scale energy production, and a dc_ac_ratio of 1.4 maximizes the energy output while maintaining system efficiency.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 180,
+        "system_capacity": 18,
+        "dc_ac_ratio": 1.4
+    }
+}

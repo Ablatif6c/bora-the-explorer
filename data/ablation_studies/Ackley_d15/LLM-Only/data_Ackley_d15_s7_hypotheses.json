@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Exploring Positive Extremes",
+            "rationale": "Testing values near the upper limit to see if the function responds favorably to higher inputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15.0,
+                    "x_1": 10.0,
+                    "x_2": 15.0,
+                    "x_3": 20.0,
+                    "x_4": 18.0,
+                    "x_5": 16.0,
+                    "x_6": 19.0,
+                    "x_7": 17.0,
+                    "x_8": 14.0,
+                    "x_9": 12.0,
+                    "x_10": 20.0,
+                    "x_11": 11.0,
+                    "x_12": 15.0,
+                    "x_13": 10.0,
+                    "x_14": 19.0
+                }
+            ]
+        },
+        "point": "[15.0, 10.0, 15.0, 20.0, 18.0, 16.0, 19.0, 17.0, 14.0, 12.0, 20.0, 11.0, 15.0, 10.0, 19.0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Boundary Variation",
+            "rationale": "Assessing combinations of boundary values to determine the effect of extremes across several parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 20.0,
+                    "x_2": -30.0,
+                    "x_3": 20.0,
+                    "x_4": -30.0,
+                    "x_5": 20.0,
+                    "x_6": -30.0,
+                    "x_7": 20.0,
+                    "x_8": -30.0,
+                    "x_9": 20.0,
+                    "x_10": -30.0,
+                    "x_11": 20.0,
+                    "x_12": -30.0,
+                    "x_13": 20.0,
+                    "x_14": -30.0
+                }
+            ]
+        },
+        "point": "[-30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Mid-Range Stability",
+            "rationale": "Exploring a balanced mid-range set of values aiming for stability with potential interaction effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5.0,
+                    "x_1": 5.0,
+                    "x_2": 5.0,
+                    "x_3": 5.0,
+                    "x_4": 5.0,
+                    "x_5": 5.0,
+                    "x_6": 5.0,
+                    "x_7": 5.0,
+                    "x_8": 5.0,
+                    "x_9": 5.0,
+                    "x_10": 5.0,
+                    "x_11": 5.0,
+                    "x_12": 5.0,
+                    "x_13": 5.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Negative Exploration",
+            "rationale": "Investigating if lower values yield beneficial outputs, potentially uncovering unique behaviors in the function.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": -25.0,
+                    "x_2": -15.0,
+                    "x_3": -30.0,
+                    "x_4": -10.0,
+                    "x_5": -5.0,
+                    "x_6": -12.0,
+                    "x_7": -8.0,
+                    "x_8": -7.0,
+                    "x_9": -18.0,
+                    "x_10": -25.0,
+                    "x_11": -20.0,
+                    "x_12": -30.0,
+                    "x_13": -15.0,
+                    "x_14": -28.0
+                }
+            ]
+        },
+        "point": "[-20.0, -25.0, -15.0, -30.0, -10.0, -5.0, -12.0, -8.0, -7.0, -18.0, -25.0, -20.0, -30.0, -15.0, -28.0]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Symmetrical Approach",
+            "rationale": "Checking symmetrical values that often reveals interesting interactions if the function is non-linear.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": -10.0,
+                    "x_2": 0.0,
+                    "x_3": 10.0,
+                    "x_4": -10.0,
+                    "x_5": 0.0,
+                    "x_6": 10.0,
+                    "x_7": -10.0,
+                    "x_8": 0.0,
+                    "x_9": 10.0,
+                    "x_10": -10.0,
+                    "x_11": 0.0,
+                    "x_12": 10.0,
+                    "x_13": -10.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[10.0, -10.0, 0.0, 10.0, -10.0, 0.0, 10.0, -10.0, 0.0, 10.0, -10.0, 0.0, 10.0, -10.0, 0.0]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Building upon the success of the mid-range hypothesis, we'll explore variations within the central area to seek higher targets.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.0,
+                    "x_1": 5.5,
+                    "x_2": 6.0,
+                    "x_3": 7.0,
+                    "x_4": 4.0,
+                    "x_5": 5.5,
+                    "x_6": 6.5,
+                    "x_7": 4.5,
+                    "x_8": 5.0,
+                    "x_9": 6.0,
+                    "x_10": 5.0,
+                    "x_11": 7.0,
+                    "x_12": 5.0,
+                    "x_13": 6.0,
+                    "x_14": 5.5
+                }
+            ]
+        },
+        "point": "[8.0, 5.5, 6.0, 7.0, 4.0, 5.5, 6.5, 4.5, 5.0, 6.0, 5.0, 7.0, 5.0, 6.0, 5.5]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Exploring Alternate Mid-Range Values",
+            "rationale": "Testing slight adjustments around previous effective points to uncover potential improvements while remaining within effective ranges.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4.0,
+                    "x_1": 6.0,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 6.0,
+                    "x_5": 4.0,
+                    "x_6": 5.0,
+                    "x_7": 6.0,
+                    "x_8": 6.0,
+                    "x_9": 5.0,
+                    "x_10": 5.0,
+                    "x_11": 8.0,
+                    "x_12": 9.0,
+                    "x_13": 4.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[4.0, 6.0, 7.0, 8.0, 6.0, 4.0, 5.0, 6.0, 6.0, 5.0, 5.0, 8.0, 9.0, 4.0, 6.0]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Narrow Negative Exploration",
+            "rationale": "Revisiting lower parameter settings with less extreme values to identify potential improvements in low ranges based on prior findings.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -15.0,
+                    "x_1": -18.0,
+                    "x_2": -10.0,
+                    "x_3": -12.0,
+                    "x_4": -6.0,
+                    "x_5": -3.0,
+                    "x_6": -10.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -15.0,
+                    "x_10": -20.0,
+                    "x_11": -12.0,
+                    "x_12": -15.0,
+                    "x_13": -10.0,
+                    "x_14": -25.0
+                }
+            ]
+        },
+        "point": "[-15.0, -18.0, -10.0, -12.0, -6.0, -3.0, -10.0, -5.0, -4.0, -15.0, -20.0, -12.0, -15.0, -10.0, -25.0]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Exploration",
+            "rationale": "Expanding on previous successful mid-range explorations, focusing on slight adjustments to yield superior performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 6.0,
+                    "x_2": 6.5,
+                    "x_3": 7.5,
+                    "x_4": 4.5,
+                    "x_5": 5.0,
+                    "x_6": 6.0,
+                    "x_7": 5.0,
+                    "x_8": 5.5,
+                    "x_9": 6.5,
+                    "x_10": 5.5,
+                    "x_11": 7.5,
+                    "x_12": 5.5,
+                    "x_13": 6.5,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.5, 6.0, 6.5, 7.5, 4.5, 5.0, 6.0, 5.0, 5.5, 6.5, 5.5, 7.5, 5.5, 6.5, 6.0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Further Refined Mid-Range",
+            "rationale": "Testing refined variations in effective mid-range values to uncover optimal parameter configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5.5,
+                    "x_1": 6.5,
+                    "x_2": 7.5,
+                    "x_3": 8.5,
+                    "x_4": 6.5,
+                    "x_5": 5.5,
+                    "x_6": 5.5,
+                    "x_7": 6.5,
+                    "x_8": 7.0,
+                    "x_9": 5.5,
+                    "x_10": 6.5,
+                    "x_11": 8.5,
+                    "x_12": 9.5,
+                    "x_13": 4.5,
+                    "x_14": 7.0
+                }
+            ]
+        },
+        "point": "[5.5, 6.5, 7.5, 8.5, 6.5, 5.5, 5.5, 6.5, 7.0, 5.5, 6.5, 8.5, 9.5, 4.5, 7.0]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Adjusted Negative Exploration",
+            "rationale": "Identifying potentially fruitful configurations in lower ranges while avoiding extremes that led to lower scores previously.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -12.0,
+                    "x_1": -10.0,
+                    "x_2": -8.0,
+                    "x_3": -5.0,
+                    "x_4": -3.0,
+                    "x_5": -1.0,
+                    "x_6": -8.0,
+                    "x_7": -4.0,
+                    "x_8": -2.0,
+                    "x_9": -10.0,
+                    "x_10": -15.0,
+                    "x_11": -10.0,
+                    "x_12": -8.0,
+                    "x_13": -5.0,
+                    "x_14": -20.0
+                }
+            ]
+        },
+        "point": "[-12.0, -10.0, -8.0, -5.0, -3.0, -1.0, -8.0, -4.0, -2.0, -10.0, -15.0, -10.0, -8.0, -5.0, -20.0]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Broad Mid-Range Sweep",
+            "rationale": "Executing a broad exploration across the mid-range spectrum to capture various interactions among parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 5.0,
+                    "x_2": 5.5,
+                    "x_3": 3.5,
+                    "x_4": 6.5,
+                    "x_5": 7.0,
+                    "x_6": 8.0,
+                    "x_7": 5.5,
+                    "x_8": 4.5,
+                    "x_9": 6.5,
+                    "x_10": 4.0,
+                    "x_11": 7.5,
+                    "x_12": 8.5,
+                    "x_13": 3.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[7.5, 5.0, 5.5, 3.5, 6.5, 7.0, 8.0, 5.5, 4.5, 6.5, 4.0, 7.5, 8.5, 3.0, 5.0]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Exploration",
+            "rationale": "Building on successful mid-range configurations, we will explore slight shifts in parameter values to discern potential enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.0,
+                    "x_1": 6.2,
+                    "x_2": 6.8,
+                    "x_3": 7.0,
+                    "x_4": 5.0,
+                    "x_5": 5.5,
+                    "x_6": 6.0,
+                    "x_7": 5.2,
+                    "x_8": 5.7,
+                    "x_9": 6.3,
+                    "x_10": 5.5,
+                    "x_11": 7.2,
+                    "x_12": 6.0,
+                    "x_13": 6.2,
+                    "x_14": 5.5
+                }
+            ]
+        },
+        "point": "[7.0, 6.2, 6.8, 7.0, 5.0, 5.5, 6.0, 5.2, 5.7, 6.3, 5.5, 7.2, 6.0, 6.2, 5.5]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Refined Adjusted Mid-Range",
+            "rationale": "Testing variations around previously successful configurations to fine-tune and potentially increase the target score.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5.5,
+                    "x_1": 6.5,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 6.0,
+                    "x_5": 5.2,
+                    "x_6": 5.8,
+                    "x_7": 6.0,
+                    "x_8": 7.2,
+                    "x_9": 5.5,
+                    "x_10": 6.0,
+                    "x_11": 8.0,
+                    "x_12": 9.0,
+                    "x_13": 5.0,
+                    "x_14": 6.5
+                }
+            ]
+        },
+        "point": "[5.5, 6.5, 7.0, 8.0, 6.0, 5.2, 5.8, 6.0, 7.2, 5.5, 6.0, 8.0, 9.0, 5.0, 6.5]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Narrow Negative Reconfiguration",
+            "rationale": "Adjusting the previous low-range hypothesis to avoid extremes while investigating potential improvements in less extreme low domains.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": -6.0,
+                    "x_2": -5.0,
+                    "x_3": -4.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -6.0,
+                    "x_7": -3.0,
+                    "x_8": -2.0,
+                    "x_9": -8.0,
+                    "x_10": -12.0,
+                    "x_11": -6.0,
+                    "x_12": -5.0,
+                    "x_13": -3.0,
+                    "x_14": -10.0
+                }
+            ]
+        },
+        "point": "[-8.0, -6.0, -5.0, -4.0, -3.0, -2.0, -6.0, -3.0, -2.0, -8.0, -12.0, -6.0, -5.0, -3.0, -10.0]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Configuration",
+            "rationale": "Building on the insights gained from previously successful mid-range explorations, this hypothesis aims for slight adjustments to optimize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.2,
+                    "x_1": 6.5,
+                    "x_2": 6.7,
+                    "x_3": 7.0,
+                    "x_4": 5.2,
+                    "x_5": 5.4,
+                    "x_6": 6.1,
+                    "x_7": 5.3,
+                    "x_8": 5.8,
+                    "x_9": 6.7,
+                    "x_10": 5.6,
+                    "x_11": 7.3,
+                    "x_12": 6.2,
+                    "x_13": 6.4,
+                    "x_14": 5.8
+                }
+            ]
+        },
+        "point": "[7.2, 6.5, 6.7, 7.0, 5.2, 5.4, 6.1, 5.3, 5.8, 6.7, 5.6, 7.3, 6.2, 6.4, 5.8]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Exploratory Mid-Range Sweep",
+            "rationale": "Expanding the search to include minor variations of mid-range parameters to capture diverse interactions and maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.5,
+                    "x_1": 6.0,
+                    "x_2": 7.0,
+                    "x_3": 8.0,
+                    "x_4": 6.0,
+                    "x_5": 5.5,
+                    "x_6": 6.5,
+                    "x_7": 6.0,
+                    "x_8": 7.0,
+                    "x_9": 5.5,
+                    "x_10": 6.5,
+                    "x_11": 8.0,
+                    "x_12": 9.0,
+                    "x_13": 5.5,
+                    "x_14": 7.0
+                }
+            ]
+        },
+        "point": "[6.5, 6.0, 7.0, 8.0, 6.0, 5.5, 6.5, 6.0, 7.0, 5.5, 6.5, 8.0, 9.0, 5.5, 7.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Controlled Low-Range Exploration",
+            "rationale": "Revisiting potential in moderate low-range values while avoiding strict extremes, to see if beneficial configurations can be found.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -4.0,
+                    "x_2": -3.0,
+                    "x_3": -2.0,
+                    "x_4": -1.0,
+                    "x_5": 0.0,
+                    "x_6": -4.0,
+                    "x_7": -2.0,
+                    "x_8": -1.0,
+                    "x_9": -5.0,
+                    "x_10": -10.0,
+                    "x_11": -5.0,
+                    "x_12": -3.0,
+                    "x_13": -2.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-5.0, -4.0, -3.0, -2.0, -1.0, 0.0, -4.0, -2.0, -1.0, -5.0, -10.0, -5.0, -3.0, -2.0, -6.0]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Optimization",
+            "rationale": "Leveraging successful mid-range configurations to probe slight variations that could enhance target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 6.3,
+                    "x_2": 6.9,
+                    "x_3": 7.2,
+                    "x_4": 5.3,
+                    "x_5": 5.7,
+                    "x_6": 6.2,
+                    "x_7": 5.4,
+                    "x_8": 5.9,
+                    "x_9": 6.6,
+                    "x_10": 5.7,
+                    "x_11": 7.5,
+                    "x_12": 6.1,
+                    "x_13": 6.5,
+                    "x_14": 5.6
+                }
+            ]
+        },
+        "point": "[7.5, 6.3, 6.9, 7.2, 5.3, 5.7, 6.2, 5.4, 5.9, 6.6, 5.7, 7.5, 6.1, 6.5, 5.6]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Exploratory Mid-Range Refinement",
+            "rationale": "Testing augmented variations based on previously successful mid-range configurations to further fine-tune target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.9,
+                    "x_1": 6.7,
+                    "x_2": 7.2,
+                    "x_3": 8.0,
+                    "x_4": 6.3,
+                    "x_5": 5.4,
+                    "x_6": 6.6,
+                    "x_7": 6.3,
+                    "x_8": 7.1,
+                    "x_9": 5.8,
+                    "x_10": 6.7,
+                    "x_11": 8.0,
+                    "x_12": 9.5,
+                    "x_13": 5.6,
+                    "x_14": 6.7
+                }
+            ]
+        },
+        "point": "[6.9, 6.7, 7.2, 8.0, 6.3, 5.4, 6.6, 6.3, 7.1, 5.8, 6.7, 8.0, 9.5, 5.6, 6.7]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Moderate Low-Range Exploration",
+            "rationale": "Revisiting lower values with less extreme configurations to uncover potentially beneficial settings in this subspace.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -1.0,
+                    "x_3": -2.0,
+                    "x_4": 0.0,
+                    "x_5": 1.0,
+                    "x_6": -3.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -4.0,
+                    "x_10": -6.0,
+                    "x_11": -3.0,
+                    "x_12": -2.0,
+                    "x_13": -1.0,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.0, -1.0, -2.0, 0.0, 1.0, -3.0, -1.0, 0.0, -4.0, -6.0, -3.0, -2.0, -1.0, -3.0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Optimized Low-Range Configuration",
+            "rationale": "Leveraging the success of the previous evaluated low-range configurations to refine and focus on optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -3.0,
+                    "x_2": -1.0,
+                    "x_3": -2.0,
+                    "x_4": 0.0,
+                    "x_5": 1.0,
+                    "x_6": -2.5,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -3.0,
+                    "x_10": -5.0,
+                    "x_11": -3.0,
+                    "x_12": -1.0,
+                    "x_13": -2.5,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-3.5, -3.0, -1.0, -2.0, 0.0, 1.0, -2.5, -1.0, 0.0, -3.0, -5.0, -3.0, -1.0, -2.5, -4.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Mid-Range Exploration Refinement",
+            "rationale": "Continuing to explore successful mid-range areas with fine-tuning based on past proven outcomes to maximize results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.2,
+                    "x_1": 6.5,
+                    "x_2": 6.9,
+                    "x_3": 7.5,
+                    "x_4": 5.3,
+                    "x_5": 5.8,
+                    "x_6": 6.2,
+                    "x_7": 5.4,
+                    "x_8": 5.8,
+                    "x_9": 6.4,
+                    "x_10": 5.7,
+                    "x_11": 7.5,
+                    "x_12": 6.6,
+                    "x_13": 6.5,
+                    "x_14": 5.6
+                }
+            ]
+        },
+        "point": "[7.2, 6.5, 6.9, 7.5, 5.3, 5.8, 6.2, 5.4, 5.8, 6.4, 5.7, 7.5, 6.6, 6.5, 5.6]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Narrow Controlled Low-Range Adjustments",
+            "rationale": "Investigating minor shifts within lower configurations, guided by recent successful results, to explore additional potentiation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -1.5,
+                    "x_2": 0.0,
+                    "x_3": -1.0,
+                    "x_4": 0.0,
+                    "x_5": 1.0,
+                    "x_6": -1.5,
+                    "x_7": -2.0,
+                    "x_8": -1.0,
+                    "x_9": -2.0,
+                    "x_10": -4.0,
+                    "x_11": -2.0,
+                    "x_12": 1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-2.0, -1.5, 0.0, -1.0, 0.0, 1.0, -1.5, -2.0, -1.0, -2.0, -4.0, -2.0, 1.0, -1.0, -1.5]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Optimized Low-Range Exploration",
+            "rationale": "Leveraging insights from the highest-performing low-range configurations to probe minor shifts within this promising subspace, aiming to maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": -2.0,
+                    "x_2": 0.0,
+                    "x_3": -1.0,
+                    "x_4": 1.0,
+                    "x_5": 1.0,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -3.0,
+                    "x_10": -4.0,
+                    "x_11": -2.0,
+                    "x_12": 0.0,
+                    "x_13": -1.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-3.0, -2.0, 0.0, -1.0, 1.0, 1.0, -2.0, -1.0, 0.0, -3.0, -4.0, -2.0, 0.0, -1.0, -2.0]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Adjustment",
+            "rationale": "Further refining mid-range values, guided by previous successful outcomes, to identify any additional high-yield parameter configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.5,
+                    "x_1": 6.0,
+                    "x_2": 6.8,
+                    "x_3": 7.0,
+                    "x_4": 5.4,
+                    "x_5": 5.5,
+                    "x_6": 6.1,
+                    "x_7": 5.7,
+                    "x_8": 5.9,
+                    "x_9": 6.3,
+                    "x_10": 5.8,
+                    "x_11": 7.4,
+                    "x_12": 6.5,
+                    "x_13": 6.2,
+                    "x_14": 5.7
+                }
+            ]
+        },
+        "point": "[6.5, 6.0, 6.8, 7.0, 5.4, 5.5, 6.1, 5.7, 5.9, 6.3, 5.8, 7.4, 6.5, 6.2, 5.7]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Positive Interaction Exploration",
+            "rationale": "Testing slightly positive values in configurations to uncover interactions that may yield unexpectedly beneficial results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": -0.5,
+                    "x_2": 0.5,
+                    "x_3": -0.5,
+                    "x_4": 1.5,
+                    "x_5": 2.0,
+                    "x_6": -1.0,
+                    "x_7": -1.5,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -3.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.0, -0.5, 0.5, -0.5, 1.5, 2.0, -1.0, -1.5, 0.0, -2.0, -3.0, 0.0, -1.0, 0.0, -1.0]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Exploration",
+            "rationale": "Building on the success of previous low-range configurations, this hypothesis seeks fine-tuned minor adjustments aimed at optimizing the target output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": -2.0,
+                    "x_2": 0.0,
+                    "x_3": -1.0,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -3.0,
+                    "x_10": -4.0,
+                    "x_11": -2.5,
+                    "x_12": 0.5,
+                    "x_13": -1.5,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        "point": "[-2.5, -2.0, 0.0, -1.0, 0.5, 1.0, -2.0, -1.0, 0.0, -3.0, -4.0, -2.5, 0.5, -1.5, -3.0]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Mid-Range Positional Adjustment",
+            "rationale": "Reassessing previous mid-range configurations with minor positional shifts to uncover potential improvements while retaining their foundational stability.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.1,
+                    "x_1": 6.4,
+                    "x_2": 7.0,
+                    "x_3": 7.4,
+                    "x_4": 5.5,
+                    "x_5": 5.6,
+                    "x_6": 6.2,
+                    "x_7": 5.3,
+                    "x_8": 6.0,
+                    "x_9": 6.2,
+                    "x_10": 5.9,
+                    "x_11": 7.3,
+                    "x_12": 6.5,
+                    "x_13": 6.1,
+                    "x_14": 5.8
+                }
+            ]
+        },
+        "point": "[7.1, 6.4, 7.0, 7.4, 5.5, 5.6, 6.2, 5.3, 6.0, 6.2, 5.9, 7.3, 6.5, 6.1, 5.8]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Controlled Exploration for Positive Interaction",
+            "rationale": "Testing slight positive values to discern any underlying beneficial interactions that may enhance target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": -0.5,
+                    "x_2": 0.0,
+                    "x_3": 0.5,
+                    "x_4": 1.0,
+                    "x_5": 2.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -3.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-1.0, -0.5, 0.0, 0.5, 1.0, 2.0, -1.5, -1.0, 0.5, -1.0, -3.0, 0.0, -1.0, 0.0, -0.5]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Refined Low-Range Optimization",
+            "rationale": "Building upon the success of controlled low-range configurations, this hypothesis targets further calibration for optimal output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -1.0,
+                    "x_2": 0.0,
+                    "x_3": -0.5,
+                    "x_4": 1.0,
+                    "x_5": 1.5,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.0,
+                    "x_13": -1.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-2.0, -1.0, 0.0, -0.5, 1.0, 1.5, -1.5, -1.0, 0.0, -2.0, -3.0, -2.0, 0.0, -1.0, -2.0]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Further Mid-Range Adjustment",
+            "rationale": "Continuing the exploration of previously successful mid-range values with subtle shifts to uncover new optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.5,
+                    "x_1": 6.2,
+                    "x_2": 6.8,
+                    "x_3": 7.5,
+                    "x_4": 5.5,
+                    "x_5": 5.8,
+                    "x_6": 6.3,
+                    "x_7": 5.7,
+                    "x_8": 6.1,
+                    "x_9": 6.6,
+                    "x_10": 5.8,
+                    "x_11": 7.6,
+                    "x_12": 6.3,
+                    "x_13": 6.0,
+                    "x_14": 5.9
+                }
+            ]
+        },
+        "point": "[6.5, 6.2, 6.8, 7.5, 5.5, 5.8, 6.3, 5.7, 6.1, 6.6, 5.8, 7.6, 6.3, 6.0, 5.9]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Novel Positive Interaction Testing",
+            "rationale": "Exploring slightly positive configurations in controlled low ranges to identify potentially beneficial interactions that can enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.0,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.0,
+                    "x_5": 2.0,
+                    "x_6": -1.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.5,
+                    "x_10": -2.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.5, 0.0, 0.5, 0.5, 1.0, 2.0, -1.0, -1.5, 0.5, -1.5, -2.5, 0.0, -1.0, 0.0, -0.5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Enhanced Controlled Low-Range Exploration",
+            "rationale": "Targeting precise adjustments within the productive low-range subspace that has demonstrated high scores, aiming for further optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.5,
+                    "x_2": 0.0,
+                    "x_3": -0.7,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.8,
+                    "x_7": -1.0,
+                    "x_8": 0.2,
+                    "x_9": -2.5,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.0,
+                    "x_13": -1.5,
+                    "x_14": -2.3
+                }
+            ]
+        },
+        "point": "[-2.2, -1.5, 0.0, -0.7, 0.5, 1.0, -1.8, -1.0, 0.2, -2.5, -3.0, -2.0, 0.0, -1.5, -2.3]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Optimization",
+            "rationale": "Continuing to fine-tune parameters in the mid-range where some success has been noted, to explore any possible hidden potentials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.7,
+                    "x_1": 6.3,
+                    "x_2": 6.9,
+                    "x_3": 7.5,
+                    "x_4": 5.6,
+                    "x_5": 5.9,
+                    "x_6": 6.4,
+                    "x_7": 5.5,
+                    "x_8": 6.0,
+                    "x_9": 6.8,
+                    "x_10": 5.9,
+                    "x_11": 7.4,
+                    "x_12": 6.7,
+                    "x_13": 6.5,
+                    "x_14": 5.8
+                }
+            ]
+        },
+        "point": "[6.7, 6.3, 6.9, 7.5, 5.6, 5.9, 6.4, 5.5, 6.0, 6.8, 5.9, 7.4, 6.7, 6.5, 5.8]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Negative Interaction Testing",
+            "rationale": "Exploring slightly positive values in mild configurations to identify potential beneficial interactions that have not yet been realized.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.0,
+                    "x_1": -0.2,
+                    "x_2": 0.3,
+                    "x_3": 0.2,
+                    "x_4": 1.0,
+                    "x_5": 1.5,
+                    "x_6": -1.0,
+                    "x_7": -1.3,
+                    "x_8": 0.5,
+                    "x_9": -1.5,
+                    "x_10": -2.0,
+                    "x_11": 0.0,
+                    "x_12": -0.5,
+                    "x_13": 0.0,
+                    "x_14": -0.2
+                }
+            ]
+        },
+        "point": "[0.0, -0.2, 0.3, 0.2, 1.0, 1.5, -1.0, -1.3, 0.5, -1.5, -2.0, 0.0, -0.5, 0.0, -0.2]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Enhanced Low-Range Optimization",
+            "rationale": "Building on the success of previous low-range configurations, we will target slight adjustments to optimize performance further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.5,
+                    "x_2": 0.0,
+                    "x_3": -0.7,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.2,
+                    "x_9": -2.5,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.5
+                }
+            ]
+        },
+        "point": "[-2.2, -1.5, 0.0, -0.7, 0.5, 1.0, -1.5, -1.0, 0.2, -2.5, -3.0, -2.0, 0.5, -1.3, -2.5]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Mid-Range Positive Adjustment",
+            "rationale": "Revisiting promising mid-range configurations to identify minor adjustments that may enhance the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.8,
+                    "x_1": 6.3,
+                    "x_2": 6.9,
+                    "x_3": 7.5,
+                    "x_4": 5.6,
+                    "x_5": 5.8,
+                    "x_6": 6.5,
+                    "x_7": 5.8,
+                    "x_8": 6.2,
+                    "x_9": 6.7,
+                    "x_10": 5.9,
+                    "x_11": 7.5,
+                    "x_12": 6.6,
+                    "x_13": 6.5,
+                    "x_14": 5.9
+                }
+            ]
+        },
+        "point": "[6.8, 6.3, 6.9, 7.5, 5.6, 5.8, 6.5, 5.8, 6.2, 6.7, 5.9, 7.5, 6.6, 6.5, 5.9]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Positive Interaction Search",
+            "rationale": "Investigating configurations with slight positive values to identify potential beneficial interactions that might enhance the target output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": -0.3,
+                    "x_2": 0.3,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.7,
+                    "x_6": -1.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.5,
+                    "x_10": -2.0,
+                    "x_11": 0.0,
+                    "x_12": -0.5,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.5, -0.3, 0.3, 0.5, 1.5, 1.7, -1.0, -1.5, 0.5, -1.5, -2.0, 0.0, -0.5, 0.0, -0.5]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Enhanced Controlled Low-Range Optimization",
+            "rationale": "Leveraging previous successes in low-range configurations to explore minor adaptations aimed at maximizing the target outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": -1.3,
+                    "x_2": 0.2,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.2,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.1,
+                    "x_9": -2.0,
+                    "x_10": -3.0,
+                    "x_11": -1.8,
+                    "x_12": 0.7,
+                    "x_13": -1.2,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-2.5, -1.3, 0.2, -0.5, 0.5, 1.2, -1.5, -1.0, 0.1, -2.0, -3.0, -1.8, 0.7, -1.2, -2.0]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Adjustments",
+            "rationale": "Refining previously successful mid-range configurations to identify minor shifts that could enhance the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.8,
+                    "x_1": 6.4,
+                    "x_2": 6.9,
+                    "x_3": 7.5,
+                    "x_4": 5.7,
+                    "x_5": 5.8,
+                    "x_6": 6.4,
+                    "x_7": 5.6,
+                    "x_8": 6.1,
+                    "x_9": 6.7,
+                    "x_10": 5.8,
+                    "x_11": 7.6,
+                    "x_12": 6.5,
+                    "x_13": 6.6,
+                    "x_14": 5.9
+                }
+            ]
+        },
+        "point": "[6.8, 6.4, 6.9, 7.5, 5.7, 5.8, 6.4, 5.6, 6.1, 6.7, 5.8, 7.6, 6.5, 6.6, 5.9]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Exploring Positive Interactions",
+            "rationale": "Investigating configurations with slight positive shifts to discern any beneficial interactions that may augment target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.0,
+                    "x_1": 0.2,
+                    "x_2": 0.4,
+                    "x_3": 0.3,
+                    "x_4": 1.2,
+                    "x_5": 1.9,
+                    "x_6": -0.4,
+                    "x_7": -1.2,
+                    "x_8": 0.8,
+                    "x_9": -1.2,
+                    "x_10": -2.1,
+                    "x_11": 0.1,
+                    "x_12": -0.8,
+                    "x_13": 0.2,
+                    "x_14": -0.6
+                }
+            ]
+        },
+        "point": "[0.0, 0.2, 0.4, 0.3, 1.2, 1.9, -0.4, -1.2, 0.8, -1.2, -2.1, 0.1, -0.8, 0.2, -0.6]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Enhanced Low-Range Refinement",
+            "rationale": "Building on the successful configurations in low-range outputs, we aim to fine-tune parameters through slight adjustments for further optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.3,
+                    "x_1": -1.4,
+                    "x_2": 0.1,
+                    "x_3": -0.6,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.6,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.3,
+                    "x_10": -3.1,
+                    "x_11": -2.1,
+                    "x_12": 0.6,
+                    "x_13": -1.4,
+                    "x_14": -2.3
+                }
+            ]
+        },
+        "point": "[-2.3, -1.4, 0.1, -0.6, 0.6, 1.1, -1.6, -0.9, 0.3, -2.3, -3.1, -2.1, 0.6, -1.4, -2.3]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Exploratory Mid-Range Adjustment",
+            "rationale": "Examining previous mid-range configurations with subtle modifications to capture potential hidden opportunities that may enhance outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.9,
+                    "x_1": 6.4,
+                    "x_2": 7.0,
+                    "x_3": 7.6,
+                    "x_4": 5.8,
+                    "x_5": 5.9,
+                    "x_6": 6.2,
+                    "x_7": 5.7,
+                    "x_8": 6.1,
+                    "x_9": 6.9,
+                    "x_10": 5.8,
+                    "x_11": 7.7,
+                    "x_12": 6.6,
+                    "x_13": 6.7,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[6.9, 6.4, 7.0, 7.6, 5.8, 5.9, 6.2, 5.7, 6.1, 6.9, 5.8, 7.7, 6.6, 6.7, 6.0]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Subtle Positive Interaction Exploration",
+            "rationale": "Testing configurations that leverage slight positive values to investigate potential beneficial interactions that may further enhance target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.3,
+                    "x_1": 0.1,
+                    "x_2": 0.4,
+                    "x_3": 0.4,
+                    "x_4": 1.4,
+                    "x_5": 1.6,
+                    "x_6": -1.2,
+                    "x_7": -1.3,
+                    "x_8": 0.4,
+                    "x_9": -1.3,
+                    "x_10": -2.2,
+                    "x_11": 0.1,
+                    "x_12": -0.4,
+                    "x_13": 0.1,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.3, 0.1, 0.4, 0.4, 1.4, 1.6, -1.2, -1.3, 0.4, -1.3, -2.2, 0.1, -0.4, 0.1, -0.4]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Exploration",
+            "rationale": "Building upon the success in low-range configurations, this hypothesis aims for precise adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.4,
+                    "x_1": -1.5,
+                    "x_2": 0.0,
+                    "x_3": -0.5,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.2,
+                    "x_9": -2.3,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.6,
+                    "x_13": -1.3,
+                    "x_14": -2.4
+                }
+            ]
+        },
+        "point": "[-2.4, -1.5, 0.0, -0.5, 0.6, 1.1, -1.5, -1.0, 0.2, -2.3, -3.0, -2.0, 0.6, -1.3, -2.4]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Mid-Range Application Adjustment",
+            "rationale": "Revisiting successful mid-range configurations with minor adjustments to uncover potential enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.9,
+                    "x_1": 6.4,
+                    "x_2": 7.0,
+                    "x_3": 7.5,
+                    "x_4": 5.8,
+                    "x_5": 5.9,
+                    "x_6": 6.3,
+                    "x_7": 5.8,
+                    "x_8": 6.1,
+                    "x_9": 6.8,
+                    "x_10": 5.9,
+                    "x_11": 7.6,
+                    "x_12": 6.7,
+                    "x_13": 6.6,
+                    "x_14": 6.1
+                }
+            ]
+        },
+        "point": "[6.9, 6.4, 7.0, 7.5, 5.8, 5.9, 6.3, 5.8, 6.1, 6.8, 5.9, 7.6, 6.7, 6.6, 6.1]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Continued Positive Interaction Search",
+            "rationale": "Exploring configurations with slight positive values alongside moderate ranges to discover synergistic interactions that might boost outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.3,
+                    "x_1": 0.1,
+                    "x_2": 0.4,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.7,
+                    "x_6": -1.0,
+                    "x_7": -1.3,
+                    "x_8": 0.4,
+                    "x_9": -1.0,
+                    "x_10": -2.0,
+                    "x_11": 0.1,
+                    "x_12": -0.4,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.3, 0.1, 0.4, 0.5, 1.5, 1.7, -1.0, -1.3, 0.4, -1.0, -2.0, 0.1, -0.4, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Exploration",
+            "rationale": "Building upon successful configurations, this hypothesis aims to fine-tune parameters with new points for optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.4,
+                    "x_2": 0.1,
+                    "x_3": -0.6,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.6,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.5,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.2, -1.4, 0.1, -0.6, 0.5, 1.0, -1.6, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.5, -2.1]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Adjustments",
+            "rationale": "Continuing exploration of previously successful mid-range configurations with slight adjustments to identify high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.9,
+                    "x_1": 6.4,
+                    "x_2": 7.1,
+                    "x_3": 7.6,
+                    "x_4": 5.9,
+                    "x_5": 5.8,
+                    "x_6": 6.3,
+                    "x_7": 5.7,
+                    "x_8": 6.2,
+                    "x_9": 6.8,
+                    "x_10": 5.9,
+                    "x_11": 7.7,
+                    "x_12": 6.8,
+                    "x_13": 6.6,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[6.9, 6.4, 7.1, 7.6, 5.9, 5.8, 6.3, 5.7, 6.2, 6.8, 5.9, 7.7, 6.8, 6.6, 6.0]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Synergistic Positive Interaction Exploration",
+            "rationale": "Exploring configurations that combine moderate positive values with existing low-range parameters to investigate potential synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.3,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.4,
+                    "x_5": 1.8,
+                    "x_6": -1.0,
+                    "x_7": -1.2,
+                    "x_8": 0.6,
+                    "x_9": -1.2,
+                    "x_10": -2.1,
+                    "x_11": 0.1,
+                    "x_12": -0.2,
+                    "x_13": 0.2,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.3, 0.5, 0.5, 1.4, 1.8, -1.0, -1.2, 0.6, -1.2, -2.1, 0.1, -0.2, 0.2, -0.5]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Exploration",
+            "rationale": "Building upon our success in low-range configurations, this hypothesis aims for precise adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.3,
+                    "x_1": -1.4,
+                    "x_2": 0.1,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.6,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.3, -1.4, 0.1, -0.5, 0.5, 1.0, -1.6, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.3, -2.1]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations combining slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.2,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.8,
+                    "x_6": -1.0,
+                    "x_7": -1.2,
+                    "x_8": 0.4,
+                    "x_9": -1.2,
+                    "x_10": -2.1,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.2, 0.5, 0.5, 1.5, 1.8, -1.0, -1.2, 0.4, -1.2, -2.1, 0.1, -0.5, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Further Mid-Range Investigation",
+            "rationale": "Continued exploration of mid-range configurations to capture any unexploited potential that may enhance the output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6.9,
+                    "x_1": 6.4,
+                    "x_2": 7.0,
+                    "x_3": 7.5,
+                    "x_4": 5.8,
+                    "x_5": 5.9,
+                    "x_6": 6.2,
+                    "x_7": 5.6,
+                    "x_8": 6.1,
+                    "x_9": 6.8,
+                    "x_10": 5.9,
+                    "x_11": 7.7,
+                    "x_12": 6.8,
+                    "x_13": 6.6,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[6.9, 6.4, 7.0, 7.5, 5.8, 5.9, 6.2, 5.6, 6.1, 6.8, 5.9, 7.7, 6.8, 6.6, 6.0]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Exploration",
+            "rationale": "Building upon our success in low-range configurations, this hypothesis aims for precise adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.1,
+                    "x_1": -1.6,
+                    "x_2": 0.2,
+                    "x_3": -0.4,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.4,
+                    "x_7": -1.1,
+                    "x_8": 0.4,
+                    "x_9": -2.5,
+                    "x_10": -3.1,
+                    "x_11": -2.1,
+                    "x_12": 0.7,
+                    "x_13": -1.2,
+                    "x_14": -2.2
+                }
+            ]
+        },
+        "point": "[-2.1, -1.6, 0.2, -0.4, 0.6, 1.1, -1.4, -1.1, 0.4, -2.5, -3.1, -2.1, 0.7, -1.2, -2.2]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations combining slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.2,
+                    "x_1": 0.3,
+                    "x_2": 0.6,
+                    "x_3": 0.4,
+                    "x_4": 1.7,
+                    "x_5": 1.9,
+                    "x_6": -0.8,
+                    "x_7": -1.1,
+                    "x_8": 0.5,
+                    "x_9": -1.3,
+                    "x_10": -2.0,
+                    "x_11": 0.2,
+                    "x_12": -0.6,
+                    "x_13": 0.3,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.2, 0.3, 0.6, 0.4, 1.7, 1.9, -0.8, -1.1, 0.5, -1.3, -2.0, 0.2, -0.6, 0.3, -0.3]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Mid-Range Application Adjustment",
+            "rationale": "Revisiting successful mid-range configurations with minor adjustments to uncover potential enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.1,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.6,
+                    "x_4": 5.9,
+                    "x_5": 5.8,
+                    "x_6": 6.4,
+                    "x_7": 5.9,
+                    "x_8": 6.2,
+                    "x_9": 6.9,
+                    "x_10": 6.0,
+                    "x_11": 7.5,
+                    "x_12": 6.8,
+                    "x_13": 6.7,
+                    "x_14": 6.1
+                }
+            ]
+        },
+        "point": "[7.1, 6.5, 7.2, 7.6, 5.9, 5.8, 6.4, 5.9, 6.2, 6.9, 6.0, 7.5, 6.8, 6.7, 6.1]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon previous successful low-range configurations, this hypothesis aims for slight adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.3,
+                    "x_1": -1.5,
+                    "x_2": 0.1,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.3, -1.5, 0.1, -0.5, 0.5, 1.0, -1.5, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.3, -2.1]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.2,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.8,
+                    "x_6": -1.0,
+                    "x_7": -1.2,
+                    "x_8": 0.4,
+                    "x_9": -1.2,
+                    "x_10": -2.0,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.2, 0.5, 0.5, 1.5, 1.8, -1.0, -1.2, 0.4, -1.2, -2.0, 0.1, -0.5, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Mid-Range Application Adjustment",
+            "rationale": "Revisiting successful mid-range configurations with minor adjustments to uncover potential enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.1,
+                    "x_1": 6.4,
+                    "x_2": 7.1,
+                    "x_3": 7.5,
+                    "x_4": 5.9,
+                    "x_5": 5.8,
+                    "x_6": 6.4,
+                    "x_7": 5.9,
+                    "x_8": 6.2,
+                    "x_9": 6.8,
+                    "x_10": 5.9,
+                    "x_11": 7.6,
+                    "x_12": 6.8,
+                    "x_13": 6.7,
+                    "x_14": 6.1
+                }
+            ]
+        },
+        "point": "[7.1, 6.4, 7.1, 7.5, 5.9, 5.8, 6.4, 5.9, 6.2, 6.8, 5.9, 7.6, 6.8, 6.7, 6.1]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.4,
+                    "x_1": -1.6,
+                    "x_2": 0.2,
+                    "x_3": -0.7,
+                    "x_4": 0.4,
+                    "x_5": 1.1,
+                    "x_6": -1.7,
+                    "x_7": -1.0,
+                    "x_8": 0.4,
+                    "x_9": -2.5,
+                    "x_10": -3.0,
+                    "x_11": -2.1,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.2
+                }
+            ]
+        },
+        "point": "[-2.4, -1.6, 0.2, -0.7, 0.4, 1.1, -1.7, -1.0, 0.4, -2.5, -3.0, -2.1, 0.5, -1.3, -2.2]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Exploratory Positive Interaction Testing",
+            "rationale": "Exploring configurations that combine moderate positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.1,
+                    "x_1": 0.4,
+                    "x_2": 0.6,
+                    "x_3": 0.6,
+                    "x_4": 1.6,
+                    "x_5": 1.9,
+                    "x_6": -0.7,
+                    "x_7": -1.1,
+                    "x_8": 0.6,
+                    "x_9": -1.1,
+                    "x_10": -2.1,
+                    "x_11": 0.2,
+                    "x_12": -0.3,
+                    "x_13": 0.2,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.1, 0.4, 0.6, 0.6, 1.6, 1.9, -0.7, -1.1, 0.6, -1.1, -2.1, 0.2, -0.3, 0.2, -0.4]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Returning to mid-range configurations that previously yielded some success, this adjustment seeks to explore potential unexplored configurations with slight modifications.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.2,
+                    "x_1": 6.6,
+                    "x_2": 7.3,
+                    "x_3": 7.8,
+                    "x_4": 6.0,
+                    "x_5": 5.7,
+                    "x_6": 6.5,
+                    "x_7": 5.7,
+                    "x_8": 6.3,
+                    "x_9": 6.9,
+                    "x_10": 6.1,
+                    "x_11": 7.7,
+                    "x_12": 6.9,
+                    "x_13": 6.4,
+                    "x_14": 6.2
+                }
+            ]
+        },
+        "point": "[7.2, 6.6, 7.3, 7.8, 6.0, 5.7, 6.5, 5.7, 6.3, 6.9, 6.1, 7.7, 6.9, 6.4, 6.2]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further optimize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": -1.4,
+                    "x_2": 0.1,
+                    "x_3": -0.6,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.4,
+                    "x_7": -0.8,
+                    "x_8": 0.3,
+                    "x_9": -2.2,
+                    "x_10": -2.8,
+                    "x_11": -2.0,
+                    "x_12": 0.7,
+                    "x_13": -1.2,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.5, -1.4, 0.1, -0.6, 0.5, 1.0, -1.4, -0.8, 0.3, -2.2, -2.8, -2.0, 0.7, -1.2, -2.1]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate unique beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.3,
+                    "x_1": 0.1,
+                    "x_2": 0.4,
+                    "x_3": 0.4,
+                    "x_4": 1.6,
+                    "x_5": 2.0,
+                    "x_6": -0.9,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -1.1,
+                    "x_10": -1.9,
+                    "x_11": 0.2,
+                    "x_12": -0.4,
+                    "x_13": 0.1,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.3, 0.1, 0.4, 0.4, 1.6, 2.0, -0.9, -1.0, 0.5, -1.1, -1.9, 0.2, -0.4, 0.1, -0.3]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Returning to mid-range configurations that previously yielded some success, this adjustment seeks to explore potential unexplored configurations with slight modifications.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.2,
+                    "x_1": 6.6,
+                    "x_2": 7.3,
+                    "x_3": 7.8,
+                    "x_4": 6.0,
+                    "x_5": 5.7,
+                    "x_6": 6.5,
+                    "x_7": 5.7,
+                    "x_8": 6.3,
+                    "x_9": 6.9,
+                    "x_10": 6.1,
+                    "x_11": 7.8,
+                    "x_12": 6.9,
+                    "x_13": 6.4,
+                    "x_14": 6.2
+                }
+            ]
+        },
+        "point": "[7.2, 6.6, 7.3, 7.8, 6.0, 5.7, 6.5, 5.7, 6.3, 6.9, 6.1, 7.8, 6.9, 6.4, 6.2]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Continuing to build upon previous successes in low-range configurations, this hypothesis aims for slight adjustments to optimize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -1.2,
+                    "x_2": 0.3,
+                    "x_3": -0.4,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.3,
+                    "x_7": -0.8,
+                    "x_8": 0.4,
+                    "x_9": -2.1,
+                    "x_10": -3.1,
+                    "x_11": -2.1,
+                    "x_12": 0.6,
+                    "x_13": -1.1,
+                    "x_14": -2.3
+                }
+            ]
+        },
+        "point": "[-2.0, -1.2, 0.3, -0.4, 0.6, 1.1, -1.3, -0.8, 0.4, -2.1, -3.1, -2.1, 0.6, -1.1, -2.3]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine moderate positive values with low-range parameters to discover potentially beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.6,
+                    "x_3": 0.6,
+                    "x_4": 1.3,
+                    "x_5": 1.9,
+                    "x_6": -0.8,
+                    "x_7": -1.1,
+                    "x_8": 0.5,
+                    "x_9": -1.3,
+                    "x_10": -1.8,
+                    "x_11": 0.3,
+                    "x_12": -0.6,
+                    "x_13": 0.2,
+                    "x_14": -0.6
+                }
+            ]
+        },
+        "point": "[-0.5, 0.5, 0.6, 0.6, 1.3, 1.9, -0.8, -1.1, 0.5, -1.3, -1.8, 0.3, -0.6, 0.2, -0.6]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Targeting potential unexplored configurations in mid-range values to identify additional high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.3,
+                    "x_1": 6.4,
+                    "x_2": 7.1,
+                    "x_3": 7.7,
+                    "x_4": 6.1,
+                    "x_5": 6.0,
+                    "x_6": 6.5,
+                    "x_7": 5.8,
+                    "x_8": 6.4,
+                    "x_9": 7.0,
+                    "x_10": 6.2,
+                    "x_11": 7.7,
+                    "x_12": 6.8,
+                    "x_13": 6.5,
+                    "x_14": 6.1
+                }
+            ]
+        },
+        "point": "[7.3, 6.4, 7.1, 7.7, 6.1, 6.0, 6.5, 5.8, 6.4, 7.0, 6.2, 7.7, 6.8, 6.5, 6.1]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.4,
+                    "x_1": -1.5,
+                    "x_2": 0.1,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.4, -1.5, 0.1, -0.5, 0.5, 1.0, -1.5, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.3, -2.1]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to identify potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.2,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.8,
+                    "x_6": -1.0,
+                    "x_7": -1.1,
+                    "x_8": 0.4,
+                    "x_9": -1.2,
+                    "x_10": -2.0,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.2, 0.5, 0.5, 1.5, 1.8, -1.0, -1.1, 0.4, -1.2, -2.0, 0.1, -0.5, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting successfully tested mid-range configurations with slight modifications to uncover potential improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.2,
+                    "x_1": 6.6,
+                    "x_2": 7.3,
+                    "x_3": 7.6,
+                    "x_4": 5.9,
+                    "x_5": 5.8,
+                    "x_6": 6.4,
+                    "x_7": 5.7,
+                    "x_8": 6.3,
+                    "x_9": 6.9,
+                    "x_10": 6.1,
+                    "x_11": 7.5,
+                    "x_12": 6.8,
+                    "x_13": 6.4,
+                    "x_14": 6.1
+                }
+            ]
+        },
+        "point": "[7.2, 6.6, 7.3, 7.6, 5.9, 5.8, 6.4, 5.7, 6.3, 6.9, 6.1, 7.5, 6.8, 6.4, 6.1]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.1,
+                    "x_1": -1.5,
+                    "x_2": 0.0,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.6,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.2,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.1, -1.5, 0.0, -0.5, 0.5, 1.0, -1.6, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.2, -2.1]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.2,
+                    "x_2": 0.6,
+                    "x_3": 0.4,
+                    "x_4": 1.7,
+                    "x_5": 2.0,
+                    "x_6": -0.9,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -1.3,
+                    "x_10": -2.1,
+                    "x_11": 0.2,
+                    "x_12": -0.5,
+                    "x_13": 0.2,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.5, 0.2, 0.6, 0.4, 1.7, 2.0, -0.9, -1.0, 0.5, -1.3, -2.1, 0.2, -0.5, 0.2, -0.3]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting successfully tested mid-range configurations with slight modifications to uncover potential improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.3,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.8,
+                    "x_4": 6.1,
+                    "x_5": 5.6,
+                    "x_6": 6.5,
+                    "x_7": 5.9,
+                    "x_8": 6.2,
+                    "x_9": 7.0,
+                    "x_10": 6.0,
+                    "x_11": 7.8,
+                    "x_12": 6.9,
+                    "x_13": 6.3,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.3, 6.5, 7.2, 7.8, 6.1, 5.6, 6.5, 5.9, 6.2, 7.0, 6.0, 7.8, 6.9, 6.3, 6.0]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon previous successful low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.4,
+                    "x_1": -1.6,
+                    "x_2": 0.2,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.4,
+                    "x_7": -0.8,
+                    "x_8": 0.3,
+                    "x_9": -2.3,
+                    "x_10": -3.1,
+                    "x_11": -2.1,
+                    "x_12": 0.5,
+                    "x_13": -1.2,
+                    "x_14": -2.3
+                }
+            ]
+        },
+        "point": "[-2.4, -1.6, 0.2, -0.5, 0.5, 1.0, -1.4, -0.8, 0.3, -2.3, -3.1, -2.1, 0.5, -1.2, -2.3]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine moderate positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.3,
+                    "x_1": 0.3,
+                    "x_2": 0.6,
+                    "x_3": 0.4,
+                    "x_4": 1.6,
+                    "x_5": 1.9,
+                    "x_6": -0.9,
+                    "x_7": -1.1,
+                    "x_8": 0.5,
+                    "x_9": -1.3,
+                    "x_10": -2.1,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.3,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.3, 0.3, 0.6, 0.4, 1.6, 1.9, -0.9, -1.1, 0.5, -1.3, -2.1, 0.1, -0.5, 0.3, -0.4]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.1,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.6,
+                    "x_4": 6.0,
+                    "x_5": 5.8,
+                    "x_6": 6.5,
+                    "x_7": 5.8,
+                    "x_8": 6.4,
+                    "x_9": 7.1,
+                    "x_10": 6.2,
+                    "x_11": 7.7,
+                    "x_12": 6.9,
+                    "x_13": 6.6,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.1, 6.5, 7.2, 7.6, 6.0, 5.8, 6.5, 5.8, 6.4, 7.1, 6.2, 7.7, 6.9, 6.6, 6.0]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon previous successes in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.4,
+                    "x_2": 0.2,
+                    "x_3": -0.5,
+                    "x_4": 0.6,
+                    "x_5": 1.0,
+                    "x_6": -1.3,
+                    "x_7": -0.8,
+                    "x_8": 0.3,
+                    "x_9": -2.5,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.4,
+                    "x_13": -1.2,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.2, -1.4, 0.2, -0.5, 0.6, 1.0, -1.3, -0.8, 0.3, -2.5, -3.0, -2.0, 0.4, -1.2, -2.1]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.3,
+                    "x_1": 0.3,
+                    "x_2": 0.5,
+                    "x_3": 0.4,
+                    "x_4": 1.6,
+                    "x_5": 1.9,
+                    "x_6": -0.9,
+                    "x_7": -1.0,
+                    "x_8": 0.6,
+                    "x_9": -1.3,
+                    "x_10": -2.1,
+                    "x_11": 0.2,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.3, 0.3, 0.5, 0.4, 1.6, 1.9, -0.9, -1.0, 0.6, -1.3, -2.1, 0.2, -0.5, 0.1, -0.4]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations with slight modifications to uncover potential improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.1,
+                    "x_1": 6.4,
+                    "x_2": 7.2,
+                    "x_3": 7.5,
+                    "x_4": 5.9,
+                    "x_5": 5.8,
+                    "x_6": 6.4,
+                    "x_7": 5.7,
+                    "x_8": 6.2,
+                    "x_9": 6.9,
+                    "x_10": 6.0,
+                    "x_11": 7.7,
+                    "x_12": 6.8,
+                    "x_13": 6.5,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.1, 6.4, 7.2, 7.5, 5.9, 5.8, 6.4, 5.7, 6.2, 6.9, 6.0, 7.7, 6.8, 6.5, 6.0]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.3,
+                    "x_1": -1.4,
+                    "x_2": 0.0,
+                    "x_3": -0.6,
+                    "x_4": 0.6,
+                    "x_5": 1.2,
+                    "x_6": -1.4,
+                    "x_7": -0.8,
+                    "x_8": 0.4,
+                    "x_9": -2.3,
+                    "x_10": -3.1,
+                    "x_11": -1.9,
+                    "x_12": 0.6,
+                    "x_13": -1.2,
+                    "x_14": -2.2
+                }
+            ]
+        },
+        "point": "[-2.3, -1.4, 0.0, -0.6, 0.6, 1.2, -1.4, -0.8, 0.4, -2.3, -3.1, -1.9, 0.6, -1.2, -2.2]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.3,
+                    "x_2": 0.6,
+                    "x_3": 0.5,
+                    "x_4": 1.4,
+                    "x_5": 1.8,
+                    "x_6": -1.2,
+                    "x_7": -1.0,
+                    "x_8": 0.6,
+                    "x_9": -1.2,
+                    "x_10": -2.0,
+                    "x_11": 0.0,
+                    "x_12": -0.5,
+                    "x_13": 0.2,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.5, 0.3, 0.6, 0.5, 1.4, 1.8, -1.2, -1.0, 0.6, -1.2, -2.0, 0.0, -0.5, 0.2, -0.3]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.4,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.7,
+                    "x_4": 6.1,
+                    "x_5": 5.9,
+                    "x_6": 6.5,
+                    "x_7": 5.8,
+                    "x_8": 6.3,
+                    "x_9": 6.8,
+                    "x_10": 6.2,
+                    "x_11": 7.6,
+                    "x_12": 6.8,
+                    "x_13": 6.5,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.4, 6.5, 7.2, 7.7, 6.1, 5.9, 6.5, 5.8, 6.3, 6.8, 6.2, 7.6, 6.8, 6.5, 6.0]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon historical successes in low-range configurations, this hypothesis aims for slight adjustments further to maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.3,
+                    "x_2": 0.2,
+                    "x_3": -0.6,
+                    "x_4": 0.7,
+                    "x_5": 1.1,
+                    "x_6": -1.4,
+                    "x_7": -0.7,
+                    "x_8": 0.4,
+                    "x_9": -2.1,
+                    "x_10": -3.2,
+                    "x_11": -2.1,
+                    "x_12": 0.6,
+                    "x_13": -1.4,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.2, -1.3, 0.2, -0.6, 0.7, 1.1, -1.4, -0.7, 0.4, -2.1, -3.2, -2.1, 0.6, -1.4, -2.1]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to uncover potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.6,
+                    "x_1": 0.4,
+                    "x_2": 0.7,
+                    "x_3": 0.5,
+                    "x_4": 1.8,
+                    "x_5": 2.1,
+                    "x_6": -0.8,
+                    "x_7": -1.1,
+                    "x_8": 0.5,
+                    "x_9": -1.4,
+                    "x_10": -2.2,
+                    "x_11": 0.2,
+                    "x_12": -0.6,
+                    "x_13": 0.3,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.6, 0.4, 0.7, 0.5, 1.8, 2.1, -0.8, -1.1, 0.5, -1.4, -2.2, 0.2, -0.6, 0.3, -0.4]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to investigate new potentially high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.4,
+                    "x_1": 6.8,
+                    "x_2": 7.4,
+                    "x_3": 7.9,
+                    "x_4": 6.2,
+                    "x_5": 5.9,
+                    "x_6": 6.6,
+                    "x_7": 5.8,
+                    "x_8": 6.4,
+                    "x_9": 7.1,
+                    "x_10": 6.3,
+                    "x_11": 7.9,
+                    "x_12": 7.0,
+                    "x_13": 6.5,
+                    "x_14": 6.3
+                }
+            ]
+        },
+        "point": "[7.4, 6.8, 7.4, 7.9, 6.2, 5.9, 6.6, 5.8, 6.4, 7.1, 6.3, 7.9, 7.0, 6.5, 6.3]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon prior successes in low-range configurations, this hypothesis aims for precise adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.3,
+                    "x_1": -1.4,
+                    "x_2": 0.1,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.9,
+                    "x_8": 0.3,
+                    "x_9": -2.4,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.3, -1.4, 0.1, -0.5, 0.5, 1.0, -1.5, -0.9, 0.3, -2.4, -3.0, -2.0, 0.5, -1.3, -2.1]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Investigating configurations that combine slight positive values with existing low-range setups to identify potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.2,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.9,
+                    "x_6": -1.0,
+                    "x_7": -1.2,
+                    "x_8": 0.4,
+                    "x_9": -1.3,
+                    "x_10": -2.0,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.2, 0.5, 0.5, 1.5, 1.9, -1.0, -1.2, 0.4, -1.3, -2.0, 0.1, -0.5, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.3,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.8,
+                    "x_4": 6.0,
+                    "x_5": 5.9,
+                    "x_6": 6.5,
+                    "x_7": 5.9,
+                    "x_8": 6.3,
+                    "x_9": 7.0,
+                    "x_10": 6.1,
+                    "x_11": 7.8,
+                    "x_12": 6.9,
+                    "x_13": 6.5,
+                    "x_14": 6.2
+                }
+            ]
+        },
+        "point": "[7.3, 6.5, 7.2, 7.8, 6.0, 5.9, 6.5, 5.9, 6.3, 7.0, 6.1, 7.8, 6.9, 6.5, 6.2]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.3,
+                    "x_2": 0.2,
+                    "x_3": -0.5,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.3,
+                    "x_7": -0.8,
+                    "x_8": 0.4,
+                    "x_9": -2.3,
+                    "x_10": -2.8,
+                    "x_11": -2.0,
+                    "x_12": 0.6,
+                    "x_13": -1.2,
+                    "x_14": -2.2
+                }
+            ]
+        },
+        "point": "[-2.2, -1.3, 0.2, -0.5, 0.6, 1.1, -1.3, -0.8, 0.4, -2.3, -2.8, -2.0, 0.6, -1.2, -2.2]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine moderate positive values with low-range parameters to investigate unique beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.3,
+                    "x_2": 0.6,
+                    "x_3": 0.4,
+                    "x_4": 1.3,
+                    "x_5": 1.8,
+                    "x_6": -0.9,
+                    "x_7": -1.0,
+                    "x_8": 0.6,
+                    "x_9": -1.2,
+                    "x_10": -2.1,
+                    "x_11": 0.3,
+                    "x_12": -0.4,
+                    "x_13": 0.2,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.5, 0.3, 0.6, 0.4, 1.3, 1.8, -0.9, -1.0, 0.6, -1.2, -2.1, 0.3, -0.4, 0.2, -0.3]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.3,
+                    "x_1": 6.5,
+                    "x_2": 7.5,
+                    "x_3": 7.9,
+                    "x_4": 6.0,
+                    "x_5": 5.8,
+                    "x_6": 6.6,
+                    "x_7": 5.9,
+                    "x_8": 6.4,
+                    "x_9": 7.0,
+                    "x_10": 6.2,
+                    "x_11": 7.8,
+                    "x_12": 6.9,
+                    "x_13": 6.7,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.3, 6.5, 7.5, 7.9, 6.0, 5.8, 6.6, 5.9, 6.4, 7.0, 6.2, 7.8, 6.9, 6.7, 6.0]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis targets slight adjustments to maximize the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.4,
+                    "x_2": 0.2,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.0,
+                    "x_6": -1.3,
+                    "x_7": -0.8,
+                    "x_8": 0.4,
+                    "x_9": -2.3,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": 0.5,
+                    "x_13": -1.3,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.2, -1.4, 0.2, -0.5, 0.5, 1.0, -1.3, -0.8, 0.4, -2.3, -3.0, -2.0, 0.5, -1.3, -2.1]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Investigating configurations that combine slight positive values with low-range parameters to uncover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.4,
+                    "x_1": 0.2,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 1.5,
+                    "x_5": 1.8,
+                    "x_6": -1.0,
+                    "x_7": -1.2,
+                    "x_8": 0.4,
+                    "x_9": -1.3,
+                    "x_10": -2.0,
+                    "x_11": 0.1,
+                    "x_12": -0.5,
+                    "x_13": 0.1,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.4, 0.2, 0.5, 0.5, 1.5, 1.8, -1.0, -1.2, 0.4, -1.3, -2.0, 0.1, -0.5, 0.1, -0.5]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.3,
+                    "x_1": 6.5,
+                    "x_2": 7.2,
+                    "x_3": 7.8,
+                    "x_4": 6.0,
+                    "x_5": 5.9,
+                    "x_6": 6.5,
+                    "x_7": 5.9,
+                    "x_8": 6.3,
+                    "x_9": 7.0,
+                    "x_10": 6.2,
+                    "x_11": 7.8,
+                    "x_12": 6.9,
+                    "x_13": 6.5,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[7.3, 6.5, 7.2, 7.8, 6.0, 5.9, 6.5, 5.9, 6.3, 7.0, 6.2, 7.8, 6.9, 6.5, 6.0]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.6,
+                    "x_1": -1.5,
+                    "x_2": 0.3,
+                    "x_3": -0.5,
+                    "x_4": 0.7,
+                    "x_5": 1.2,
+                    "x_6": -1.4,
+                    "x_7": -0.9,
+                    "x_8": 0.2,
+                    "x_9": -2.5,
+                    "x_10": -3.1,
+                    "x_11": -2.0,
+                    "x_12": 0.6,
+                    "x_13": -1.2,
+                    "x_14": -2.2
+                }
+            ]
+        },
+        "point": "[-2.6, -1.5, 0.3, -0.5, 0.7, 1.2, -1.4, -0.9, 0.2, -2.5, -3.1, -2.0, 0.6, -1.2, -2.2]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to identify potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.2,
+                    "x_1": 0.4,
+                    "x_2": 0.5,
+                    "x_3": 0.4,
+                    "x_4": 1.6,
+                    "x_5": 2.0,
+                    "x_6": -1.1,
+                    "x_7": -0.9,
+                    "x_8": 0.5,
+                    "x_9": -1.2,
+                    "x_10": -1.9,
+                    "x_11": 0.1,
+                    "x_12": -0.6,
+                    "x_13": 0.2,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.2, 0.4, 0.5, 0.4, 1.6, 2.0, -1.1, -0.9, 0.5, -1.2, -1.9, 0.1, -0.6, 0.2, -0.4]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 6.7,
+                    "x_2": 7.2,
+                    "x_3": 7.9,
+                    "x_4": 6.1,
+                    "x_5": 5.9,
+                    "x_6": 6.6,
+                    "x_7": 5.8,
+                    "x_8": 6.4,
+                    "x_9": 7.1,
+                    "x_10": 6.2,
+                    "x_11": 7.9,
+                    "x_12": 6.8,
+                    "x_13": 6.3,
+                    "x_14": 6.3
+                }
+            ]
+        },
+        "point": "[7.5, 6.7, 7.2, 7.9, 6.1, 5.9, 6.6, 5.8, 6.4, 7.1, 6.2, 7.9, 6.8, 6.3, 6.3]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon our previous success in low-range configurations, this hypothesis aims for slight adjustments to further maximize target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.1,
+                    "x_1": -1.4,
+                    "x_2": 0.0,
+                    "x_3": -0.5,
+                    "x_4": 0.5,
+                    "x_5": 1.1,
+                    "x_6": -1.4,
+                    "x_7": -0.7,
+                    "x_8": 0.3,
+                    "x_9": -2.2,
+                    "x_10": -3.0,
+                    "x_11": -2.1,
+                    "x_12": 0.5,
+                    "x_13": -1.1,
+                    "x_14": -2.1
+                }
+            ]
+        },
+        "point": "[-2.1, -1.4, 0.0, -0.5, 0.5, 1.1, -1.4, -0.7, 0.3, -2.2, -3.0, -2.1, 0.5, -1.1, -2.1]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to investigate potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.2,
+                    "x_1": 0.1,
+                    "x_2": 0.4,
+                    "x_3": 0.5,
+                    "x_4": 1.4,
+                    "x_5": 1.7,
+                    "x_6": -0.9,
+                    "x_7": -1.0,
+                    "x_8": 0.6,
+                    "x_9": -1.3,
+                    "x_10": -2.0,
+                    "x_11": 0.2,
+                    "x_12": -0.6,
+                    "x_13": 0.1,
+                    "x_14": -0.4
+                }
+            ]
+        },
+        "point": "[-0.2, 0.1, 0.4, 0.5, 1.4, 1.7, -0.9, -1.0, 0.6, -1.3, -2.0, 0.2, -0.6, 0.1, -0.4]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 6.6,
+                    "x_2": 7.4,
+                    "x_3": 7.9,
+                    "x_4": 6.2,
+                    "x_5": 5.8,
+                    "x_6": 6.5,
+                    "x_7": 5.8,
+                    "x_8": 6.2,
+                    "x_9": 7.2,
+                    "x_10": 6.1,
+                    "x_11": 7.9,
+                    "x_12": 6.8,
+                    "x_13": 6.6,
+                    "x_14": 6.3
+                }
+            ]
+        },
+        "point": "[7.5, 6.6, 7.4, 7.9, 6.2, 5.8, 6.5, 5.8, 6.2, 7.2, 6.1, 7.9, 6.8, 6.6, 6.3]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Refined Controlled Low-Range Optimization",
+            "rationale": "Building upon successful low-range configurations, this hypothesis aims for slight adjustments to maximize target output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": -1.3,
+                    "x_2": 0.3,
+                    "x_3": -0.4,
+                    "x_4": 0.6,
+                    "x_5": 1.1,
+                    "x_6": -1.4,
+                    "x_7": -0.7,
+                    "x_8": 0.2,
+                    "x_9": -2.2,
+                    "x_10": -3.0,
+                    "x_11": -2.1,
+                    "x_12": 0.6,
+                    "x_13": -1.1,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-2.2, -1.3, 0.3, -0.4, 0.6, 1.1, -1.4, -0.7, 0.2, -2.2, -3.0, -2.1, 0.6, -1.1, -2.0]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Positive Interaction Low-Range Testing",
+            "rationale": "Exploring configurations that combine slight positive values with low-range parameters to identify potential beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 0.4,
+                    "x_2": 0.5,
+                    "x_3": 0.3,
+                    "x_4": 1.6,
+                    "x_5": 1.8,
+                    "x_6": -1.1,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -1.1,
+                    "x_10": -2.1,
+                    "x_11": 0.1,
+                    "x_12": -0.3,
+                    "x_13": 0.2,
+                    "x_14": -0.3
+                }
+            ]
+        },
+        "point": "[-0.5, 0.4, 0.5, 0.3, 1.6, 1.8, -1.1, -1.0, 0.5, -1.1, -2.1, 0.1, -0.3, 0.2, -0.3]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Revisiting previously successful mid-range configurations to explore new potential high-yield parameter combinations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.5,
+                    "x_1": 6.5,
+                    "x_2": 7.4,
+                    "x_3": 7.6,
+                    "x_4": 6.0,
+                    "x_5": 5.6,
+                    "x_6": 6.7,
+                    "x_7": 5.8,
+                    "x_8": 6.4,
+                    "x_9": 7.2,
+                    "x_10": 6.2,
+                    "x_11": 7.8,
+                    "x_12": 7.0,
+                    "x_13": 6.7,
+                    "x_14": 6.2
+                }
+            ]
+        },
+        "point": "[7.5, 6.5, 7.4, 7.6, 6.0, 5.6, 6.7, 5.8, 6.4, 7.2, 6.2, 7.8, 7.0, 6.7, 6.2]",
+        "action": "LLM"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Aggressive Launch Estimate",
+    "rationale": "For a more aggressive approach, a pitch_deg of 50° can maximize vertical lift while still allowing for a forward trajectory. A yaw_deg of 0° aligns directly with the target for accuracy. An initial velocity (v0) of 35 m/s permits a higher launch speed, helping reach the target effectively. A spin_rpm of 1200 rpm should enhance projectile stability in flight. The spin_axis_deg remains at 0° for optimal targeting. A release height (h0) of 1.2 m can provide a slight edge in trajectory dynamics, and a mass (mass) of 1 kg maintains a balance between momentum and control in the throw.",
+    "confidence": 0.72,
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1.2,
+        "mass": 1
+    }
+}

@@ -1,0 +1,53 @@
+**Task:**
+For the initial sampling step, using your general knowledge of [domain] and the experiment description, generate a diverse set of [n_hypotheses] initial hypotheses for maximizing [target]. Consider parameter relationships, expected behaviors, and promising regions of the parameter space.
+
+Note: For this initialization step, for each hypothesis, give a single point[constraint_violation].
+
+Example response for two hypotheses:
+```
+{
+  "comment":"comment on the optimization progress and highlight the most important findings in about 200 words",
+  "hypotheses":
+    [
+      {
+        "name":"short meaningful name here",
+        "rationale":"Your rationale here...",
+        "confidence": high/medium/low,
+        "points":
+        [
+            {
+                "[parameter_1]":[value_1],
+                "[parameter_2]":[value_2],
+                ...,
+            },
+            {
+                "[parameter_1]":[value_1],
+                "[parameter_2]":[value_2],
+                ...,
+            },
+        ],
+      },
+      {
+        "name":"short meaningful name here",
+        "rationale":"...",
+        "confidence": high/medium/low,
+        "points":
+        [
+            {
+                "[parameter_1]":[value_1],
+                "[parameter_2]":[value_2],
+                ...,
+            },
+            {
+                "[parameter_1]":[value_1],
+                "[parameter_2]":[value_2],
+                ...,
+            },
+        ],
+      }, 
+    ]
+}
+```
+
+Important: Only provide your response in the exact JSON format above, without any additional syntax or libraries. The points must have values for all the parameters of the experiment.
+\n```json

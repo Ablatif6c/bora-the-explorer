@@ -1,0 +1,14 @@
+{
+    "name": "optimized_throw_parameters_v4",
+    "rationale": "Aiming for a pitch of around 35 degrees can strike a balance between height and distance for optimal projectile motion, as it allows for a good trajectory towards the target. Keeping the yaw at zero ensures a straight throw, minimizing lateral drift. A slightly higher initial velocity of around 42 m/s increases the range effectively. The spin should be moderate to enhance stability, while the mass should remain on the lighter side for better acceleration.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "pitch_deg": 35,
+        "yaw_deg": 0,
+        "v0": 42,
+        "spin_rpm": 1600,
+        "spin_axis_deg": 0,
+        "h0": 1.2,
+        "mass": 0.25
+    }
+}

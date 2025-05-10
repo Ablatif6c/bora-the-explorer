@@ -1,0 +1,530 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Negative Extremes",
+            "rationale": "This hypothesis targets the lower bounds of the parameter space, where the function may exhibit interesting behaviors due to potential non-linearities.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": -10.0,
+                    "x_2": -10.0,
+                    "x_3": -10.0,
+                    "x_4": -10.0,
+                    "x_5": -10.0,
+                    "x_6": -10.0,
+                    "x_7": -10.0,
+                    "x_8": -10.0,
+                    "x_9": -10.0
+                }
+            ]
+        },
+        "point": "[-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Midpoint Exploration",
+            "rationale": "Sampling at the midpoint of the parameter space may reveal a balanced behavior of the function, providing insights into its general characteristics.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0,
+                    "x_1": 0.0,
+                    "x_2": 0.0,
+                    "x_3": 0.0,
+                    "x_4": 0.0,
+                    "x_5": 0.0,
+                    "x_6": 0.0,
+                    "x_7": 0.0,
+                    "x_8": 0.0,
+                    "x_9": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Positive Extremes",
+            "rationale": "This hypothesis explores the upper bounds of the parameter space, where the function may also exhibit unique behaviors that differ from the lower bounds.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": 10.0,
+                    "x_2": 10.0,
+                    "x_3": 10.0,
+                    "x_4": 10.0,
+                    "x_5": 10.0,
+                    "x_6": 10.0,
+                    "x_7": 10.0,
+                    "x_8": 10.0,
+                    "x_9": 10.0
+                }
+            ]
+        },
+        "point": "[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Positive and Negative",
+            "rationale": "This hypothesis samples a mix of positive and negative values, which may help identify interactions between parameters that influence the target outcome.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5.0,
+                    "x_1": -5.0,
+                    "x_2": 5.0,
+                    "x_3": -5.0,
+                    "x_4": 5.0,
+                    "x_5": -5.0,
+                    "x_6": 5.0,
+                    "x_7": -5.0,
+                    "x_8": 5.0,
+                    "x_9": -5.0
+                }
+            ]
+        },
+        "point": "[5.0, -5.0, 5.0, -5.0, 5.0, -5.0, 5.0, -5.0, 5.0, -5.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Randomized Sampling",
+            "rationale": "This hypothesis uses a random point within the bounds to explore potentially overlooked areas of the parameter space, which may yield unexpected results.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": 3.14,
+                    "x_1": -2.71,
+                    "x_2": 0.0,
+                    "x_3": -8.5,
+                    "x_4": 6.28,
+                    "x_5": -1.41,
+                    "x_6": 4.67,
+                    "x_7": -3.33,
+                    "x_8": 2.0,
+                    "x_9": -7.0
+                }
+            ]
+        },
+        "point": "[3.14, -2.71, 0.0, -8.5, 6.28, -1.41, 4.67, -3.33, 2.0, -7.0]"
+    },
+    "13": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Midpoint Refinement",
+            "rationale": "Given the highest target value at the midpoint, we will explore slight variations around this point to identify local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 0.5,
+                    "x_5": 0.5,
+                    "x_6": 0.5,
+                    "x_7": 0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Negative Midpoint Exploration",
+            "rationale": "Exploring the negative region around the second-highest target value may reveal beneficial interactions among parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.0,
+                    "x_2": -1.0,
+                    "x_3": -1.0,
+                    "x_4": 0.5,
+                    "x_5": -1.0,
+                    "x_6": -2.0,
+                    "x_7": 0.5,
+                    "x_8": 2.0,
+                    "x_9": -3.0
+                }
+            ]
+        },
+        "point": "[-1.5, -1.0, -1.0, -1.0, 0.5, -1.0, -2.0, 0.5, 2.0, -3.0]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Positive and Negative Balance",
+            "rationale": "This hypothesis aims to find a balance between positive and negative values, as previous results suggest this may yield higher targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": -2.0,
+                    "x_2": 2.0,
+                    "x_3": -2.0,
+                    "x_4": 2.0,
+                    "x_5": -2.0,
+                    "x_6": 2.0,
+                    "x_7": -2.0,
+                    "x_8": 2.0,
+                    "x_9": -2.0
+                }
+            ]
+        },
+        "point": "[2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Slightly Positive Values",
+            "rationale": "This hypothesis will explore slightly positive values to see if they can yield better results than the extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 1.0,
+                    "x_4": 1.0,
+                    "x_5": 1.0,
+                    "x_6": 1.0,
+                    "x_7": 1.0,
+                    "x_8": 1.0,
+                    "x_9": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Randomized Negative Exploration",
+            "rationale": "This hypothesis will explore a random point in the negative region to uncover any hidden potential.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": 0.0,
+                    "x_5": -5.0,
+                    "x_6": -6.0,
+                    "x_7": -2.0,
+                    "x_8": -3.0,
+                    "x_9": -4.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.0, -2.0, -1.0, 0.0, -5.0, -6.0, -2.0, -3.0, -4.0]"
+    },
+    "24": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Negative Exploration with High x_2",
+            "rationale": "This hypothesis explores a point with significant negative values for (x_0) and (x_1) while keeping (x_2) at its maximum, which may yield beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -7.57,
+                    "x_1": -1.59,
+                    "x_2": 10.0,
+                    "x_3": 0.718,
+                    "x_4": -0.849,
+                    "x_5": 1.619,
+                    "x_6": -2.245,
+                    "x_7": 3.96,
+                    "x_8": -0.435,
+                    "x_9": -2.585
+                }
+            ]
+        },
+        "point": "[-7.57, -1.59, 10.0, 0.718, -0.849, 1.619, -2.245, 3.96, -0.435, -2.585]"
+    },
+    "25": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variation in Negative Region",
+            "rationale": "This hypothesis tests a slightly varied point from the previous suggestion, maintaining the same structure but with minor adjustments, which may uncover local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -7.569,
+                    "x_1": -1.589,
+                    "x_2": 10.0,
+                    "x_3": 0.718,
+                    "x_4": -0.849,
+                    "x_5": 1.62,
+                    "x_6": -2.244,
+                    "x_7": 3.961,
+                    "x_8": -0.436,
+                    "x_9": -2.586
+                }
+            ]
+        },
+        "point": "[-7.569, -1.589, 10.0, 0.718, -0.849, 1.62, -2.244, 3.961, -0.436, -2.586]"
+    },
+    "34": {
+        "trust_score": 0.7912853218474688,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Upper Bound with Negative Values",
+            "rationale": "This hypothesis tests a point with extreme positive values for most parameters while introducing significant negative values, which may yield beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": -6.773,
+                    "x_2": -10.0,
+                    "x_3": -10.0,
+                    "x_4": 10.0,
+                    "x_5": -10.0,
+                    "x_6": 10.0,
+                    "x_7": -9.606,
+                    "x_8": 10.0,
+                    "x_9": 10.0
+                }
+            ]
+        },
+        "point": "[10.0, -6.773, -10.0, -10.0, 10.0, -10.0, 10.0, -9.606, 10.0, 10.0]"
+    },
+    "35": {
+        "trust_score": 0.7912853218474688,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Mixed Extreme Values Exploration",
+            "rationale": "This hypothesis explores a point with a combination of extreme negative and positive values, which may uncover hidden potential in the function's landscape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 10.0,
+                    "x_2": -10.0,
+                    "x_3": -10.0,
+                    "x_4": 10.0,
+                    "x_5": 10.0,
+                    "x_6": -10.0,
+                    "x_7": -10.0,
+                    "x_8": 10.0,
+                    "x_9": 10.0
+                }
+            ]
+        },
+        "point": "[-10.0, 10.0, -10.0, -10.0, 10.0, 10.0, -10.0, -10.0, 10.0, 10.0]"
+    },
+    "46": {
+        "trust_score": 0.6023977380426812,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Slightly Negative Exploration",
+            "rationale": "This hypothesis explores a point with slightly negative values for (x_0) and positive values for the other parameters, which may yield beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.986,
+                    "x_1": 0.999,
+                    "x_2": 0.767,
+                    "x_3": 1.969,
+                    "x_4": -1.406,
+                    "x_5": 1.16,
+                    "x_6": 3.518,
+                    "x_7": 1.252,
+                    "x_8": 1.471,
+                    "x_9": 4.566
+                }
+            ]
+        },
+        "point": "[-4.986, 0.999, 0.767, 1.969, -1.406, 1.16, 3.518, 1.252, 1.471, 4.566]"
+    },
+    "47": {
+        "trust_score": 0.6023977380426812,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Slight Variation Exploration",
+            "rationale": "This hypothesis tests a slightly varied point from the previous suggestion, maintaining a similar structure but with minor adjustments, which may uncover local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.985,
+                    "x_1": 1.001,
+                    "x_2": 0.767,
+                    "x_3": 1.969,
+                    "x_4": -1.407,
+                    "x_5": 1.161,
+                    "x_6": 3.518,
+                    "x_7": 1.252,
+                    "x_8": 1.47,
+                    "x_9": 4.565
+                }
+            ]
+        },
+        "point": "[-4.985, 1.001, 0.767, 1.969, -1.407, 1.161, 3.518, 1.252, 1.47, 4.565]"
+    },
+    "57": {
+        "trust_score": 0.4342288624030055,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Slightly Negative and Positive Exploration",
+            "rationale": "This hypothesis explores a point with slightly negative values for (x_0) and positive values for the other parameters, which may yield beneficial interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -0.088,
+                    "x_1": 1.84,
+                    "x_2": 0.337,
+                    "x_3": 3.752,
+                    "x_4": 0.081,
+                    "x_5": -0.617,
+                    "x_6": 5.408,
+                    "x_7": 0.27,
+                    "x_8": 2.825,
+                    "x_9": -0.254
+                }
+            ]
+        },
+        "point": "[-0.088, 1.84, 0.337, 3.752, 0.081, -0.617, 5.408, 0.27, 2.825, -0.254]"
+    },
+    "58": {
+        "trust_score": 0.4342288624030055,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Positive and Negative Balance",
+            "rationale": "This hypothesis tests a point with a mix of positive and negative values, which may uncover hidden potential in the function's landscape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4.818,
+                    "x_1": 3.472,
+                    "x_2": -0.645,
+                    "x_3": 3.346,
+                    "x_4": -0.268,
+                    "x_5": 1.989,
+                    "x_6": -0.571,
+                    "x_7": 0.529,
+                    "x_8": 1.336,
+                    "x_9": -2.458
+                }
+            ]
+        },
+        "point": "[4.818, 3.472, -0.645, 3.346, -0.268, 1.989, -0.571, 0.529, 1.336, -2.458]"
+    },
+    "67": {
+        "trust_score": 0.4419199495973974,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "This hypothesis explores a point with slightly positive values across most parameters, which may yield beneficial interactions and higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.859,
+                    "x_1": 2.154,
+                    "x_2": 0.057,
+                    "x_3": 1.728,
+                    "x_4": -0.466,
+                    "x_5": 2.791,
+                    "x_6": 1.96,
+                    "x_7": 1.0,
+                    "x_8": 1.932,
+                    "x_9": 1.108
+                }
+            ]
+        },
+        "point": "[1.859, 2.154, 0.057, 1.728, -0.466, 2.791, 1.96, 1.0, 1.932, 1.108]"
+    },
+    "68": {
+        "trust_score": 0.4419199495973974,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Extreme Negative Exploration",
+            "rationale": "This hypothesis tests a point with extreme negative values for several parameters while keeping others at their upper bounds, which may uncover hidden potential in the function's landscape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": -0.464,
+                    "x_2": -0.377,
+                    "x_3": -10.0,
+                    "x_4": -5.486,
+                    "x_5": 10.0,
+                    "x_6": 10.0,
+                    "x_7": 10.0,
+                    "x_8": 1.619,
+                    "x_9": 10.0
+                }
+            ]
+        },
+        "point": "[-10.0, -0.464, -0.377, -10.0, -5.486, 10.0, 10.0, 10.0, 1.619, 10.0]"
+    },
+    "76": {
+        "trust_score": 0.49699493582362814,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Positive and Negative Exploration",
+            "rationale": "This hypothesis explores a point with a mix of positive and negative values, which may yield beneficial interactions and higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.21,
+                    "x_1": 3.329,
+                    "x_2": 1.9,
+                    "x_3": 0.06,
+                    "x_4": -1.261,
+                    "x_5": 3.343,
+                    "x_6": 1.634,
+                    "x_7": 0.265,
+                    "x_8": 3.198,
+                    "x_9": -5.902
+                }
+            ]
+        },
+        "point": "[0.21, 3.329, 1.9, 0.06, -1.261, 3.343, 1.634, 0.265, 3.198, -5.902]"
+    },
+    "77": {
+        "trust_score": 0.49699493582362814,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Extreme Positive and Negative Exploration",
+            "rationale": "This hypothesis tests a point with extreme positive values for most parameters while introducing significant negative values, which may uncover hidden potential in the function's landscape.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": 10.0,
+                    "x_2": -10.0,
+                    "x_3": 9.224,
+                    "x_4": -0.518,
+                    "x_5": -10.0,
+                    "x_6": -3.544,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 10.0
+                }
+            ]
+        },
+        "point": "[10.0, 10.0, -10.0, 9.224, -0.518, -10.0, -3.544, 10.0, -10.0, 10.0]"
+    }
+}

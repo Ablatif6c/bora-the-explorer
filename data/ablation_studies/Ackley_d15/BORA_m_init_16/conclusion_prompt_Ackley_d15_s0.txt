@@ -1,0 +1,379 @@
+You generated the following comments in the previous iterations:
+## Iteration 22:
+ {
+    "comment": "As we advance in the Bayesian Optimization process at iteration 21, comprehensive analysis of the dataset reveals crucial insights regarding the target function's behavior. The highest target value recorded is 21.945 at the center point (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), indicating that moderate central values yield the most promising outputs. Overall, extreme value combinations such as (20, 20, ... 20) and (-30, -30, ... -30) have consistently resulted in the lowest target values, often below 2, suggesting these regions are detrimental for maximizing the function. Mixed inputs, such as those from iteration 5, which included a combination of moderate positive and negative values, have shown to produce better results and warrant further exploration. Moving forward, we should concentrate on refining input combinations around the previously successful central region while cautiously examining certain mixed configurations that demonstrated potential. Revised hypotheses should reflect this strategy, discarding underperforming points while introducing new coordinates to explore promising subspaces.",
+    "hypotheses": [
+        {
+            "name": "Refined Central Exploration",
+            "rationale": "Refining around the successful point (0, 0, ..., 0) for potential confirmation and optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.5,
+                    "x_1": 1.5,
+                    "x_2": 1.5,
+                    "x_3": 1.5,
+                    "x_4": 1.5,
+                    "x_5": 1.5,
+                    "x_6": 1.5,
+                    "x_7": 1.5,
+                    "x_8": 1.5,
+                    "x_9": 1.5,
+                    "x_10": 1.5,
+                    "x_11": 1.5,
+                    "x_12": 1.5,
+                    "x_13": 1.5,
+                    "x_14": 1.5
+                }
+            ]
+        },
+        {
+            "name": "Balanced Positive and Negative Mix",
+            "rationale": "Exploring mixed values based on successful regions to uncover further peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": -5,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 10,
+                    "x_5": -10,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 0,
+                    "x_9": -5,
+                    "x_10": 5,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": -5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Central Maximum Exploration",
+            "rationale": "Targeting areas around previously observed maximum outputs and potential upward interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": -2,
+                    "x_2": 3,
+                    "x_3": 0,
+                    "x_4": 10,
+                    "x_5": -5,
+                    "x_6": 2,
+                    "x_7": 4,
+                    "x_8": -3,
+                    "x_9": 5,
+                    "x_10": 8,
+                    "x_11": -4,
+                    "x_12": 1,
+                    "x_13": 5,
+                    "x_14": 0
+                }
+            ]
+        },
+        {
+            "name": "Deeper Mixed Region Exploration",
+            "rationale": "Assessing the interaction potential of mixed configurations around a successful center point.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": -2,
+                    "x_3": 6,
+                    "x_4": 3,
+                    "x_5": -7,
+                    "x_6": 0,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": -2,
+                    "x_10": -1,
+                    "x_11": 0,
+                    "x_12": 4,
+                    "x_13": 1,
+                    "x_14": -3
+                }
+            ]
+        }
+    ]
+}
+## Iteration 46:
+ {
+    "comment": "At iteration 45 of our Bayesian Optimization process, we have amassed a comprehensive dataset that reveals valuable insights into the behavior of the target function. The previously recorded highest target value of 21.945 remains significant, found at the central point (0, 0, ..., 0), indicating that moderate values yield promising results. Analysis of the recent experimental data confirms the underperformance of extreme configurations, with points like (20, 20, ..., 20) and (-30, -30, ..., -30) producing consistently low target values, often below 2. Our focus should continue on refining and exploring central and mixed configurations. The latest optimizer suggestions introduce diverse candidate points for evaluation. The new hypotheses reflect a strategy to balance exploration between moderate positive and negative values while probing deeper configurations that could uncover additional peaks. This approach enhances our understanding of interactions among parameters and sustains our adaptive exploration towards maximizing the target function. The selected points from the optimizer should provide a robust basis for ongoing investigation as we move forward in the optimization process.",
+    "hypotheses": [
+        {
+            "name": "Balanced Interaction Exploration",
+            "rationale": "This point combines varied positive and negative values, exploring interactions that may yield higher target values while building on the successful central behavior observed.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 3.602,
+                    "x_1": -4.895,
+                    "x_2": 2.646,
+                    "x_3": -4.552,
+                    "x_4": -5.678,
+                    "x_5": 3.403,
+                    "x_6": -5.445,
+                    "x_7": -9.282,
+                    "x_8": 17.782,
+                    "x_9": -6.059,
+                    "x_10": 10.251,
+                    "x_11": -7.223,
+                    "x_12": -7.081,
+                    "x_13": -10.792,
+                    "x_14": 1.025
+                }
+            ]
+        },
+        {
+            "name": "Positive Mix Examination",
+            "rationale": "Exploring a unique configuration that includes both moderate negative values blended with positive potentials to uncover possible new local peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -7.464,
+                    "x_1": 0.0,
+                    "x_2": -4.537,
+                    "x_3": 13.767,
+                    "x_4": 0.325,
+                    "x_5": 6.005,
+                    "x_6": -18.386,
+                    "x_7": 5.123,
+                    "x_8": -0.073,
+                    "x_9": 6.881,
+                    "x_10": -6.685,
+                    "x_11": -7.24,
+                    "x_12": 4.043,
+                    "x_13": -10.129,
+                    "x_14": 0.897
+                }
+            ]
+        }
+    ]
+}
+## Iteration 70:
+ {
+    "comment": "As we reach iteration 69 of our Bayesian Optimization experiment, the analysis of our dataset reveals that the highest target value recorded is still 21.945 at the center point (0, 0, ..., 0), reaffirming the significance of moderate values in maximizing the output. The repeated underperformance of extreme configurations, such as (20, 20, ..., 20) and (-30, -30, ..., -30), which yielded target values often below 2, suggests that these regions are not conducive to achieving optimal results. The newly suggested points from the optimizer emphasize the importance of exploring balanced configurations that blend positive and negative values, potentially uncovering complex interactions that could lead to improved target outcomes. Therefore, the two refined hypotheses focus on a combination of modestly positive values and varied mixes that probe deeper into the parameter space surrounding center behavior. These strategies will allow for systematic exploration of previously successful regions while cautiously evaluating new configurations that may yield higher target results. By proceeding with these hypotheses, we aim to enhance our understanding of the function's dynamics and drive towards optimizing the target effectively.",
+    "hypotheses": [
+        {
+            "name": "Moderate Positive Interaction",
+            "rationale": "This point is chosen to explore a combination of modestly positive inputs, which may yield intriguing interactions and insights into the target function.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 3.711,
+                    "x_1": 1.223,
+                    "x_2": 3.058,
+                    "x_3": 2.241,
+                    "x_4": 3.442,
+                    "x_5": -6.226,
+                    "x_6": -3.043,
+                    "x_7": -9.843,
+                    "x_8": -16.612,
+                    "x_9": -15.677,
+                    "x_10": 0.725,
+                    "x_11": 5.644,
+                    "x_12": 7.751,
+                    "x_13": -4.711,
+                    "x_14": 9.339
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Mixed Exploration",
+            "rationale": "Exploring a more diverse mix of positive and negative values within a single configuration to uncover potential new peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.868,
+                    "x_1": 1.499,
+                    "x_2": 14.803,
+                    "x_3": -2.317,
+                    "x_4": 0.509,
+                    "x_5": -0.6,
+                    "x_6": 5.632,
+                    "x_7": 14.408,
+                    "x_8": -6.323,
+                    "x_9": 6.115,
+                    "x_10": 12.574,
+                    "x_11": -0.209,
+                    "x_12": -2.194,
+                    "x_13": 12.91,
+                    "x_14": -12.655
+                }
+            ]
+        }
+    ]
+}
+## Iteration 97:
+ {
+    "comment": "As we approach iteration 97 in the Bayesian Optimization process, we are refining our search based on the latest experimental data, which now includes 96 evaluations. Upon comprehensive analysis, the highest target value recorded remains 21.945, achieved at the central input (0, 0, \u2026, 0). This value continues to reinforce our focus on exploring moderate configurations as they yield the most promising outcomes. Conversely, extreme combinations, such as (20, 20, \u2026, 20) and (-30, -30, \u2026, -30), have consistently resulted in low target values, usually below 2, indicating they are not conducive to maximizing the function. The latest optimizer suggestions present a mix of configurations, emphasizing both balanced and deep negative-positive explorations. Exploring points like (7.452, -9.229, -3.617, 10.449, 6.255, -4.209, -4.375, -15.058, -7.951, 5.407, -1.054, -8.512, 8.049, -5.403, -3.004) may uncover beneficial interactions, while configurations like (-5.146, -9.210, -0.106, -9.441, 3.402, -11.549, 4.030, -9.579, 11.004, -12.278, 4.230, -5.794, 10.742, -11.422, 6.083) offer opportunities to investigate unique dynamics at the border of negative and positive regions. Overall, these targeted explorations aim to maximize our understanding of the function's landscape and potentially uncover new peaks in target values.",
+    "hypotheses": [
+        {
+            "name": "Balanced Positive and Moderate Negative Exploration",
+            "rationale": "This hypothesis targets a unique configuration blending positive and negative values, allowing for exploration of interactions that may lead to improved target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7.452,
+                    "x_1": -9.229,
+                    "x_2": -3.617,
+                    "x_3": 10.449,
+                    "x_4": 6.255,
+                    "x_5": -4.209,
+                    "x_6": -4.375,
+                    "x_7": -15.058,
+                    "x_8": -7.951,
+                    "x_9": 5.407,
+                    "x_10": -1.054,
+                    "x_11": -8.512,
+                    "x_12": 8.049,
+                    "x_13": -5.403,
+                    "x_14": -3.004
+                }
+            ]
+        },
+        {
+            "name": "Deep Negative and Positive Mix Exploration",
+            "rationale": "This point incorporates a mix of negative and positive parameters that may uncover interesting dynamics in the target function.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.146,
+                    "x_1": -9.21,
+                    "x_2": -0.106,
+                    "x_3": -9.441,
+                    "x_4": 3.402,
+                    "x_5": -11.549,
+                    "x_6": 4.03,
+                    "x_7": -9.579,
+                    "x_8": 11.004,
+                    "x_9": -12.278,
+                    "x_10": 4.23,
+                    "x_11": -5.794,
+                    "x_12": 10.742,
+                    "x_13": -11.422,
+                    "x_14": 6.083
+                }
+            ]
+        }
+    ]
+}
+
+
+We have now finished the optimization, and below is the complete dataset of 105 experiments:
+ Iteration     x_0     x_1     x_2     x_3     x_4     x_5     x_6     x_7     x_8     x_9    x_10    x_11    x_12    x_13    x_14  target
+         1   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000   0.000  21.945
+         2  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000   2.312
+         3 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000   1.995
+         4 -30.000  20.000 -30.000  20.000 -30.000  20.000 -30.000  20.000 -30.000  20.000 -30.000  20.000 -30.000  20.000  20.000   2.076
+         5   5.000 -10.000  10.000  -5.000  15.000 -20.000   0.000   5.000 -15.000  10.000 -10.000   5.000   0.000  -5.000  20.000   4.216
+         6  17.378 -29.309  -6.475   9.159   1.459 -11.811 -28.902  14.879  -4.857 -15.019 -27.568  19.661  10.844 -21.557  14.287   0.749
+         7 -23.231  -5.950 -11.863  14.620   5.444 -27.328  18.367 -28.611 -23.141   0.147 -26.552  13.342   4.997   5.948   2.135   0.925
+         8   5.865  17.217  19.445 -16.449  -1.039 -13.591  16.540   7.872   4.087  -6.317 -11.609  -7.320  -9.791   4.655 -21.005   1.825
+         9   6.653  -5.934  12.265  18.821  -3.563 -28.906   2.453  -2.615   4.046  -5.650 -29.743   1.148   9.331   5.242 -16.885   1.550
+        10   5.130  -6.123  -6.919 -25.921 -16.619 -17.548 -19.740   9.482 -16.330 -17.824 -18.852  18.806  12.900 -26.532   6.203   1.076
+        11 -27.021 -18.785  15.809 -14.447 -18.974  -8.780 -25.845 -25.199  10.234  18.093   9.122 -22.362 -29.653  13.454   6.679   0.799
+        12  -9.925  -2.819  -9.913  -7.025   0.328  -7.428   6.753   3.463  -0.994 -14.147  -1.367   6.336  -1.512  -7.715  -7.858   5.210
+        13  -4.368   5.471 -12.461   1.105   2.747   7.936  16.854 -10.057  -0.230  -3.099  -9.054  -7.872   2.444   5.614  -1.447   4.684
+        14 -11.363   0.011  10.305 -26.615 -18.822  -9.692 -26.464  15.422  -2.548   0.405   7.462  -3.057  11.925  -6.162  14.033   1.420
+        15 -27.570 -12.983 -10.548 -20.901 -21.342   1.084   0.253  15.403  16.256  15.162  12.074 -17.763  17.281   4.794   4.153   1.292
+        16  -6.456   0.865   3.915   1.574 -12.884  -1.834  -7.582   3.632  -0.177   1.627   6.867  15.217  15.338  -0.734   4.116   4.734
+        17  17.931  -1.660   9.615 -26.662  17.856 -18.174 -25.968 -12.844 -13.641  18.228  15.951  -8.659  12.459 -17.077  -3.052   1.197
+        18 -23.746 -10.981 -12.198 -27.745 -23.379  15.797 -26.407 -13.471  -9.821  -2.169   7.510  -1.475 -18.314   7.188   6.327   0.879
+        19 -16.506 -20.730 -22.174  11.841 -12.978 -17.415  -9.316 -12.724 -26.813 -26.090  -2.582  14.700   2.588 -11.815   0.125   1.032
+        20   2.560   7.777   8.063  -2.542  -4.732  12.616  -5.805 -19.706  -1.256  -0.873   2.557   1.929  -2.928   7.537  -8.520   4.375
+        21  14.149 -22.447  -2.482   8.806 -16.048   1.821 -23.339 -17.246   6.279  10.709  16.294 -15.083 -26.999  18.827   9.864   1.240
+        22   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500   1.500  14.411
+        23   5.000  -5.000   0.000   0.000  10.000 -10.000   5.000   5.000   0.000  -5.000   5.000   0.000   0.000  -5.000  10.000   8.436
+        24   8.000  -2.000   3.000   0.000  10.000  -5.000   2.000   4.000  -3.000   5.000   8.000  -4.000   1.000   5.000   0.000   9.433
+        25  -5.000   5.000  -2.000   6.000   3.000  -7.000   0.000   2.000   1.000  -2.000  -1.000   0.000   4.000   1.000  -3.000  11.872
+        26   1.431   9.152   7.232  -2.778   7.049   6.821  -5.453   8.021   0.355  -9.011  -3.569  -4.780   9.363  15.395  -7.557   4.640
+        27  -3.090   3.303   1.196  -0.359  15.614 -15.491   1.929  -0.874   6.493  -1.549  14.398  -6.137 -10.345  11.256   1.842   3.890
+        28  -3.640   2.310   5.234   1.243   9.764   4.097  -3.051  13.511   5.997   0.506  -7.416   0.350   4.654 -10.831   3.910   5.844
+        29   9.468 -20.504  -0.633   0.164   2.912   4.235  -0.961  -2.955  -5.672  -1.061  11.606  -2.823  -4.309   4.483  -9.182   4.677
+        30  -5.159   0.946   8.238   6.437   5.332 -13.015  -2.115  -5.616 -13.865  -0.294   5.815  -5.809  -3.873  -7.211  -5.176   5.488
+        31  15.135  -2.074  -8.933   8.413   8.285  -3.177  -2.461   0.909   3.506  -7.781  -9.625   6.789  -3.419 -10.684   4.035   4.782
+        32  -9.603  12.156   0.529  -5.979   8.971  -5.056 -17.834  -2.611  -1.288  -1.467  -2.801  -3.017   5.606  -0.780 -12.431   4.425
+        33   3.104  -4.583   2.364 -13.918   4.031 -10.519   5.088  -2.473   8.510   0.091   4.135   7.049  -2.781  -5.800   2.882   6.204
+        34  -1.880  -5.833   7.586   5.102   1.380   3.432 -11.820  -4.260  -6.453 -10.243   4.208  -1.531   9.742  -6.613  11.844   5.020
+        35  -3.171   0.691  18.689 -13.752  -3.615   3.196  -5.699   3.870  -1.838  -6.787  -4.796   8.014  -5.158   4.424  -2.132   4.988
+        36  -0.143  -6.296   1.733   3.259   2.290   1.640   4.099  -6.511   8.036  -8.264 -14.355  -4.277   4.362  -7.676  15.596   4.709
+        37   1.312   8.813   3.693  -3.295  -5.561 -10.868   3.059   6.481  -8.540   2.439  13.006  10.970  -3.638  -3.766   7.280   4.975
+        38  -9.867  -5.457  -3.019   6.243   3.710   0.040  12.047   3.490  -6.826  -1.491   5.127 -14.415  -4.797  -4.973   3.939   5.581
+        39   5.784   6.074   2.563  -9.612  19.080  -3.520   7.231   4.403   5.715   0.698  11.317   1.146  -7.081   0.375 -10.114   4.307
+        40  -1.260  -7.831 -11.350  -7.619  11.688  -4.126   3.741  18.859   1.896   0.405   2.510   0.694  -0.432  -1.739  11.408   4.223
+        41   1.398  -2.939   3.239  -2.047  -9.838   7.489  -1.310  -0.643   6.268   0.254   0.793   6.625  -1.045  -0.617  -7.449   8.053
+        42   2.910   3.558 -12.336  -6.697   0.973   1.289   5.054   5.366   6.039  15.031  -4.018  -5.179  -1.491 -10.156  -7.234   5.376
+        43   0.490 -12.871  -2.751  -1.946  10.211  -2.867  -3.669   9.007 -13.410  -0.423   7.097  -0.873   0.896  -4.777  -4.581   5.672
+        44   9.576  -5.758  -0.390   7.250   6.336  -6.543   2.215  -5.793   7.358   0.749   9.526   4.240 -12.037   1.098  14.394   4.614
+        45   6.428  -0.213  -0.795  -3.810  -4.890  -5.166   6.818   4.146   5.212  -5.218  -5.509   7.644   9.927  -6.523 -16.652   5.200
+        46   3.602  -4.895   2.646  -4.552  -5.678   3.403  -5.445  -9.282  17.782  -6.059  10.251  -7.223  -7.081 -10.792   1.025   4.432
+        47  -7.464   0.000  -4.537  13.767   0.325   6.005 -18.386   5.123  -0.073   6.881  -6.685  -7.240   4.043 -10.129   0.897   4.622
+        48   7.966   5.330   6.605  16.304   5.344  -8.119   0.270  -0.366   6.632  14.686  -0.068   4.697   6.395  -3.862  -5.836   4.510
+        49   7.480  -5.117   3.650  -9.986  -9.947   9.145  10.863   3.348   2.374  -2.308  10.480  -5.579  -4.240   2.122   5.650   5.202
+        50  -0.079   5.551  -8.996  12.718  -6.999  -3.087  -6.436   0.566  -6.881  -4.889  -7.144   2.800 -13.585   2.700  -4.296   5.380
+        51   8.043 -11.715   5.036  -2.192   1.222   9.213  -7.996  -8.003   0.637  -5.470   5.434  -1.158  11.718 -11.687 -14.422   4.238
+        52   5.136   9.634   2.090   7.137  -5.126   8.522   1.132  -8.857 -10.532 -14.955   3.954   0.487  -5.387   1.163  -5.696   5.148
+        53  -9.259 -12.241  -4.923  13.681 -12.420   7.334  -7.670   0.882  -3.731   3.240   4.480   0.027   1.038  -5.556   8.607   4.513
+        54   2.904  -1.548  -4.778   9.129  -5.011  -1.961   7.481   4.961  18.219  10.416  -0.287  -0.738  -9.636   4.937  -9.322   4.689
+        55  -6.049  -2.551  -4.588  13.763   4.973  -0.138   8.070  13.510  -3.771   5.984  -4.943   3.465  -2.563  -5.904   0.616   5.636
+        56   4.595   3.447  -4.294   2.086   4.171  -9.339  -0.870   2.177  -4.202  -0.843  10.806   7.621   9.613   0.437  11.725   5.843
+        57  19.834 -14.709   5.110   4.350  -3.907   0.130  -0.020   1.118   8.621  -4.661  -0.056  -2.370   4.692  -3.144   4.360   4.936
+        58 -11.485  -4.000   2.962   6.845  -6.567  -2.530  16.077   1.940   1.317 -13.215  -4.581   4.940  -1.165  -6.329   3.065   5.084
+        59  -3.887  -8.689   4.911  -4.557 -13.965  -2.210   1.924  -4.843  -5.413  -0.387 -19.883   6.655   4.909  -5.294   8.589   4.360
+        60  -0.911   4.008   1.448   8.072  -8.964   2.016  -1.603  -3.719  -9.578  -0.354   7.238  -8.699   3.799  -7.402  10.902   6.009
+        61   4.201  13.784   3.228  -5.063   2.908  -7.186  -4.784  -5.373  -2.936  -7.050  -1.407  -9.520   8.733   2.447   5.472   5.785
+        62   6.689  -7.853  -1.817 -15.222   4.826  -6.070  -6.251  -3.738  10.913  -1.967   1.240   0.983   4.423 -13.571   5.083   5.139
+        63 -10.204   1.976   0.881   9.717   8.462  -7.930  -3.656  15.093  11.317   0.407  -0.860  -3.202  -3.556  -5.836  -3.494   4.987
+        64  -7.389  -7.905  -5.774   4.774   8.135  -0.283  -6.506   0.466   8.093  -2.100  -4.772 -13.126  -3.466  -8.401  -2.555   5.575
+        65  -4.199   1.844  -2.860  -0.464  -1.246  -3.292 -10.086   3.585  11.387   5.893   6.250  -1.717   0.991  -4.550 -14.292   5.934
+        66  10.195  -6.496  -6.908   3.742   8.572 -14.862  12.814   4.935  -6.456  -3.011   4.085 -10.931   5.905  -9.582   8.528   4.039
+        67   1.975  -2.872   2.102   0.229 -11.494  10.443  -4.488  -4.784  -6.967   3.735   8.594   0.761  -2.398   4.887  12.147   5.824
+        68 -15.930   8.997   1.591  -2.913   1.100  -7.091   3.045  -4.101   0.174  -8.658  13.271  -2.635   2.766   3.561  -7.793   5.331
+        69 -10.129   9.046 -11.208   3.460  -3.629   0.063  -8.509  -5.315   6.264   0.651   9.354  -1.858   7.881  14.524  -1.003   4.694
+        70   3.711   1.223   3.058   2.241   3.442  -6.226  -3.043  -9.843 -16.612 -15.677   0.725   5.644   7.751  -4.711   9.339   4.369
+        71  -3.868   1.499  14.803  -2.317   0.509  -0.600   5.632  14.408  -6.323   6.115  12.574  -0.209  -2.194  12.910 -12.655   3.779
+        72  -5.509  -5.712  -2.845   5.189  -8.495  -9.486   9.788  -4.321   9.003  -5.755  -0.051 -14.380  -4.742  -2.713   4.238   5.028
+        73   3.705   3.794  -1.987  -9.934   2.389 -14.206  -2.637   7.256  -1.272  -1.122  -0.240  -7.044 -12.509  -1.432   2.517   5.745
+        74 -13.774   6.400  -2.331   5.543  -3.431 -23.616  -0.368   1.096   7.185   6.094   2.375  -6.896   4.724   1.877   5.071   3.982
+        75  -9.986 -11.115   4.074   2.927   1.259   0.421   1.423  -3.854   1.011  14.583  -2.330   3.401  16.719 -10.062  -0.748   4.687
+        76  -3.659  -6.463   1.275   5.181   7.463   2.047  -0.100   9.175   5.469  -6.872  -8.380 -13.903  -2.874   1.756  13.273   5.090
+        77 -13.250   4.548  -0.027   4.569  11.292   0.593  11.427   5.941   3.873   2.991  -1.841   2.085   5.576  -6.197   7.806   5.531
+        78   0.804  -4.919   5.352 -11.938   1.134  -7.325  -2.387  -8.919  -6.831   9.980 -13.945   6.506   6.691   1.501  10.443   4.635
+        79   8.972  -8.947  -9.551  -5.293   3.630   0.197  -5.152   0.203  -5.576   8.963  -0.345  -8.973  13.241  -6.298   5.746   5.149
+        80  -6.083   6.733   5.793 -10.424   3.723   2.092   4.477  -8.007  -7.095  14.383  -5.535  -8.469   0.120 -11.731   7.331   4.498
+        81   2.217   0.587   2.399  -0.754  11.754 -11.765   8.917   6.052  -2.083   8.887   3.919   8.580  10.916  -3.550 -11.396   4.799
+        82   6.424   2.609  -2.914  -1.190  -4.917   6.541  -0.338   9.325   4.488   4.867   2.554 -16.296  -5.881   6.513   1.895   5.666
+        83   9.142  -7.666   2.083   7.635   9.724  -4.135 -12.685  -6.290  -6.548   2.493   3.109   2.737 -10.304   3.984  -8.568   4.875
+        84  16.194   4.674 -11.644   7.783   0.205   3.655   1.911  -1.378   4.770  -3.729   3.484   5.628 -12.109   1.609  -0.614   4.998
+        85 -11.372   2.269  10.465  -1.429  -3.552  -5.271   2.279  10.336  -0.140 -11.511  -4.771   7.536  -5.077  -4.378  12.257   4.537
+        86  -2.514  -0.719  -5.054  -6.352  16.412  -5.284   0.717  -8.026   4.332 -12.317  -3.148   6.895  -0.450  14.331  -3.877   4.449
+        87 -12.799   3.503  -4.650  -0.022   1.992  -5.756   2.732  -0.756   3.106  -1.092  -9.191   1.927  -1.084  14.284   6.208   6.306
+        88  11.945   1.641  -5.421  -5.069  -2.808   0.582   7.604  -6.901   4.913 -13.269   1.664  -6.114  13.142  10.393  13.104   4.214
+        89 -11.709   2.678   3.914  10.179  -0.346  -6.101  -1.155   1.798   1.839  10.596   2.525 -12.581  -8.558   9.329  12.644   4.303
+        90  10.438  15.012  10.287  -2.063   3.200  -1.907  -2.432   8.499  -3.046  -2.300  -1.321 -11.949  -9.332  -0.515   0.821   4.947
+        91   4.136  -7.031   7.887   0.697  -9.562   5.062  -8.243  -2.224 -12.833   8.410  -6.895  -1.978   6.994  -6.283  -2.891   5.736
+        92  -5.327  -3.005 -14.313  -0.312  -3.341 -12.138  -5.039  -4.414   8.814   2.174   8.508  12.356  -6.881   4.726  -6.595   4.536
+        93  -3.851  -3.746   7.665 -16.930  -0.325  -4.672   4.538  12.043   4.194   0.696   7.136   0.476   7.079 -11.285   0.714   4.841
+        94 -10.177   5.128 -10.110   2.750  18.590  -0.085   8.508  -2.945   4.991   4.163  -8.096  -2.918   2.243   5.715   0.436   5.088
+        95  -8.726  -4.592   0.779  -0.987   2.669  13.288 -15.931   7.243  -7.337   4.027  -0.568 -10.484   0.682   2.636  -1.968   4.882
+        96  -3.736   1.517  13.643   0.824  -2.717  -0.484   1.866   3.480   4.749  -3.961  -8.481  -3.792  -6.703   7.721 -13.849   5.454
+        97   7.452  -9.229  -3.617  10.449   6.255  -4.209  -4.375 -15.058  -7.951   5.407  -1.054  -8.512   8.049  -5.403  -3.004   4.670
+        98  -5.146  -9.210  -0.106  -9.441   3.402 -11.549   4.030  -9.579  11.004 -12.278   4.230  -5.794  10.742 -11.422   6.083   3.965
+        99  -6.938   3.804  -1.030  -4.079  -2.856  -7.500   3.129  -8.389  -9.967 -14.534 -10.532  -4.754  -9.955   6.739  -9.045   4.761
+       100   8.731 -12.993   9.401  -2.424  -3.105   7.511   2.468   1.404   4.848   5.692   9.322   2.510   6.141   4.885 -12.406   4.756
+       101   6.738   1.801   0.874   5.135 -15.435  -3.222  -4.152   1.870   7.264 -20.761  -2.398   5.425  -4.656  -1.780  -2.575   4.437
+       102   3.619   4.219   1.470  -1.907  -6.104 -19.354   0.229 -11.673   4.979  10.757  -7.319  -4.601   5.194  10.096   1.285   4.361
+       103  -1.576  -7.422   0.908   0.873   6.265  -7.209   4.080   5.257  -5.089  -4.024  -7.349  -6.883   3.656 -21.632   9.821   4.558
+       104   4.380  -4.497   8.614  -2.432   8.857  -7.512   6.256  -7.915  -2.564  11.837   0.381 -13.452   2.068  -5.967  -0.357   4.989
+       105   7.432  -6.959   2.655  10.297  -7.033  -5.814   4.803  -7.380  -8.615  13.574  -1.210   3.583   8.067   1.401  -0.085   5.170
+
+**Task:**
+Please explain briefly (<250 words) how your hypotheses evolved and particularly, how your hypotheses changed from the initial set in light of experimental data. End it with a table summary showing how your confidence in the hypotheses evolved during the optimization.
+
+\n```md

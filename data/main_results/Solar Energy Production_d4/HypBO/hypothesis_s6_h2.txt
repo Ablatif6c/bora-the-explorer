@@ -1,0 +1,11 @@
+{
+    "name": "High Efficiency Solar Alignment",
+    "rationale": "For maximizing energy production, a tilt angle of about 30° can be effective for optimal year-round performance, particularly in temperate climates. An azimuth angle of 190° is effective for capturing sunlight in the afternoon, which can enhance overall energy yield. A system capacity of 12 kW represents a balanced approach for residential applications, while maintaining a DC/AC ratio of 1.4 helps improve performance while minimizing the risk of inverter overload during peak production.",
+    "confidence": "0.78",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 190,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.4
+    }
+}

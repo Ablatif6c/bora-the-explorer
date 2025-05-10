@@ -1,0 +1,13 @@
+{
+    "rationale": "To achieve the best score, I recommend starting with a relatively high launch angle to maximize vertical distance while also allowing for sufficient horizontal distance. A launch speed around 35 m/s offers a good mix of distance and time of flight. Setting the mass and height close to a standard projectile (1 kg and 1 m respectively) will provide a good baseline. Spin can help stabilize the flight but too much might complicate the trajectory; hence a moderate value of 2000 rpm with the spin axis at 0 degrees for straightforward motion. The yaw is set to 0 degrees to aim directly at the target, while a pitch of approximately 45 degrees is a classic choice for maximizing range in projectile physics. This combination should maximize the likelihood of a high score based on the principles of projectile motion.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 2000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

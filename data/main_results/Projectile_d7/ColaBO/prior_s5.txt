@@ -1,0 +1,12 @@
+{
+    "rationale":"To maximize projectile accuracy toward a target, we want to find settings that optimize both the launch angle and the initial speed. A higher launch angle (near 45 degrees) often ensures a longer range, especially when combined with sufficient speed. The yaw angle should be set at 0 degrees to aim straight toward the target. A moderate initial velocity is critical; setting it around 30 m/s balances range and time in the air without overshooting the target. A moderate spin could help stabilize the projectile, so I suggest 1000 rpm. A spin axis aligned with the x-axis at 0 degrees optimizes forward motion. The projectile should be released from a height of 1 meter for better performance, and a mass of 2 kg is reasonable for achieving optimal momentum without being too light.","confidence":0.8,
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 2
+    }
+}

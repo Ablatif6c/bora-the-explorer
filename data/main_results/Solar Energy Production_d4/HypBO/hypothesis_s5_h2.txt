@@ -1,0 +1,11 @@
+{
+    "name": "High Performance Solar Configuration",
+    "rationale": "For optimal solar energy capture, a tilt angle of 40° is commonly recommended for mid-latitude regions, as it aligns well with seasonal sun paths. An azimuth angle of 195° can help capture maximum sunlight in the winter months when the sun is lower on the horizon. A system capacity of 12 kW provides a solid output for a typical residential installation, while a DC/AC ratio of 1.3 makes efficient use of the system's high-capacity potential without excessive generation loss.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 195,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.3
+    }
+}

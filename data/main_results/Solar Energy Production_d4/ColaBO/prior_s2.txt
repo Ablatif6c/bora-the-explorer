@@ -1,0 +1,10 @@
+{
+    "rationale": "Based on my understanding of solar energy production, a tilt angle of around 30° is traditionally considered optimal for fixed solar panels in many locations, as it balances capturing sunlight throughout the day and across seasons. An azimuth angle of 180° (south-facing in the northern hemisphere) is often ideal for maximizing sunlight exposure. A system capacity of 10 kW is a common size for residential or small commercial systems, allowing for substantial energy generation without being overly large. A DC to AC ratio of 1.2 is commonly used to ensure the system can handle peak sunlight while optimizing inverter performance.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.2
+    }
+}

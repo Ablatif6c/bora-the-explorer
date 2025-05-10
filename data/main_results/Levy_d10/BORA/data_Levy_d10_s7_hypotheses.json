@@ -1,0 +1,1010 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Negative Extremes",
+            "rationale": "This hypothesis targets the lower bounds of the parameter space, where the function may exhibit unique behaviors or local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -9.5,
+                    "x_1": -9.5,
+                    "x_2": -9.5,
+                    "x_3": -9.5,
+                    "x_4": -9.5,
+                    "x_5": -9.5,
+                    "x_6": -9.5,
+                    "x_7": -9.5,
+                    "x_8": -9.5,
+                    "x_9": -9.5
+                }
+            ]
+        },
+        "point": "[-9.5, -9.5, -9.5, -9.5, -9.5, -9.5, -9.5, -9.5, -9.5, -9.5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Center of Parameter Space",
+            "rationale": "Sampling the center of the parameter space may provide insights into the function's general behavior and help identify a baseline performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0,
+                    "x_1": 0.0,
+                    "x_2": 0.0,
+                    "x_3": 0.0,
+                    "x_4": 0.0,
+                    "x_5": 0.0,
+                    "x_6": 0.0,
+                    "x_7": 0.0,
+                    "x_8": 0.0,
+                    "x_9": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Positive Extremes",
+            "rationale": "This hypothesis explores the upper bounds of the parameter space, where the function may also exhibit interesting characteristics or maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 9.5,
+                    "x_1": 9.5,
+                    "x_2": 9.5,
+                    "x_3": 9.5,
+                    "x_4": 9.5,
+                    "x_5": 9.5,
+                    "x_6": 9.5,
+                    "x_7": 9.5,
+                    "x_8": 9.5,
+                    "x_9": 9.5
+                }
+            ]
+        },
+        "point": "[9.5, 9.5, 9.5, 9.5, 9.5, 9.5, 9.5, 9.5, 9.5, 9.5]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Mixed Extremes",
+            "rationale": "This hypothesis combines both negative and positive extremes, potentially uncovering interactions between parameters that influence the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": 8.0,
+                    "x_2": -8.0,
+                    "x_3": 8.0,
+                    "x_4": -8.0,
+                    "x_5": 8.0,
+                    "x_6": -8.0,
+                    "x_7": 8.0,
+                    "x_8": -8.0,
+                    "x_9": 8.0
+                }
+            ]
+        },
+        "point": "[-8.0, 8.0, -8.0, 8.0, -8.0, 8.0, -8.0, 8.0, -8.0, 8.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Diagonal Exploration",
+            "rationale": "This hypothesis samples a diagonal line through the parameter space, which may reveal trends or patterns in the function's behavior.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -3.0,
+                    "x_2": -1.0,
+                    "x_3": 1.0,
+                    "x_4": 3.0,
+                    "x_5": 5.0,
+                    "x_6": -5.0,
+                    "x_7": -3.0,
+                    "x_8": -1.0,
+                    "x_9": 1.0
+                }
+            ]
+        },
+        "point": "[-5.0, -3.0, -1.0, 1.0, 3.0, 5.0, -5.0, -3.0, -1.0, 1.0]"
+    },
+    "13": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 0.5,
+                    "x_5": 0.5,
+                    "x_6": 0.5,
+                    "x_7": 0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Mixed Values Exploration",
+            "rationale": "The previous point with mixed values yielded a high target. Exploring similar combinations may uncover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 3.0,
+                    "x_2": -3.0,
+                    "x_3": 3.0,
+                    "x_4": -3.0,
+                    "x_5": 3.0,
+                    "x_6": -3.0,
+                    "x_7": 3.0,
+                    "x_8": -3.0,
+                    "x_9": 3.0
+                }
+            ]
+        },
+        "point": "[-3.0, 3.0, -3.0, 3.0, -3.0, 3.0, -3.0, 3.0, -3.0, 3.0]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Slightly Negative Exploration",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -2.0,
+                    "x_2": -2.0,
+                    "x_3": -2.0,
+                    "x_4": -2.0,
+                    "x_5": -2.0,
+                    "x_6": -2.0,
+                    "x_7": -2.0,
+                    "x_8": -2.0,
+                    "x_9": -2.0
+                }
+            ]
+        },
+        "point": "[-2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0, -2.0]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Positive Exploration",
+            "rationale": "Exploring slightly positive values may also yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": 2.0,
+                    "x_2": 2.0,
+                    "x_3": 2.0,
+                    "x_4": 2.0,
+                    "x_5": 2.0,
+                    "x_6": 2.0,
+                    "x_7": 2.0,
+                    "x_8": 2.0,
+                    "x_9": 2.0
+                }
+            ]
+        },
+        "point": "[2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0, 2.0]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": -1.0,
+                    "x_3": 1.0,
+                    "x_4": -1.0,
+                    "x_5": 1.0,
+                    "x_6": -1.0,
+                    "x_7": 1.0,
+                    "x_8": -1.0,
+                    "x_9": 1.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0, -1.0, 1.0]"
+    },
+    "24": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative and Positive Values",
+            "rationale": "This point explores a combination of slightly negative and positive values, which may uncover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.661,
+                    "x_1": 0.317,
+                    "x_2": 5.067,
+                    "x_3": -1.27,
+                    "x_4": 5.031,
+                    "x_5": -0.468,
+                    "x_6": -0.946,
+                    "x_7": 2.459,
+                    "x_8": -3.108,
+                    "x_9": 0.054
+                }
+            ]
+        },
+        "point": "[-2.661, 0.317, 5.067, -1.27, 5.031, -0.468, -0.946, 2.459, -3.108, 0.054]"
+    },
+    "25": {
+        "trust_score": 0.95,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Variation in Parameter Values",
+            "rationale": "This hypothesis tests a similar point with a slight variation in the last parameter, which may capture different function behaviors.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.66,
+                    "x_1": 0.317,
+                    "x_2": 5.067,
+                    "x_3": -1.27,
+                    "x_4": 5.031,
+                    "x_5": -0.468,
+                    "x_6": -0.946,
+                    "x_7": 2.459,
+                    "x_8": -3.108,
+                    "x_9": 0.055
+                }
+            ]
+        },
+        "point": "[-2.66, 0.317, 5.067, -1.27, 5.031, -0.468, -0.946, 2.459, -3.108, 0.055]"
+    },
+    "34": {
+        "trust_score": 0.7961852157622413,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.6,
+                    "x_1": 0.6,
+                    "x_2": 0.6,
+                    "x_3": 0.6,
+                    "x_4": 0.6,
+                    "x_5": 0.6,
+                    "x_6": 0.6,
+                    "x_7": 0.6,
+                    "x_8": 0.6,
+                    "x_9": 0.6
+                }
+            ]
+        },
+        "point": "[0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6]"
+    },
+    "35": {
+        "trust_score": 0.7961852157622413,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Mixed Values",
+            "rationale": "Exploring combinations of slightly negative and positive values may uncover beneficial interactions, as seen in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 2.5,
+                    "x_2": -2.5,
+                    "x_3": 2.5,
+                    "x_4": -2.5,
+                    "x_5": 2.5,
+                    "x_6": -2.5,
+                    "x_7": 2.5,
+                    "x_8": -2.5,
+                    "x_9": 2.5
+                }
+            ]
+        },
+        "point": "[-2.5, 2.5, -2.5, 2.5, -2.5, 2.5, -2.5, 2.5, -2.5, 2.5]"
+    },
+    "36": {
+        "trust_score": 0.7961852157622413,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.5,
+                    "x_1": 2.5,
+                    "x_2": 2.5,
+                    "x_3": 2.5,
+                    "x_4": 2.5,
+                    "x_5": 2.5,
+                    "x_6": 2.5,
+                    "x_7": 2.5,
+                    "x_8": 2.5,
+                    "x_9": 2.5
+                }
+            ]
+        },
+        "point": "[2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5, 2.5]"
+    },
+    "37": {
+        "trust_score": 0.7961852157622413,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 1.5,
+                    "x_2": -1.5,
+                    "x_3": 1.5,
+                    "x_4": -1.5,
+                    "x_5": 1.5,
+                    "x_6": -1.5,
+                    "x_7": 1.5,
+                    "x_8": -1.5,
+                    "x_9": 1.5
+                }
+            ]
+        },
+        "point": "[-1.5, 1.5, -1.5, 1.5, -1.5, 1.5, -1.5, 1.5, -1.5, 1.5]"
+    },
+    "38": {
+        "trust_score": 0.7961852157622413,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.5,
+                    "x_2": -1.5,
+                    "x_3": -1.5,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -1.5,
+                    "x_7": -1.5,
+                    "x_8": -1.5,
+                    "x_9": -1.5
+                }
+            ]
+        },
+        "point": "[-1.5, -1.5, -1.5, -1.5, -1.5, -1.5, -1.5, -1.5, -1.5, -1.5]"
+    },
+    "46": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.7,
+                    "x_1": 0.7,
+                    "x_2": 0.7,
+                    "x_3": 0.7,
+                    "x_4": 0.7,
+                    "x_5": 0.7,
+                    "x_6": 0.7,
+                    "x_7": 0.7,
+                    "x_8": 0.7,
+                    "x_9": 0.7
+                }
+            ]
+        },
+        "point": "[0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]"
+    },
+    "47": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.3,
+                    "x_1": 2.3,
+                    "x_2": 2.3,
+                    "x_3": 2.3,
+                    "x_4": 2.3,
+                    "x_5": 2.3,
+                    "x_6": 2.3,
+                    "x_7": 2.3,
+                    "x_8": 2.3,
+                    "x_9": 2.3
+                }
+            ]
+        },
+        "point": "[2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3, 2.3]"
+    },
+    "48": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.2,
+                    "x_1": 1.2,
+                    "x_2": -1.2,
+                    "x_3": 1.2,
+                    "x_4": -1.2,
+                    "x_5": 1.2,
+                    "x_6": -1.2,
+                    "x_7": 1.2,
+                    "x_8": -1.2,
+                    "x_9": 1.2
+                }
+            ]
+        },
+        "point": "[-1.2, 1.2, -1.2, 1.2, -1.2, 1.2, -1.2, 1.2, -1.2, 1.2]"
+    },
+    "49": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.8,
+                    "x_1": -1.8,
+                    "x_2": -1.8,
+                    "x_3": -1.8,
+                    "x_4": -1.8,
+                    "x_5": -1.8,
+                    "x_6": -1.8,
+                    "x_7": -1.8,
+                    "x_8": -1.8,
+                    "x_9": -1.8
+                }
+            ]
+        },
+        "point": "[-1.8, -1.8, -1.8, -1.8, -1.8, -1.8, -1.8, -1.8, -1.8, -1.8]"
+    },
+    "56": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.8,
+                    "x_1": 0.8,
+                    "x_2": 0.8,
+                    "x_3": 0.8,
+                    "x_4": 0.8,
+                    "x_5": 0.8,
+                    "x_6": 0.8,
+                    "x_7": 0.8,
+                    "x_8": 0.8,
+                    "x_9": 0.8
+                }
+            ]
+        },
+        "point": "[0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]"
+    },
+    "57": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.7,
+                    "x_1": 2.7,
+                    "x_2": 2.7,
+                    "x_3": 2.7,
+                    "x_4": 2.7,
+                    "x_5": 2.7,
+                    "x_6": 2.7,
+                    "x_7": 2.7,
+                    "x_8": 2.7,
+                    "x_9": 2.7
+                }
+            ]
+        },
+        "point": "[2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7, 2.7]"
+    },
+    "58": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.3,
+                    "x_1": 1.3,
+                    "x_2": -1.3,
+                    "x_3": 1.3,
+                    "x_4": -1.3,
+                    "x_5": 1.3,
+                    "x_6": -1.3,
+                    "x_7": 1.3,
+                    "x_8": -1.3,
+                    "x_9": 1.3
+                }
+            ]
+        },
+        "point": "[-1.3, 1.3, -1.3, 1.3, -1.3, 1.3, -1.3, 1.3, -1.3, 1.3]"
+    },
+    "59": {
+        "trust_score": 0.8295185490955749,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.6,
+                    "x_1": -1.6,
+                    "x_2": -1.6,
+                    "x_3": -1.6,
+                    "x_4": -1.6,
+                    "x_5": -1.6,
+                    "x_6": -1.6,
+                    "x_7": -1.6,
+                    "x_8": -1.6,
+                    "x_9": -1.6
+                }
+            ]
+        },
+        "point": "[-1.6, -1.6, -1.6, -1.6, -1.6, -1.6, -1.6, -1.6, -1.6, -1.6]"
+    },
+    "65": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": 0.9,
+                    "x_2": 0.9,
+                    "x_3": 0.9,
+                    "x_4": 0.9,
+                    "x_5": 0.9,
+                    "x_6": 0.9,
+                    "x_7": 0.9,
+                    "x_8": 0.9,
+                    "x_9": 0.9
+                }
+            ]
+        },
+        "point": "[0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9]"
+    },
+    "66": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of Mixed Values",
+            "rationale": "Exploring combinations of slightly negative and positive values may uncover beneficial interactions, as seen in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 2.5,
+                    "x_2": -4.0,
+                    "x_3": 4.0,
+                    "x_4": -2.5,
+                    "x_5": 2.5,
+                    "x_6": -4.0,
+                    "x_7": 4.0,
+                    "x_8": -2.5,
+                    "x_9": 2.5
+                }
+            ]
+        },
+        "point": "[-2.5, 2.5, -4.0, 4.0, -2.5, 2.5, -4.0, 4.0, -2.5, 2.5]"
+    },
+    "67": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.8,
+                    "x_1": 2.8,
+                    "x_2": 2.8,
+                    "x_3": 2.8,
+                    "x_4": 2.8,
+                    "x_5": 2.8,
+                    "x_6": 2.8,
+                    "x_7": 2.8,
+                    "x_8": 2.8,
+                    "x_9": 2.8
+                }
+            ]
+        },
+        "point": "[2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8, 2.8]"
+    },
+    "68": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.4,
+                    "x_1": 1.4,
+                    "x_2": -1.4,
+                    "x_3": 1.4,
+                    "x_4": -1.4,
+                    "x_5": 1.4,
+                    "x_6": -1.4,
+                    "x_7": 1.4,
+                    "x_8": -1.4,
+                    "x_9": 1.4
+                }
+            ]
+        },
+        "point": "[-1.4, 1.4, -1.4, 1.4, -1.4, 1.4, -1.4, 1.4, -1.4, 1.4]"
+    },
+    "69": {
+        "trust_score": 1.0,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.7,
+                    "x_1": -1.7,
+                    "x_2": -1.7,
+                    "x_3": -1.7,
+                    "x_4": -1.7,
+                    "x_5": -1.7,
+                    "x_6": -1.7,
+                    "x_7": -1.7,
+                    "x_8": -1.7,
+                    "x_9": -1.7
+                }
+            ]
+        },
+        "point": "[-1.7, -1.7, -1.7, -1.7, -1.7, -1.7, -1.7, -1.7, -1.7, -1.7]"
+    },
+    "74": {
+        "trust_score": 1.0,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 1.0,
+                    "x_4": 1.0,
+                    "x_5": 1.0,
+                    "x_6": 1.0,
+                    "x_7": 1.0,
+                    "x_8": 1.0,
+                    "x_9": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]"
+    },
+    "75": {
+        "trust_score": 1.0,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploration of Mixed Values",
+            "rationale": "Exploring combinations of slightly negative and positive values may uncover beneficial interactions, as seen in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 3.0,
+                    "x_2": -3.5,
+                    "x_3": 4.5,
+                    "x_4": -2.0,
+                    "x_5": 3.0,
+                    "x_6": -3.5,
+                    "x_7": 4.5,
+                    "x_8": -2.0,
+                    "x_9": 3.0
+                }
+            ]
+        },
+        "point": "[-2.0, 3.0, -3.5, 4.5, -2.0, 3.0, -3.5, 4.5, -2.0, 3.0]"
+    },
+    "76": {
+        "trust_score": 1.0,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.9,
+                    "x_1": 2.9,
+                    "x_2": 2.9,
+                    "x_3": 2.9,
+                    "x_4": 2.9,
+                    "x_5": 2.9,
+                    "x_6": 2.9,
+                    "x_7": 2.9,
+                    "x_8": 2.9,
+                    "x_9": 2.9
+                }
+            ]
+        },
+        "point": "[2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9, 2.9]"
+    },
+    "77": {
+        "trust_score": 1.0,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploration of Intermediate Values",
+            "rationale": "Sampling intermediate values may help identify trends or patterns that could lead to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.1,
+                    "x_1": 1.1,
+                    "x_2": -1.1,
+                    "x_3": 1.1,
+                    "x_4": -1.1,
+                    "x_5": 1.1,
+                    "x_6": -1.1,
+                    "x_7": 1.1,
+                    "x_8": -1.1,
+                    "x_9": 1.1
+                }
+            ]
+        },
+        "point": "[-1.1, 1.1, -1.1, 1.1, -1.1, 1.1, -1.1, 1.1, -1.1, 1.1]"
+    },
+    "78": {
+        "trust_score": 1.0,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Values",
+            "rationale": "Exploring slightly negative values may reveal a local maximum, as previous iterations showed some promising results in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.9,
+                    "x_1": -1.9,
+                    "x_2": -1.9,
+                    "x_3": -1.9,
+                    "x_4": -1.9,
+                    "x_5": -1.9,
+                    "x_6": -1.9,
+                    "x_7": -1.9,
+                    "x_8": -1.9,
+                    "x_9": -1.9
+                }
+            ]
+        },
+        "point": "[-1.9, -1.9, -1.9, -1.9, -1.9, -1.9, -1.9, -1.9, -1.9, -1.9]"
+    },
+    "82": {
+        "trust_score": 1.0,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined Center Exploration",
+            "rationale": "Given the highest target value was found at the center, further exploration around this region with slight variations may yield even better results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.1,
+                    "x_2": 1.1,
+                    "x_3": 1.1,
+                    "x_4": 1.1,
+                    "x_5": 1.1,
+                    "x_6": 1.1,
+                    "x_7": 1.1,
+                    "x_8": 1.1,
+                    "x_9": 1.1
+                }
+            ]
+        },
+        "point": "[1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1]"
+    },
+    "83": {
+        "trust_score": 1.0,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploration of Mixed Values",
+            "rationale": "Exploring combinations of slightly negative and positive values may uncover beneficial interactions, as seen in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 3.5,
+                    "x_2": -3.0,
+                    "x_3": 4.0,
+                    "x_4": -2.5,
+                    "x_5": 3.5,
+                    "x_6": -3.0,
+                    "x_7": 4.0,
+                    "x_8": -2.5,
+                    "x_9": 3.5
+                }
+            ]
+        },
+        "point": "[-2.5, 3.5, -3.0, 4.0, -2.5, 3.5, -3.0, 4.0, -2.5, 3.5]"
+    },
+    "84": {
+        "trust_score": 1.0,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Slightly Positive Exploration",
+            "rationale": "Exploring slightly positive values may yield beneficial results, as the function may have peaks in this region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.6,
+                    "x_1": 2.6,
+                    "x_2": 2.6,
+                    "x_3": 2.6,
+                    "x_4": 2.6,
+                    "x_5": 2.6,
+                    "x_6": 2.6,
+                    "x_7": 2.6,
+                    "x_8": 2.6,
+                    "x_9": 2.6
+                }
+            ]
+        },
+        "point": "[2.6, 2.6, 2.6, 2.6, 2.6, 2.6, 2.6, 2.6, 2.6, 2.6]"
+    },
+    "91": {
+        "trust_score": 0.8333275490937431,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Extreme Values",
+            "rationale": "This hypothesis tests the extreme values of the parameter space to confirm their behavior and potential interactions.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 10.0,
+                    "x_2": 10.0,
+                    "x_3": -10.0,
+                    "x_4": 10.0,
+                    "x_5": -10.0,
+                    "x_6": 10.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": -10.0
+                }
+            ]
+        },
+        "point": "[-10.0, 10.0, 10.0, -10.0, 10.0, -10.0, 10.0, 10.0, -10.0, -10.0]"
+    },
+    "92": {
+        "trust_score": 0.8333275490937431,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploration of Varied Parameters",
+            "rationale": "This hypothesis explores a point with slightly varied parameters, which may reveal beneficial interactions and higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2.712,
+                    "x_1": 10.0,
+                    "x_2": 10.0,
+                    "x_3": -10.0,
+                    "x_4": 10.0,
+                    "x_5": -10.0,
+                    "x_6": 0.016,
+                    "x_7": -2.171,
+                    "x_8": -10.0,
+                    "x_9": -10.0
+                }
+            ]
+        },
+        "point": "[2.712, 10.0, 10.0, -10.0, 10.0, -10.0, 0.016, -2.171, -10.0, -10.0]"
+    },
+    "101": {
+        "trust_score": 0.6238847431517666,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Slightly Positive and Mixed Values",
+            "rationale": "This point explores a combination of slightly positive and mixed values, which may uncover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.163,
+                    "x_1": -1.097,
+                    "x_2": 4.491,
+                    "x_3": 0.699,
+                    "x_4": 0.557,
+                    "x_5": 3.507,
+                    "x_6": -1.173,
+                    "x_7": -1.482,
+                    "x_8": -1.581,
+                    "x_9": -1.598
+                }
+            ]
+        },
+        "point": "[1.163, -1.097, 4.491, 0.699, 0.557, 3.507, -1.173, -1.482, -1.581, -1.598]"
+    },
+    "102": {
+        "trust_score": 0.6238847431517666,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Extreme Values",
+            "rationale": "This hypothesis tests the extreme values of the parameter space to confirm their behavior and potential interactions.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": 10.0,
+                    "x_2": 10.0,
+                    "x_3": 10.0,
+                    "x_4": -10.0,
+                    "x_5": -10.0,
+                    "x_6": 5.672,
+                    "x_7": -10.0,
+                    "x_8": 10.0,
+                    "x_9": 1.619
+                }
+            ]
+        },
+        "point": "[-10.0, 10.0, 10.0, 10.0, -10.0, -10.0, 5.672, -10.0, 10.0, 1.619]"
+    }
+}

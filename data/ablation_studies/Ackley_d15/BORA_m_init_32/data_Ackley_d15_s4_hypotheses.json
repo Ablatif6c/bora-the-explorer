@@ -1,0 +1,147 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 31,
+        "hypothesis": {
+            "name": "Max Positive Edge",
+            "rationale": "This point explores the upper boundary of the input space, potentially amplifying the function value due to positive interactions among parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 31,
+        "hypothesis": {
+            "name": "Balanced Midpoint",
+            "rationale": "This point represents a balanced approach that allows for a better understanding of parameter interactions and behaviors at mid-range values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -10,
+                    "x_4": 10,
+                    "x_5": -2,
+                    "x_6": 2,
+                    "x_7": 15,
+                    "x_8": -15,
+                    "x_9": -20,
+                    "x_10": 8,
+                    "x_11": 12,
+                    "x_12": 0,
+                    "x_13": -5,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, -10, 10, -2, 2, 15, -15, -20, 8, 12, 0, -5, 10]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 31,
+        "hypothesis": {
+            "name": "Negative Exploration",
+            "rationale": "This hypothesis investigates the lower end of the parameter spectrum, where negative interactions may yield interesting results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -20,
+                    "x_2": -15,
+                    "x_3": -10,
+                    "x_4": -5,
+                    "x_5": -20,
+                    "x_6": -12,
+                    "x_7": -18,
+                    "x_8": -8,
+                    "x_9": -2,
+                    "x_10": -4,
+                    "x_11": -10,
+                    "x_12": -15,
+                    "x_13": -8,
+                    "x_14": -20
+                }
+            ]
+        },
+        "point": "[-20, -20, -15, -10, -5, -20, -12, -18, -8, -2, -4, -10, -15, -8, -20]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 31,
+        "hypothesis": {
+            "name": "Diverse Spread",
+            "rationale": "This point aims to explore diverse parameter values that are spread out to capture a wider variety of interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -10,
+                    "x_2": 15,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -5,
+                    "x_7": 18,
+                    "x_8": -12,
+                    "x_9": 13,
+                    "x_10": -1,
+                    "x_11": 7,
+                    "x_12": -7,
+                    "x_13": 19,
+                    "x_14": -25
+                }
+            ]
+        },
+        "point": "[-30, -10, 15, 5, 0, 10, -5, 18, -12, 13, -1, 7, -7, 19, -25]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 31,
+        "hypothesis": {
+            "name": "Corner Combination",
+            "rationale": "Combining extreme values from different corners of the parameter bounds could reveal interactions that are otherwise overlooked.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": 20,
+                    "x_2": -30,
+                    "x_3": 20,
+                    "x_4": -30,
+                    "x_5": 20,
+                    "x_6": -30,
+                    "x_7": 20,
+                    "x_8": -30,
+                    "x_9": 20,
+                    "x_10": -30,
+                    "x_11": 20,
+                    "x_12": -30,
+                    "x_13": 20,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30]"
+    }
+}

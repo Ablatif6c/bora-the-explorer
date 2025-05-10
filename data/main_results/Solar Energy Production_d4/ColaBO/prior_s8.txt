@@ -1,0 +1,10 @@
+{
+    "rationale":"Solar panels generally perform best when they are tilted and oriented towards the sun. A common optimal tilt angle for maximizing daily solar energy production is often set to 30-45 degrees, depending on the latitude. The azimuth angle is optimal when the panels face true south (180°) in the northern hemisphere, to capture the most direct sunlight throughout the day. A system capacity towards the higher end of the range allows for better energy production, and a DC to AC ratio of around 1.2 to 1.3 is commonly recommended to optimize energy conversion without significant clipping.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.25
+    }
+}

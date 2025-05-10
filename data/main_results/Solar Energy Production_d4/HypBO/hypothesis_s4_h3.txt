@@ -1,0 +1,11 @@
+{
+    "name": "High Capacity Solar Angle Setup",
+    "rationale": "For maximizing energy production, a tilt angle of 40° can be effective for locations with a moderate solar altitude. Keeping the azimuth at 200° can also help capture afternoon sun, which is beneficial in the latter part of the day. A larger system capacity of 18 kW can generate more energy, paired with a DC to AC ratio of 1.4 to maximize efficiency under high production scenarios.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 200,
+        "system_capacity": 18,
+        "dc_ac_ratio": 1.4
+    }
+}

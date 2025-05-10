@@ -1,0 +1,1684 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Mid-range Exploration",
+            "rationale": "This point is chosen from the midpoint of the parameter bounds, allowing investigation of a potentially stable region for the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -5.0,
+                    "x_2": -5.0,
+                    "x_3": -5.0,
+                    "x_4": -5.0,
+                    "x_5": -5.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -5.0,
+                    "x_9": -5.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -5.0,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0, -5.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Boundary Exploration",
+            "rationale": "Selecting extremes of the parameter range helps identify limits of the function behavior and possible cusp effects.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 20.0,
+                    "x_1": 20.0,
+                    "x_2": 20.0,
+                    "x_3": 20.0,
+                    "x_4": 20.0,
+                    "x_5": 20.0,
+                    "x_6": 20.0,
+                    "x_7": 20.0,
+                    "x_8": 20.0,
+                    "x_9": 20.0,
+                    "x_10": 20.0,
+                    "x_11": 20.0,
+                    "x_12": 20.0,
+                    "x_13": 20.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0, 20.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Negative Watershed",
+            "rationale": "This point samples a negative bias across the parameters, potentially revealing contrasting behavior in the function's response.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": -15.0,
+                    "x_2": -10.0,
+                    "x_3": -5.0,
+                    "x_4": 0.0,
+                    "x_5": 5.0,
+                    "x_6": 10.0,
+                    "x_7": 15.0,
+                    "x_8": -20.0,
+                    "x_9": -15.0,
+                    "x_10": -10.0,
+                    "x_11": -5.0,
+                    "x_12": 0.0,
+                    "x_13": 5.0,
+                    "x_14": -20.0
+                }
+            ]
+        },
+        "point": "[-20.0, -15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 15.0, -20.0, -15.0, -10.0, -5.0, 0.0, 5.0, -20.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Symmetric Variation",
+            "rationale": "Testing symmetrical variations across parameters could yield insights on interactions and dependencies affecting the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": -20.0,
+                    "x_2": 20.0,
+                    "x_3": 20.0,
+                    "x_4": -20.0,
+                    "x_5": 20.0,
+                    "x_6": -20.0,
+                    "x_7": 20.0,
+                    "x_8": -20.0,
+                    "x_9": 20.0,
+                    "x_10": -20.0,
+                    "x_11": 20.0,
+                    "x_12": -20.0,
+                    "x_13": 20.0,
+                    "x_14": -20.0
+                }
+            ]
+        },
+        "point": "[-20.0, -20.0, 20.0, 20.0, -20.0, 20.0, -20.0, 20.0, -20.0, 20.0, -20.0, 20.0, -20.0, 20.0, -20.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Local Clustering",
+            "rationale": "This point clusters several parameters near the upper bounds, aiming to identify potential peaks within close proximity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 18.0,
+                    "x_1": 18.0,
+                    "x_2": 18.0,
+                    "x_3": 19.0,
+                    "x_4": 19.0,
+                    "x_5": 18.0,
+                    "x_6": 18.0,
+                    "x_7": 19.0,
+                    "x_8": 19.0,
+                    "x_9": 18.0,
+                    "x_10": 19.0,
+                    "x_11": 18.0,
+                    "x_12": 19.0,
+                    "x_13": 18.0,
+                    "x_14": 19.0
+                }
+            ]
+        },
+        "point": "[18.0, 18.0, 18.0, 19.0, 19.0, 18.0, 18.0, 19.0, 19.0, 18.0, 19.0, 18.0, 19.0, 18.0, 19.0]"
+    },
+    "8": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Mid-range Alternative Exploration",
+            "rationale": "Exploring nearby mid-range offsets could uncover additional target value peaks neighboring the previously successful configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -5.0,
+                    "x_2": -6.0,
+                    "x_3": -5.0,
+                    "x_4": -4.0,
+                    "x_5": -5.0,
+                    "x_6": -4.5,
+                    "x_7": -5.0,
+                    "x_8": -6.0,
+                    "x_9": -4.0,
+                    "x_10": -5.0,
+                    "x_11": -5.5,
+                    "x_12": -4.5,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-4.0, -5.0, -6.0, -5.0, -4.0, -5.0, -4.5, -5.0, -6.0, -4.0, -5.0, -5.5, -4.5, -5.0, -5.0]"
+    },
+    "9": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Targeted Negative Value Exploration",
+            "rationale": "Exploring localized variations around the negative values observed may uncover additional peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -7.0,
+                    "x_1": -7.0,
+                    "x_2": -3.0,
+                    "x_3": -5.0,
+                    "x_4": -3.0,
+                    "x_5": -3.0,
+                    "x_6": -7.0,
+                    "x_7": -5.0,
+                    "x_8": -7.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -3.0,
+                    "x_13": -7.0,
+                    "x_14": -7.0
+                }
+            ]
+        },
+        "point": "[-7.0, -7.0, -3.0, -5.0, -3.0, -3.0, -7.0, -5.0, -7.0, -3.0, -3.0, -3.0, -3.0, -7.0, -7.0]"
+    },
+    "10": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Explore Mid-range Offsets",
+            "rationale": "Investigating slight variations from successful mid-point configurations may yield new insights on neighboring interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -4.5,
+                    "x_2": -5.5,
+                    "x_3": -6.0,
+                    "x_4": -5.0,
+                    "x_5": -6.5,
+                    "x_6": -5.5,
+                    "x_7": -4.0,
+                    "x_8": -5.0,
+                    "x_9": -4.5,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -6.5,
+                    "x_13": -4.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-5.0, -4.5, -5.5, -6.0, -5.0, -6.5, -5.5, -4.0, -5.0, -4.5, -5.0, -5.0, -6.5, -4.5, -5.0]"
+    },
+    "16": {
+        "trust_score": 0.6959559589411513,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined Mid-range Variation",
+            "rationale": "Focusing on variations near the previously successful mid-range clusters can unveil additional peaks in target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -4.0,
+                    "x_2": -6.5,
+                    "x_3": -4.5,
+                    "x_4": -4.0,
+                    "x_5": -5.0,
+                    "x_6": -4.5,
+                    "x_7": -4.5,
+                    "x_8": -6.0,
+                    "x_9": -4.5,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -5.5,
+                    "x_13": -4.5,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-4.5, -4.0, -6.5, -4.5, -4.0, -5.0, -4.5, -4.5, -6.0, -4.5, -5.0, -5.0, -5.5, -4.5, -5.0]"
+    },
+    "17": {
+        "trust_score": 0.6959559589411513,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Enhanced Negative Exploration",
+            "rationale": "Investigating localized variations around strong negative points can entice new relationships maximizing performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -8.0,
+                    "x_1": -8.0,
+                    "x_2": -3.0,
+                    "x_3": -5.0,
+                    "x_4": -5.0,
+                    "x_5": -3.0,
+                    "x_6": -8.0,
+                    "x_7": -5.0,
+                    "x_8": -8.0,
+                    "x_9": -4.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -3.0,
+                    "x_13": -8.0,
+                    "x_14": -8.0
+                }
+            ]
+        },
+        "point": "[-8.0, -8.0, -3.0, -5.0, -5.0, -3.0, -8.0, -5.0, -8.0, -4.0, -3.0, -3.0, -3.0, -8.0, -8.0]"
+    },
+    "18": {
+        "trust_score": 0.6959559589411513,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Mid-range with Positive Bias",
+            "rationale": "Aiming for minor positive adjustments amid mid-range configurations may illuminate new peaks in targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": 0.0,
+                    "x_2": -5.0,
+                    "x_3": -4.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -4.0,
+                    "x_13": -1.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-4.0, 0.0, -5.0, -4.0, -3.0, -2.0, -5.0, -5.0, -4.0, -3.0, -5.0, -5.0, -4.0, -1.0, -5.0]"
+    },
+    "19": {
+        "trust_score": 0.6959559589411513,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Focused High-density Exploration",
+            "rationale": "Testing a concentration of parameters within slightly adjusted boundaries can reveal interaction effects and performance peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": -2.0,
+                    "x_2": -3.5,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -3.5,
+                    "x_6": -2.0,
+                    "x_7": -2.0,
+                    "x_8": -2.5,
+                    "x_9": -2.0,
+                    "x_10": -2.5,
+                    "x_11": -3.0,
+                    "x_12": -3.5,
+                    "x_13": -2.0,
+                    "x_14": -2.5
+                }
+            ]
+        },
+        "point": "[-2.5, -2.0, -3.5, -2.0, -2.5, -3.5, -2.0, -2.0, -2.5, -2.0, -2.5, -3.0, -3.5, -2.0, -2.5]"
+    },
+    "23": {
+        "trust_score": 0.7973039726274341,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Optimized Mid-negative Exploration",
+            "rationale": "Targeting configurations within the mid-negative region is anticipated to reveal interactions contributing to maximum function performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -6.0,
+                    "x_2": -4.0,
+                    "x_3": -3.0,
+                    "x_4": -5.0,
+                    "x_5": -6.0,
+                    "x_6": -4.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -5.0,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -5.0,
+                    "x_13": -5.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-5.0, -6.0, -4.0, -3.0, -5.0, -6.0, -4.0, -5.0, -4.0, -5.0, -3.0, -3.0, -5.0, -5.0, -5.0]"
+    },
+    "24": {
+        "trust_score": 0.7973039726274341,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Strategic Low Negative Adjustment",
+            "rationale": "Exploring variations around the highest observed target values may yield additional performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -4.0,
+                    "x_2": -3.5,
+                    "x_3": -4.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -5.0,
+                    "x_7": -5.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -5.0,
+                    "x_11": -5.0,
+                    "x_12": -4.0,
+                    "x_13": -1.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-4.0, -4.0, -3.5, -4.5, -3.0, -2.0, -5.0, -5.0, -4.0, -3.0, -5.0, -5.0, -4.0, -1.0, -4.0]"
+    },
+    "25": {
+        "trust_score": 0.7973039726274341,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Slight Positive Variant Near Zero",
+            "rationale": "Testing points near zero with slight positive adjustments may uncover new peaks, considering previous high-performance configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 1.5,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -0.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -1.5,
+                    "x_8": -0.5,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 0.5,
+                    "x_12": -0.5,
+                    "x_13": -0.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.5, 1.5, -1.0, -0.5, -0.5, -1.5, -1.0, -1.5, -0.5, -1.0, -1.5, 0.5, -0.5, -0.5, -1.0]"
+    },
+    "28": {
+        "trust_score": 0.8306373059607676,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Negative with Positive Synergy",
+            "rationale": "Exploring a configuration that combines negative and slight positive values should reveal interactions leading to higher target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 2.0,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -2.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-1.0, 2.0, -1.0, -0.5, -2.5, -1.5, -2.0, -1.0, 0.0, -1.0, -1.5, 1.0, -1.0, -1.0, -1.5]"
+    },
+    "29": {
+        "trust_score": 0.8306373059607676,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Mid-negative Variant",
+            "rationale": "Targeting configurations within a mid-negative range can be further refined to uncover potentially undiscovered maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.5,
+                    "x_2": -3.0,
+                    "x_3": -4.0,
+                    "x_4": -4.5,
+                    "x_5": -5.0,
+                    "x_6": -4.0,
+                    "x_7": -4.5,
+                    "x_8": -5.0,
+                    "x_9": -3.5,
+                    "x_10": -3.0,
+                    "x_11": -3.0,
+                    "x_12": -4.0,
+                    "x_13": -4.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.5, -3.0, -4.0, -4.5, -5.0, -4.0, -4.5, -5.0, -3.5, -3.0, -3.0, -4.0, -4.0, -5.0]"
+    },
+    "30": {
+        "trust_score": 0.8306373059607676,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Positive Adjustment within Zero Threshold",
+            "rationale": "Testing slight positive deviations within a cluster of negative settings can help uncover hidden optimal points.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -2.5,
+                    "x_7": 0.5,
+                    "x_8": -2.0,
+                    "x_9": -1.0,
+                    "x_10": -2.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, -2.0, -1.5, -1.0, -2.0, -2.5, 0.5, -2.0, -1.0, -2.0, 0.0, -1.5, -1.5, -1.0]"
+    },
+    "31": {
+        "trust_score": 0.8306373059607676,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Localized Exploration Near High-Value Points",
+            "rationale": "Variations around previously high-performing setups can unveil new peaks in target performance through localized exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 0.0,
+                    "x_2": -3.0,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -1.0,
+                    "x_6": -3.0,
+                    "x_7": -1.5,
+                    "x_8": -2.5,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": 0.5,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.0, 0.0, -3.0, -2.0, -2.5, -1.0, -3.0, -1.5, -2.5, -1.0, -1.0, -2.0, -1.5, 0.5, -1.5]"
+    },
+    "34": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Mid-negative with Positive Offset",
+            "rationale": "Aiming to replicate successful interactions by targeting a blend of moderate negative values combined with slight positive adjustments.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -1.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.0, 1.5, -2.0, -1.5, -3.0, -2.5, -2.0, -1.0, 0.0, -2.0, -1.5, 1.0, -1.0, -1.0, -1.5]"
+    },
+    "35": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Localized Optimization Near Maxima",
+            "rationale": "Exploring the area around the highest observed target values to expose further peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.0,
+                    "x_2": -1.5,
+                    "x_3": -0.5,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": -1.0,
+                    "x_9": 0.5,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.5, -1.0, -1.5, -0.5, -1.0, -2.0, -1.0, -0.5, -1.0, 0.5, -1.5, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "36": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Extended Gentle Negative Exploration",
+            "rationale": "Investigating adjustments around the mid-negative with slight positive shifts to capture unforeseen interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -4.0,
+                    "x_4": -3.5,
+                    "x_5": -4.4,
+                    "x_6": -3.0,
+                    "x_7": -2.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -4.0,
+                    "x_11": -3.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-4.5, -3.0, -2.0, -4.0, -3.5, -4.4, -3.0, -2.0, -4.0, -3.0, -4.0, -3.5, -4.0, -3.0, -4.0]"
+    },
+    "37": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Positive-Balanced Negative Test",
+            "rationale": "Exploring configurations featuring balanced negative and slight positive adjustments to better understand optimal points across dimensions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -2.0,
+                    "x_4": -1.0,
+                    "x_5": -2.0,
+                    "x_6": -1.0,
+                    "x_7": 0.5,
+                    "x_8": -1.5,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-2.0, 2.0, -2.0, -2.0, -1.0, -2.0, -1.0, 0.5, -1.5, -1.0, -0.5, 0.0, -1.0, 1.0, -1.5]"
+    },
+    "40": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Enhanced Mid-negative Exploration",
+            "rationale": "Further exploring configurations within the mid-negative range is expected to yield additional insights and interactions that maximize target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -3.0,
+                    "x_2": -4.0,
+                    "x_3": -4.0,
+                    "x_4": -3.5,
+                    "x_5": -3.5,
+                    "x_6": -4.0,
+                    "x_7": -3.0,
+                    "x_8": -5.0,
+                    "x_9": -3.5,
+                    "x_10": -3.0,
+                    "x_11": -3.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-3.5, -3.0, -4.0, -4.0, -3.5, -3.5, -4.0, -3.0, -5.0, -3.5, -3.0, -3.5, -4.0, -3.0, -4.0]"
+    },
+    "41": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment Near Mid-negative",
+            "rationale": "Integrating slight positive values with moderate negatives can leverage previously observed synergies for maximum target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -0.5,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-2.0, 2.0, -2.0, -1.5, -3.0, -1.5, -2.0, -0.5, 0.5, -1.0, -1.0, 0.0, -0.5, -1.0, -1.5]"
+    },
+    "42": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Localized Exploration Around High Performers",
+            "rationale": "Focusing on variations around the highest yielding configurations may uncover new peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -2.0,
+                    "x_4": -1.5,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, -1.5, -2.0, -1.5, -2.0, -1.5, -1.0, 0.5, -2.0, -1.5, 0.0, -1.0, 0.5, -2.0]"
+    },
+    "43": {
+        "trust_score": 0.8321802727696728,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Negative-Positive Hybrid",
+            "rationale": "Targeting a balance between minor positive values and negative constraints could unlock new understanding about optimal parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 1.5,
+                    "x_2": -1.0,
+                    "x_3": -2.0,
+                    "x_4": -2.5,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -1.5,
+                    "x_9": 0.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.5, 1.5, -1.0, -2.0, -2.5, -1.0, -1.5, -1.0, -1.5, 0.0, -1.0, 0.5, -1.0, -1.5, -1.0]"
+    },
+    "49": {
+        "trust_score": 0.662107679398317,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Optimized Mid-negative with Positive Balance",
+            "rationale": "Exploring a blend of mid-negative values with slight positive adjustments is anticipated to unveil interactions that maximize target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -2.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.5, 1.0, -2.0, -3.0, -3.5, -1.5, -2.0, -0.5, 0.5, -2.0, -1.0, 0.0, -1.0, -2.0, -1.5]"
+    },
+    "50": {
+        "trust_score": 0.662107679398317,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Focused Neighborhood Exploration",
+            "rationale": "Targeting points in close proximity to currently known high-performers may lead to the discovery of additional peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": -1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -2.0,
+                    "x_9": 0.5,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-2.0, -1.5, -2.0, -1.5, -3.0, -1.5, -1.5, -1.0, -2.0, 0.5, -1.0, 0.5, -1.0, -1.0, -1.5]"
+    },
+    "51": {
+        "trust_score": 0.662107679398317,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slight Adjustments Around Zero",
+            "rationale": "Investigating point combinations that edit mid-negative settings with slight positive values around zero might uncover untapped optimal areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, -1.5, -1.0, -1.5, -1.5, -2.0, -1.0, 0.0, -1.0, 0.0, 0.0, -1.0, -1.0, -1.0]"
+    },
+    "54": {
+        "trust_score": 0.8299274066286442,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Negative-Positive Interaction",
+            "rationale": "Targeting a mix of moderate negative values with slight positive offsets could exploit the interactions leading to high performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.5,
+                    "x_2": -2.5,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-3.5, 1.5, -2.5, -1.0, -3.0, -2.0, -1.5, -0.5, 0.5, -2.0, -1.0, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "55": {
+        "trust_score": 0.8299274066286442,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Mid-negative Value Exploration",
+            "rationale": "Delving deeper into the mid-negative ranges may reveal intricate parameter interactions that maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.5,
+                    "x_2": -3.5,
+                    "x_3": -4.0,
+                    "x_4": -4.0,
+                    "x_5": -4.5,
+                    "x_6": -4.0,
+                    "x_7": -3.5,
+                    "x_8": -4.0,
+                    "x_9": -3.5,
+                    "x_10": -3.5,
+                    "x_11": -4.0,
+                    "x_12": -4.0,
+                    "x_13": -3.5,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.5, -3.5, -4.0, -4.0, -4.5, -4.0, -3.5, -4.0, -3.5, -3.5, -4.0, -4.0, -3.5, -4.0]"
+    },
+    "56": {
+        "trust_score": 0.8299274066286442,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Localized Exploration Near High-Value Points",
+            "rationale": "Focusing on variations around previously identified high-performing setups may help uncover additional peaks in target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": -2.0,
+                    "x_9": 0.5,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.0, -1.5, -1.0, -1.5, -1.5, -1.0, -0.5, -2.0, 0.5, -1.0, 0.5, -1.0, 0.5, -1.0]"
+    },
+    "57": {
+        "trust_score": 0.8299274066286442,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploration of Extreme Values",
+            "rationale": "Testing extreme negative values with slight positive adjustments will help understand the impact of severe parameter skewing.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -20.0,
+                    "x_1": -20.0,
+                    "x_2": -20.0,
+                    "x_3": -20.0,
+                    "x_4": -20.0,
+                    "x_5": -20.0,
+                    "x_6": -20.0,
+                    "x_7": -20.0,
+                    "x_8": -20.0,
+                    "x_9": -20.0,
+                    "x_10": -20.0,
+                    "x_11": -20.0,
+                    "x_12": -20.0,
+                    "x_13": -20.0,
+                    "x_14": -20.0
+                }
+            ]
+        },
+        "point": "[-20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0, -20.0]"
+    },
+    "63": {
+        "trust_score": 0.6615534628244529,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "Integrating moderate negative values around previously successful configurations with slight positive tweaks serves to maximize target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -2.0,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-3.5, 1.0, -2.5, -2.0, -3.0, -1.5, -2.0, -0.5, 0.5, -2.0, -1.0, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "64": {
+        "trust_score": 0.6615534628244529,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Balanced Negative Exploration Near High-Value Points",
+            "rationale": "Targeting variations around previously high-performing setups will help uncover additional peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 0.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.0, -2.0, -1.0, -3.0, -2.0, -1.5, -1.0, 0.0, -2.0, -1.0, 0.5, -1.0, 0.5, -1.0]"
+    },
+    "65": {
+        "trust_score": 0.6615534628244529,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Localized Adjustments Around Zero",
+            "rationale": "Exploring combinations that test mid-negative settings with slight positive increments could reveal untapped opportunities for increased performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": 0.5,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, -1.5, -1.0, -1.5, -1.5, -1.0, -0.5, 0.0, -1.0, 0.5, 0.5, -1.0, 1.0, -1.0]"
+    },
+    "66": {
+        "trust_score": 0.6615534628244529,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Slight Extremes with Positive Samples",
+            "rationale": "Testing marginal negative and slight positive combinations will help evaluate their combined effect on the target function.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -1.0,
+                    "x_2": -3.5,
+                    "x_3": -3.0,
+                    "x_4": -2.5,
+                    "x_5": 1.0,
+                    "x_6": -2.0,
+                    "x_7": -2.0,
+                    "x_8": -1.0,
+                    "x_9": 1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -0.5,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-1.5, -1.0, -3.5, -3.0, -2.5, 1.0, -2.0, -2.0, -1.0, 1.0, 0.0, 0.0, -1.0, -0.5, -2.0]"
+    },
+    "72": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Negative with Positive Integration",
+            "rationale": "Exploring configurations incorporating moderate negative values with slight positive shifts is expected to reveal high performance based on previous successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.0, 1.0, -2.5, -1.5, -3.0, -2.0, -1.5, -0.5, 0.5, -2.0, -1.0, 0.0, -1.0, -1.0, -1.5]"
+    },
+    "73": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Further Exploration of Mid-negative Clusters",
+            "rationale": "Refining the search around previously successful mid-negative values is likely to uncover new optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -2.0,
+                    "x_2": -2.0,
+                    "x_3": -3.5,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.5,
+                    "x_12": -4.0,
+                    "x_13": -3.0,
+                    "x_14": -3.5
+                }
+            ]
+        },
+        "point": "[-3.5, -2.0, -2.0, -3.5, -3.0, -2.5, -2.0, -1.0, -4.0, -3.0, -3.0, -2.5, -4.0, -3.0, -3.5]"
+    },
+    "74": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Testing Positive Shifts Within Negative Clusters",
+            "rationale": "Within moderate negative clusters, applying slight positive adjustments might optimize interactions leading to higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.5,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.5, 0.5, -2.0, -1.5, -1.0, -1.5, -2.0, -0.5, 0.0, -1.0, -1.5, 0.0, -1.0, 1.5, -1.0]"
+    },
+    "75": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Explore Near Zero for Potential Peaks",
+            "rationale": "Points near zero, balanced with moderate negatives, could unveil unexplored optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": -1.0,
+                    "x_3": -1.0,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, -1.0, -1.0, -2.0, -1.0, -1.5, -0.5, 0.5, 0.0, -1.0, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "76": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refine Positive Adjustments in Negative Clusters",
+            "rationale": "Earlier hypotheses about extreme positive value adjustments have proven ineffective; thus, refinement to moderate adjustments is beneficial.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 2.0,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-1.5, 2.0, -2.0, -1.0, -1.5, -1.5, -2.0, -1.5, 0.5, -1.0, 0.0, 0.5, -1.0, -1.5, -1.0]"
+    },
+    "82": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "This configuration blends moderate negatives integrated with slight positive tweaks, expected to enhance performance based on past trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": -2.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-3.0, -2.0, -2.5, -1.5, -2.0, -1.0, -1.5, -0.5, 0.5, -2.0, -1.0, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "83": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Enhanced Exploration of Mid-negative Clusters",
+            "rationale": "Focusing on localized variations around previously successful mid-negative values is likely to unveil new optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -1.5,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -2.0
+                }
+            ]
+        },
+        "point": "[-4.0, -3.0, -2.0, -3.0, -3.0, -2.5, -1.5, -1.0, -4.0, -3.0, -3.0, -2.0, -1.5, -1.0, -2.0]"
+    },
+    "84": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Targeting Positive Shifts Within Negative Clusters",
+            "rationale": "Testing combinations of moderate negative parameters augmented with slight positive values is likely to yield optimal interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, -2.0, -1.5, -1.0, -1.5, -2.0, -0.5, 0.0, -1.0, -1.0, 0.5, -1.0, 1.0, -1.5]"
+    },
+    "85": {
+        "trust_score": 0.6637005710674913,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Explore Near Zero for Potential Peaks",
+            "rationale": "Exploring combinations that integrate positive values with negative clusters may unveil new optimal configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 0.0,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -2.0,
+                    "x_5": -0.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-1.0, 0.0, -1.0, -0.5, -2.0, -0.5, -1.0, -0.5, 0.0, -1.0, -0.5, 1.0, -1.0, 0.0, -0.5]"
+    },
+    "88": {
+        "trust_score": 0.8320745148716826,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Optimized Moderate Negatives with Positive Shift",
+            "rationale": "Integrating moderate negative values paired with slight positive adjustments is expected to yield optimal target outcomes based on past successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.5,
+                    "x_13": -1.0,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-3.0, 1.0, -2.5, -1.5, -3.0, -2.0, -1.5, -0.5, 0.5, -2.0, -1.0, 0.0, -1.5, -1.0, -1.0]"
+    },
+    "89": {
+        "trust_score": 0.8320745148716826,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Enhanced Exploration of Mid-negative Clusters",
+            "rationale": "Refining searches around previously identified mid-negative values may uncover new optimal configurations, enhancing target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -3.0,
+                    "x_2": -2.0,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -2.5,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.0,
+                    "x_12": -1.5,
+                    "x_13": -3.0,
+                    "x_14": -3.5
+                }
+            ]
+        },
+        "point": "[-4.0, -3.0, -2.0, -3.0, -3.0, -2.5, -2.0, -1.0, -4.0, -3.0, -3.0, -2.0, -1.5, -3.0, -3.5]"
+    },
+    "90": {
+        "trust_score": 0.8320745148716826,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Testing Positive Shifts Within Negative Clusters",
+            "rationale": "Integrating slight positive adjustments within moderate negative clusters may optimize interactions leading to higher target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": -2.0,
+                    "x_3": -1.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.5, 0.5, -2.0, -1.5, -1.0, -1.5, -2.0, -0.5, 0.0, -1.0, -1.0, 0.5, -1.0, 1.5, -1.0]"
+    },
+    "91": {
+        "trust_score": 0.8320745148716826,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Explore Points Near Zero for Potential Peaks",
+            "rationale": "Testing combinations near zero alongside moderate negatives could unveil new optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 0.0,
+                    "x_2": -1.0,
+                    "x_3": -1.0,
+                    "x_4": -2.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -0.5,
+                    "x_11": 1.0,
+                    "x_12": -1.0,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-1.0, 0.0, -1.0, -1.0, -2.0, -1.0, -1.5, -0.5, 0.5, -1.0, -0.5, 1.0, -1.0, 0.0, -0.5]"
+    },
+    "92": {
+        "trust_score": 0.8320745148716826,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Positive Adjustments in Negative Clusters",
+            "rationale": "Testing moderate adjustments to previous extreme hypotheses could yield insights leading to better outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.5,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.5,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -1.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": 0.0,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": -1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.5, -1.5, -1.0, -1.5, -1.5, -2.0, -1.5, 0.5, -1.0, 0.0, 0.5, -1.0, -1.5, -1.0]"
+    },
+    "95": {
+        "trust_score": 0.831608631020063,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Integrated Moderate Negatives with Positive Shift",
+            "rationale": "Exploring configurations that blend moderate negative values with slight positive adjustments is anticipated to further optimize the observed target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": 1.5,
+                    "x_2": -2.0,
+                    "x_3": -1.0,
+                    "x_4": -3.0,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.5, 1.5, -2.0, -1.0, -3.0, -1.5, -1.0, -0.5, 0.5, -2.0, -1.0, 0.0, -1.0, -1.0, -1.5]"
+    },
+    "96": {
+        "trust_score": 0.831608631020063,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Intensive Exploration of Mid-negative Clusters",
+            "rationale": "Focusing on localized variations around successful moderate negative configurations will maximize chances of uncovering new high-performance setups.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.5,
+                    "x_1": -3.5,
+                    "x_2": -2.5,
+                    "x_3": -3.0,
+                    "x_4": -3.0,
+                    "x_5": -3.0,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": -4.0,
+                    "x_9": -3.0,
+                    "x_10": -3.0,
+                    "x_11": -2.5,
+                    "x_12": -1.5,
+                    "x_13": -4.0,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        "point": "[-4.5, -3.5, -2.5, -3.0, -3.0, -3.0, -2.0, -0.5, -4.0, -3.0, -3.0, -2.5, -1.5, -4.0, -3.0]"
+    },
+    "97": {
+        "trust_score": 0.831608631020063,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Localized Positive Shifts in Successful Clusters",
+            "rationale": "Testing slight positive adjustments within previously successful configurations can optimize interactions and induce better outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 0.0,
+                    "x_2": -1.5,
+                    "x_3": -1.0,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -2.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": -1.0,
+                    "x_10": -2.5,
+                    "x_11": 0.5,
+                    "x_12": -1.0,
+                    "x_13": 1.5,
+                    "x_14": -1.0
+                }
+            ]
+        },
+        "point": "[-2.0, 0.0, -1.5, -1.0, -1.0, -1.5, -2.0, -0.5, 0.5, -1.0, -2.5, 0.5, -1.0, 1.5, -1.0]"
+    },
+    "98": {
+        "trust_score": 0.831608631020063,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Explore Points Near Zero for Potential Peaks",
+            "rationale": "Testing combinations near zero alongside moderate negatives could unveil new optimal configurations based on current insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": 0.5,
+                    "x_2": -1.0,
+                    "x_3": -0.5,
+                    "x_4": -1.0,
+                    "x_5": -1.5,
+                    "x_6": -1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -0.5,
+                    "x_10": -1.0,
+                    "x_11": 1.0,
+                    "x_12": -1.5,
+                    "x_13": 0.0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-1.5, 0.5, -1.0, -0.5, -1.0, -1.5, -1.0, -0.5, 0.0, -0.5, -1.0, 1.0, -1.5, 0.0, -0.5]"
+    },
+    "104": {
+        "trust_score": 0.6617078408811518,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Integrated Moderate Negatives with Positive Shift",
+            "rationale": "Exploring configurations that blend moderate negative values with slight positive adjustments is anticipated to further optimize the observed target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 1.0,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": -3.0,
+                    "x_5": -1.0,
+                    "x_6": -1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": -2.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": -1.0,
+                    "x_13": -1.0,
+                    "x_14": -1.5
+                }
+            ]
+        },
+        "point": "[-3.0, 1.0, -2.5, -1.5, -3.0, -1.0, -1.5, -0.5, 0.0, -2.0, -1.0, 0.0, -1.0, -1.0, -1.5]"
+    },
+    "105": {
+        "trust_score": 0.6617078408811518,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Intensive Exploration of Mid-negative Clusters",
+            "rationale": "Focusing on localized variations around successful moderate negative configurations will maximize chances of uncovering new high-performance setups.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -2.5,
+                    "x_2": -3.0,
+                    "x_3": -2.0,
+                    "x_4": -3.0,
+                    "x_5": -2.0,
+                    "x_6": -2.0,
+                    "x_7": -1.0,
+                    "x_8": -4.0,
+                    "x_9": -2.0,
+                    "x_10": -3.0,
+                    "x_11": -2.5,
+                    "x_12": -4.0,
+                    "x_13": -3.5,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        "point": "[-4.0, -2.5, -3.0, -2.0, -3.0, -2.0, -2.0, -1.0, -4.0, -2.0, -3.0, -2.5, -4.0, -3.5, -3.0]"
+    }
+}

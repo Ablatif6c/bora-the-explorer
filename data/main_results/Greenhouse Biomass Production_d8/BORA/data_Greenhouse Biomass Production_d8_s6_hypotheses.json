@@ -1,0 +1,948 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance and Moderate Temperature",
+            "rationale": "High irradiance is expected to enhance photosynthesis, while moderate temperatures can prevent stress on the plants.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 10,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 1,
+                    "rain": 5,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7500.0, 10.0, 25.0, 2.0, 1.0, 5.0, 50.0, 0.7]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimal Moisture and Temperature Range",
+            "rationale": "Maintaining optimal moisture levels while keeping temperatures within a favorable range can promote healthy growth.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5000,
+                    "tmin": 15,
+                    "tmax": 30,
+                    "vap": 3,
+                    "wind": 0.5,
+                    "rain": 10,
+                    "wav": 70,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[5000.0, 15.0, 30.0, 3.0, 0.5, 10.0, 70.0, 0.8]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Wind and High Irradiance",
+            "rationale": "Low wind speeds can reduce water loss, while high irradiance supports biomass accumulation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 1,
+                    "wind": 0.2,
+                    "rain": 0,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[8000.0, 5.0, 20.0, 1.0, 0.2, 0.0, 30.0, 0.6]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Temperature and Rainfall",
+            "rationale": "A balance between temperature and rainfall can create a conducive environment for growth without causing stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6000,
+                    "tmin": 12,
+                    "tmax": 28,
+                    "vap": 2.5,
+                    "wind": 1.5,
+                    "rain": 8,
+                    "wav": 40,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[6000.0, 12.0, 28.0, 2.5, 1.5, 8.0, 40.0, 0.5]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Controlled Rainfall",
+            "rationale": "High irradiance combined with controlled rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7200,
+                    "tmin": 8,
+                    "tmax": 22,
+                    "vap": 2,
+                    "wind": 0.8,
+                    "rain": 3,
+                    "wav": 60,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7200.0, 8.0, 22.0, 2.0, 0.8, 3.0, 60.0, 0.9]"
+    },
+    "12": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Moderate Temperature",
+            "rationale": "Building on the previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 5,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 5.0, 20.0, 2.0, 0.5, 5.0, 50.0, 0.8]"
+    },
+    "13": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Irradiance and Temperature with Low Wind",
+            "rationale": "Moderate conditions with low wind speeds can help maintain moisture levels and reduce stress on plants.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6000,
+                    "tmin": 10,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6000.0, 10.0, 25.0, 2.0, 0.2, 3.0, 60.0, 0.7]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Controlled Rainfall with High Irradiance",
+            "rationale": "High irradiance with controlled rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 12,
+                    "tmax": 22,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 12.0, 22.0, 1.5, 0.5, 2.0, 40.0, 0.9]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 0,
+                    "tmax": 20,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7800.0, 0.0, 20.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Moisture",
+            "rationale": "Combining high irradiance with optimal moisture levels can create ideal growth conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 5,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.4,
+                    "rain": 4,
+                    "wav": 70,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[7900.0, 5.0, 25.0, 2.0, 0.4, 4.0, 70.0, 0.8]"
+    },
+    "22": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "High Irradiance with Moderate Temperature",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 4,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 5.0, 20.0, 2.0, 0.5, 4.0, 50.0, 0.8]"
+    },
+    "23": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Irradiance and Temperature with Low Wind",
+            "rationale": "Moderate conditions with low wind speeds can help maintain moisture levels and reduce stress on plants.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6500,
+                    "tmin": 10,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6500.0, 10.0, 25.0, 2.0, 0.2, 3.0, 60.0, 0.7]"
+    },
+    "24": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Controlled Rainfall with High Irradiance",
+            "rationale": "High irradiance with controlled rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 14,
+                    "tmax": 23,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 14.0, 23.0, 1.5, 0.5, 2.0, 40.0, 0.9]"
+    },
+    "25": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 2,
+                    "tmax": 20,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7800.0, 2.0, 20.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    },
+    "26": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Moisture",
+            "rationale": "Combining high irradiance with optimal moisture levels can create ideal growth conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 5,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.4,
+                    "rain": 3,
+                    "wav": 70,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[7900.0, 5.0, 25.0, 2.0, 0.4, 3.0, 70.0, 0.8]"
+    },
+    "27": {
+        "trust_score": 0.95,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure",
+            "rationale": "Increasing vapor pressure while maintaining high irradiance may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7600,
+                    "tmin": 8,
+                    "tmax": 24,
+                    "vap": 3,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7600.0, 8.0, 24.0, 3.0, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "35": {
+        "trust_score": 0.7999999999999999,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature Range",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 6,
+                    "tmax": 21,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 4,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 6.0, 21.0, 2.0, 0.5, 4.0, 50.0, 0.8]"
+    },
+    "36": {
+        "trust_score": 0.7999999999999999,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Moderate Irradiance with Controlled Moisture",
+            "rationale": "Moderate irradiance with controlled moisture levels can help maintain plant health and reduce stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6400,
+                    "tmin": 11,
+                    "tmax": 26,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6400.0, 11.0, 26.0, 2.0, 0.2, 3.0, 60.0, 0.7]"
+    },
+    "37": {
+        "trust_score": 0.7999999999999999,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Irradiance with Low Rainfall",
+            "rationale": "High irradiance combined with low rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 13,
+                    "tmax": 22,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 13.0, 22.0, 1.5, 0.5, 1.0, 40.0, 0.9]"
+    },
+    "38": {
+        "trust_score": 0.7999999999999999,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure with Moderate Conditions",
+            "rationale": "Increasing vapor pressure while maintaining moderate conditions may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 9,
+                    "tmax": 25,
+                    "vap": 3.5,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7700.0, 9.0, 25.0, 3.5, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "39": {
+        "trust_score": 0.7999999999999999,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 3,
+                    "tmax": 21,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7900.0, 3.0, 21.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    },
+    "48": {
+        "trust_score": 0.6665061015423431,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature Range",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 6,
+                    "tmax": 21,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 3,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 6.0, 21.0, 2.0, 0.5, 3.0, 50.0, 0.8]"
+    },
+    "49": {
+        "trust_score": 0.6665061015423431,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Moderate Irradiance with Controlled Moisture",
+            "rationale": "Moderate irradiance with controlled moisture levels can help maintain plant health and reduce stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6400,
+                    "tmin": 12,
+                    "tmax": 26,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 2,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6400.0, 12.0, 26.0, 2.0, 0.2, 2.0, 60.0, 0.7]"
+    },
+    "50": {
+        "trust_score": 0.6665061015423431,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "High Irradiance with Low Rainfall",
+            "rationale": "High irradiance combined with low rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 14,
+                    "tmax": 23,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 14.0, 23.0, 1.5, 0.5, 1.0, 40.0, 0.9]"
+    },
+    "51": {
+        "trust_score": 0.6665061015423431,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure with Moderate Conditions",
+            "rationale": "Increasing vapor pressure while maintaining moderate conditions may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 10,
+                    "tmax": 24,
+                    "vap": 3.5,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7700.0, 10.0, 24.0, 3.5, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "52": {
+        "trust_score": 0.6665061015423431,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 4,
+                    "tmax": 21,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7900.0, 4.0, 21.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    },
+    "62": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature Range",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 7,
+                    "tmax": 20,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 3,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 7.0, 20.0, 2.0, 0.5, 3.0, 50.0, 0.8]"
+    },
+    "63": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Moderate Irradiance with Controlled Moisture",
+            "rationale": "Moderate irradiance with controlled moisture levels can help maintain plant health and reduce stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6400,
+                    "tmin": 11,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 2,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6400.0, 11.0, 25.0, 2.0, 0.2, 2.0, 60.0, 0.7]"
+    },
+    "64": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance with Low Rainfall",
+            "rationale": "High irradiance combined with low rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 15,
+                    "tmax": 22,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 15.0, 22.0, 1.5, 0.5, 1.0, 40.0, 0.9]"
+    },
+    "65": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure with Moderate Conditions",
+            "rationale": "Increasing vapor pressure while maintaining moderate conditions may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 9,
+                    "tmax": 23,
+                    "vap": 3.5,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7700.0, 9.0, 23.0, 3.5, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "66": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7900.0, 5.0, 20.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    },
+    "67": {
+        "trust_score": 0.49967886975135295,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploring New Temperature Combinations",
+            "rationale": "Testing new combinations of temperatures while maintaining high irradiance may reveal additional optimal conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 8,
+                    "tmax": 19,
+                    "vap": 2,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 55,
+                    "SMLIM": 0.75
+                }
+            ]
+        },
+        "point": "[7800.0, 8.0, 19.0, 2.0, 0.4, 2.0, 55.0, 0.75]"
+    },
+    "78": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature Range",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 8,
+                    "tmax": 19,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 3,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 8.0, 19.0, 2.0, 0.5, 3.0, 50.0, 0.8]"
+    },
+    "79": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Moderate Irradiance with Controlled Moisture",
+            "rationale": "Moderate irradiance with controlled moisture levels can help maintain plant health and reduce stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6500,
+                    "tmin": 11,
+                    "tmax": 24,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 2,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6500.0, 11.0, 24.0, 2.0, 0.2, 2.0, 60.0, 0.7]"
+    },
+    "80": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance with Low Rainfall",
+            "rationale": "High irradiance combined with low rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 16,
+                    "tmax": 21,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 16.0, 21.0, 1.5, 0.5, 1.0, 40.0, 0.9]"
+    },
+    "81": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure with Moderate Conditions",
+            "rationale": "Increasing vapor pressure while maintaining moderate conditions may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 10,
+                    "tmax": 22,
+                    "vap": 3.5,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7700.0, 10.0, 22.0, 3.5, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "82": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Testing New Temperature Combinations",
+            "rationale": "Exploring new combinations of temperatures while maintaining high irradiance may reveal additional optimal conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 9,
+                    "tmax": 20,
+                    "vap": 2,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 55,
+                    "SMLIM": 0.75
+                }
+            ]
+        },
+        "point": "[7800.0, 9.0, 20.0, 2.0, 0.4, 2.0, 55.0, 0.75]"
+    },
+    "94": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature Range",
+            "rationale": "Building on previous findings, high irradiance combined with moderate temperatures has shown to maximize TAGP.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 8,
+                    "tmax": 21,
+                    "vap": 2,
+                    "wind": 0.5,
+                    "rain": 3,
+                    "wav": 50,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[8000.0, 8.0, 21.0, 2.0, 0.5, 3.0, 50.0, 0.8]"
+    },
+    "95": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Moderate Irradiance with Controlled Moisture",
+            "rationale": "Moderate irradiance with controlled moisture levels can help maintain plant health and reduce stress.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6500,
+                    "tmin": 12,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 2,
+                    "wav": 60,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[6500.0, 12.0, 25.0, 2.0, 0.2, 2.0, 60.0, 0.7]"
+    },
+    "96": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Irradiance with Low Rainfall",
+            "rationale": "High irradiance combined with low rainfall can optimize growth conditions while preventing waterlogging.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 16,
+                    "tmax": 23,
+                    "vap": 1.5,
+                    "wind": 0.5,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[7500.0, 16.0, 23.0, 1.5, 0.5, 1.0, 40.0, 0.9]"
+    },
+    "97": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Exploring Higher Vapour Pressure with Moderate Conditions",
+            "rationale": "Increasing vapor pressure while maintaining moderate conditions may enhance growth by improving moisture availability.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 9,
+                    "tmax": 24,
+                    "vap": 3.5,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 50,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7700.0, 9.0, 24.0, 3.5, 0.3, 2.0, 50.0, 0.7]"
+    },
+    "98": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Testing New Temperature Combinations",
+            "rationale": "Exploring new combinations of temperatures while maintaining high irradiance may reveal additional optimal conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 10,
+                    "tmax": 19,
+                    "vap": 2,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 55,
+                    "SMLIM": 0.75
+                }
+            ]
+        },
+        "point": "[7800.0, 10.0, 19.0, 2.0, 0.4, 2.0, 55.0, 0.75]"
+    },
+    "99": {
+        "trust_score": 0.49951830462702934,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Avoiding Low Temperature Extremes with High Irradiance",
+            "rationale": "Avoiding low temperature extremes while maintaining high irradiance can enhance biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 6,
+                    "tmax": 20,
+                    "vap": 2.5,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 30,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7900.0, 6.0, 20.0, 2.5, 0.3, 1.0, 30.0, 0.6]"
+    }
+}

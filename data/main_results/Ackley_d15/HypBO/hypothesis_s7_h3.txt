@@ -1,0 +1,22 @@
+{
+    "name": "Midpoint Adjustment Strategy",
+    "rationale": "An alternative strategy is to refine the midpoint approach by adjusting towards a balanced mix of negative and positive values, which may reveal interactions or features of the black-box function that are not apparent at extremes. Choosing values like (10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10) could allow exploration of the function's behavior across both ends of the spectrum while still centering around the key values within the constraints.",
+    "confidence": "0.55",
+    "optimum_location": {
+        "x_0": 10,
+        "x_1": -10,
+        "x_2": 10,
+        "x_3": -10,
+        "x_4": 10,
+        "x_5": -10,
+        "x_6": 10,
+        "x_7": -10,
+        "x_8": 10,
+        "x_9": -10,
+        "x_10": 10,
+        "x_11": -10,
+        "x_12": 10,
+        "x_13": -10,
+        "x_14": 10
+    }
+}

@@ -1,0 +1,17 @@
+```
+{
+    "name": "Optimal Conditions for Sugar Beet Growth",
+    "rationale": "The optimal parameters are chosen based on maximizing the effectiveness of greenhouse conditions for sugar beet growth. High irradiance encourages biomass production, while moderate temperatures support plant metabolism. Adequate vapor pressure and moisture content are essential for photosynthesis and growth, as well as manageable wind and rain conditions.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "irrad": 7500,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 5,
+        "wind": 1,
+        "rain": 5,
+        "wav": 70,
+        "SMLIM": 0.8
+    }
+}
+```

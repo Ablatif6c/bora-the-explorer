@@ -1,0 +1,15 @@
+{
+    "name": "Optimal Conditions for Sugar Beet Growth",
+    "rationale": "High irradiance, moderate temperatures, and adequate moisture levels promote photosynthesis and growth. A balance of factors to avoid stress is ideal. Irradiance is crucial for biomass, while the optimal temperature range minimizes stress to the plants. Slightly increased vapour pressure alongside sufficient rainfall and soil moisture will support healthy growth without waterlogging.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 1.5,
+        "wind": 1,
+        "rain": 5,
+        "wav": 80,
+        "SMLIM": 0.7
+    }
+}

@@ -1,0 +1,16 @@
+```
+{
+    "rationale": "To maximize sugar beet biomass production in a greenhouse, optimal growing conditions must be established. High irradiance promotes photosynthesis while a daily minimum temperature above freezing supports growth. Daily maximum temperature should neither be too high to cause heat stress nor too low to hinder growth, thus should be kept moderate. Vapor pressure influences humidity levels; a balance is needed to prevent stress on the plants. A gentle wind speed aids transpiration without causing physical damage to the plants. Rainfall should be minimal as greenhouse conditions allow for controlled watering. Finally, maintaining sufficient initial soil moisture and moisture content is critical for maximizing yield.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 10,
+        "tmax": 30,
+        "vap": 1.5,
+        "wind": 1.0,
+        "rain": 0,
+        "wav": 80,
+        "SMLIM": 0.9
+    }
+}
+```

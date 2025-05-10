@@ -1,0 +1,578 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Surfactant Synergy",
+            "rationale": "Combining surfactants like SDS and PVP may enhance the stability and dispersion of the photocatalyst, improving HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 1.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 1.0, 0.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Dye Optimization",
+            "rationale": "Utilizing a combination of Acid Red 871 and Methylene Blue may enhance light absorption and improve HER through better charge separation.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 0.5, 1.0, 0.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "pH Influence",
+            "rationale": "Adjusting pH with NaOH can significantly affect the photocatalytic activity, potentially enhancing HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 2.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Hole Scavenger Focus",
+            "rationale": "Increasing L-Cysteine concentration may improve charge separation and enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Salt Influence",
+            "rationale": "Exploring the effect of NaCl on ionic strength may reveal its impact on HER through enhanced charge carrier mobility.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 2.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Enhanced L-Cysteine and NaCl",
+            "rationale": "Increasing L-Cysteine to 1.75 and maintaining NaCl at 1.00 appears to maximize HER based on previous results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced NaOH and L-Cysteine",
+            "rationale": "Testing a lower NaOH concentration (0.25) with high L-Cysteine (1.75) may further enhance HER without detrimental effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.0, 0.25, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "19": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Dye and Surfactant Interaction",
+            "rationale": "Exploring the combination of Methylene Blue (1.00) and SDS (1.00) with optimal L-Cysteine may yield synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 1.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 1.0, 1.0, 0.5, 5.0, 0.0, 0.0, 1.0, 0.0]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High NaCl and Low NaOH",
+            "rationale": "Testing high NaCl (2.00) with low NaOH (0.25) and moderate L-Cysteine (1.00) may reveal beneficial ionic strength effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 0.25, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Minimal Surfactant and High L-Cysteine",
+            "rationale": "Testing minimal surfactant (PVP at 0.25) with high L-Cysteine (1.75) and NaCl (1.00) to assess if it maintains HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.25,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.0, 0.5, 5.0, 0.25, 0.0, 0.0, 0.0]"
+    },
+    "33": {
+        "trust_score": 0.6576449377111957,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Dye and Surfactant Synergy",
+            "rationale": "Exploring the combination of Methylene Blue (1.25) and SDS (0.75) with optimal L-Cysteine (1.50) may yield synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 1.25,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.75,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 1.25, 1.0, 0.5, 5.0, 0.0, 0.0, 0.75, 0.0]"
+    },
+    "34": {
+        "trust_score": 0.6576449377111957,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High NaCl with Low NaOH",
+            "rationale": "Testing high NaCl (2.00) with low NaOH (0.50) and moderate L-Cysteine (1.00) may reveal beneficial ionic strength effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "35": {
+        "trust_score": 0.6576449377111957,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Minimal Surfactant with High L-Cysteine",
+            "rationale": "Testing minimal surfactant (PVP at 0.50) with high L-Cysteine (1.75) and NaCl (1.00) to assess if it maintains HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.5,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.0, 0.5, 5.0, 0.5, 0.0, 0.0, 0.0]"
+    },
+    "48": {
+        "trust_score": 0.5678412374054714,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaCl Variation",
+            "rationale": "Maintaining L-Cysteine at 1.75 and NaCl at 1.25 may provide additional insights into the effects of ionic strength on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.25,
+                    "NaOH-1M": 0.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.25, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "49": {
+        "trust_score": 0.5678412374054714,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Dye and Surfactant Synergy Variation",
+            "rationale": "Exploring the combination of Methylene Blue (1.50) and SDS (0.50) with optimal L-Cysteine (1.50) may yield new synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 1.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 1.5, 1.0, 0.5, 5.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "50": {
+        "trust_score": 0.5678412374054714,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "High NaCl with Moderate NaOH",
+            "rationale": "Testing high NaCl (2.00) with moderate NaOH (0.75) and L-Cysteine (1.25) may reveal beneficial ionic strength effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 2.0, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "51": {
+        "trust_score": 0.5678412374054714,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Minimal Surfactant with Increased L-Cysteine",
+            "rationale": "Testing minimal surfactant (PVP at 0.75) with high L-Cysteine (1.75) and NaCl (1.25) to assess if it maintains HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.75,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.25, 0.5, 5.0, 0.75, 0.0, 0.0, 0.0]"
+    },
+    "52": {
+        "trust_score": 0.5678412374054714,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Higher NaOH",
+            "rationale": "Testing higher NaOH (0.75) with L-Cysteine (1.50) and NaCl (1.00) to see if it enhances HER further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "64": {
+        "trust_score": 0.425781950898044,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High NaCl with Moderate NaOH",
+            "rationale": "Testing high NaCl (1.75) with moderate NaOH (0.50) and L-Cysteine (1.00) may reveal beneficial ionic strength effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.75,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.75, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "65": {
+        "trust_score": 0.425781950898044,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Exploring Lower NaOH",
+            "rationale": "Testing lower NaOH (0.25) with L-Cysteine (1.50) and NaCl (1.25) to see if it enhances HER further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.25,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.25, 0.25, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "78": {
+        "trust_score": 0.4214905973131744,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "High NaCl with Low NaOH",
+            "rationale": "Testing high NaCl (1.75) with low NaOH (0.25) and moderate L-Cysteine (1.00) may reveal beneficial ionic strength effects, as previous iterations have shown that NaCl concentration is critical.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.75,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.75, 0.25, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "79": {
+        "trust_score": 0.4214905973131744,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Higher NaOH",
+            "rationale": "Testing higher NaOH (0.50) with L-Cysteine (1.50) and NaCl (1.25) to see if it enhances HER further, as previous iterations have shown mixed results with NaOH.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.25, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "93": {
+        "trust_score": 0.43378008513929595,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "High NaCl with Moderate NaOH",
+            "rationale": "Testing high NaCl (1.50) with moderate NaOH (0.50) and L-Cysteine (1.25) may reveal beneficial ionic strength effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 1.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "94": {
+        "trust_score": 0.43378008513929595,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Exploring Lower NaOH Variation",
+            "rationale": "Testing lower NaOH (0.50) with L-Cysteine (1.75) and NaCl (1.25) to see if it enhances HER further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.75, 0.0, 1.25, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    }
+}

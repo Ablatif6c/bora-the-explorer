@@ -1,0 +1,17 @@
+```
+{
+    "name": "High Yield Sugar Beet Growth Setup",
+    "rationale": "Maximizing biomass production in sugar beet requires an ideal combination of light, temperature, and moisture. A high irradiance level of 7500 kJ/m2/day is proposed to ensure robust photosynthesis. Temperatures should be increased to support growth, with tmin set at 15°C and tmax at 28°C, striking a balance between warmth and avoiding excessive heat. A vapor pressure of around 0.8 kPA maintains adequate humidity for growth. Wind speed can be slightly higher at 1.5 m/s to promote air exchange without damaging the plants. A controlled rainfall of about 10 mm provides necessary hydration, while a wav of 60 cm ensures sufficient water availability, complemented by an SMLIM of 0.9 for optimal moisture retention.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "irrad": 7500,
+        "tmin": 15,
+        "tmax": 28,
+        "vap": 0.8,
+        "wind": 1.5,
+        "rain": 10,
+        "wav": 60,
+        "SMLIM": 0.9
+    }
+}
+```

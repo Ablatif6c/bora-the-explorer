@@ -1,0 +1,15 @@
+{
+    "name": "Balanced Growth Conditions",
+    "rationale": "This configuration prioritizes high energy input while controlling temperature to maximize growth rates in sugar beet. The irradiance is set close to the upper limit to maximize photosynthesis. The temperatures are moderate to avoid thermal stress, while sufficient vapour pressure, rainfall, and water availability ensure optimal moisture conditions without causing root issues.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "irrad": 7500,
+        "tmin": 10,
+        "tmax": 20,
+        "vap": 2,
+        "wind": 0.5,
+        "rain": 3,
+        "wav": 90,
+        "SMLIM": 0.6
+    }
+}

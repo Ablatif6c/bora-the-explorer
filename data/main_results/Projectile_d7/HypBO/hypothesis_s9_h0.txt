@@ -1,0 +1,14 @@
+{
+    "name": "Optimal Projectile Launch Settings",
+    "rationale": "For maximizing the score, the projectile should be launched at an optimal angle and speed to ensure it reaches the target accurately. Launching at around 45 degrees typically provides the best range for projectiles in ideal conditions. A yaw of 0 degrees aims straight at the target. An initial velocity of roughly 30 m/s balances speed and controllability, and a small amount of spin (around 500 RPM) can assist with stability. Releasing from a height of 1 meter allows for efficient range. A mass of 1 kg is typical for projectile motion experiments, providing a good balance between acceleration and gravitational force.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 500,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Balanced Trajectory Approach",
+    "rationale": "A balanced strategy for maximizing the score would involve a slightly lower pitch angle to ensure a good trade-off between distance and height. A pitch of 40 degrees allows the projectile to travel further horizontally while still ascending sufficiently to avoid falling short of the target. Keeping the yaw at 0 ensures direct targeting. An initial velocity of 38 m/s is sufficient for achieving a strong range without excess that could lead to instability. Minimizing spin maintains a clean, predictable trajectory, while a moderate release height of 1 m helps optimize launch conditions. I suggest using a mass of around 2 kg to strike a balance between inertia and distance.",
+    "confidence": "0.7",
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 0,
+        "v0": 38,
+        "spin_rpm": 50,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 2
+    }
+}

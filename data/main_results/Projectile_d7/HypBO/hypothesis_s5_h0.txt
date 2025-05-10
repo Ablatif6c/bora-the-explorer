@@ -1,0 +1,14 @@
+{
+    "name": "optimal_throw_parameters",
+    "rationale": "To achieve the maximum score, the projectile should be thrown at an optimal angle that ensures it travels the necessary horizontal distance while also accounting for the height and spin to achieve accuracy. A pitch angle of around 45 degrees is typically optimal for distance in projectile motion, aiming straight (yaw of 0) towards the target. A moderate initial velocity around 30 m/s balances distance and control. The spin can enhance stability; thus, a spin of around 1000 RPM may aid accuracy without causing excessive instability. Releasing from a height of 1 meter takes advantage of gravitational effects, and a projectile mass around 1 kg provides enough inertia to maintain trajectory. These factors suggest a high likelihood of a close landing at the target.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 30,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

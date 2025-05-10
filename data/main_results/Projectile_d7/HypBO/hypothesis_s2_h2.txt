@@ -1,0 +1,14 @@
+{
+    "name": "optimized_throw_parameters_v3",
+    "rationale": "To maximize the score, we need to balance height and distance. A pitch around 40 degrees can provide a good trajectory that allows enough time for the projectile to travel forward towards the target while still gaining some vertical height. A slight yaw to the right can compensate for potential lateral drift. A higher initial velocity will help reach the target faster, while an optimal spin will stabilize the projectile's flight path.",
+    "confidence": 0.7,
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 10,
+        "v0": 40,
+        "spin_rpm": 1800,
+        "spin_axis_deg": 0,
+        "h0": 0.8,
+        "mass": 0.4
+    }
+}

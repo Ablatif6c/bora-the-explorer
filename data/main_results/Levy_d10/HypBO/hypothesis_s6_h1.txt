@@ -1,0 +1,19 @@
+```
+{
+    "name": "alternative_guess_for_global_maximum",
+    "rationale": "In many optimization problems, especially symmetric mathematical functions, extrema often occur at the corners of the search space. Therefore, I suggest the point (-10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0, -10.0) as another candidate for the global maximum due to its extremity in the negative direction, which may yield surprising high values in certain functions.",
+    "confidence": 0.65,
+    "optimum_location": {
+        "x_0": -10.0,
+        "x_1": -10.0,
+        "x_2": -10.0,
+        "x_3": -10.0,
+        "x_4": -10.0,
+        "x_5": -10.0,
+        "x_6": -10.0,
+        "x_7": -10.0,
+        "x_8": -10.0,
+        "x_9": -10.0
+    }
+}
+```

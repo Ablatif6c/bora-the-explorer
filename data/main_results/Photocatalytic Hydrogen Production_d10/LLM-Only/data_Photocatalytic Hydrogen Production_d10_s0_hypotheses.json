@@ -1,0 +1,2399 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Optimized Cysteine and Dyes",
+            "rationale": "This setup incorporates a balance of an amino acid and dyes, as they may improve charge separation and light absorption.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 0.5, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Enhanced Surfactants and Buffer",
+            "rationale": "Utilizing multiple surfactants may improve the stability and dispersion of the photocatalyst, facilitating enhanced reactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.5,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.5, 1.0, 0.5, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Dyes and NaOH Focus",
+            "rationale": "Increasing the concentration of NaOH may optimize the pH, crucial for reaction rates, alongside dye presence for better light absorption.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.5,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 0.0, 0.5, 2.0, 1.5, 1.0, 0.0, 0.5, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Balanced Mixed Dyes",
+            "rationale": "A balanced approach using multiple dyes may capture a wider spectrum of light, potentially increasing photocatalytic efficiency.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 1.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 0.0, 1.0, 0.5, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": "FAILED",
+        "point": "[0.5, 0.25, 0.5, 0.75, 0.0, 1.2, 0.0, 0.5, 0.5, 0.75]",
+        "action": "Random"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Focused Ionic Strength and Limited Dyes",
+            "rationale": "This proposal aims to capitalize on the successful ionic strength observed in previous iterations while minimizing dye interference to achieve optimal hydrogen evolution.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 0.0, 0.5, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Optimized Surfactants and Dyes",
+            "rationale": "Balancing the surfactant properties with modest dye concentration may enhance stability and light absorption without overwhelming the system.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.5,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.0, 1.0, 0.5, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "High Cysteine and Low Ionic Strength",
+            "rationale": "This hypothesis emphasizes leveraging L-Cysteine as a hole scavenger while minimizing salt levels, which might limit negative ion effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 0.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Single Dye with High Concentration of NaOH",
+            "rationale": "Focusing on a single dye while increasing NaOH concentration may optimize the electronic environment needed for enhanced HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Controlled Dyes",
+            "rationale": "This hypothesis aims to further explore the beneficial effects observed with L-Cysteine while controlling the concentration of dyes to prevent interference.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Ionic Strength and Minimal Surfactants",
+            "rationale": "Building on previous results, this point will keep a similar ionic strength while reducing the complexity of the system with lower amounts of surfactants.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Refined Dye Concentration with NaOH",
+            "rationale": "This focuses on a minimal dye concentration along with increased NaOH, as it may create a suitable environment for enhancing HER without excessive complexity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "Continuing to capitalize on L-Cysteine while ensuring favorable ionic conditions to maximize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength and Minimal Dyes",
+            "rationale": "This approach maintains favorable ionic strength while further limiting the number of dyes to prevent interference with HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with L-Cysteine",
+            "rationale": "Optimizing NaOH concentration in conjunction with L-Cysteine may improve the HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to continue maximizing L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength and Minimal Dyes",
+            "rationale": "This approach maintains favorable ionic strength while limiting the number of dyes to prevent interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may further enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to continue maximizing L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength and Minimal Dyes",
+            "rationale": "This approach maintains favorable ionic strength while limiting the number of dyes to prevent interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Moderate Dyes and High L-Cysteine",
+            "rationale": "This hypothesis explores the balance of introducing minimal dye concentration while maximizing the effective concentration of L-Cysteine to promote HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "Continuing to capitalize on L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This approach maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.5, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine",
+            "rationale": "This hypothesis explores balancing minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "Continuing to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This approach maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine",
+            "rationale": "This hypothesis explores balancing minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "Continuing to capitalize on L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This approach maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine",
+            "rationale": "This hypothesis explores balancing minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes",
+            "rationale": "This hypothesis explores higher concentrations of L-Cysteine while eliminating dyes to maximize HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This approach maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Enhanced NaOH with Optimal Cysteine Levels",
+            "rationale": "Adjusting NaOH concentration alongside moderate L-Cysteine levels may enhance HER through optimal pH conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes",
+            "rationale": "This hypothesis explores higher concentrations of L-Cysteine while eliminating dyes to maximize HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "Continue to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This approach maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "Exploring the effects of increased NaCl concentration while minimizing any potential interference from dyes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine",
+            "rationale": "This hypothesis explores balancing minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis continues to leverage high concentrations of L-Cysteine while maintaining favorable ionic conditions through NaCl.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This hypothesis focuses on maintaining optimal ionic strength while limiting the number of dyes to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores increasing NaCl levels to observe effects on HER while keeping dyes minimal.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.5
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This hypothesis explores increasing NaCl concentrations while minimizing the presence of dyes, aiming for enhanced ionic strength conducive to HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This configuration keeps ionic strength balanced while entirely removing dyes, aiming for an environment optimal for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Minimal Sodium and High Cysteine for Stress Test",
+            "rationale": "Testing high concentrations of L-Cysteine with minimal sodium influence to observe impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 1",
+            "rationale": "Testing a high concentration of L-Cysteine while excluding dyes to assess its impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "High Cysteine with Reduced Ionic Strength",
+            "rationale": "Exploring a high concentration of L-Cysteine while lowering NaCl levels, maintaining minimal dye presence to evaluate changes in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 0.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Cysteine",
+            "rationale": "Testing the effects of increased NaCl concentration while using lower levels of L-Cysteine to observe its impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores increasing NaCl levels to observe potential effects on HER while keeping dyes minimal.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine",
+            "rationale": "This hypothesis explores balancing minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores increasing NaCl levels to observe potential effects on HER while keeping dyes minimal.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 1",
+            "rationale": "Testing a high concentration of L-Cysteine while excluding dyes to assess its impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis will capitalize on the positive effects of high L-Cysteine and controlled NaCl to maximize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores using higher NaCl levels while minimizing dye concentrations to see effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "Maintaining balance with optimal ionic strength while limiting dyes is vital for effective HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores using increased NaCl levels while minimizing dye concentrations to see effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "Placing an emphasis on maintaining balanced ionic strength while limiting dye presence is crucial for enhancing HER efficiency.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis continues to leverage high concentrations of L-Cysteine while maintaining favorable ionic conditions through NaCl.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores using higher NaCl levels while minimizing dye concentrations to see effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "Maintaining balance with optimal ionic strength while limiting dyes is vital for effective HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised Point",
+            "rationale": "Continuing to optimize L-Cysteine levels while maintaining appropriate NaCl concentrations to maximize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised Point",
+            "rationale": "This hypothesis examines the effects of increased NaCl concentrations while minimizing the presence of dyes to see its impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes - Fresh Point",
+            "rationale": "This hypothesis maintains balanced ionic strength while eliminating dyes to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 5",
+            "rationale": "Investigating the effect of high L-Cysteine concentration while excluding all dyes to evaluate HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes",
+            "rationale": "This configuration explores increasing NaCl levels while minimizing the presence of dyes to see potential effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to eliminate interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 5",
+            "rationale": "Investigating the effect of high L-Cysteine concentration while excluding all dyes to evaluate HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "High L-Cysteine with Ionic Strength Balance - New Variant",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while balancing ionic strengths to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 2.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Mid-Range Cysteine with Optimal Ionic Balance",
+            "rationale": "Exploring the effects of moderate L-Cysteine levels with balanced ionic conditions to evaluate HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised",
+            "rationale": "Maximizing L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised",
+            "rationale": "Exploring increased NaCl levels while minimizing dye concentrations for potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine - Revised",
+            "rationale": "Exploring a balance of minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised",
+            "rationale": "This hypothesis aims to maximize L-Cysteine while ensuring favorable ionic conditions with adjusted NaCl levels to achieve optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised",
+            "rationale": "Exploring increased NaCl levels while minimizing dye concentrations for potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Balanced Dyes with High L-Cysteine - Revised",
+            "rationale": "Exploring a balance of minimal dye concentration while maximizing L-Cysteine to improve HER outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 5",
+            "rationale": "Investigating the effect of high L-Cysteine concentration while excluding all dyes to evaluate HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised",
+            "rationale": "Capitalize on the positive effects of high L-Cysteine and controlled NaCl to maximize HER outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised",
+            "rationale": "Examining the potential benefits of elevated NaCl levels with minimal dye concentrations to enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes - New Point",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to minimize interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 6",
+            "rationale": "Investigating the impact of high L-Cysteine concentration while excluding all dyes to assess its effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Mid-Range Cysteine with Ionic Balance - New Unique Point",
+            "rationale": "Investigating the effects of moderate L-Cysteine levels with balanced ionic strengths to evaluate its impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Moderate Cysteine with Ionic Strength Variation - New Point",
+            "rationale": "Exploring the effects of moderate L-Cysteine levels while reducing NaCl to evaluate HER results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised",
+            "rationale": "This hypothesis continues to leverage high concentrations of L-Cysteine while maintaining favorable ionic conditions through adjusted NaCl levels to maximize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised",
+            "rationale": "This configuration explores increasing NaCl levels while minimizing the presence of dyes to see potential effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to minimize interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 6",
+            "rationale": "Investigating the impact of high L-Cysteine concentration while excluding all dyes to assess its effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Ionic Control - Revised",
+            "rationale": "Continuing to optimize L-Cysteine levels while maintaining appropriate NaCl concentrations to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised",
+            "rationale": "Exploring increased NaCl levels while minimizing dye concentrations for potential enhancements in HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Reduced Dyes - Updated Point",
+            "rationale": "This hypothesis maintains optimal ionic strength while limiting the number of dyes to minimize interference with HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "High Cysteine with Minimal Dyes Variant 6",
+            "rationale": "Investigating the impact of high L-Cysteine concentration while excluding all dyes to assess its effect on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with New Ionic Control",
+            "rationale": "This hypothesis seeks to maximize L-Cysteine while ensuring ionic conditions are adjusted for optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.5,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.5, 0.5, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Alternative Configuration",
+            "rationale": "Exploring the benefits of increased NaCl concentration while reducing the presence of dyes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.5, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Controlled Ionic Strength with Minimal Dyes - New Point",
+            "rationale": "This approach focuses on maintaining ionic strength while completely excluding dyes to enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Higher NaCl with Low Dyes - Revised Point",
+            "rationale": "This configuration examines the effects of increased NaCl levels while minimizing the presence of dyes to optimize HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 2.0, 1.5, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Higher NaCl with Reduced Dyes - Unique Configuration",
+            "rationale": "Increasing NaCl concentration while minimizing dye use to assess impacts on HER efficiency.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 1.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.5, 2.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    }
+}

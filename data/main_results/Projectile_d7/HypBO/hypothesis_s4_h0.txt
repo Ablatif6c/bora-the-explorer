@@ -1,0 +1,14 @@
+{
+    "name": "Optimal Projectile Parameters",
+    "rationale": "To maximize the score in hitting the target at (50, 0), the projectile needs to be launched at a suitable angle and speed. A pitch of around 45° is generally optimal for range in projectile motion. The yaw should be 0° to aim straight at the target. A higher initial velocity (e.g., around 40 m/s) contributes to better distance. Spin can stabilize the projectile, but at high speeds might not significantly impact distance. Setting a reasonable spin around 1500 rpm is a balance between stability and performance. Launching from a height of about 1 m can also help, as it increases the launch range. The mass can be set to 1 kg, which is a manageable weight for a projectile.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 40,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "rationale":"In a greenhouse setting for sugar beet biomass production, optimal conditions would generally include high irradiance, moderate temperatures, adequate moisture, and minimal stress from wind and rain. Based on these considerations, a point closer to the upper bounds for irradiance and suitable temperature ranges while ensuring enough water and humidity would likely maximize biomass production. A good starting point might be to set irradiance close to the upper limit, temperatures within a conducive range, and appropriate moisture levels to prevent water stress.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "irrad": 7500,
+        "tmin": 10,
+        "tmax": 30,
+        "vap": 2,
+        "wind": 1,
+        "rain": 5,
+        "wav": 50,
+        "SMLIM": 0.8
+    }
+}

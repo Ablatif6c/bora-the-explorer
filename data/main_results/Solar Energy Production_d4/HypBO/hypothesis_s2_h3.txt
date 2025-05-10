@@ -1,0 +1,11 @@
+{
+    "name": "Optimal Solar Harvesting Configuration",
+    "rationale": "A tilt angle of 40° is beneficial for regions with significant seasonal variation in sunlight, as it can maximize exposure during winter months. The azimuth angle should be set at 200° to capture additional afternoon sunlight, which can increase overall energy production. A system capacity of 16 kW leverages a strong output while ensuring system reliability, and a DC to AC ratio of 1.5 will provide maximum extraction of solar energy, accommodating peak performance outputs without compromising inverter limits.",
+    "confidence": 0.72,
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 200,
+        "system_capacity": 16,
+        "dc_ac_ratio": 1.5
+    }
+}

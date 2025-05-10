@@ -1,0 +1,24 @@
+```json
+{
+    "name": "balanced_mixture_guess",
+    "rationale": "This guess takes a balanced approach by selecting both high and low values to explore a mixed environment within the parameter space. It combines positive and negative values to test different interactions between parameters, possibly revealing intricate behaviors in the black-box function.",
+    "confidence": "0.65",
+    "optimum_location": {
+        "x_0": 15,
+        "x_1": -10,
+        "x_2": 5,
+        "x_3": -15,
+        "x_4": 10,
+        "x_5": -5,
+        "x_6": 20,
+        "x_7": 0,
+        "x_8": 8,
+        "x_9": -20,
+        "x_10": 12,
+        "x_11": -18,
+        "x_12": 4,
+        "x_13": -2,
+        "x_14": 6
+    }
+}
+```

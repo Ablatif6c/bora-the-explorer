@@ -1,0 +1,35 @@
+{
+  "name": "Solar Energy Production",
+  "domain": "solar energy",
+  "description": "This experiment aims to maximize the solar energy production of a solar panel over a day.",
+  "parameters": [
+    {
+      "name": "tilt",
+      "description": "Tilt angle of the solar panel (°)",
+      "bounds": [0, 90],
+      "type": "continuous"
+    },
+    {
+      "name": "azimuth",
+      "description": "Azimuth angle of the solar panel (°)",
+      "bounds": [0, 360],
+      "type": "continuous"
+    },
+    {
+      "name": "system_capacity",
+      "description": "Total DC capacity of the system (kW)",
+      "bounds": [1, 20],
+      "type": "continuous"
+    },
+    {
+      "name": "dc_ac_ratio",
+      "description": "DC to AC capacity ratio",
+      "bounds": [1, 1.5],
+      "type": "continuous"
+    }
+  ],
+  "target": {
+    "name": "energy",
+    "description": "Total energy output over one day (kWh)"
+  }
+}

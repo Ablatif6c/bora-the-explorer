@@ -1,0 +1,1597 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploratory Central Region",
+            "rationale": "This point is selected near the center of the parameter space to uncover general behavior patterns of the function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": 0.0,
+                    "x_2": 5.0,
+                    "x_3": 10.0,
+                    "x_4": -3.0,
+                    "x_5": 2.0,
+                    "x_6": -10.0,
+                    "x_7": 15.0,
+                    "x_8": 0.0,
+                    "x_9": -20.0,
+                    "x_10": 8.0,
+                    "x_11": 18.0,
+                    "x_12": -15.0,
+                    "x_13": 7.0,
+                    "x_14": 12.0
+                }
+            ]
+        },
+        "point": "[-5.0, 0.0, 5.0, 10.0, -3.0, 2.0, -10.0, 15.0, 0.0, -20.0, 8.0, 18.0, -15.0, 7.0, 12.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "High Positive Extremes",
+            "rationale": "Targeting the positive extremes of the parameter space could elicit high values from the target function due to extreme inputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15.0,
+                    "x_1": 18.0,
+                    "x_2": 12.0,
+                    "x_3": 10.0,
+                    "x_4": 17.0,
+                    "x_5": 15.0,
+                    "x_6": 19.0,
+                    "x_7": 20.0,
+                    "x_8": 13.0,
+                    "x_9": 19.0,
+                    "x_10": 12.0,
+                    "x_11": 16.0,
+                    "x_12": 18.0,
+                    "x_13": 14.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[15.0, 18.0, 12.0, 10.0, 17.0, 15.0, 19.0, 20.0, 13.0, 19.0, 12.0, 16.0, 18.0, 14.0, 20.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "High Negative Extremes",
+            "rationale": "Exploring high negative values could assess how decreasing parameters impacts outputs, examining the function\u2019s response to adversities.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": -25.0,
+                    "x_2": -20.0,
+                    "x_3": -15.0,
+                    "x_4": -10.0,
+                    "x_5": -5.0,
+                    "x_6": -30.0,
+                    "x_7": -28.0,
+                    "x_8": -29.0,
+                    "x_9": -30.0,
+                    "x_10": -25.0,
+                    "x_11": -20.0,
+                    "x_12": -15.0,
+                    "x_13": -10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-30.0, -25.0, -20.0, -15.0, -10.0, -5.0, -30.0, -28.0, -29.0, -30.0, -25.0, -20.0, -15.0, -10.0, -5.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Mid-Range",
+            "rationale": "Selecting mid-range values to examine generalized behavior across balanced parameters, likely yielding moderately high outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": -5.0,
+                    "x_2": 0.0,
+                    "x_3": 5.0,
+                    "x_4": 10.0,
+                    "x_5": -10.0,
+                    "x_6": -5.0,
+                    "x_7": 0.0,
+                    "x_8": 5.0,
+                    "x_9": 10.0,
+                    "x_10": -3.0,
+                    "x_11": 2.0,
+                    "x_12": 1.0,
+                    "x_13": -4.0,
+                    "x_14": 3.0
+                }
+            ]
+        },
+        "point": "[-10.0, -5.0, 0.0, 5.0, 10.0, -10.0, -5.0, 0.0, 5.0, 10.0, -3.0, 2.0, 1.0, -4.0, 3.0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Mixed Extremes",
+            "rationale": "Utilizing both extreme positive and negative values helps explore possible nonlinear interactions, revealing potential synergies.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 20.0,
+                    "x_2": -30.0,
+                    "x_3": 20.0,
+                    "x_4": -30.0,
+                    "x_5": 20.0,
+                    "x_6": -30.0,
+                    "x_7": 20.0,
+                    "x_8": -30.0,
+                    "x_9": 20.0,
+                    "x_10": -30.0,
+                    "x_11": 20.0,
+                    "x_12": -30.0,
+                    "x_13": 20.0,
+                    "x_14": -30.0
+                }
+            ]
+        },
+        "point": "[-30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0, 20.0, -30.0]"
+    },
+    "8": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Balanced Mid-Range",
+            "rationale": "Based on successful configurations in iteration 4, exploring this point may capitalize on interactions identified as beneficial.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 0.0,
+                    "x_2": 3.0,
+                    "x_3": 6.0,
+                    "x_4": 10.0,
+                    "x_5": -5.0,
+                    "x_6": -2.0,
+                    "x_7": 1.0,
+                    "x_8": 4.0,
+                    "x_9": 2.0,
+                    "x_10": 0.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-3.0, 0.0, 3.0, 6.0, 10.0, -5.0, -2.0, 1.0, 4.0, 2.0, 0.0, 4.0, -1.0, 2.0, 5.0]"
+    },
+    "9": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Exploratory Positive Region",
+            "rationale": "This hypothesis focuses on unexplored positive combinations based on observed successes in recent iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 12.0,
+                    "x_1": 15.0,
+                    "x_2": 10.0,
+                    "x_3": 7.0,
+                    "x_4": 18.0,
+                    "x_5": 17.0,
+                    "x_6": 16.0,
+                    "x_7": 19.0,
+                    "x_8": 14.0,
+                    "x_9": 11.0,
+                    "x_10": 13.0,
+                    "x_11": 16.0,
+                    "x_12": 9.0,
+                    "x_13": 14.0,
+                    "x_14": 19.0
+                }
+            ]
+        },
+        "point": "[12.0, 15.0, 10.0, 7.0, 18.0, 17.0, 16.0, 19.0, 14.0, 11.0, 13.0, 16.0, 9.0, 14.0, 19.0]"
+    },
+    "10": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Negative Interaction Exploration",
+            "rationale": "This hypothesis probes lesser negative x-values potentially interacting positively with moderate parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10.0,
+                    "x_1": -8.0,
+                    "x_2": -5.0,
+                    "x_3": 3.0,
+                    "x_4": 5.0,
+                    "x_5": -4.0,
+                    "x_6": -2.0,
+                    "x_7": 6.0,
+                    "x_8": 8.0,
+                    "x_9": -1.0,
+                    "x_10": 1.0,
+                    "x_11": 0.0,
+                    "x_12": 3.0,
+                    "x_13": 1.0,
+                    "x_14": 4.0
+                }
+            ]
+        },
+        "point": "[-10.0, -8.0, -5.0, 3.0, 5.0, -4.0, -2.0, 6.0, 8.0, -1.0, 1.0, 0.0, 3.0, 1.0, 4.0]"
+    },
+    "11": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Diverse Mixed Strategy",
+            "rationale": "This hypothesis blends monitored positive and negative parameters to explore potential synergies in output variation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": 5.0,
+                    "x_2": -3.0,
+                    "x_3": 8.0,
+                    "x_4": -4.0,
+                    "x_5": 6.0,
+                    "x_6": -1.0,
+                    "x_7": 3.0,
+                    "x_8": 9.0,
+                    "x_9": 2.0,
+                    "x_10": 4.0,
+                    "x_11": 1.0,
+                    "x_12": 7.0,
+                    "x_13": -2.0,
+                    "x_14": -3.0
+                }
+            ]
+        },
+        "point": "[-5.0, 5.0, -3.0, 8.0, -4.0, 6.0, -1.0, 3.0, 9.0, 2.0, 4.0, 1.0, 7.0, -2.0, -3.0]"
+    },
+    "12": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Conditional Extremes Check",
+            "rationale": "This hypothesis checks the influence of selective extreme combinations that may interact differently than previously observed.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 2.0,
+                    "x_2": -20.0,
+                    "x_3": 15.0,
+                    "x_4": -10.0,
+                    "x_5": 5.0,
+                    "x_6": -30.0,
+                    "x_7": 20.0,
+                    "x_8": -30.0,
+                    "x_9": 15.0,
+                    "x_10": -5.0,
+                    "x_11": 5.0,
+                    "x_12": -3.0,
+                    "x_13": 10.0,
+                    "x_14": 4.0
+                }
+            ]
+        },
+        "point": "[-30.0, 2.0, -20.0, 15.0, -10.0, 5.0, -30.0, 20.0, -30.0, 15.0, -5.0, 5.0, -3.0, 10.0, 4.0]"
+    },
+    "14": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Optimized Central Peak",
+            "rationale": "This point hones in on the successful central region around the best-performing parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 0.0,
+                    "x_2": 2.0,
+                    "x_3": 6.0,
+                    "x_4": 10.0,
+                    "x_5": -5.0,
+                    "x_6": 1.0,
+                    "x_7": 5.0,
+                    "x_8": 3.0,
+                    "x_9": 2.0,
+                    "x_10": 0.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-3.0, 0.0, 2.0, 6.0, 10.0, -5.0, 1.0, 5.0, 3.0, 2.0, 0.0, 4.0, -1.0, 2.0, 6.0]"
+    },
+    "15": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Positive Value Exploration",
+            "rationale": "Continuing to expand upon successful positive inputs while seeking midpoints to enhance outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": 15.0,
+                    "x_2": 8.0,
+                    "x_3": 5.0,
+                    "x_4": 16.0,
+                    "x_5": 14.0,
+                    "x_6": 10.0,
+                    "x_7": 18.0,
+                    "x_8": 12.0,
+                    "x_9": 11.0,
+                    "x_10": 9.0,
+                    "x_11": 15.0,
+                    "x_12": 10.0,
+                    "x_13": 14.0,
+                    "x_14": 18.0
+                }
+            ]
+        },
+        "point": "[10.0, 15.0, 8.0, 5.0, 16.0, 14.0, 10.0, 18.0, 12.0, 11.0, 9.0, 15.0, 10.0, 14.0, 18.0]"
+    },
+    "16": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Refined Negative Exploration",
+            "rationale": "This hypothesis tests slightly negative values paired with stronger positive ones, exploring less emphasized configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -7.0,
+                    "x_1": -2.0,
+                    "x_2": 1.0,
+                    "x_3": 4.0,
+                    "x_4": 6.0,
+                    "x_5": -1.0,
+                    "x_6": 0.0,
+                    "x_7": 5.0,
+                    "x_8": 8.0,
+                    "x_9": 1.0,
+                    "x_10": 2.0,
+                    "x_11": 3.0,
+                    "x_12": 0.0,
+                    "x_13": 1.0,
+                    "x_14": 3.0
+                }
+            ]
+        },
+        "point": "[-7.0, -2.0, 1.0, 4.0, 6.0, -1.0, 0.0, 5.0, 8.0, 1.0, 2.0, 3.0, 0.0, 1.0, 3.0]"
+    },
+    "17": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "High Positive Drive",
+            "rationale": "Exploring upper ranges will reveal how increased positive values affect maximum target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 18.0,
+                    "x_1": 19.0,
+                    "x_2": 15.0,
+                    "x_3": 18.0,
+                    "x_4": 19.0,
+                    "x_5": 12.0,
+                    "x_6": 16.0,
+                    "x_7": 19.0,
+                    "x_8": 17.0,
+                    "x_9": 14.0,
+                    "x_10": 15.0,
+                    "x_11": 18.0,
+                    "x_12": 19.0,
+                    "x_13": 16.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[18.0, 19.0, 15.0, 18.0, 19.0, 12.0, 16.0, 19.0, 17.0, 14.0, 15.0, 18.0, 19.0, 16.0, 20.0]"
+    },
+    "18": {
+        "trust_score": 0.95,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Selective Extreme Check",
+            "rationale": "This hypothesis monitors interactions in extremes to see if unexpected results can arise, despite poor historical performance.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -25.0,
+                    "x_1": 5.0,
+                    "x_2": -10.0,
+                    "x_3": 15.0,
+                    "x_4": -5.0,
+                    "x_5": 10.0,
+                    "x_6": -20.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 15.0,
+                    "x_10": -3.0,
+                    "x_11": 5.0,
+                    "x_12": -10.0,
+                    "x_13": 10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-25.0, 5.0, -10.0, 15.0, -5.0, 10.0, -20.0, 10.0, -10.0, 15.0, -3.0, 5.0, -10.0, 10.0, -5.0]"
+    },
+    "20": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Central Peak Optimized",
+            "rationale": "Targeting slight variations around the most successful configuration based on current performance data to test robustness.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": 0.0,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 11.0,
+                    "x_5": -4.0,
+                    "x_6": 1.0,
+                    "x_7": 5.0,
+                    "x_8": 3.0,
+                    "x_9": 2.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-3.0, 0.0, 2.0, 5.0, 11.0, -4.0, 1.0, 5.0, 3.0, 2.0, 1.0, 4.0, -1.0, 2.0, 6.0]"
+    },
+    "21": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Enhanced Positive Configuration",
+            "rationale": "Expanding upon successful positive parameter combinations while maintaining advantageous ranges to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.0,
+                    "x_1": 12.0,
+                    "x_2": 7.0,
+                    "x_3": 6.0,
+                    "x_4": 18.0,
+                    "x_5": 12.0,
+                    "x_6": 9.0,
+                    "x_7": 15.0,
+                    "x_8": 11.0,
+                    "x_9": 11.0,
+                    "x_10": 10.0,
+                    "x_11": 16.0,
+                    "x_12": 8.0,
+                    "x_13": 14.0,
+                    "x_14": 15.0
+                }
+            ]
+        },
+        "point": "[8.0, 12.0, 7.0, 6.0, 18.0, 12.0, 9.0, 15.0, 11.0, 11.0, 10.0, 16.0, 8.0, 14.0, 15.0]"
+    },
+    "22": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Moderate Negative/Positive Interactions",
+            "rationale": "Examining lesser emphasized negative values in conjunction with strong positive ones, seeking synergies that enhance performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": -3.0,
+                    "x_2": 1.0,
+                    "x_3": 4.0,
+                    "x_4": 7.0,
+                    "x_5": -1.0,
+                    "x_6": 1.0,
+                    "x_7": 6.0,
+                    "x_8": 7.0,
+                    "x_9": 1.0,
+                    "x_10": 3.0,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 1.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-5.0, -3.0, 1.0, 4.0, 7.0, -1.0, 1.0, 6.0, 7.0, 1.0, 3.0, 2.0, 0.0, 1.0, 5.0]"
+    },
+    "23": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Centralized Exploration with Minor Adjustments",
+            "rationale": "Testing slight adjustments to successful configurations to ensure comprehensive coverage around high-performing areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.0,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 12.0,
+                    "x_5": -4.0,
+                    "x_6": 2.0,
+                    "x_7": 6.0,
+                    "x_8": 4.0,
+                    "x_9": 3.0,
+                    "x_10": 1.0,
+                    "x_11": 5.0,
+                    "x_12": -1.0,
+                    "x_13": 3.0,
+                    "x_14": 7.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.0, 2.0, 5.0, 12.0, -4.0, 2.0, 6.0, 4.0, 3.0, 1.0, 5.0, -1.0, 3.0, 7.0]"
+    },
+    "24": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 1,
+        "hypothesis": {
+            "name": "Elimination of Extremes",
+            "rationale": "Completely avoiding extreme value ranges identified as detrimental to performance in previous iterations.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 5.0,
+                    "x_2": -20.0,
+                    "x_3": 15.0,
+                    "x_4": -10.0,
+                    "x_5": 10.0,
+                    "x_6": -30.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 15.0,
+                    "x_10": -5.0,
+                    "x_11": 5.0,
+                    "x_12": -30.0,
+                    "x_13": 10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-30.0, 5.0, -20.0, 15.0, -10.0, 10.0, -30.0, 10.0, -10.0, 15.0, -5.0, 5.0, -30.0, 10.0, -5.0]"
+    },
+    "28": {
+        "trust_score": 0.832510605943574,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Refined Central Peak",
+            "rationale": "Focus on slight variations around consistent parameters that have led to higher target outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 11.0,
+                    "x_5": -4.0,
+                    "x_6": 1.0,
+                    "x_7": 6.0,
+                    "x_8": 3.0,
+                    "x_9": 2.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.5,
+                    "x_14": 6.5
+                }
+            ]
+        },
+        "point": "[-2.5, 0.5, 2.0, 5.0, 11.0, -4.0, 1.0, 6.0, 3.0, 2.0, 1.0, 4.0, -1.0, 2.5, 6.5]"
+    },
+    "29": {
+        "trust_score": 0.832510605943574,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Enhanced Positive Configurations",
+            "rationale": "Expand on previously successful positive combinations while keeping moderate negative values for balance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.0,
+                    "x_1": 12.0,
+                    "x_2": 7.0,
+                    "x_3": 6.0,
+                    "x_4": 19.0,
+                    "x_5": 12.0,
+                    "x_6": 10.0,
+                    "x_7": 15.0,
+                    "x_8": 11.0,
+                    "x_9": 11.0,
+                    "x_10": 10.0,
+                    "x_11": 15.0,
+                    "x_12": 9.0,
+                    "x_13": 14.0,
+                    "x_14": 19.0
+                }
+            ]
+        },
+        "point": "[8.0, 12.0, 7.0, 6.0, 19.0, 12.0, 10.0, 15.0, 11.0, 11.0, 10.0, 15.0, 9.0, 14.0, 19.0]"
+    },
+    "30": {
+        "trust_score": 0.832510605943574,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Moderate Negative/Positive Synergy",
+            "rationale": "Investigate combinations of moderate negative and elevated positive values to uncover synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -1.0,
+                    "x_2": 2.0,
+                    "x_3": 4.0,
+                    "x_4": 8.0,
+                    "x_5": -1.0,
+                    "x_6": 1.0,
+                    "x_7": 6.0,
+                    "x_8": 7.0,
+                    "x_9": 2.0,
+                    "x_10": 3.0,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 2.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-4.0, -1.0, 2.0, 4.0, 8.0, -1.0, 1.0, 6.0, 7.0, 2.0, 3.0, 2.0, 0.0, 2.0, 5.0]"
+    },
+    "31": {
+        "trust_score": 0.832510605943574,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Exploratory Mixed Positive Adjustments",
+            "rationale": "Seeking new combinations among successful positive values while including slight negative factors for balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 10.0,
+                    "x_5": -2.0,
+                    "x_6": 2.0,
+                    "x_7": 7.0,
+                    "x_8": 4.0,
+                    "x_9": 3.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": 1.0,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, 2.0, 5.0, 10.0, -2.0, 2.0, 7.0, 4.0, 3.0, 1.0, 4.0, 1.0, 3.0, 6.0]"
+    },
+    "32": {
+        "trust_score": 0.832510605943574,
+        "plateau_duration": 3,
+        "hypothesis": {
+            "name": "Selective Removal of Extreme Variables",
+            "rationale": "Avoid extreme values that previously have led to low outputs while focusing on moderate ranges.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 5.0,
+                    "x_2": -20.0,
+                    "x_3": 15.0,
+                    "x_4": -5.0,
+                    "x_5": 10.0,
+                    "x_6": -20.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 15.0,
+                    "x_10": -3.0,
+                    "x_11": 5.0,
+                    "x_12": -30.0,
+                    "x_13": 10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-30.0, 5.0, -20.0, 15.0, -5.0, 10.0, -20.0, 10.0, -10.0, 15.0, -3.0, 5.0, -30.0, 10.0, -5.0]"
+    },
+    "39": {
+        "trust_score": 0.6616860368170081,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Validating and refining the most successful configurations around moderately negative values to ensure robustness in maximizing target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 0.5,
+                    "x_2": 2.5,
+                    "x_3": 5.5,
+                    "x_4": 11.0,
+                    "x_5": -4.0,
+                    "x_6": 1.5,
+                    "x_7": 6.0,
+                    "x_8": 3.5,
+                    "x_9": 2.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.5,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-2.0, 0.5, 2.5, 5.5, 11.0, -4.0, 1.5, 6.0, 3.5, 2.0, 1.0, 4.0, -1.0, 2.5, 6.0]"
+    },
+    "40": {
+        "trust_score": 0.6616860368170081,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploratory Positive Value Extension",
+            "rationale": "Expanding upon the successful positive configurations to test combinations that may yield higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.0,
+                    "x_1": 12.0,
+                    "x_2": 7.0,
+                    "x_3": 6.0,
+                    "x_4": 19.0,
+                    "x_5": 12.0,
+                    "x_6": 10.0,
+                    "x_7": 15.0,
+                    "x_8": 12.0,
+                    "x_9": 11.0,
+                    "x_10": 10.0,
+                    "x_11": 16.0,
+                    "x_12": 10.0,
+                    "x_13": 14.0,
+                    "x_14": 18.0
+                }
+            ]
+        },
+        "point": "[8.0, 12.0, 7.0, 6.0, 19.0, 12.0, 10.0, 15.0, 12.0, 11.0, 10.0, 16.0, 10.0, 14.0, 18.0]"
+    },
+    "41": {
+        "trust_score": 0.6616860368170081,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Synergy Test",
+            "rationale": "Further exploring combinations of moderate negative values paired with strong positives to uncover potential synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -2.0,
+                    "x_2": 2.0,
+                    "x_3": 4.0,
+                    "x_4": 8.0,
+                    "x_5": -1.0,
+                    "x_6": 1.0,
+                    "x_7": 6.0,
+                    "x_8": 7.0,
+                    "x_9": 2.0,
+                    "x_10": 3.0,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 2.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-4.0, -2.0, 2.0, 4.0, 8.0, -1.0, 1.0, 6.0, 7.0, 2.0, 3.0, 2.0, 0.0, 2.0, 5.0]"
+    },
+    "42": {
+        "trust_score": 0.6616860368170081,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Positive Configuration Enhancement",
+            "rationale": "Refining combinations of the most successful positive parameters while including slight negative values for balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 12.0,
+                    "x_5": -2.0,
+                    "x_6": 2.0,
+                    "x_7": 6.0,
+                    "x_8": 4.0,
+                    "x_9": 3.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": 1.0,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, 2.0, 5.0, 12.0, -2.0, 2.0, 6.0, 4.0, 3.0, 1.0, 4.0, 1.0, 3.0, 6.0]"
+    },
+    "43": {
+        "trust_score": 0.6616860368170081,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoidance of Extreme Configurations",
+            "rationale": "Continuing the focus on avoiding parameter ranges that have historically led to poor performance outcomes, specifically those at extreme ends.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 10.0,
+                    "x_2": -20.0,
+                    "x_3": 10.0,
+                    "x_4": -5.0,
+                    "x_5": 10.0,
+                    "x_6": -30.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 15.0,
+                    "x_10": -5.0,
+                    "x_11": 5.0,
+                    "x_12": -30.0,
+                    "x_13": 10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-30.0, 10.0, -20.0, 10.0, -5.0, 10.0, -30.0, 10.0, -10.0, 15.0, -5.0, 5.0, -30.0, 10.0, -5.0]"
+    },
+    "50": {
+        "trust_score": 0.48682611739981135,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Validating and refining successful configurations centered on moderately negative values for enhanced output maximization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 0.5,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 11.0,
+                    "x_5": -4.0,
+                    "x_6": 1.5,
+                    "x_7": 6.0,
+                    "x_8": 3.0,
+                    "x_9": 2.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.5,
+                    "x_14": 6.5
+                }
+            ]
+        },
+        "point": "[-2.5, 0.5, 2.0, 5.0, 11.0, -4.0, 1.5, 6.0, 3.0, 2.0, 1.0, 4.0, -1.0, 2.5, 6.5]"
+    },
+    "51": {
+        "trust_score": 0.48682611739981135,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Positive Value Testing",
+            "rationale": "Exploring improved positive configurations while maintaining favorable negative values to maximize output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.5,
+                    "x_1": 13.0,
+                    "x_2": 8.0,
+                    "x_3": 6.5,
+                    "x_4": 19.5,
+                    "x_5": 13.0,
+                    "x_6": 10.5,
+                    "x_7": 15.5,
+                    "x_8": 12.5,
+                    "x_9": 11.5,
+                    "x_10": 10.5,
+                    "x_11": 16.5,
+                    "x_12": 10.5,
+                    "x_13": 14.5,
+                    "x_14": 18.5
+                }
+            ]
+        },
+        "point": "[8.5, 13.0, 8.0, 6.5, 19.5, 13.0, 10.5, 15.5, 12.5, 11.5, 10.5, 16.5, 10.5, 14.5, 18.5]"
+    },
+    "52": {
+        "trust_score": 0.48682611739981135,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Interaction",
+            "rationale": "Investigating combinations of moderate negative inputs with elevated positive values to uncover synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -1.5,
+                    "x_2": 2.5,
+                    "x_3": 4.5,
+                    "x_4": 9.0,
+                    "x_5": -0.5,
+                    "x_6": 1.0,
+                    "x_7": 5.0,
+                    "x_8": 7.0,
+                    "x_9": 3.0,
+                    "x_10": 4.0,
+                    "x_11": 2.5,
+                    "x_12": 1.0,
+                    "x_13": 2.5,
+                    "x_14": 5.5
+                }
+            ]
+        },
+        "point": "[-3.5, -1.5, 2.5, 4.5, 9.0, -0.5, 1.0, 5.0, 7.0, 3.0, 4.0, 2.5, 1.0, 2.5, 5.5]"
+    },
+    "53": {
+        "trust_score": 0.48682611739981135,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slightly Adjusted Successful Configurations",
+            "rationale": "Exploring slight variations around previously successful parameters to enhance robustness in output maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.5,
+                    "x_2": 2.5,
+                    "x_3": 4.0,
+                    "x_4": 12.0,
+                    "x_5": -3.0,
+                    "x_6": 1.0,
+                    "x_7": 6.5,
+                    "x_8": 4.0,
+                    "x_9": 3.5,
+                    "x_10": 1.5,
+                    "x_11": 4.0,
+                    "x_12": 1.5,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.5, 2.5, 4.0, 12.0, -3.0, 1.0, 6.5, 4.0, 3.5, 1.5, 4.0, 1.5, 3.0, 6.0]"
+    },
+    "54": {
+        "trust_score": 0.48682611739981135,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoidance of Extreme Configurations",
+            "rationale": "Consistently avoiding parameter ranges that have historically led to poor outputs, particularly those at extreme ends.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 11.0,
+                    "x_2": -19.0,
+                    "x_3": 11.0,
+                    "x_4": -5.0,
+                    "x_5": 11.0,
+                    "x_6": -30.0,
+                    "x_7": 11.0,
+                    "x_8": -11.0,
+                    "x_9": 15.0,
+                    "x_10": -6.0,
+                    "x_11": 5.0,
+                    "x_12": -30.0,
+                    "x_13": 10.0,
+                    "x_14": -6.0
+                }
+            ]
+        },
+        "point": "[-30.0, 11.0, -19.0, 11.0, -5.0, 11.0, -30.0, 11.0, -11.0, 15.0, -6.0, 5.0, -30.0, 10.0, -6.0]"
+    },
+    "65": {
+        "trust_score": 0.46550134796208226,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Continuing to validate successful configurations centered on moderately negative values to ensure robust maximization of target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 0.5,
+                    "x_2": 2.5,
+                    "x_3": 6.0,
+                    "x_4": 11.0,
+                    "x_5": -4.0,
+                    "x_6": 2.0,
+                    "x_7": 6.0,
+                    "x_8": 3.5,
+                    "x_9": 2.0,
+                    "x_10": 1.0,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.5,
+                    "x_14": 6.5
+                }
+            ]
+        },
+        "point": "[-2.0, 0.5, 2.5, 6.0, 11.0, -4.0, 2.0, 6.0, 3.5, 2.0, 1.0, 4.0, -1.0, 2.5, 6.5]"
+    },
+    "66": {
+        "trust_score": 0.46550134796208226,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Expanded Positive Exploration",
+            "rationale": "Exploring enhanced configurations while maintaining negative inputs that have previously yielded positive outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8.0,
+                    "x_1": 12.0,
+                    "x_2": 8.0,
+                    "x_3": 6.0,
+                    "x_4": 19.0,
+                    "x_5": 12.0,
+                    "x_6": 10.0,
+                    "x_7": 15.0,
+                    "x_8": 12.0,
+                    "x_9": 11.0,
+                    "x_10": 10.0,
+                    "x_11": 16.0,
+                    "x_12": 10.0,
+                    "x_13": 14.0,
+                    "x_14": 18.0
+                }
+            ]
+        },
+        "point": "[8.0, 12.0, 8.0, 6.0, 19.0, 12.0, 10.0, 15.0, 12.0, 11.0, 10.0, 16.0, 10.0, 14.0, 18.0]"
+    },
+    "67": {
+        "trust_score": 0.46550134796208226,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Synergy Testing",
+            "rationale": "Investigating combinations of moderate negative values with elevated positive ones to potentially achieve synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -2.0,
+                    "x_2": 2.0,
+                    "x_3": 4.0,
+                    "x_4": 9.0,
+                    "x_5": -1.0,
+                    "x_6": 1.0,
+                    "x_7": 6.0,
+                    "x_8": 7.0,
+                    "x_9": 2.0,
+                    "x_10": 3.0,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 2.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-4.0, -2.0, 2.0, 4.0, 9.0, -1.0, 1.0, 6.0, 7.0, 2.0, 3.0, 2.0, 0.0, 2.0, 5.0]"
+    },
+    "68": {
+        "trust_score": 0.46550134796208226,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Confirmed Positive Enhancement",
+            "rationale": "Refining combinations of successful high positive parameters while including slight negative values for balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": 2.0,
+                    "x_3": 5.0,
+                    "x_4": 12.0,
+                    "x_5": -2.0,
+                    "x_6": 2.0,
+                    "x_7": 6.0,
+                    "x_8": 4.0,
+                    "x_9": 3.0,
+                    "x_10": 1.0,
+                    "x_11": 5.0,
+                    "x_12": 1.0,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, 2.0, 5.0, 12.0, -2.0, 2.0, 6.0, 4.0, 3.0, 1.0, 5.0, 1.0, 3.0, 6.0]"
+    },
+    "69": {
+        "trust_score": 0.46550134796208226,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoidance of Poor-Performing Extremes",
+            "rationale": "Maintaining the strategy of avoiding parameter ranges that have historically resulted in poor target outputs.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30.0,
+                    "x_1": 5.0,
+                    "x_2": -20.0,
+                    "x_3": 10.0,
+                    "x_4": -5.0,
+                    "x_5": 10.0,
+                    "x_6": -30.0,
+                    "x_7": 10.0,
+                    "x_8": -10.0,
+                    "x_9": 15.0,
+                    "x_10": -5.0,
+                    "x_11": 5.0,
+                    "x_12": -30.0,
+                    "x_13": 10.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-30.0, 5.0, -20.0, 10.0, -5.0, 10.0, -30.0, 10.0, -10.0, 15.0, -5.0, 5.0, -30.0, 10.0, -5.0]"
+    },
+    "76": {
+        "trust_score": 0.45606379666975605,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Validating successful configurations centered around moderately negative values to maximize target outputs effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.5,
+                    "x_1": 1.0,
+                    "x_2": 3.0,
+                    "x_3": 6.0,
+                    "x_4": 12.0,
+                    "x_5": -3.5,
+                    "x_6": 3.0,
+                    "x_7": 6.5,
+                    "x_8": 4.0,
+                    "x_9": 2.5,
+                    "x_10": 1.5,
+                    "x_11": 4.5,
+                    "x_12": -1.0,
+                    "x_13": 3.0,
+                    "x_14": 7.0
+                }
+            ]
+        },
+        "point": "[-2.5, 1.0, 3.0, 6.0, 12.0, -3.5, 3.0, 6.5, 4.0, 2.5, 1.5, 4.5, -1.0, 3.0, 7.0]"
+    },
+    "77": {
+        "trust_score": 0.45606379666975605,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Expanded Positive Value Exploration",
+            "rationale": "Exploring additional positive configurations to discover combinations potentially yielding high target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9.0,
+                    "x_1": 13.0,
+                    "x_2": 9.0,
+                    "x_3": 7.0,
+                    "x_4": 20.0,
+                    "x_5": 13.0,
+                    "x_6": 11.0,
+                    "x_7": 16.0,
+                    "x_8": 13.0,
+                    "x_9": 12.0,
+                    "x_10": 11.0,
+                    "x_11": 17.0,
+                    "x_12": 11.0,
+                    "x_13": 15.0,
+                    "x_14": 19.0
+                }
+            ]
+        },
+        "point": "[9.0, 13.0, 9.0, 7.0, 20.0, 13.0, 11.0, 16.0, 13.0, 12.0, 11.0, 17.0, 11.0, 15.0, 19.0]"
+    },
+    "78": {
+        "trust_score": 0.45606379666975605,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Synergy Exploration",
+            "rationale": "Identifying potential synergies by investigating combinations of moderate negative values with strong positive inputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.0,
+                    "x_1": -1.0,
+                    "x_2": 3.0,
+                    "x_3": 4.0,
+                    "x_4": 10.0,
+                    "x_5": -1.0,
+                    "x_6": 2.0,
+                    "x_7": 5.0,
+                    "x_8": 6.0,
+                    "x_9": 2.0,
+                    "x_10": 4.0,
+                    "x_11": 1.0,
+                    "x_12": 0.0,
+                    "x_13": 2.0,
+                    "x_14": 5.0
+                }
+            ]
+        },
+        "point": "[-3.0, -1.0, 3.0, 4.0, 10.0, -1.0, 2.0, 5.0, 6.0, 2.0, 4.0, 1.0, 0.0, 2.0, 5.0]"
+    },
+    "79": {
+        "trust_score": 0.45606379666975605,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Confirmed Positive Enhancement",
+            "rationale": "Fine-tuning previously successful positive parameter combinations while incorporating slight negatives for balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 2.0,
+                    "x_2": 3.0,
+                    "x_3": 5.0,
+                    "x_4": 13.0,
+                    "x_5": -1.5,
+                    "x_6": 2.5,
+                    "x_7": 7.0,
+                    "x_8": 5.0,
+                    "x_9": 3.5,
+                    "x_10": 2.0,
+                    "x_11": 5.0,
+                    "x_12": 1.5,
+                    "x_13": 4.0,
+                    "x_14": 7.5
+                }
+            ]
+        },
+        "point": "[-0.5, 2.0, 3.0, 5.0, 13.0, -1.5, 2.5, 7.0, 5.0, 3.5, 2.0, 5.0, 1.5, 4.0, 7.5]"
+    },
+    "80": {
+        "trust_score": 0.45606379666975605,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Discouraged Extreme Configurations",
+            "rationale": "Continuing the approach of avoiding extreme parameter ranges that have historically led to low target performance.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -15.0,
+                    "x_1": 6.0,
+                    "x_2": -10.0,
+                    "x_3": 8.0,
+                    "x_4": -4.0,
+                    "x_5": 9.0,
+                    "x_6": -15.0,
+                    "x_7": 9.0,
+                    "x_8": -8.0,
+                    "x_9": 14.0,
+                    "x_10": -5.0,
+                    "x_11": 5.0,
+                    "x_12": -15.0,
+                    "x_13": 10.0,
+                    "x_14": -4.0
+                }
+            ]
+        },
+        "point": "[-15.0, 6.0, -10.0, 8.0, -4.0, 9.0, -15.0, 9.0, -8.0, 14.0, -5.0, 5.0, -15.0, 10.0, -4.0]"
+    },
+    "87": {
+        "trust_score": 0.45093917638188824,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Validating and refining configurations centered around moderately negative inputs for robust maximization of target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.2,
+                    "x_1": 0.7,
+                    "x_2": 3.2,
+                    "x_3": 5.5,
+                    "x_4": 11.5,
+                    "x_5": -3.0,
+                    "x_6": 3.2,
+                    "x_7": 6.0,
+                    "x_8": 4.5,
+                    "x_9": 2.0,
+                    "x_10": 1.8,
+                    "x_11": 4.0,
+                    "x_12": -1.5,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-2.2, 0.7, 3.2, 5.5, 11.5, -3.0, 3.2, 6.0, 4.5, 2.0, 1.8, 4.0, -1.5, 3.0, 6.0]"
+    },
+    "88": {
+        "trust_score": 0.45093917638188824,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Expanded Positive Value Exploration",
+            "rationale": "Exploring enhanced positive configurations while maintaining sufficient negative influences to potentially discover new high outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 9.5,
+                    "x_1": 12.5,
+                    "x_2": 9.5,
+                    "x_3": 6.5,
+                    "x_4": 19.5,
+                    "x_5": 13.5,
+                    "x_6": 11.5,
+                    "x_7": 15.5,
+                    "x_8": 12.5,
+                    "x_9": 11.5,
+                    "x_10": 10.5,
+                    "x_11": 17.5,
+                    "x_12": 10.5,
+                    "x_13": 15.5,
+                    "x_14": 19.5
+                }
+            ]
+        },
+        "point": "[9.5, 12.5, 9.5, 6.5, 19.5, 13.5, 11.5, 15.5, 12.5, 11.5, 10.5, 17.5, 10.5, 15.5, 19.5]"
+    },
+    "89": {
+        "trust_score": 0.45093917638188824,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Synergy Testing",
+            "rationale": "Investigating combinations of moderate negative values with strong positives to uncover potential synergies that enhance performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3.5,
+                    "x_1": -0.5,
+                    "x_2": 3.5,
+                    "x_3": 4.5,
+                    "x_4": 10.5,
+                    "x_5": -0.5,
+                    "x_6": 2.5,
+                    "x_7": 4.5,
+                    "x_8": 6.5,
+                    "x_9": 2.5,
+                    "x_10": 3.5,
+                    "x_11": 1.5,
+                    "x_12": 0.5,
+                    "x_13": 2.5,
+                    "x_14": 5.5
+                }
+            ]
+        },
+        "point": "[-3.5, -0.5, 3.5, 4.5, 10.5, -0.5, 2.5, 4.5, 6.5, 2.5, 3.5, 1.5, 0.5, 2.5, 5.5]"
+    },
+    "90": {
+        "trust_score": 0.45093917638188824,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Confirmed Positive Enhancement",
+            "rationale": "Refining previously successful positive parameter combinations while incorporating slight negative values for balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.8,
+                    "x_1": 2.5,
+                    "x_2": 3.5,
+                    "x_3": 5.5,
+                    "x_4": 13.5,
+                    "x_5": -1.0,
+                    "x_6": 2.7,
+                    "x_7": 7.5,
+                    "x_8": 5.5,
+                    "x_9": 4.0,
+                    "x_10": 2.5,
+                    "x_11": 5.5,
+                    "x_12": 1.0,
+                    "x_13": 4.5,
+                    "x_14": 7.5
+                }
+            ]
+        },
+        "point": "[-0.8, 2.5, 3.5, 5.5, 13.5, -1.0, 2.7, 7.5, 5.5, 4.0, 2.5, 5.5, 1.0, 4.5, 7.5]"
+    },
+    "91": {
+        "trust_score": 0.45093917638188824,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Avoidance of Poor-Performing Extremes",
+            "rationale": "Continuing to exclude parameter ranges that have historically shown to degrade target performance, particularly extreme configurations.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -28.0,
+                    "x_1": 8.0,
+                    "x_2": -18.0,
+                    "x_3": 10.0,
+                    "x_4": -6.0,
+                    "x_5": 9.0,
+                    "x_6": -28.0,
+                    "x_7": 9.0,
+                    "x_8": -9.0,
+                    "x_9": 14.0,
+                    "x_10": -4.0,
+                    "x_11": 5.0,
+                    "x_12": -28.0,
+                    "x_13": 11.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-28.0, 8.0, -18.0, 10.0, -6.0, 9.0, -28.0, 9.0, -9.0, 14.0, -4.0, 5.0, -28.0, 11.0, -5.0]"
+    },
+    "98": {
+        "trust_score": 0.4442188761778881,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Peak Optimization",
+            "rationale": "Validating and refining configurations centered around moderately negative inputs to maximize target outputs effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.2,
+                    "x_2": 2.5,
+                    "x_3": 6.0,
+                    "x_4": 11.0,
+                    "x_5": -3.0,
+                    "x_6": 3.0,
+                    "x_7": 6.0,
+                    "x_8": 4.0,
+                    "x_9": 2.0,
+                    "x_10": 1.5,
+                    "x_11": 4.0,
+                    "x_12": -1.0,
+                    "x_13": 2.5,
+                    "x_14": 7.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.2, 2.5, 6.0, 11.0, -3.0, 3.0, 6.0, 4.0, 2.0, 1.5, 4.0, -1.0, 2.5, 7.0]"
+    },
+    "99": {
+        "trust_score": 0.4442188761778881,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Expanded Positive Value Exploration",
+            "rationale": "Exploring enhanced positive configurations while maintaining sufficient negative influences to potentially discover new high outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10.0,
+                    "x_1": 13.5,
+                    "x_2": 10.0,
+                    "x_3": 7.0,
+                    "x_4": 20.0,
+                    "x_5": 14.0,
+                    "x_6": 12.0,
+                    "x_7": 16.0,
+                    "x_8": 13.0,
+                    "x_9": 12.0,
+                    "x_10": 11.0,
+                    "x_11": 18.0,
+                    "x_12": 11.0,
+                    "x_13": 15.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        "point": "[10.0, 13.5, 10.0, 7.0, 20.0, 14.0, 12.0, 16.0, 13.0, 12.0, 11.0, 18.0, 11.0, 15.0, 20.0]"
+    },
+    "100": {
+        "trust_score": 0.4442188761778881,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Negative-Positive Synergy Testing",
+            "rationale": "Investigating combinations of moderate negative values with strong positives aiming to uncover potential synergies that enhance performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": -1.0,
+                    "x_2": 4.0,
+                    "x_3": 5.0,
+                    "x_4": 9.0,
+                    "x_5": -1.0,
+                    "x_6": 3.0,
+                    "x_7": 5.0,
+                    "x_8": 6.0,
+                    "x_9": 3.0,
+                    "x_10": 4.0,
+                    "x_11": 2.0,
+                    "x_12": 1.0,
+                    "x_13": 3.0,
+                    "x_14": 6.0
+                }
+            ]
+        },
+        "point": "[-4.0, -1.0, 4.0, 5.0, 9.0, -1.0, 3.0, 5.0, 6.0, 3.0, 4.0, 2.0, 1.0, 3.0, 6.0]"
+    },
+    "101": {
+        "trust_score": 0.4442188761778881,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Confirmed Positive Enhancement",
+            "rationale": "Refining previously successful positive parameter combinations while incorporating slight negative values ensures a beneficial balance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 3.0,
+                    "x_2": 4.0,
+                    "x_3": 6.0,
+                    "x_4": 14.0,
+                    "x_5": -1.5,
+                    "x_6": 2.5,
+                    "x_7": 7.0,
+                    "x_8": 5.0,
+                    "x_9": 4.0,
+                    "x_10": 2.0,
+                    "x_11": 5.0,
+                    "x_12": 1.5,
+                    "x_13": 4.5,
+                    "x_14": 8.0
+                }
+            ]
+        },
+        "point": "[-1.0, 3.0, 4.0, 6.0, 14.0, -1.5, 2.5, 7.0, 5.0, 4.0, 2.0, 5.0, 1.5, 4.5, 8.0]"
+    },
+    "102": {
+        "trust_score": 0.4442188761778881,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Selective Removal of Poor-Performing Extremes",
+            "rationale": "Consistently avoiding ranges that have historically led to poor outputs ensures more effective exploration of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -25.0,
+                    "x_1": 6.0,
+                    "x_2": -10.0,
+                    "x_3": 10.0,
+                    "x_4": -4.0,
+                    "x_5": 9.0,
+                    "x_6": -20.0,
+                    "x_7": 10.0,
+                    "x_8": -8.0,
+                    "x_9": 11.0,
+                    "x_10": -3.0,
+                    "x_11": 5.0,
+                    "x_12": -20.0,
+                    "x_13": 11.0,
+                    "x_14": -5.0
+                }
+            ]
+        },
+        "point": "[-25.0, 6.0, -10.0, 10.0, -4.0, 9.0, -20.0, 10.0, -8.0, 11.0, -3.0, 5.0, -20.0, 11.0, -5.0]"
+    }
+}

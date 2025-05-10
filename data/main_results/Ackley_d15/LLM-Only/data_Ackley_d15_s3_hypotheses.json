@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Central Region Exploration",
+            "rationale": "Sampling near the center of the parameter bounds to balance exploration and exploitation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Positive Bound Check",
+            "rationale": "Exploring a set of positive extremes to assess function behavior in upper bounds.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 10,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": 15,
+                    "x_5": 5,
+                    "x_6": 10,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": 15,
+                    "x_11": 5,
+                    "x_12": 10,
+                    "x_13": 0,
+                    "x_14": 15
+                }
+            ]
+        },
+        "point": "[15, 10, 5, 10, 15, 5, 10, 0, 5, 10, 15, 5, 10, 0, 15]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Mix of Extremes",
+            "rationale": "Using a combination of low and high values to capture boundary effects and response fluctuations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": 20,
+                    "x_2": -15,
+                    "x_3": 10,
+                    "x_4": -5,
+                    "x_5": 20,
+                    "x_6": -30,
+                    "x_7": 10,
+                    "x_8": -20,
+                    "x_9": 0,
+                    "x_10": 15,
+                    "x_11": -10,
+                    "x_12": 5,
+                    "x_13": -25,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[-30, 20, -15, 10, -5, 20, -30, 10, -20, 0, 15, -10, 5, -25, 20]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Uniform Positive Sampling",
+            "rationale": "Filling the positive side of the parameter space uniformly to explore a less negative set.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Negative Region Exploration",
+            "rationale": "Assessing function behavior in the lower bound to uncover potential minima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -15,
+                    "x_2": -10,
+                    "x_3": -5,
+                    "x_4": -20,
+                    "x_5": -15,
+                    "x_6": -10,
+                    "x_7": -5,
+                    "x_8": -20,
+                    "x_9": -15,
+                    "x_10": -10,
+                    "x_11": -5,
+                    "x_12": -20,
+                    "x_13": -15,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Refined Central Exploration",
+            "rationale": "Expanding slightly around the previous successful central sample to explore similar values for potential peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Central Exploration with Variation",
+            "rationale": "Exploring slight variations around the successful central sampling to capture potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": -1,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": -1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": -1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, -1, 1, 2, -1, 2, 1, 0, -1, 0, 1, 2, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Mixed Exploration Near Central Values",
+            "rationale": "Aiming to explore combinations of moderate values to potentially uncover interactions that might yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": 5,
+                    "x_4": -5,
+                    "x_5": 1,
+                    "x_6": 3,
+                    "x_7": -2,
+                    "x_8": 4,
+                    "x_9": 0,
+                    "x_10": -3,
+                    "x_11": 2,
+                    "x_12": 5,
+                    "x_13": -2,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-5, 5, 0, 5, -5, 1, 3, -2, 4, 0, -3, 2, 5, -2, -1]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Refined Central Exploration Expanded",
+            "rationale": "Slightly expanding the successful central exploration point to capture more variations for better performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.5,
+                    "x_1": 1.5,
+                    "x_2": 1.5,
+                    "x_3": 1.5,
+                    "x_4": 1.5,
+                    "x_5": 1.5,
+                    "x_6": 1.5,
+                    "x_7": 1.5,
+                    "x_8": 1.5,
+                    "x_9": 1.5,
+                    "x_10": 1.5,
+                    "x_11": 1.5,
+                    "x_12": 1.5,
+                    "x_13": 1.5,
+                    "x_14": 1.5
+                }
+            ]
+        },
+        "point": "[1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Exploration with Higher Variations",
+            "rationale": "Exploring a broader range around the previous successful samples to locate potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 2,
+                    "x_2": 0,
+                    "x_3": 3,
+                    "x_4": -2,
+                    "x_5": 3,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": -1,
+                    "x_9": 1,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[3, 2, 0, 3, -2, 3, 0, 1, -1, 1, 2, 3, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Slightly Negative Central Variation",
+            "rationale": "Experimenting with slight negative variations while maintaining some central values that previously yielded a positive outcome.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 2,
+                    "x_3": 1,
+                    "x_4": -1,
+                    "x_5": 0,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": -1,
+                    "x_10": 2,
+                    "x_11": 1,
+                    "x_12": 3,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 0, 2, 1, -1, 0, 1, 2, 0, -1, 2, 1, 3, -1, 0]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Enhanced Central Variations",
+            "rationale": "Continuing the investigation around the previously successful central point to capture potential peaks with slight adjustments.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Wider Central Exploration",
+            "rationale": "Testing a broader range around previously successful parameters to encompass more potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 2,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": -2,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[2, 2, 0, 2, 0, 2, 1, 1, -2, 1, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Negative Central Value",
+            "rationale": "Experimenting with slight negative variations while maintaining proximity to successful central values that previously produced positive results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1,
+                    "x_2": 2,
+                    "x_3": 1,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": -1,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 2,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, 1.0, 2.0, 1.0, -0.5, 1.0, 0.0, 1.0, 0.0, -1.0, 2.0, 3.0, 2.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Centralized Variation Expanded",
+            "rationale": "Continuing to explore the central area while expanding slightly to locate more subtle variations surrounding the origin that can potentially yield higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 0.5,
+                    "x_6": 0.5,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 1.0, 1.0, 0.0, 0.5, 0.5, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Higher Central Variation",
+            "rationale": "Testing slightly higher and varied values around the effective central output to explore peaks while maintaining proximity to the origin.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Exploration",
+            "rationale": "Exploring subtle changes around the most effective central configurations, while introducing slight variances with nearby values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": -1,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": -1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 0.0, 0.0, -1.0, 1.0, 2.0, 1.0, -1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Centralized Enhanced Variation",
+            "rationale": "Exploring around the successful configurations while adding minor variations to capture potential peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": -0.5,
+                    "x_5": 0.75,
+                    "x_6": 0.5,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.75
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 1.0, 1.0, -0.5, 0.75, 0.5, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.5, 0.75]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Refined Central Adjustment",
+            "rationale": "Adjusting around the effective outputs while exploring adjacent values that have not been significantly tested.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.5,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0.5,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.5, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Value Exploration",
+            "rationale": "Exploring subtle differences around central configurations, while maintaining proximity to promising outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.25,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0.5,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 2,
+                    "x_13": 1,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.25, 0.5, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.5, 1.0, 1.0, 2.0, 1.0, 0.5]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Centralized Precision Exploration",
+            "rationale": "Continuing to explore the optimal central configurations with minor adjustments to pinpoint highest corresponding outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Wider Central Exploration",
+            "rationale": "Testing a more extensive range around effective previous parameters to encompass more local maxima possibilities.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.5,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1.5, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Sampling",
+            "rationale": "Continuing to explore areas close to previous configurations, but incorporating further variations while remaining in proximity to promising outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.5,
+                    "x_8": 1,
+                    "x_9": 0.5,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 2,
+                    "x_13": 1,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 1.0, 1.0, -0.5, 1.0, 1.0, 0.5, 1.0, 0.5, 1.0, 1.0, 2.0, 1.0, 0.5]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Centralized Precision Exploration",
+            "rationale": "Continuing to focus on the effective central configurations with slight adjustments to pinpoint highest corresponding outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.25,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0.25, 0.75, 1.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 1.0, 1.0, 0.0]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Extended Central Exploration Variant",
+            "rationale": "Evaluating a span of slight variations around the robust central configurations to identify potential maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 0.5,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1.25, 0.75, 1.0, 0.5, -0.5, 1.0, 1.0, 1.0, 0.5, 0.0, 1.0, 1.0, 1.0, 0.5, 0.0]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Value Exploration",
+            "rationale": "Exploring subtle differences around central configurations while maintaining proximity to promising outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": -0.5,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.5, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, -0.5, 0.0, 1.0, 1.0, 1.0, 1.0, 0.5]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Centralized Target Precision",
+            "rationale": "Continuing to explore around the previously successful central configuration while slightly fine-tuning the point for potential output enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.5,
+                    "x_4": 0,
+                    "x_5": 0.5,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.5, 0.0, 0.5, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Slightly Higher Central Variation",
+            "rationale": "Testing configurations that maintain proximity to the successful origin settings while introducing slight upward adjustments in values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1.25, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Focused Central Exploration",
+            "rationale": "Narrowing down the exploration to configurations that offer minimal deviation from the central parameters that yielded positive scores.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.5]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Expanded Central Exploration",
+            "rationale": "Testing broader variations within the central area to uncover potential maxima through systematic adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 1.25,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.5,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0.75
+                }
+            ]
+        },
+        "point": "[0.75, 1.25, 1.0, 1.0, -0.5, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.75]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Centralized Target Precision Enhanced",
+            "rationale": "Continuing to explore around the high-performing central configuration, while slightly fine-tuning the point for projected output improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.75, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Wider Central Enhanced Exploration",
+            "rationale": "Testing broader variations around effective previous parameters while minimizing the risk of straying too far from confirmed successful configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.75,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1.25, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 0.75, 0.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.0]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Moderate Variation Central Exploration",
+            "rationale": "Introducing moderate adjustments to still-proven central configurations to maintain engagement within productive output ranges.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Negative Central Sampling",
+            "rationale": "Explore subtle negative variations while keeping most parameters near optimal settings to improve potential output exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.75,
+                    "x_3": 0.75,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.75, 0.75, -0.5, 1.0, 1.0, 1.0, 0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Precision Central Exploration Enhanced",
+            "rationale": "Continuing to explore around the high-performing central configuration (1, 1, 1) while introducing slight upward adjustments for potential output improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.8,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.8, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Slight Negative Variation Central Exploration",
+            "rationale": "Introducing slight negative adjustments around the most effective output, balancing exploration while remaining close to proven parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0.5,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 1.0, 0.75, -0.25, 1.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 0.5, 0.0]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Broader Central Variations",
+            "rationale": "Exploring a broader range of adjustments around previously successful configurations to identify potential local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1.25,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.5,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.25, 1.25, 1.0, 1.0, 0.0, 1.0, 1.0, 0.5, 1.0, 0.0, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Target Central Optimization",
+            "rationale": "Focusing on the successful parameters around the origin to establish localized objectives for maximizing potential outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.5,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 1.0, 1.0, 0.5, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Enhanced Central Configuration",
+            "rationale": "Focusing on fine-tuning the successful central configuration while introducing slight adjustments for optimal output exploration.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.85, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Slightly Negative Adjustment Near Center",
+            "rationale": "Introducing slight negative adjustments while maintaining proximity to successful central parameters in exploring potential output increases.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 1.0, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Broader Central Variation Exploration",
+            "rationale": "Exploring broader configurations around the successful region to potentially find peaks through systematic adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.5,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0.5,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1.5, 1.0, 1.0, 0.5, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Exploratory Central Variable Adjustment",
+            "rationale": "Testing configurations that maintain balance around previously successful parameters while introducing subtle upward adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 1.25,
+                    "x_3": 0.75,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 1.25, 0.75, 0.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Refined Central Points Exploration",
+            "rationale": "Targeting a slightly adjusted central configuration to maximize potential output based on historical high performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.85,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.85, 0.75, 1.0, 0.75, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Slight Negative Central Adjustment",
+            "rationale": "Exploring mild negative deviations around the successful parameters to identify potential local maxima while remaining within effective ranges.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.9,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.9, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Broader Central Variation Exploration",
+            "rationale": "Continuing to explore a wider range near central successful configurations to potentially discover new local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.1,
+                    "x_3": 0.75,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.1, 0.75, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Targeted Central Variations",
+            "rationale": "Exploring variations that maintain a close range to previously successful outputs, seeking further refinements in the central area.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.6,
+                    "x_1": 0.7,
+                    "x_2": 1,
+                    "x_3": 0.8,
+                    "x_4": -0.2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0.5,
+                    "x_8": 1,
+                    "x_9": 0.5,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.6, 0.7, 1.0, 0.8, -0.2, 1.0, 1.0, 0.5, 1.0, 0.5, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Precision Central Configuration",
+            "rationale": "Fine-tuning the successful central configuration while introducing slight upward adjustments for potential output improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Slight Negative Adjustment Near Center",
+            "rationale": "Introducing slight negative adjustments around the successful configurations to explore potential peaks while staying close to effective parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 1.0, 0.75, -0.5, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Broader Central Variation Exploration",
+            "rationale": "Continuing to explore a wider range around successful configurations to potentially discover new local maxima while staying central.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1,
+                    "x_2": 1.0,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Hyper Precise Central Configuration",
+            "rationale": "Continuing to fine-tune near the most successful central point, adjusting slightly upwards to explore potential local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.95,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.95, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Slightly Above Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to the high-performing central configuration to identify further optimization opportunities.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.25, 1.0, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Adjusted Negative Central Exploration",
+            "rationale": "Introducing slight negative adjustments while maintaining proximity to successful configurations to potentially enhance output exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.5,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 1.0, 0.75, -0.5, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Broader Central Adjustment",
+            "rationale": "Continuing to explore wider variations around previous central configurations for the potential discovery of new local peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.5, 0.5]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Slightly Enhanced Central Configuration",
+            "rationale": "Continuing to refine around the highest-performing central point with slight upward adjustments to explore potential increases in output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.95,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.95, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Wider Central Exploration",
+            "rationale": "Exploring a broader range around successful central configurations to identify potential new peaks in output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.3,
+                    "x_1": 1.0,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.3, 1.0, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Centralized Negative Adjustment Exploration",
+            "rationale": "Incorporating slight negative adjustments around successful outputs to explore potential local maxima while ensuring parameters remain effective.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.5,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.5, 0.95, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Exploration",
+            "rationale": "Exploring very closely around the previously successful configuration to capture any small peaks that could maximize output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.925,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.925, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Points",
+            "rationale": "Introducing minor variations near the most effective configurations to test for further improvements in target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 1.0, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Wider Central Variation Search",
+            "rationale": "Broadening the exploration slightly within the successful region to seek new local peaks while ensuring proximity to effective outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.1,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.1, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Slight Adjustments Near High-yield Outputs",
+            "rationale": "Focusing on exploring slight negative deviations around the most effective configurations to identify potential maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.8,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.95, 0.8, 1.0, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Precision Exploration Around Effective Central",
+            "rationale": "Fine-tuning the successful configuration slightly to explore potential local maxima in the highest-performing subspace.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Slight Negative Adjustment Near Center",
+            "rationale": "Exploring small negative deviations around previously successful outputs to test local maxima potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.85,
+                    "x_1": 0.75,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.85, 0.75, 0.95, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Broader Central Variation Exploration",
+            "rationale": "Continue to explore a wider range of variations around successful configurations to discover potential new local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1.0,
+                    "x_2": 1.1,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.25, 1.0, 1.1, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Slightly Higher Central Configuration",
+            "rationale": "Testing configurations with subtle upward adjustments to the previously high-performing central set, aiming for output improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.15,
+                    "x_1": 1.05,
+                    "x_2": 1.05,
+                    "x_3": 0.95,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.15, 1.05, 1.05, 0.95, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Configuration",
+            "rationale": "Continuing to explore around the previously highest-performing central configuration to identify subtle peaks that could enhance output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.925,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.925, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Points",
+            "rationale": "Introducing minor variations near the most effective configurations to test for further improvements in target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 0.95,
+                    "x_2": 1.05,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 0.5,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 0.95, 1.05, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 0.5, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Broader Central Variation",
+            "rationale": "Exploring broader variations within the successful region to potentially discover new local peaks while maintaining proximity to effective outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.4,
+                    "x_1": 1.0,
+                    "x_2": 1.2,
+                    "x_3": 0.8,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.4, 1.0, 1.2, 0.8, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Centralized Negative Adjustment Exploration",
+            "rationale": "Incorporating slight negative adjustments around successful outputs to explore potential local maxima while ensuring parameters remain effective.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.7,
+                    "x_2": 1,
+                    "x_3": 0.75,
+                    "x_4": -0.2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.95, 0.7, 1.0, 0.75, -0.2, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Tighter Central Precision Exploration",
+            "rationale": "Refining the exploration around the optimal central configuration to capture smaller peaks with minimal adjustments.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.95,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.95, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Configuration",
+            "rationale": "Testing higher parameters close to the most effective configuration to probe for higher target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 0.85,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 0.85, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Refined Central Negative Adjustment",
+            "rationale": "Introducing slight negative shifts around previously successful outputs to identify local maxima while avoiding far extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.8,
+                    "x_2": 1.0,
+                    "x_3": 0.8,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.75, 0.8, 1.0, 0.8, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Precision",
+            "rationale": "Continuing to explore around the previous best central configuration with minor adjustments aimed at identifying any subtle peaks to enhance output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.9,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.9, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Wider Central Exploration",
+            "rationale": "Exploring a broader range around previous high-performing configurations to potentially discover new peaks in the output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.4,
+                    "x_1": 0.9,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.4, 0.9, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Slightly Lower Central Configuration",
+            "rationale": "Introducing subtle downward adjustments to previous effective configurations to evaluate local maxima potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 0.8,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 0.8, 0.95, 0.75, -0.2, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Configuration",
+            "rationale": "Exploring configurations that are closely aligned with successful outputs to capture any subtle peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.95,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.6
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.95, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.6]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Points",
+            "rationale": "Navigating around the most effective configurations with minor variations to explore further improvements in outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 0.95,
+                    "x_2": 1.0,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.6,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 0.95, 1.0, 0.85, 0.0, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Wider Central Exploration",
+            "rationale": "Exploring configurations with broader variations near successful outputs to uncover potential new peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.4,
+                    "x_1": 1.0,
+                    "x_2": 1.15,
+                    "x_3": 0.85,
+                    "x_4": 0.1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.4, 1.0, 1.15, 0.85, 0.1, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Configuration Revised",
+            "rationale": "Continuing to explore around the previous best central configuration but with different minor adjustments to identify any subtle peaks to enhance the output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.93,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.55
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.93, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.55]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to the high-performing central configuration to identify additional optimization opportunities.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 1.0,
+                    "x_2": 1.05,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 1.0, 1.05, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Heightened Central Broader Search",
+            "rationale": "Broadening the exploration slightly within the successful region to seek new local peaks while ensuring proximity to effective outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.4,
+                    "x_1": 1.1,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.4, 1.1, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Slightly Negative Adjustment Near Center",
+            "rationale": "Introducing minor negative modifications while mainly focusing on previously successful configurations to gauge potential output improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": 0.75,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.9, 0.75, 0.95, 0.75, -0.2, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Maximized Central Configuration",
+            "rationale": "Fine-tuning around the most successful central configuration to explore subtle peaks that could yield higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.92,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.55
+                }
+            ]
+        },
+        "point": "[1.0, 1.0, 1.0, 0.92, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.55]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Enhanced Central Point Exploration",
+            "rationale": "Testing minor upward adjustments around the previous high-performing configuration to identify additional peaks in output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.05,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.05, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Broader Exploration of Central Values",
+            "rationale": "Exploring configurations with broader variations near previously successful outputs to potentially discover new peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 1.1,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 1.1, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Slight Negative Central Adjustment",
+            "rationale": "Introducing slight negative shifts around previously successful outputs to identify local maxima while remaining within effective ranges.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": 0.8,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.3,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.9, 0.8, 0.95, 0.75, -0.3, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Configuration",
+            "rationale": "Exploring configurations around the optimal central configuration to capture any small peaks that could maximize output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.92,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.55
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.92, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.55]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to the successful central configuration in hopes of identifying additional peaks for optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.15,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.15, 1.0, 1.0, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Broader Central Variation Search",
+            "rationale": "Investigating broader variations within the successful region to discover potential new peaks while ensuring proximity to earlier optimized outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.3,
+                    "x_1": 1.0,
+                    "x_2": 1.2,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.3, 1.0, 1.2, 0.85, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Controlled Negative Central Adjustment",
+            "rationale": "Introducing slight modifications around previously established successful configurations to identify potential local maxima.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.7,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.95, 0.7, 0.95, 0.75, -0.2, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Hyper-Focused Central Configuration Revised",
+            "rationale": "Continuing to explore around the previous best central configuration with minor adjustments to capture any small peaks that could further enhance output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.925,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.55
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.925, 0.0, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.55]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to the successful central configuration to identify additional peaks in output potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.15,
+                    "x_1": 1.1,
+                    "x_2": 1.05,
+                    "x_3": 0.88,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.6,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.15, 1.1, 1.05, 0.88, 0.0, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Broader Exploration of Central Values",
+            "rationale": "Investigating broader variations within the successful region to uncover potential new peaks while maintaining proximity to effective outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.3,
+                    "x_1": 1.1,
+                    "x_2": 1.15,
+                    "x_3": 0.9,
+                    "x_4": 0.1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.6,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.3, 1.1, 1.15, 0.9, 0.1, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Controlled Negative Central Adjustment",
+            "rationale": "Incorporating slight negative adjustments while staying within effective ranges to explore local maxima potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.75,
+                    "x_2": 0.95,
+                    "x_3": 0.75,
+                    "x_4": -0.25,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.95, 0.75, 0.95, 0.75, -0.25, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Maximized Central Configuration",
+            "rationale": "Fine-tuning around the most successful central configuration to explore subtle peaks that could yield higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.05,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.92,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.05, 1.0, 1.0, 0.92, 0.0, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Wider Central Exploration Revised",
+            "rationale": "Exploring a broader set of variations around the previously successful configuration to potentially uncover new local maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.35,
+                    "x_1": 1.0,
+                    "x_2": 1.2,
+                    "x_3": 0.9,
+                    "x_4": 0.1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.35, 1.0, 1.2, 0.9, 0.1, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Slightly Lower Central Configuration Variation Revised",
+            "rationale": "Introducing small downward adjustments around previously effective configurations to identify potentially fruitful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 0.75,
+                    "x_2": 0.9,
+                    "x_3": 0.7,
+                    "x_4": -0.15,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 0.75, 0.9, 0.7, -0.15, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration Revised",
+            "rationale": "Exploring a minor upward adjustment to the successful central configuration to identify further optimization potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.1,
+                    "x_3": 0.9,
+                    "x_4": 0.0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.6,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.1, 0.9, 0.0, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Maximized Central Configuration",
+            "rationale": "Fine-tuning around the most successful central configuration to explore subtle peaks that could yield higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.93,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.56,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.6
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.93, 0.0, 1.0, 1.0, 1.0, 0.56, 1.0, 1.0, 1.0, 1.0, 0.0, 0.6]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to the successful central configuration to identify additional peaks in output potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.1,
+                    "x_2": 1.05,
+                    "x_3": 0.88,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.1, 1.1, 1.05, 0.88, 0.0, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Broader Central Variation Search",
+            "rationale": "Investigating broader variations within the successful region to uncover potential new peaks while maintaining proximity to effective outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.25,
+                    "x_1": 1.0,
+                    "x_2": 1.15,
+                    "x_3": 0.84,
+                    "x_4": 0.05,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.6,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.25, 1.0, 1.15, 0.84, 0.05, 1.0, 1.0, 1.0, 0.6, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Controlled Negative Central Adjustment",
+            "rationale": "Incorporating slight negative adjustments while staying within effective ranges to explore local maxima potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.85,
+                    "x_1": 0.75,
+                    "x_2": 0.9,
+                    "x_3": 0.7,
+                    "x_4": -0.15,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.85, 0.75, 0.9, 0.7, -0.15, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Refined Central Configuration",
+            "rationale": "Continuing to explore around the most successful central configuration to discover subtle peaks that could enhance output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.1,
+                    "x_1": 1.0,
+                    "x_2": 1.0,
+                    "x_3": 0.92,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.55
+                }
+            ]
+        },
+        "point": "[1.1, 1.0, 1.0, 0.92, 0.0, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.55]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Slightly Elevated Central Exploration",
+            "rationale": "Exploring a minor upward adjustment to identify further optimization opportunities.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.2,
+                    "x_1": 1.0,
+                    "x_2": 1.1,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.2, 1.0, 1.1, 0.85, 0.0, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Controlled Negative Adjustment Central Exploration",
+            "rationale": "Incorporating slight negative adjustments while staying within effective ranges to explore local maxima potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 0.7,
+                    "x_2": 0.9,
+                    "x_3": 0.8,
+                    "x_4": -0.1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.0, 0.7, 0.9, 0.8, -0.1, 1.0, 1.0, 1.0, 0.5, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Incremental Central Variation",
+            "rationale": "Continuing to examine broader variations while still focusing on high-performing assumptions to narrow down potential new peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1.35,
+                    "x_1": 1.05,
+                    "x_2": 1.15,
+                    "x_3": 0.85,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0.55,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[1.35, 1.05, 1.15, 0.85, 0.0, 1.0, 1.0, 1.0, 0.55, 1.0, 1.0, 1.0, 1.0, 0.0, 0.5]",
+        "action": "LLM"
+    }
+}

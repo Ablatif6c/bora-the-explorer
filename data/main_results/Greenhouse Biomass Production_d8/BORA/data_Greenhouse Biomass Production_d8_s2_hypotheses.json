@@ -1,0 +1,794 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Irradiance and Temperature",
+            "rationale": "Moderate levels of irradiance combined with optimal temperature ranges are expected to enhance photosynthesis and growth.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 4000,
+                    "tmin": 10,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 1,
+                    "rain": 5,
+                    "wav": 50,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[4000.0, 10.0, 25.0, 2.0, 1.0, 5.0, 50.0, 0.5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Controlled Temperature",
+            "rationale": "High irradiance can boost biomass production, provided temperatures are kept within a suitable range to avoid stress.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 15,
+                    "tmax": 30,
+                    "vap": 3,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 70,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7500.0, 15.0, 30.0, 3.0, 0.5, 2.0, 70.0, 0.7]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimal Moisture and Temperature",
+            "rationale": "Maintaining optimal moisture levels while ensuring favorable temperatures can create ideal growth conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 3000,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 1.5,
+                    "wind": 1.5,
+                    "rain": 10,
+                    "wav": 80,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[3000.0, 5.0, 20.0, 1.5, 1.5, 10.0, 80.0, 0.6]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Low wind speeds combined with higher vapor pressure may reduce water loss and enhance biomass accumulation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 3500,
+                    "tmin": 12,
+                    "tmax": 22,
+                    "vap": 5,
+                    "wind": 0.2,
+                    "rain": 8,
+                    "wav": 60,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[3500.0, 12.0, 22.0, 5.0, 0.2, 8.0, 60.0, 0.8]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Extreme Conditions for Stress Testing",
+            "rationale": "Exploring extreme conditions may reveal resilience in biomass production, providing insights into stress tolerance.",
+            "confidence": "low",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": -10,
+                    "tmax": 40,
+                    "vap": 8,
+                    "wind": 4,
+                    "rain": 0,
+                    "wav": 20,
+                    "SMLIM": 0.2
+                }
+            ]
+        },
+        "point": "[8000.0, -10.0, 40.0, 8.0, 4.0, 0.0, 20.0, 0.2]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Moderate Temperature",
+            "rationale": "Building on the successful conditions observed, this hypothesis focuses on maintaining high irradiance while ensuring temperatures remain moderate to avoid stress.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 15,
+                    "tmax": 28,
+                    "vap": 4,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 75,
+                    "SMLIM": 0.8
+                }
+            ]
+        },
+        "point": "[7500.0, 15.0, 28.0, 4.0, 0.5, 2.0, 75.0, 0.8]"
+    },
+    "19": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7000,
+                    "tmin": 10,
+                    "tmax": 22,
+                    "vap": 3,
+                    "wind": 1,
+                    "rain": 5,
+                    "wav": 85,
+                    "SMLIM": 0.75
+                }
+            ]
+        },
+        "point": "[7000.0, 10.0, 22.0, 3.0, 1.0, 5.0, 85.0, 0.75]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7200,
+                    "tmin": 12,
+                    "tmax": 25,
+                    "vap": 6,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 90,
+                    "SMLIM": 0.85
+                }
+            ]
+        },
+        "point": "[7200.0, 12.0, 25.0, 6.0, 0.2, 3.0, 90.0, 0.85]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5000,
+                    "tmin": 8,
+                    "tmax": 20,
+                    "vap": 2,
+                    "wind": 1,
+                    "rain": 10,
+                    "wav": 95,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[5000.0, 8.0, 20.0, 2.0, 1.0, 10.0, 95.0, 0.9]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Extreme Conditions for Resilience Testing",
+            "rationale": "While previous extreme conditions yielded poor results, testing resilience in biomass production under stress may provide insights into optimal thresholds.",
+            "confidence": "low",
+            "points": [
+                {
+                    "irrad": 8000,
+                    "tmin": 0,
+                    "tmax": 35,
+                    "vap": 7,
+                    "wind": 4,
+                    "rain": 0,
+                    "wav": 30,
+                    "SMLIM": 0.1
+                }
+            ]
+        },
+        "point": "[8000.0, 0.0, 35.0, 7.0, 4.0, 0.0, 30.0, 0.1]"
+    },
+    "32": {
+        "trust_score": 0.6946631748842029,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance with Moderate Temperature",
+            "rationale": "This hypothesis focuses on maintaining high irradiance while ensuring temperatures remain moderate to avoid stress.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7550,
+                    "tmin": 16,
+                    "tmax": 29,
+                    "vap": 4.5,
+                    "wind": 0.6,
+                    "rain": 2,
+                    "wav": 80,
+                    "SMLIM": 0.82
+                }
+            ]
+        },
+        "point": "[7550.0, 16.0, 29.0, 4.5, 0.6, 2.0, 80.0, 0.82]"
+    },
+    "33": {
+        "trust_score": 0.6946631748842029,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7100,
+                    "tmin": 11,
+                    "tmax": 24,
+                    "vap": 3.5,
+                    "wind": 1,
+                    "rain": 4,
+                    "wav": 88,
+                    "SMLIM": 0.78
+                }
+            ]
+        },
+        "point": "[7100.0, 11.0, 24.0, 3.5, 1.0, 4.0, 88.0, 0.78]"
+    },
+    "34": {
+        "trust_score": 0.6946631748842029,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7300,
+                    "tmin": 13,
+                    "tmax": 26,
+                    "vap": 6.5,
+                    "wind": 0.3,
+                    "rain": 3,
+                    "wav": 92,
+                    "SMLIM": 0.87
+                }
+            ]
+        },
+        "point": "[7300.0, 13.0, 26.0, 6.5, 0.3, 3.0, 92.0, 0.87]"
+    },
+    "35": {
+        "trust_score": 0.6946631748842029,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5200,
+                    "tmin": 9,
+                    "tmax": 21,
+                    "vap": 2.5,
+                    "wind": 1,
+                    "rain": 9,
+                    "wav": 96,
+                    "SMLIM": 0.91
+                }
+            ]
+        },
+        "point": "[5200.0, 9.0, 21.0, 2.5, 1.0, 9.0, 96.0, 0.91]"
+    },
+    "36": {
+        "trust_score": 0.6946631748842029,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "New High Irradiance and Optimal Moisture",
+            "rationale": "This hypothesis focuses on maximizing both irradiance and moisture, aiming to find the sweet spot for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7650,
+                    "tmin": 15,
+                    "tmax": 28,
+                    "vap": 5.5,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.83
+                }
+            ]
+        },
+        "point": "[7650.0, 15.0, 28.0, 5.5, 0.4, 2.0, 85.0, 0.83]"
+    },
+    "47": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature and Moisture",
+            "rationale": "This hypothesis focuses on maintaining high irradiance while ensuring temperatures and moisture levels are optimal for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7550,
+                    "tmin": 17,
+                    "tmax": 29,
+                    "vap": 4.8,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 82,
+                    "SMLIM": 0.81
+                }
+            ]
+        },
+        "point": "[7550.0, 17.0, 29.0, 4.8, 0.5, 2.0, 82.0, 0.81]"
+    },
+    "48": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7200,
+                    "tmin": 12,
+                    "tmax": 23,
+                    "vap": 3.8,
+                    "wind": 1,
+                    "rain": 4,
+                    "wav": 90,
+                    "SMLIM": 0.76
+                }
+            ]
+        },
+        "point": "[7200.0, 12.0, 23.0, 3.8, 1.0, 4.0, 90.0, 0.76]"
+    },
+    "49": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7400,
+                    "tmin": 14,
+                    "tmax": 27,
+                    "vap": 7.0,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 95,
+                    "SMLIM": 0.88
+                }
+            ]
+        },
+        "point": "[7400.0, 14.0, 27.0, 7.0, 0.2, 3.0, 95.0, 0.88]"
+    },
+    "50": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5300,
+                    "tmin": 10,
+                    "tmax": 22,
+                    "vap": 3.0,
+                    "wind": 1,
+                    "rain": 8,
+                    "wav": 97,
+                    "SMLIM": 0.92
+                }
+            ]
+        },
+        "point": "[5300.0, 10.0, 22.0, 3.0, 1.0, 8.0, 97.0, 0.92]"
+    },
+    "51": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "New High Irradiance and Optimal Moisture",
+            "rationale": "This hypothesis focuses on maximizing both irradiance and moisture, aiming to find the sweet spot for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7700,
+                    "tmin": 16,
+                    "tmax": 29,
+                    "vap": 5.0,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 84,
+                    "SMLIM": 0.84
+                }
+            ]
+        },
+        "point": "[7700.0, 16.0, 29.0, 5.0, 0.4, 2.0, 84.0, 0.84]"
+    },
+    "52": {
+        "trust_score": 0.6257213015305852,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Eliminate Extreme Conditions",
+            "rationale": "Given the poor performance of extreme conditions, this hypothesis will focus on avoiding high stress environments.",
+            "confidence": "low",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 5,
+                    "tmax": 30,
+                    "vap": 6.0,
+                    "wind": 3,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.2
+                }
+            ]
+        },
+        "point": "[7900.0, 5.0, 30.0, 6.0, 3.0, 1.0, 40.0, 0.2]"
+    },
+    "62": {
+        "trust_score": 0.4901537427826424,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature and Moisture",
+            "rationale": "This hypothesis focuses on maintaining high irradiance while ensuring temperatures and moisture levels are optimal for growth, based on previous successful conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 16,
+                    "tmax": 28,
+                    "vap": 5.0,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.82
+                }
+            ]
+        },
+        "point": "[7800.0, 16.0, 28.0, 5.0, 0.4, 2.0, 85.0, 0.82]"
+    },
+    "63": {
+        "trust_score": 0.4901537427826424,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7200,
+                    "tmin": 12,
+                    "tmax": 24,
+                    "vap": 4.0,
+                    "wind": 1,
+                    "rain": 4,
+                    "wav": 90,
+                    "SMLIM": 0.78
+                }
+            ]
+        },
+        "point": "[7200.0, 12.0, 24.0, 4.0, 1.0, 4.0, 90.0, 0.78]"
+    },
+    "64": {
+        "trust_score": 0.4901537427826424,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7400,
+                    "tmin": 14,
+                    "tmax": 27,
+                    "vap": 6.0,
+                    "wind": 0.2,
+                    "rain": 3,
+                    "wav": 95,
+                    "SMLIM": 0.88
+                }
+            ]
+        },
+        "point": "[7400.0, 14.0, 27.0, 6.0, 0.2, 3.0, 95.0, 0.88]"
+    },
+    "65": {
+        "trust_score": 0.4901537427826424,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5500,
+                    "tmin": 10,
+                    "tmax": 22,
+                    "vap": 3.0,
+                    "wind": 1,
+                    "rain": 8,
+                    "wav": 97,
+                    "SMLIM": 0.92
+                }
+            ]
+        },
+        "point": "[5500.0, 10.0, 22.0, 3.0, 1.0, 8.0, 97.0, 0.92]"
+    },
+    "66": {
+        "trust_score": 0.4901537427826424,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Eliminate Extreme Conditions",
+            "rationale": "Given the poor performance of extreme conditions, this hypothesis will focus on avoiding high stress environments.",
+            "confidence": "low",
+            "points": [
+                {
+                    "irrad": 7800,
+                    "tmin": 5,
+                    "tmax": 30,
+                    "vap": 6.5,
+                    "wind": 3,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.2
+                }
+            ]
+        },
+        "point": "[7800.0, 5.0, 30.0, 6.5, 3.0, 1.0, 40.0, 0.2]"
+    },
+    "77": {
+        "trust_score": 0.48887271593468434,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature and Moisture",
+            "rationale": "This hypothesis focuses on maintaining high irradiance while ensuring temperatures and moisture levels are optimal for growth, based on previous successful conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7850,
+                    "tmin": 16,
+                    "tmax": 28,
+                    "vap": 5.0,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.83
+                }
+            ]
+        },
+        "point": "[7850.0, 16.0, 28.0, 5.0, 0.4, 2.0, 85.0, 0.83]"
+    },
+    "78": {
+        "trust_score": 0.48887271593468434,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7300,
+                    "tmin": 12,
+                    "tmax": 24,
+                    "vap": 4.0,
+                    "wind": 1,
+                    "rain": 4,
+                    "wav": 90,
+                    "SMLIM": 0.79
+                }
+            ]
+        },
+        "point": "[7300.0, 12.0, 24.0, 4.0, 1.0, 4.0, 90.0, 0.79]"
+    },
+    "79": {
+        "trust_score": 0.48887271593468434,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 15,
+                    "tmax": 26,
+                    "vap": 6.5,
+                    "wind": 0.3,
+                    "rain": 3,
+                    "wav": 92,
+                    "SMLIM": 0.89
+                }
+            ]
+        },
+        "point": "[7500.0, 15.0, 26.0, 6.5, 0.3, 3.0, 92.0, 0.89]"
+    },
+    "80": {
+        "trust_score": 0.48887271593468434,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5600,
+                    "tmin": 11,
+                    "tmax": 23,
+                    "vap": 3.5,
+                    "wind": 1,
+                    "rain": 7,
+                    "wav": 96,
+                    "SMLIM": 0.9
+                }
+            ]
+        },
+        "point": "[5600.0, 11.0, 23.0, 3.5, 1.0, 7.0, 96.0, 0.9]"
+    },
+    "81": {
+        "trust_score": 0.48887271593468434,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "New High Irradiance and Optimal Moisture",
+            "rationale": "This hypothesis focuses on maximizing both irradiance and moisture, aiming to find the sweet spot for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 16,
+                    "tmax": 29,
+                    "vap": 5.5,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.84
+                }
+            ]
+        },
+        "point": "[7900.0, 16.0, 29.0, 5.5, 0.4, 2.0, 85.0, 0.84]"
+    },
+    "93": {
+        "trust_score": 0.4877655598923229,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Temperature and Moisture",
+            "rationale": "This hypothesis focuses on maintaining high irradiance while ensuring temperatures and moisture levels are optimal for growth, based on previous successful conditions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7900,
+                    "tmin": 16,
+                    "tmax": 28,
+                    "vap": 5.5,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.84
+                }
+            ]
+        },
+        "point": "[7900.0, 16.0, 28.0, 5.5, 0.4, 2.0, 85.0, 0.84]"
+    },
+    "94": {
+        "trust_score": 0.4877655598923229,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Moisture and Temperature",
+            "rationale": "This hypothesis aims to explore the balance between moisture and temperature, as previous data suggests that optimal moisture levels are critical for growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7400,
+                    "tmin": 12,
+                    "tmax": 24,
+                    "vap": 4.0,
+                    "wind": 1,
+                    "rain": 4,
+                    "wav": 90,
+                    "SMLIM": 0.79
+                }
+            ]
+        },
+        "point": "[7400.0, 12.0, 24.0, 4.0, 1.0, 4.0, 90.0, 0.79]"
+    },
+    "95": {
+        "trust_score": 0.4877655598923229,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Low Wind and High Humidity",
+            "rationale": "Continuing to explore low wind speeds and higher vapor pressure, as these conditions have shown potential for enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7500,
+                    "tmin": 15,
+                    "tmax": 26,
+                    "vap": 6.0,
+                    "wind": 0.3,
+                    "rain": 3,
+                    "wav": 92,
+                    "SMLIM": 0.89
+                }
+            ]
+        },
+        "point": "[7500.0, 15.0, 26.0, 6.0, 0.3, 3.0, 92.0, 0.89]"
+    },
+    "96": {
+        "trust_score": 0.4877655598923229,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Moderate Irradiance with High Moisture",
+            "rationale": "This hypothesis explores the effects of moderate irradiance combined with high moisture levels, which may support biomass production without the stress of extreme conditions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5700,
+                    "tmin": 10,
+                    "tmax": 22,
+                    "vap": 3.0,
+                    "wind": 1,
+                    "rain": 8,
+                    "wav": 95,
+                    "SMLIM": 0.91
+                }
+            ]
+        },
+        "point": "[5700.0, 10.0, 22.0, 3.0, 1.0, 8.0, 95.0, 0.91]"
+    },
+    "97": {
+        "trust_score": 0.4877655598923229,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "New High Irradiance and Optimal Moisture",
+            "rationale": "This hypothesis focuses on maximizing both irradiance and moisture, aiming to find the sweet spot for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7950,
+                    "tmin": 16,
+                    "tmax": 29,
+                    "vap": 5.5,
+                    "wind": 0.4,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.85
+                }
+            ]
+        },
+        "point": "[7950.0, 16.0, 29.0, 5.5, 0.4, 2.0, 85.0, 0.85]"
+    }
+}

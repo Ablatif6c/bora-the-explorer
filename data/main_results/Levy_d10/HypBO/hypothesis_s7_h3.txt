@@ -1,0 +1,17 @@
+{
+    "name": "negative_quadrant_guess",
+    "rationale": "This guess targets the negative quadrant of the search space, with all parameters set to -5.0. This choice aims to explore whether the function may have a maximum in this less frequently tested region, as it could exhibit unique characteristics not observed in positive ranges.",
+    "confidence": 0.4,
+    "optimum_location": {
+        "x_0": -5.0,
+        "x_1": -5.0,
+        "x_2": -5.0,
+        "x_3": -5.0,
+        "x_4": -5.0,
+        "x_5": -5.0,
+        "x_6": -5.0,
+        "x_7": -5.0,
+        "x_8": -5.0,
+        "x_9": -5.0
+    }
+}

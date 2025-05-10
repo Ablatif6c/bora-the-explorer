@@ -1,0 +1,10 @@
+{
+    "rationale":"A tilt angle around 30-40° is often optimal for solar panels in mid-latitude regions, allowing for good energy capture throughout the day. An azimuth angle of 180° (south-facing in the northern hemisphere) is generally best for sunlight exposure. A system capacity of 10 kW and a DC to AC ratio of 1.2 could provide a balance of energy generation without significant losses.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 10,
+        "dc_ac_ratio": 1.2
+    }
+}

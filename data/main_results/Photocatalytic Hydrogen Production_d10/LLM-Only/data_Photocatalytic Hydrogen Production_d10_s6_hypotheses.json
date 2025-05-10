@@ -1,0 +1,2376 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Balanced pH Optimization",
+            "rationale": "This configuration is designed to establish an optimal pH environment for enhanced photocatalytic activity, utilizing NaOH to increase pH in conjunction with NaCl as a stabilizing agent.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.5,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.5, 1.0, 2.0, 3.0, 0.0, 0.0, 0.5, 0.0]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Optimal Ionic Strength",
+            "rationale": "This hypothesis explores the potential effects of varying ionic strength in the solution while maintaining alkaline conditions for optimal performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.25,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 2.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.25, 0.75, 0.5, 2.5, 1.0, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Low Surfactant and High Catalyst Ratio",
+            "rationale": "Focusing more on the photocatalyst while minimizing the amounts of surfactants to study their effects when present in lower concentrations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 1.0, 0.5, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": "FAILED",
+        "point": "[0.0, 0.5, 0.5, 0.5, 0.5, 3.0, 0.0, 0.75, 0.25, 0.0]",
+        "action": "Random"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Enhanced P10-MIX1 with Balanced Condition",
+            "rationale": "Building upon the results from experiment 4, this hypothesis aims to maximize P10-MIX1 while ensuring low concentrations of competing components to secure optimal HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.25,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.25, 0.5, 0.5, 4.0, 0.25, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Dye and Surfactant Synergy",
+            "rationale": "This hypothesis tests a combination of Methylene Blue and low concentrations of surfactants to explore their effects on HER while maintaining adequate P10-MIX1 levels.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.25,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.75,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.25, 0.0, 1.0, 0.0, 1.0, 3.0, 0.75, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Lower Ionic Strength and Increased Alkalinity",
+            "rationale": "Testing lower sodium chloride levels while increasing sodium hydroxide concentration to investigate the role of alkalinity in improving HER in conjunction with optimal P10-MIX1.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.25, 0.25, 2.0, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Sodium Hydroxide Focus",
+            "rationale": "Testing higher concentrations of sodium hydroxide while keeping NaCl and dye levels low to investigate the role of alkalinity in HER improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 3.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.25, 0.25, 2.0, 3.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Controlled Alkalinity",
+            "rationale": "Exploring a higher concentration of P10-MIX1 while keeping all other chemicals at low levels to maximize HER potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "L-Cysteine Synergistic Boost",
+            "rationale": "Focus on testing the synergistic effect of moderate L-Cysteine concentrations alongside high amounts of P10-MIX1 and low sodium chloride and dye levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Controlled Dye Evaluation",
+            "rationale": "Testing the effect of minimal Methylene Blue while maximizing P10-MIX1 and maintaining low sodium hydroxide concentrations to evaluate positive impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.25, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Controlled Alkalinity",
+            "rationale": "Continuing to explore high concentrations of P10-MIX1 while managing minimal quantities of other chemicals to maximize HER potentials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Synergistic Impact of L-Cysteine",
+            "rationale": "Assessing the potential synergistic effects of moderate L-Cysteine concentrations with high P10-MIX1 levels while maintaining low concentrations of other additives.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.25,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.25, 0.5, 0.0, 0.0, 1.5, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Minimal Dye Presence with High P10-MIX1",
+            "rationale": "Experimenting with very low concentrations of Methylene Blue while maintaining a high concentration of P10-MIX1 to evaluate interactions and their impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.5, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with High NaOH",
+            "rationale": "This hypothesis continues to maximize P10-MIX1 while adjusting sodium hydroxide levels to further enhance alkalinity, which is expected to favor HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Moderate L-Cysteine Exploration",
+            "rationale": "Exploring the effects of a varied concentration of L-Cysteine in conjunction with high P10-MIX1 levels to optimize HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Testing Sodium Chloride Influence",
+            "rationale": "Evaluating minimal sodium chloride presence while keeping high P10-MIX1 levels to understand its role in HER performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.25, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 and L-Cysteine Synergy",
+            "rationale": "Building upon successful previous experiments, this hypothesis aims to maximize both P10-MIX1 and L-Cysteine concentrations to explore their potential synergistic effects more effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Elevated Sodium Hydroxide Exploration",
+            "rationale": "Exploring the effects of higher sodium hydroxide levels while maintaining optimal concentrations of P10-MIX1 and L-Cysteine to investigate impacts on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Controlled Dyes Minimization",
+            "rationale": "Testing a configuration with minimal presence of dyes while maximizing P10-MIX1 and L-Cysteine concentrations, assessing their contributions to HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.5, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Moderate Sodium Hydroxide",
+            "rationale": "Testing a slightly lower sodium hydroxide concentration while keeping P10-MIX1 at a high level to assess the balance between alkalinity and photocatalyst efficiency.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Leveraging L-Cysteine with High P10-MIX1 and Low Dye Presence",
+            "rationale": "Exploring higher L-Cysteine concentrations to enhance synergy with P10-MIX1 while retaining minimal dye levels.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "High Sodium Hydroxide with Alternative L-Cysteine Ratio",
+            "rationale": "Testing the impact of an increased sodium hydroxide level while maintaining low dye presence and adjusting L-Cysteine to explore its role in enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.0, 2.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Adjusted Sodium Hydroxide",
+            "rationale": "This hypothesis focuses on maintaining a high concentration of P10-MIX1 while slightly varying sodium hydroxide levels to observe the effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.25, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Exploring High L-Cysteine with Minimal Dye",
+            "rationale": "Testing a higher concentration of L-Cysteine alongside significant P10-MIX1 while completely excluding dyes to gauge its impact on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 1.0, 4.0, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride with High Alkalinity",
+            "rationale": "Introducing slight variations in sodium chloride while sustaining high concentrations of P10-MIX1 and sodium hydroxide to explore their combined effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.5, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 and L-Cysteine",
+            "rationale": "This hypothesis capitalizes on the synergistic effects of high concentrations of both P10-MIX1 and L-Cysteine while maintaining minimal sodium chloride to further enhance HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Elevated Sodium Hydroxide with High P10-MIX1",
+            "rationale": "This hypothesis tests the influence of increased sodium hydroxide concentration alongside maximized P10-MIX1 to optimize alkalinity for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Minimal Dye and High Alkalinity with P10-MIX1",
+            "rationale": "Exploring minimal dye presence while maximizing P10-MIX1 and sodium hydroxide concentrations to gauge their collective impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Synergistic L-Cysteine",
+            "rationale": "Testing high concentrations of P10-MIX1 combined with an alternative L-Cysteine level to evaluate their cooperative effects on HER while keeping sodium chloride and dyes minimized.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Lower Sodium Hydroxide",
+            "rationale": "Examining the effects of high P10-MIX1 levels alongside a reduced sodium hydroxide concentration to explore the balance between alkalinity and HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride Alongside High P10-MIX1",
+            "rationale": "Testing slight variations in sodium chloride levels with high P10-MIX1 and optimized L-Cysteine to assess their collective impact on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.5, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Varied Sodium Hydroxide",
+            "rationale": "This hypothesis seeks to explore the effects of varied concentrations of sodium hydroxide while keeping P10-MIX1 at a maximum level to observe any potential improvements in HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Elevated Sodium Hydroxide with High L-Cysteine",
+            "rationale": "Focusing on elevated sodium hydroxide levels in the presence of significant L-Cysteine to probe for potential synergies that could enhance HER outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 2.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Controlled Evaluation of Low Dye Presence",
+            "rationale": "This hypothesis tests low concentrations of dyes while maximizing the concentrations of P10-MIX1 and L-Cysteine to evaluate their overall impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.25, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 and Elevated L-Cysteine",
+            "rationale": "Investigating high concentrations of both P10-MIX1 and L-Cysteine to explore their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "High Alkalinity with P10-MIX1 Optimization",
+            "rationale": "Exploring the effects of nearly maximal sodium hydroxide levels while keeping P10-MIX1 at 4.8 to optimizing reaction conditions for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride Assessment",
+            "rationale": "Testing slight variations in sodium chloride levels while maintaining high levels of P10-MIX1 and L-Cysteine to investigate their impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.5, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with High L-Cysteine and Low NaOH",
+            "rationale": "This hypothesis investigates the effects of very high P10-MIX1 and L-Cysteine while reducing sodium hydroxide to understand its role in HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Increased Sodium Hydroxide",
+            "rationale": "This hypothesis examines the interaction between maximal P10-MIX1 levels and increased sodium hydroxide concentrations to probe effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Testing High Sodium Chloride with Controlled Other Additives",
+            "rationale": "This hypothesis tests higher sodium chloride levels while ensuring low interference from other species to evaluate potential impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 1.0, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine",
+            "rationale": "Testing high concentrations of P10-MIX1 combined with elevated levels of L-Cysteine to exploit their synergistic effects on HER while keeping sodium chloride and dyes minimized.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Adjusted Sodium Hydroxide",
+            "rationale": "Exploring the impact of high concentrations of P10-MIX1 alongside a varied sodium hydroxide level to probe for optimal alkalinity effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Reduced Sodium Chloride with High P10-MIX1 and L-Cysteine",
+            "rationale": "Testing low sodium chloride levels while keeping high concentrations of P10-MIX1 and L-Cysteine to explore collective impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Optimized Low NaOH and Low Dye Presence",
+            "rationale": "Exploring the effects of high P10-MIX1 alongside a reduced concentration of sodium hydroxide while strictly minimizing any interfering dye presence.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 0.5, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride Adjustment with High P10-MIX1",
+            "rationale": "Investigating the role of a slightly elevated sodium chloride presence with maximized P10-MIX1 and moderate L-Cysteine to assess collective impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.25, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Elevated P10-MIX1 with Varied L-Cysteine and Low NaOH",
+            "rationale": "Testing high P10-MIX1 concentration (4.8 g/L) while varying L-Cysteine (1.0 g/L) and reducing sodium hydroxide (0.75 g/L) to examine effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Incremental L-Cysteine Increase",
+            "rationale": "Investigating increased L-Cysteine concentration (0.75 g/L) alongside maximal P10-MIX1 (4.8 g/L) and minimal presence of sodium chloride.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Assessing High P10-MIX1 with Modulated Sodium Chloride",
+            "rationale": "This hypothesis explores the effects of varied sodium chloride levels (1.0 g/L) while keeping P10-MIX1 at a high level (4.8 g/L) and maintaining L-Cysteine at minimal levels.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with High L-Cysteine and Varied NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 with elevated L-Cysteine levels, adjusting sodium hydroxide concentration to observe the effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Incremental NaCl Adjustment",
+            "rationale": "This hypothesis examines the impact of high P10-MIX1 concentration while incrementally adjusting sodium chloride levels to identify optimal conditions for HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.5, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Testing High P10-MIX1 with Low Surfactant and Enhanced Alkalinity",
+            "rationale": "This configuration seeks to assess the effects of low concentrations of surfactants while maximizing P10-MIX1 and sodium hydroxide levels to understand their synergetic role in HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Lower NaOH",
+            "rationale": "This hypothesis tests high levels of P10-MIX1 while reducing sodium hydroxide concentrations to evaluate how lower alkalinity affects HER in the presence of key additives.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Higher Sodium Hydroxide with Minimal Dyes",
+            "rationale": "Exploring the effects of an elevated sodium hydroxide concentration while keeping P10-MIX1 at its maximum and reducing interference from other components to enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Optimized L-Cysteine with Increased Sodium Chloride",
+            "rationale": "Testing increased sodium chloride levels in combination with high P10-MIX1 and adjusted L-Cysteine concentrations to analyze their combined role in enhancing HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.5, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Varied NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 alongside L-Cysteine while varying sodium hydroxide to explore its effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Minimal Dyes and Adjusted L-Cysteine",
+            "rationale": "Exploring minimal dye presence while maintaining high P10-MIX1 and varying L-Cysteine levels to assess their influence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride with Low NaOH and High P10-MIX1",
+            "rationale": "Testing slight increases in sodium chloride while keeping P10-MIX1 and L-Cysteine high, to evaluate combined effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.25, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Reduced NaOH",
+            "rationale": "Testing high P10-MIX1 concentrations with elevated levels of L-Cysteine while reducing sodium hydroxide to assess effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 0.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Testing High P10-MIX1 with Increased Alkalinity",
+            "rationale": "Exploring the impact of high P10-MIX1 alongside increased sodium hydroxide levels while minimizing sodium chloride and dye interference for HER optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 2.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Evaluating Moderate Sodium Chloride with High P10-MIX1 and L-Cysteine",
+            "rationale": "This hypothesis assesses the effects of a moderate sodium chloride concentration while maintaining high levels of P10-MIX1 and L-Cysteine.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.5, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Moderate NaOH",
+            "rationale": "Testing high P10-MIX1 concentrations alongside high levels of L-Cysteine while adjusting sodium hydroxide to explore its effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Low L-Cysteine and Moderate NaOH",
+            "rationale": "Exploring high P10-MIX1 concentrations with reduced levels of L-Cysteine and a moderate sodium hydroxide concentration to evaluate their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Low NaOH and Moderate L-Cysteine",
+            "rationale": "Exploring high concentrations of P10-MIX1 (4.8 g/L) with reduced sodium hydroxide (0.5 g/L) and moderate levels of L-Cysteine (0.75 g/L) to gauge impacts on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Testing Incremental Sodium Chloride with High P10-MIX1",
+            "rationale": "Investigating the role of slightly elevated sodium chloride (0.25 g/L) while maximizing P10-MIX1 (4.8 g/L) and keeping L-Cysteine low (0.25 g/L) to examine their combined effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.25, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with High L-Cysteine and Modified NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 alongside elevated L-Cysteine levels and a new sodium hydroxide concentration to assess their effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 1.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Lower NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to explore their effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.25, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Higher Sodium Hydroxide with High P10-MIX1 and Increased L-Cysteine",
+            "rationale": "This hypothesis examines the interaction between elevated sodium hydroxide levels and high concentrations of P10-MIX1 while increasing L-Cysteine to evaluate their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Higher Sodium Hydroxide with High P10-MIX1",
+            "rationale": "Exploring the impact of elevated sodium hydroxide concentrations while keeping P10-MIX1 at a maximum level to assess its role in enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 2.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Testing Low Sodium Chloride with High P10-MIX1",
+            "rationale": "Evaluating the effects of a lower sodium chloride concentration while maintaining high levels of P10-MIX1 and moderate L-Cysteine to explore their combined impacts on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.5, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Lower NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to assess their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Elevated Sodium Hydroxide with Low Dye and Max P10-MIX1",
+            "rationale": "This hypothesis evaluates high sodium hydroxide levels while keeping P10-MIX1 at a maximum and minimizing dye presence to analyze their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.0, 2.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Modulo Sodium Chloride Presence with High P10-MIX1",
+            "rationale": "Testing varying sodium chloride concentrations while maximizing P10-MIX1 and controlling L-Cysteine levels to investigate their combined impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.25, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Elevated Sodium Hydroxide with Minimal Dyes and Adjusted P10-MIX1",
+            "rationale": "Exploring high sodium hydroxide concentrations while keeping P10-MIX1 at near maximum and minimizing dye presence to analyze their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 2.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with L-Cysteine and Low Dyes",
+            "rationale": "Exploring the effects of high concentrations of P10-MIX1 alongside moderate levels of L-Cysteine and minimal presence of dyes to evaluate their impact on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.25, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride with High P10-MIX1 and L-Cysteine",
+            "rationale": "Investigating the impacts of slightly elevated sodium chloride levels while maintaining high levels of L-Cysteine and P10-MIX1 to assess their collective influence on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.5, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Elevated L-Cysteine with Reduced Sodium Chloride and High P10-MIX1",
+            "rationale": "Testing high concentrations of P10-MIX1 while varying L-Cysteine and reducing sodium chloride to assess their combined effects on HER efficiently.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.25, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "High Sodium Chloride with Synergistic NaOH and L-Cysteine",
+            "rationale": "Exploring the impacts of moderate sodium chloride together with high P10-MIX1 while adjusting sodium hydroxide and L-Cysteine to evaluate their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 1.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Elevated L-Cysteine and Adjusted Sodium Hydroxide",
+            "rationale": "Testing high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while adjusting sodium hydroxide to explore their effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.25, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Minimal L-Cysteine and Varied Sodium Chloride",
+            "rationale": "Exploring high concentrations of P10-MIX1 and minimal L-Cysteine while varying sodium chloride to evaluate their influence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.25, 0.0, 0.75, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Maximized L-Cysteine with Elevated Sodium Chloride and Low Dyes",
+            "rationale": "Investigating the effects of high concentrations of L-Cysteine, elevated sodium chloride, and minimal dye levels on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Decreased NaOH",
+            "rationale": "This hypothesis examines the effects of high P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to determine its influence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 0.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Elevated NaOH with Max P10-MIX1 and Low Dye Presence",
+            "rationale": "Exploring the role of increased sodium hydroxide levels combined with high P10-MIX1 while minimizing dye concentrations to assess their synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 2.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.25, 2.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Testing High NaCl with High P10-MIX1 and L-Cysteine",
+            "rationale": "This hypothesis explores the effects of high sodium chloride concentrations alongside high levels of P10-MIX1 and L-Cysteine to evaluate underlying interactions that may enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with High L-Cysteine and Reduced NaOH",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to assess their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 0.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Higher Sodium Hydroxide with Max P10-MIX1 and Increased L-Cysteine",
+            "rationale": "This hypothesis examines the interaction between elevated sodium hydroxide levels and high concentrations of P10-MIX1 while increasing L-Cysteine to evaluate their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Incremental Sodium Chloride with High P10-MIX1 and Low Dyes",
+            "rationale": "Testing slight increases in sodium chloride while keeping P10-MIX1 and L-Cysteine high, to evaluate combined effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.5, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Adjusted Sodium Hydroxide",
+            "rationale": "This hypothesis tests high concentrations of P10-MIX1 (4.80 g/L) alongside elevated levels of L-Cysteine (1.25 g/L) while varying sodium hydroxide to assess their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Low Dye and Optimized L-Cysteine",
+            "rationale": "Exploring the effects of high P10-MIX1 concentration combined with adjusted L-Cysteine to evaluate the influence on HER while minimizing dye presence.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "High L-Cysteine with Increased Sodium Hydroxide and P10-MIX1",
+            "rationale": "This hypothesis tests elevated sodium hydroxide levels alongside high concentrations of P10-MIX1 and L-Cysteine to evaluate their synergistic effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 2.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.0, 2.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Testing NaOH Variation with Max P10-MIX1 and Moderate L-Cysteine",
+            "rationale": "This hypothesis assesses how slight modifications in sodium hydroxide concentration affect the efficiency of high P10-MIX1 and L-Cysteine on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.0, 1.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Varied NaOH",
+            "rationale": "Testing high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while varying sodium hydroxide to assess synergistic effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Evaluating Low Sodium Hydroxide with High P10-MIX1 and Moderate L-Cysteine",
+            "rationale": "Exploring the combined effects of high P10-MIX1 (4.8 g/L) and moderate L-Cysteine (0.75 g/L) while carefully reducing sodium hydroxide levels to analyze the impact on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.75,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.75, 0.0, 0.0, 0.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Incremented Sodium Chloride and Minimal Dyes",
+            "rationale": "Exploring the impacts of adjusted sodium chloride levels while maintaining high concentrations of P10-MIX1 and keeping dye interference minimal to assess their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.75, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Elevated L-Cysteine and Lower NaOH Variant",
+            "rationale": "Testing high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to explore their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.5, 0.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Testing High P10-MIX1 with Moderate Dyes and Sodium Hydroxide Variant",
+            "rationale": "Investigating the role of elevated P10-MIX1 levels, moderate sodium hydroxide, and minimal dye presence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.25,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.25, 0.5, 1.0, 0.0, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Low Sodium Chloride with High P10-MIX1 and Elevated L-Cysteine Variant",
+            "rationale": "Exploring the effects of varying sodium chloride concentrations while maintaining high levels of P10-MIX1 and L-Cysteine to assess their combined influence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.75, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Elevated L-Cysteine and Reduced NaOH Variant",
+            "rationale": "Testing high concentrations of P10-MIX1 alongside elevated levels of L-Cysteine while reducing sodium hydroxide to explore their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 0.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 0.0, 0.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Incremented Sodium Chloride and Low Dyes",
+            "rationale": "Exploring the impacts of adjusted sodium chloride levels while maintaining high concentrations of P10-MIX1 and keeping dye interference minimal to assess their combined effects on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.5, 1.5, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "High P10-MIX1 and L-Cysteine with Varying Alkalinity",
+            "rationale": "Evaluating the interaction of high concentrations of P10-MIX1 and L-Cysteine while implementing varying levels of sodium hydroxide to assess their effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Maximized P10-MIX1 with Increased NaCl and Low L-Cysteine",
+            "rationale": "Testing configurations with high concentrations of P10-MIX1 alongside elevated sodium chloride (0.75 g/L) and reduced L-Cysteine (0.5 g/L) to assess their combined impact on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.75,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.75, 1.0, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Optimized Alkalinity and Varying NaCl",
+            "rationale": "Investigating the effects of high P10-MIX1 concentrations (4.6 g/L) alongside moderate sodium chloride levels (0.25 g/L) and variable sodium hydroxide (1.25 g/L) to enhance HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.25,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 0.25, 1.25, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "High P10-MIX1 with Low Dyes and Moderate NaCl",
+            "rationale": "Exploring high concentrations of P10-MIX1 while minimizing dye presence and adjusting sodium chloride to evaluate their influence on HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.25,
+                    "NaOH-1M": 1.75,
+                    "P10-MIX1": 4.8,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.5, 0.0, 0.25, 1.75, 4.8, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaOH with High P10-MIX1",
+            "rationale": "Investigating the effects of high concentrations of P10-MIX1 and moderate sodium hydroxide alongside varying L-Cysteine to assess their combined impact on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 4.6,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.0, 1.0, 4.6, 0.0, 0.0, 0.0, 0.0]",
+        "action": "LLM"
+    }
+}

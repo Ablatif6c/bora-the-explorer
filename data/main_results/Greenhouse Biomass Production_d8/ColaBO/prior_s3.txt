@@ -1,0 +1,16 @@
+```
+{
+    "rationale": "To maximize biomass production of sugar beet, high irradiance and optimal temperature ranges are critical. A daily minimum temperature around 15°C and a maximum around 25°C is generally conducive to plant growth. Additionally, a moderate vapour pressure and sufficient initial moisture content are important. A wind speed below 2 m/s minimizes stress on the plants. Considering these factors, I estimate the global maximum at irradiance levels that support photosynthesis without exceeding the plant's tolerance, hence a maximum of 7000 kJ/m2/day is chosen, along with moderate and sustainable values for other parameters.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 15,
+        "tmax": 25,
+        "vap": 2,
+        "wind": 1,
+        "rain": 10,
+        "wav": 50,
+        "SMLIM": 0.7
+    }
+}
+```

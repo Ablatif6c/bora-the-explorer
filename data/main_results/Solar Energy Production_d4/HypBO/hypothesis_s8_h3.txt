@@ -1,0 +1,11 @@
+{
+    "name": "Optimal Efficiency Solar Array",
+    "rationale": "A tilt angle of 35° effectively balances energy capture during both summer and winter months, enhancing year-round performance. An azimuth angle of 190° maximizes afternoon solar exposure, which is beneficial in areas with strong direct sunlight in the late day. A system capacity of 16 kW is chosen to ensure substantial output for larger applications, and a dc_ac_ratio of 1.3 is selected to maintain high efficiency while accommodating potential overproduction of DC power.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 190,
+        "system_capacity": 16,
+        "dc_ac_ratio": 1.3
+    }
+}

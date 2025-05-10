@@ -1,0 +1,13 @@
+```
+{
+    "name": "Peak Solar Production Setup",
+    "rationale": "A tilt angle of 40° can be effective in maximizing energy capture in higher latitudes where the sun's angle is lower during certain times of the year. An azimuth angle of 190° allows the panel to capture sunlight effectively from early morning until late afternoon, enhancing overall production time. A system capacity of 18 kW is closer to the upper limit but can be advantageous in high-energy demand scenarios. A dc_ac_ratio of 1.3 ensures efficiency while facilitating higher energy throughput.",
+    "confidence": "0.78",
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 190,
+        "system_capacity": 18,
+        "dc_ac_ratio": 1.3
+    }
+}
+```

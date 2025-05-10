@@ -1,0 +1,16 @@
+```json
+{
+    "name": "Initial Guess for Global Maximum",
+    "rationale": "To maximize the score, the projectile should be launched at a high enough initial velocity and at an optimal angle to achieve a good trajectory toward the target. A launch angle around 45 degrees is often considered ideal for distance, but since we're aiming at a target 50m away, we may need to slightly adjust this angle. A yaw angle of 0 should keep the projectile aimed directly at the target. A moderate spin can stabilize the projectile, hence a spin of around 1000 RPM is a good start. The initial height can help with distance covered, so 1m is chosen. The mass should be low enough not to impede acceleration but high enough for stability; hence, 1 kg is reasonable. Thus, the optimal point may roughly be heeded from physics principles and empirical knowledge of projectile motion.",
+    "confidence": "0.7",
+    "optimum_location": {
+        "pitch_deg": 45,
+        "yaw_deg": 0,
+        "v0": 37.5,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1
+    }
+}
+```

@@ -1,0 +1,11 @@
+{
+    "name": "Enhanced Energy Harvesting Setup",
+    "rationale": "To maximize solar energy production, the tilt should be aligned with the geographical location, often around 30° to 45° for mid-latitude locations to capture both winter and summer sun effectively. The azimuth angle is recommended to be adjusted to south for optimal sunlight exposure. A system capacity of 15 kW allows for substantial energy generation while considering installation limits, and a DC to AC ratio of 1.2 ensures efficient energy conversion without potential loss during peak generation times.",
+    "confidence": 0.7,
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.2
+    }
+}

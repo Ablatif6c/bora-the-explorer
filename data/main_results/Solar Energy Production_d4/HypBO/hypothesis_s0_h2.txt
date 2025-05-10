@@ -1,0 +1,11 @@
+{
+    "name": "Efficient Solar Energy Capture",
+    "rationale": "A tilt angle of around 40° is often effective for maximizing energy capture, especially in regions with higher latitudes where the sun's angle changes significantly throughout the year. Setting the azimuth to 190° provides good afternoon sun exposure. A system capacity of 12 kW strikes a balance between energy production needs and equipment efficiency. A DC to AC ratio of 1.1 offers a slight oversizing to capture more energy during optimal solar conditions without excessive inverter clipping.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "tilt": 40,
+        "azimuth": 190,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.1
+    }
+}

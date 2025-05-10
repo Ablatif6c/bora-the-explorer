@@ -1,0 +1,14 @@
+{
+    "name": "Projectile Launch Optimization",
+    "rationale": "Based on the physics of projectile motion, an upward launch angle around 30° is commonly effective for achieving a good balance between vertical and horizontal distance for shorter throws aimed at a target. Keeping the yaw at 0° ensures the throw is aimed directly at the target. An initial velocity of approximately 35 m/s can provide sufficient speed to reach the target. The spin at 1000 rpm may help in maintaining a stable flight path without causing excessive drag. A height of 1.5 m can potentially give better distance due to reduction in required launch angle. Choosing a mass of 2 kg offers a decent compromise between inertia and the capacity to maintain speed.",
+    "confidence": "0.7",
+    "optimum_location": {
+        "pitch_deg": 30,
+        "yaw_deg": 0,
+        "v0": 35,
+        "spin_rpm": 1000,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 2
+    }
+}

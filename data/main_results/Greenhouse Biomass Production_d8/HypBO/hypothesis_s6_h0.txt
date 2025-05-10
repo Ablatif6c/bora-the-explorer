@@ -1,0 +1,17 @@
+```json
+{
+    "name": "Optimal Greenhouse Conditions for Sugar Beet",
+    "rationale": "High irradiance and suitable temperature ranges alongside optimal moisture and minimal stress factors are expected to maximize biomass production. Increasing irradiance to the upper bound encourages photosynthesis. Temperatures around 20°C for tmin and 30°C for tmax are ideal for growth. Vapour pressure should be moderate to avoid stress. Water availability in the soil is crucial, thus wav should be around 80 cm and SMLIM should be maximized to retain moisture efficiently.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "irrad": 8000,
+        "tmin": 20,
+        "tmax": 30,
+        "vap": 5,
+        "wind": 1,
+        "rain": 5,
+        "wav": 80,
+        "SMLIM": 1
+    }
+}
+```

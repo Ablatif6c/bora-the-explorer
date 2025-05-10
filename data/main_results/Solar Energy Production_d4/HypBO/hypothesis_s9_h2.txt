@@ -1,0 +1,13 @@
+```
+{
+    "name": "Balanced Solar Energy Maximization",
+    "rationale": "A tilt angle of 25° is favorable for many regions, providing a good balance of sunlight capture throughout the changing seasons. An azimuth angle of 165° (just east of due south) is optimal for maximizing solar exposure in the afternoon sun, especially in temperate zones. A system capacity of 12 kW allows for a substantial energy draw, and a dc_ac_ratio of 1.1 is efficient for minimizing loss during conversion. This configuration maximizes potential energy production while considering typical sunlight patterns.",
+    "confidence": "0.75",
+    "optimum_location": {
+        "tilt": 25,
+        "azimuth": 165,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.1
+    }
+}
+```

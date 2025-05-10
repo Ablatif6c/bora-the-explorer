@@ -1,0 +1,24 @@
+```json
+{
+    "name": "balanced_approach_initial_guess",
+    "rationale": "Another strategic initial guess could be to set alternating values to the upper and lower bounds. This approach creates a spread across the parameter space, potentially capturing diverse behaviors of the black-box function. By alternating between the extreme values, we explore the search space more broadly.",
+    "confidence": 0.65,
+    "optimum_location": {
+        "x_0": -30,
+        "x_1": 20,
+        "x_2": -30,
+        "x_3": 20,
+        "x_4": -30,
+        "x_5": 20,
+        "x_6": -30,
+        "x_7": 20,
+        "x_8": -30,
+        "x_9": 20,
+        "x_10": -30,
+        "x_11": 20,
+        "x_12": -30,
+        "x_13": 20,
+        "x_14": -30
+    }
+}
+```

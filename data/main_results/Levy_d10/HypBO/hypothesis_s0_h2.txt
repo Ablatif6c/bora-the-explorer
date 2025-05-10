@@ -1,0 +1,17 @@
+{
+    "name": "mid_range_guess_for_global_maximum",
+    "rationale": "Considering the potential complexity of the function and patterns that may occur, an interesting point to evaluate might be the midpoint of the positive and negative bounds. Therefore, I suggest (5, -5, 5, -5, 5, -5, 5, -5, 5, -5). This guess alternates between high and low values, which could capture interesting behavior of the function while still exploring the broader space.",
+    "confidence": 0.55,
+    "optimum_location": {
+        "x_0": 5.0,
+        "x_1": -5.0,
+        "x_2": 5.0,
+        "x_3": -5.0,
+        "x_4": 5.0,
+        "x_5": -5.0,
+        "x_6": 5.0,
+        "x_7": -5.0,
+        "x_8": 5.0,
+        "x_9": -5.0
+    }
+}

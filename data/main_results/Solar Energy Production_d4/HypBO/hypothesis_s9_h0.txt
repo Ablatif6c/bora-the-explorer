@@ -1,0 +1,13 @@
+```
+{
+    "name": "Optimal Solar Panel Settings",
+    "rationale": "A tilt angle of around 30° is generally considered optimal for solar panels in many regions to capture sunlight effectively. An azimuth angle of 180° (south-facing) is ideal in the northern hemisphere for maximizing exposure. A system capacity of 15 kW is substantial enough to capture significant energy without being excessively large, and a dc_ac_ratio of 1.2 allows for efficient energy conversion while preventing losses. These parameters are chosen based on common best practices for solar energy optimization.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.2
+    }
+}
+```

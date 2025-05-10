@@ -1,0 +1,11 @@
+{
+    "name": "Maximized Mid-range Solar Setup",
+    "rationale": "A tilt angle of 30° is often found to be effective for balancing seasonal variations in solar incidence, particularly in temperate climates. An azimuth angle of 180° aligns the panels directly towards the equator, ensuring optimal energy capture throughout the day. A system capacity of 8 kW is pragmatic for standard residential use, providing ample energy without over-saturating the roof area. A DC/AC ratio of 1.2 will help ensure that energy capture is maximized while keeping conversion losses low.",
+    "confidence": 0.76,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 8,
+        "dc_ac_ratio": 1.2
+    }
+}

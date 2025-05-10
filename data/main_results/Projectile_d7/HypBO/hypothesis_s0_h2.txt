@@ -1,0 +1,14 @@
+{
+    "name": "Balanced Mid-Range Estimate",
+    "rationale": "To achieve a balance between distance and accuracy, I suggest a pitch_deg of 40°, slightly below the classic 45° to enhance control while still benefiting from elevation. A yaw_deg of 0° continues to aim straight at the target. I recommend an initial velocity (v0) of 25 m/s, which is sufficient to reach the target with an appropriate projectile arc. A spin_rpm of 800 rpm should help stabilize the flight without excessive drag. The spin_axis_deg is kept at 0° for direct trajectory alignment. A release height (h0) of 1 m will provide stability, and a mass (mass) of 2 kg allows for a good combination of throw power and control.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 0,
+        "v0": 25,
+        "spin_rpm": 800,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 2
+    }
+}

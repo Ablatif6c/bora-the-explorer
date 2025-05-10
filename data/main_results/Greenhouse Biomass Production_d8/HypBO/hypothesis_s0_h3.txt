@@ -1,0 +1,17 @@
+```
+{
+    "name": "Ideal Conditions for Sugar Beet Biomass Maximization",
+    "rationale": "To achieve maximum biomass production for sugar beet in a greenhouse, a careful selection of parameters is vital. Setting irradiance at 6800 kJ/m2/day provides robust light for photosynthesis while avoiding light saturation. An optimal temperature range with a minimum at 14°C and maximum at 26°C balances warmth and prevents heat stress. A vapor pressure of 5 kPa is ideal for maintaining humidity without excessive moisture. A wind speed of 0.7 m/s enhances air circulation around the plants without causing damage. Rainfall should be kept low at 4 mm to maintain slight tension in the soil. An initial water amount of 75 cm promotes sufficient moisture levels, and a maximum initial moisture content of 0.85 supports water retention, ensuring the root zone remains adequately moist throughout the growth period.",
+    "confidence": 0.78,
+    "optimum_location": {
+        "irrad": 6800,
+        "tmin": 14,
+        "tmax": 26,
+        "vap": 5,
+        "wind": 0.7,
+        "rain": 4,
+        "wav": 75,
+        "SMLIM": 0.85
+    }
+}
+```

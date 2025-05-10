@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Boundary Extreme Values",
+            "rationale": "Exploring the extreme boundaries may reveal potential maxima due to extreme behavior of the black-box function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Values",
+            "rationale": "Testing balanced mid-range values to evaluate potential interactions between parameters near their central limits.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Diverse Combination",
+            "rationale": "Selecting a variety of random mid-range values to assess their cumulative impact on the objective function.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": -10,
+                    "x_2": 12,
+                    "x_3": -5,
+                    "x_4": 8,
+                    "x_5": -15,
+                    "x_6": 1,
+                    "x_7": 14,
+                    "x_8": 2,
+                    "x_9": 20,
+                    "x_10": -8,
+                    "x_11": -12,
+                    "x_12": 3,
+                    "x_13": 10,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[6, -10, 12, -5, 8, -15, 1, 14, 2, 20, -8, -12, 3, 10, -6]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Negative Midpoint Exploration",
+            "rationale": "Investigating the negative range near midpoints might uncover behaviors distinct from the positive range.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15,
+                    "x_1": -15,
+                    "x_2": -15,
+                    "x_3": -15,
+                    "x_4": -15,
+                    "x_5": -15,
+                    "x_6": -15,
+                    "x_7": -15,
+                    "x_8": -15,
+                    "x_9": -15,
+                    "x_10": -15,
+                    "x_11": -15,
+                    "x_12": -15,
+                    "x_13": -15,
+                    "x_14": -15
+                }
+            ]
+        },
+        "point": "[-15, -15, -15, -15, -15, -15, -15, -15, -15, -15, -15, -15, -15, -15, -15]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Positive Upper Bound Exploration",
+            "rationale": "This hypothesis focuses on high positive values for most parameters to detect potential maxima in the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 12,
+                    "x_2": 10,
+                    "x_3": 18,
+                    "x_4": 19,
+                    "x_5": 17,
+                    "x_6": 16,
+                    "x_7": 19,
+                    "x_8": 15,
+                    "x_9": 14,
+                    "x_10": 10,
+                    "x_11": 12,
+                    "x_12": 13,
+                    "x_13": 11,
+                    "x_14": 15
+                }
+            ]
+        },
+        "point": "[15, 12, 10, 18, 19, 17, 16, 19, 15, 14, 10, 12, 13, 11, 15]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Enhanced Mid-Range Exploration",
+            "rationale": "Given our findings, this point explores the mid-range further while adjusting slightly to maximize interaction potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 4,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 4,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 4, 6, 5, 6, 7, 5, 5, 5, 5, 4, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Positive Variability Exploration",
+            "rationale": "We aim to diversify positive mid-range configurations to see if variations yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 8,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": 10,
+                    "x_5": 9,
+                    "x_6": 11,
+                    "x_7": 8,
+                    "x_8": 14,
+                    "x_9": 10,
+                    "x_10": 12,
+                    "x_11": 11,
+                    "x_12": 13,
+                    "x_13": 10,
+                    "x_14": 12
+                }
+            ]
+        },
+        "point": "[10, 8, 15, 12, 10, 9, 11, 8, 14, 10, 12, 11, 13, 10, 12]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Fine-Tuning Around High Results",
+            "rationale": "Tuning parameters around the previously found high point to identify a potential peak.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 5, 5, 6, 5, 5, 7, 5, 5, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Optimal Mid-Range Precision",
+            "rationale": "Building on previous results, this hypothesis centrally focuses on maximizing interactions around the successful configuration of 5.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 6,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 5, 5, 5, 5, 6, 5, 5, 5, 6, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Slight Variability in Successful Configuration",
+            "rationale": "This hypothesis explores slight upward adjustments from the previously successful configurations to find any potential peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 6, 5, 6, 5, 5, 5, 5, 5, 5, 6, 5]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Exploratory Positive Mid-Range Configuration",
+            "rationale": "This hypothesis tests various positive combinations while still focusing on the mid-range area around 5 to discover cumulative benefits.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 9,
+                    "x_2": 10,
+                    "x_3": 11,
+                    "x_4": 10,
+                    "x_5": 10,
+                    "x_6": 9,
+                    "x_7": 10,
+                    "x_8": 14,
+                    "x_9": 10,
+                    "x_10": 8,
+                    "x_11": 9,
+                    "x_12": 11,
+                    "x_13": 10,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[8, 9, 10, 11, 10, 10, 9, 10, 14, 10, 8, 9, 11, 10, 10]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Further Exploration with Variability",
+            "rationale": "This hypothesis aims to evaluate values close to previous peaks, allowing for slight variations to test interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 4,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 6, 7, 5, 6, 5, 5, 6, 6, 5, 5, 4, 5, 5]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Maximization",
+            "rationale": "Testing around previously successful values near 5 to ensure we capture any subtle interactions that may yield optimal performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Exploratory Adjustment High",
+            "rationale": "Testing configurations slightly above the successful mid-range setup to uncover potential interactions that elevate performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 6,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 6, 5, 5, 6, 5, 6, 5, 5, 5, 5, 6, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Subtle Lower Adjustment",
+            "rationale": "Focusing on slightly lower adjustments to observe if they also yield comparable outputs to mid-range setups.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Broad Positive Mid-Range Exploration",
+            "rationale": "Broader testing around positive mid-range values to gauge cumulative interaction effects towards the upper mid-range.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 8,
+                    "x_7": 7,
+                    "x_8": 9,
+                    "x_9": 7,
+                    "x_10": 9,
+                    "x_11": 8,
+                    "x_12": 7,
+                    "x_13": 8,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[8, 7, 6, 5, 7, 6, 8, 7, 9, 7, 9, 8, 7, 8, 6]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Precision",
+            "rationale": "Continuing to systematically explore values around 5 to capture subtle interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 4, 5, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Slightly Elevated Configuration",
+            "rationale": "Testing a slightly elevated configuration to explore potential performance peaks near 6.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 6, 6, 7, 6, 6, 5, 5, 6, 6, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Exploration",
+            "rationale": "Exploring slightly lower adjustments to analyze if they yield competitive outputs compared to mid-range setups.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Broad Positive Mid-Range Exploration",
+            "rationale": "Testing a broader range of values near the upper mid-range to gauge cumulative interaction effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 7,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 9,
+                    "x_7": 8,
+                    "x_8": 6,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 8,
+                    "x_13": 9,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[8, 7, 5, 6, 6, 7, 9, 8, 6, 8, 6, 7, 8, 9, 7]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Exploration",
+            "rationale": "To maximize interactions within the optimal mid-range area, we focus around the most successful tested values, specifically near 5 and 6.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 6, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Slightly Elevated Configuration",
+            "rationale": "Exploring configurations slightly above the optimal mid-range to detect potential peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 6, 6, 6, 6, 6, 6, 5, 6, 5, 5, 5, 5, 6, 5]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Competitive Lower Mid-Range Adjustments",
+            "rationale": "Investigating lower adjustments to ensure yields competitive outcomes relative to successful mid-range setups.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Upper Positive Mid-Range Exploration",
+            "rationale": "Testing upper mid-range values around 7 to determine cumulative interactions conducive to high outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 8,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 7,
+                    "x_11": 8,
+                    "x_12": 8,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 5, 6, 7, 6, 8, 7, 6, 7, 7, 8, 8, 7, 7]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration",
+            "rationale": "Continuing to focus on parameters aggregated around 5 and 6 to probe potential interactions that may enhance performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 6, 5, 6, 5, 5, 6, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Slightly Elevated Configuration",
+            "rationale": "Exploring values slightly above optimal mid-range settings to detect potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 7,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 7, 6, 7, 6, 6, 7, 6, 7, 7, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Competitive Lower Mid-Range Adjustments",
+            "rationale": "Investigating lower adjustments to ensure yields competitive outcomes relative to successful mid-range configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 4, 5]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Exploration",
+            "rationale": "Testing a variety of configurations focused on the upper mid-range to uncover hidden performance benefits.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 8,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 8,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 8,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 8, 6, 6, 7, 6, 7, 8, 6, 6, 7, 6, 8, 6, 7]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Exploration",
+            "rationale": "To maximize interactions within the optimal mid-range area, we focus around known successful parameter values, specifically near 5 and 6.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 6, 5, 5, 6, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Exploratory Upper Mid-Range Configuration",
+            "rationale": "Expanding testing configurations around the upper mid-range to uncover additional performance enhancements in target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 7,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 7, 7, 7, 6, 7, 7, 5, 7, 6, 5, 5, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Testing",
+            "rationale": "Investigating combinations to identify competitive outputs while staying lower in the mid-range, aiming for strong performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 4, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Diverse Mid-Range Variation Testing",
+            "rationale": "Testing a mix of varied mid-range configurations (between 5-7) to assess combined performance effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 6, 7, 6, 7, 6, 5, 6, 7, 5, 6, 5, 6]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Targeted Mid-Range Precision",
+            "rationale": "Refining focus on parameters surrounding the most successful values (5 and 6) to capture interactions that yield maximum performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 6, 6, 5, 5, 6, 5, 5, 6, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Slightly Elevated Parameter Configuration",
+            "rationale": "Exploring configurations slightly above the main peak (around 6) to detect potential maxima in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 7, 7, 7, 6, 7, 6, 6, 7, 7, 6, 6, 6]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Evaluating Lower Mid-Range Adjustments",
+            "rationale": "Attempting combinations lower than 5 within the mid-range that maintain competitive outputs relative to successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 4, 5, 4, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Exploratory Diverse Upper Mid-Range Variation",
+            "rationale": "Testing a range of configurations within the upper mid-range to assess combined effects on performance and understand potential interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 7,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 6, 7, 7, 7, 7, 7, 7, 6, 6, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Focusing on parameters within the upper mid-range to capitalize on the previously identified peak performance area.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 6, 7, 6, 7, 7, 6, 7, 7, 6, 6, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Competitive Mid-Range Adjustments",
+            "rationale": "Evaluating lower mid-range combinations to ensure competitive outcomes against previously successful configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Upper Mid-Range Variation Testing",
+            "rationale": "Exploring variations within the upper mid-range to assess their combined effects on performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 6, 6, 6, 7, 6, 7, 6, 7, 6, 6, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Mixed Upper Mid-Range Exploration",
+            "rationale": "Testing diverse combinations within the upper mid-range to uncover potential synergistic effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 6, 7, 6, 7, 6, 6, 5, 6, 6, 6, 6, 6]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Precision",
+            "rationale": "Continuing to refine parameters around known successful values to maximize interactions and performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 6, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Targeted Upper Mid-Range Exploration",
+            "rationale": "Exploring configurations within the upper mid-range to capture potential peaks in target performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 6, 7, 7, 6, 7, 6, 7, 6, 7, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Fine-Tuned Lower Mid-Range Adjustments",
+            "rationale": "Investigating lower adjustments that hover near 5 to ensure competitive outcomes while observing parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variants",
+            "rationale": "Testing various configurations clustered around the upper mid-range to understand their interactive performance effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 7, 7, 6, 7, 6, 7, 6, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Exploring unique configurations within the upper mid-range value to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 7,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 5, 7, 7, 6, 6, 6, 6, 7, 6, 7, 7, 6, 7]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Precision",
+            "rationale": "Exploring configurations centered around known successful values (primarily around 5) to capture interactions that yield maximum performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 5, 6, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Adjustment Testing",
+            "rationale": "Investigating reliable configurations lower than 5 while ensuring they still maintain competitive output against successful mid-range setups.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 5, 5, 4, 5, 5, 5, 5, 5, 5, 4, 5]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variants",
+            "rationale": "Testing various configurations clustered around the upper mid-range to understand their interactive performance effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 6, 6, 7, 6, 7, 6, 7, 6, 7, 6, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Upper Mid-Range Precision",
+            "rationale": "Targeting configurations that emphasize upper mid-range values to capture potential performance peaks, specifically around 6 and 7.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 6, 7, 6, 7, 6, 7, 7, 7, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Focused Mid-Range Adjustment",
+            "rationale": "Exploring configurations clustered around successful mid-range values (5 and 6) to capture interactions that yield maximum performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 6, 5, 5, 6, 5, 5, 6, 5, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Exploration",
+            "rationale": "Testing a variety of configurations within the upper mid-range to assess performance interactions more dynamically.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 6, 7, 7, 6, 7, 6, 6, 7, 6, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Investigation",
+            "rationale": "Testing unique configurations slightly below known competitive values (around 4) to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 4,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 4, 5, 5, 4, 5, 5, 4, 5, 5, 5, 4, 5, 5]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Targeted Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations that emphasize upper mid-range values to capture potential performance peaks, particularly around 6 and 7.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 7,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 7, 6, 6, 7, 7, 7, 6, 7, 6, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring known successful values around 5 to maximize interactions and overall performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 7,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 7, 5, 6, 6, 5, 5, 6, 5, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Investigation",
+            "rationale": "Testing unique configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 5,
+                    "x_2": 4,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 4,
+                    "x_6": 5,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[3, 5, 4, 5, 4, 4, 5, 4, 5, 5, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variability",
+            "rationale": "Testing a variety of configurations within the upper mid-range to assess performance interactions more dynamically.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 7, 6, 7, 6, 6, 7, 7, 7, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Targeted Upper Mid-Range Exploration",
+            "rationale": "Focusing on configurations that emphasize upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 7,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 7, 7, 6, 7, 6, 7, 7, 7, 6, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Configuration",
+            "rationale": "Continuing to explore around the value of 5 with slight variations, as previous results suggest strong performance and prime interaction potential.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 6, 5, 5, 5, 5, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Lower Mid-Range Variant Testing",
+            "rationale": "Exploring slightly lower than 5 to see if adjustments can yield competitive outputs relative to successful mid-range configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 5, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Exploratory Upper Mid-Range Variants",
+            "rationale": "Testing a variety of configurations clustered near the top of the previously successful range to assess performance interactions and identify additional peaks.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 6, 7, 6, 6, 7, 7, 7, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values (6 and 7) to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 7, 6, 7, 6, 7, 7, 7, 6, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 6, 5, 5, 6, 5, 5, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below 5 to see if they can yield competitive outputs relative to successful mid-range setups.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 5, 4, 5, 5, 5, 4, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variants",
+            "rationale": "Testing a variety of configurations clustered around the upper mid-range to tap into potential performance interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 7, 7, 7, 6, 7, 7, 7, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Focusing on configurations that emphasize upper mid-range values (6 and 7) to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 7, 7, 6, 6, 6, 7, 7, 6, 6, 6, 7, 7]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 6,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 5, 5, 6, 5, 5, 6, 5, 6, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing unique configurations slightly below 5 to see if adjustments can yield competitive outputs relative to successful mid-range configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 3,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 3,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[4, 3, 5, 5, 4, 5, 4, 5, 3, 5, 5, 4, 5, 5, 4]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variants",
+            "rationale": "Testing a variety of configurations clustered within the upper mid-range to assess performance interactions more dynamically.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 7, 6, 7, 6, 7, 5, 6, 7, 6, 6, 6, 5, 6]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 7, 6, 7, 6, 7, 7, 7, 6, 7, 6, 7, 7]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring around the value of 5 with slight variations to ensure optimal interactions lead to maximum performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 5, 6, 5, 5, 6, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing values above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 7,
+                    "x_13": 6,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 6, 7, 6, 7, 6, 7, 6, 6, 7, 7, 6, 6]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Exploratory Diverse Lower Mid-Range",
+            "rationale": "Testing unique configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 5, 5, 4, 5, 4, 5, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 6,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 7, 6, 6, 6, 7, 6, 7, 6, 7, 7, 6, 6, 6]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 5, 6, 5, 5, 6, 5, 5, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing values above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 5, 5, 6, 7, 7, 6, 5, 7, 7, 7, 6, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below 5 to see if they can yield competitive outputs relative to higher performing configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 4,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 3, 5, 4, 4, 5, 4, 5, 4, 5, 5, 4, 5]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 6, 7, 7, 7, 6, 6, 6, 6, 7, 7, 6, 7, 7]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring configurations centered around the value of 5 to maximize interactions and achieve high performance based on prior outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 4, 5, 5, 5, 6, 5, 5, 5, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 7, 7, 6, 6, 6, 6, 7, 6, 5, 6, 5, 7]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 4,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 4, 5, 5, 4, 4, 5, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 7, 6, 7, 6, 7, 6, 6, 7, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 5, 6, 5, 5, 5, 6, 5, 5, 6, 5, 6]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 6, 5, 7, 6, 5, 6, 5, 7, 6, 7, 5, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 4,
+                    "x_8": 5,
+                    "x_9": 4,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 4, 5, 4, 4, 5, 4, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Diverse Upper Mid-Range Variants",
+            "rationale": "Testing a variety of configurations clustered around the upper mid-range to assess performance interactions more dynamically.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 7,
+                    "x_11": 6,
+                    "x_12": 7,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 7, 7, 6, 7, 6, 6, 7, 7, 6, 7, 7, 6]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 5,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 6, 7, 6, 5, 7, 6, 7, 6, 7, 6, 7, 6, 7, 6]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[5, 6, 6, 5, 5, 6, 5, 5, 5, 6, 5, 5, 6, 5, 4]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 3,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 3,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[4, 3, 5, 4, 5, 4, 5, 5, 3, 5, 5, 4, 5, 5, 4]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 5, 6, 7, 6, 5, 7, 5, 7, 6, 7, 5, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 7,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 6, 6, 7, 6, 7, 6, 7, 7, 7, 6, 7, 6, 7, 7]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 4, 5, 6, 5, 6, 5, 5, 6, 5, 5, 6, 5]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 6,
+                    "x_12": 5,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 5, 6, 7, 6, 7, 5, 6, 7, 6, 5, 6, 5, 7, 6]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": 5,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 4, 5, 4, 5, 4, 5, 5, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting unique configurations emphasizing upper mid-range values to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 6,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 5,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 6,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 6, 6, 7, 6, 7, 5, 6, 6, 6, 6, 7, 6, 7, 5]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around successful mid-range values to maximize interactions and optimize performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 5, 5, 6, 6, 5, 5, 6, 4, 5, 5, 5]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 3, 5, 4, 4, 5, 4, 5, 5, 4, 5, 5, 6]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 7,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 6, 7, 6, 7, 5, 7, 6, 5, 7, 5, 6, 7]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 7,
+                    "x_13": 6,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 6, 7, 6, 7, 6, 6, 7, 6, 7, 7, 6, 6]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 6,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 5, 5, 6, 5, 5, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Slightly Elevated Mid-Range Structure",
+            "rationale": "Testing new configurations above 5 to identify other potential peaks in output while remaining focused on competitive mid-range areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 5,
+                    "x_2": 7,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 7,
+                    "x_7": 6,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 5, 7, 6, 7, 6, 7, 6, 7, 6, 7, 5, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Exploratory Lower Mid-Range Investigation",
+            "rationale": "Testing configurations slightly below known competitive values to uncover hidden interactive performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4,
+                    "x_1": 4,
+                    "x_2": 5,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": 4,
+                    "x_6": 4,
+                    "x_7": 5,
+                    "x_8": 4,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 4,
+                    "x_12": 5,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[4, 4, 5, 4, 5, 4, 4, 5, 4, 5, 5, 4, 5, 4, 5]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Refined Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 6,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 6,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 6, 7, 7, 6, 6, 6, 7, 6, 7, 6, 6, 7]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Precision",
+            "rationale": "Exploring robust configurations centered around the value of 5 to maximize interactions based on previous strong outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 5, 5, 6, 5, 5, 5, 6, 5, 5, 6, 5, 5]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Focused Upper Mid-Range Exploration",
+            "rationale": "Targeting configurations emphasizing upper mid-range values, particularly around 6 and 7, to capture potential performance peaks.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 6,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 7,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 7
+                }
+            ]
+        },
+        "point": "[7, 7, 6, 7, 6, 7, 6, 7, 6, 7, 6, 7, 6, 7, 7]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Enhanced Balanced Mid-Range Configuration",
+            "rationale": "Continuing to explore robust configurations centered around the value of 5 to maximize interactions known from past outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 6,
+                    "x_3": 5,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 6, 5, 6, 5, 5, 5, 6, 5, 6, 5, 6, 5, 5]",
+        "action": "LLM"
+    }
+}

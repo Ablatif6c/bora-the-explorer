@@ -1,0 +1,27 @@
+We are about to start experiments to find the best parameter settings maximizing target using Bayesian Optimization.
+
+**Experiment Overview:**
+Mathematical black-box function.
+
+**Optimization Parameters:**
+The experiment design space is defined by the parameters below, including their bounds and any relevant constraints:
+- x_0: The value of input variable 0. This parameter bounds are (-30, 20).
+- x_1: The value of input variable 1. This parameter bounds are (-30, 20).
+- x_2: The value of input variable 2. This parameter bounds are (-30, 20).
+- x_3: The value of input variable 3. This parameter bounds are (-30, 20).
+- x_4: The value of input variable 4. This parameter bounds are (-30, 20).
+- x_5: The value of input variable 5. This parameter bounds are (-30, 20).
+- x_6: The value of input variable 6. This parameter bounds are (-30, 20).
+- x_7: The value of input variable 7. This parameter bounds are (-30, 20).
+- x_8: The value of input variable 8. This parameter bounds are (-30, 20).
+- x_9: The value of input variable 9. This parameter bounds are (-30, 20).
+- x_10: The value of input variable 10. This parameter bounds are (-30, 20).
+- x_11: The value of input variable 11. This parameter bounds are (-30, 20).
+- x_12: The value of input variable 12. This parameter bounds are (-30, 20).
+- x_13: The value of input variable 13. This parameter bounds are (-30, 20).
+- x_14: The value of input variable 14. This parameter bounds are (-30, 20).
+
+
+
+**Task**
+In approximately 200 words, provide a clear and concise overview of this experiment. Summarize the experimental goal, describe the parameters and eventual constraints that will guide the optimization process, and explain the intended outcome. Tell us how Bayesian Optimization (BO) will be employed to systematically explore the parameter space, while receiving point suggestions from you when BO plateaus, identifying conditions that maximize target.

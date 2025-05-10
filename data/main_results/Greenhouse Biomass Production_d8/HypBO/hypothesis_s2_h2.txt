@@ -1,0 +1,17 @@
+```
+{
+    "name": "Ideal Sugar Beet Cultivation Parameters",
+    "rationale": "For optimal biomass production of sugar beet, it is essential to achieve high light exposure, balanced temperature, and adequate moisture. Setting the irradiance at 7200 kJ/m2/day offers a strong foundation for photosynthetic activity. Temperatures should be moderated, with tmin at 12°C and tmax at 25°C, providing a warm yet safe environment for growth. A vapor pressure of 0.9 kPA will help maintain sufficient humidity while preventing excessive moisture. A wind speed of 0.5 m/s supports air circulation, minimizing disease risk while not stressing the plants. Daily rainfall of 7 mm will assist in saturating the soil, combined with an initial water level of 40 cm to ensure proper hydration. The SMLIM is set at 0.85 to maintain moisture retention within the root zone.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "irrad": 7200,
+        "tmin": 12,
+        "tmax": 25,
+        "vap": 0.9,
+        "wind": 0.5,
+        "rain": 7,
+        "wav": 40,
+        "SMLIM": 0.85
+    }
+}
+```

@@ -1,0 +1,14 @@
+{
+    "name": "Low Profile Precision Launch Settings",
+    "rationale": "Choosing a pitch angle of 30 degrees allows for a lower flight arc, reducing air resistance and providing good accuracy towards the target. A yaw of 0 degrees aims the projectile directly at the target. An initial velocity of 32 m/s offers a powerful throw that balances distance and time in the air. A spin rate of 600 RPM ensures stability while minimizing deviation from the intended path. Launching from a height of 0.5 meters maintains proximity to the ground for a more direct trajectory. A mass of 0.5 kg allows for quicker velocity response without excessive weight.",
+    "confidence": "0.78",
+    "optimum_location": {
+        "pitch_deg": 30,
+        "yaw_deg": 0,
+        "v0": 32,
+        "spin_rpm": 600,
+        "spin_axis_deg": 0,
+        "h0": 0.5,
+        "mass": 0.5
+    }
+}

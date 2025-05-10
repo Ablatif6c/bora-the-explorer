@@ -1,0 +1,17 @@
+```json
+{
+    "name": "Strong Growth Conditions for Sugar Beet",
+    "rationale": "To achieve optimal biomass production, maximum irradiance supports photosynthesis significantly. Setting tmin and tmax at 18°C and 28°C respectively promotes ideal growth temperatures. A daily mean vapour pressure of around 3 kPA provides necessary moisture without causing excess stress. The wind speed should be maintained low to avoid water loss, while adequate rainfall coupled with a high initial moisture content in the soil profile ensures that the plants have sufficient water to thrive throughout the month.",
+    "confidence": 0.80,
+    "optimum_location": {
+        "irrad": 8000,
+        "tmin": 18,
+        "tmax": 28,
+        "vap": 3,
+        "wind": 0.8,
+        "rain": 7,
+        "wav": 85,
+        "SMLIM": 0.95
+    }
+}
+```

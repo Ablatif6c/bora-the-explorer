@@ -1,0 +1,11 @@
+{
+    "name": "Balanced Solar Configuration",
+    "rationale": "A tilt angle of 25° is advantageous for maximizing energy production across different seasons, especially in temperate regions. An azimuth angle of 170° aims slightly east of true south, optimizing morning sun capture. A system capacity of 12 kW is suitable for residential systems, while a dc_ac_ratio of 1.1 helps in optimizing energy conversion without overloading the inverter.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "tilt": 25,
+        "azimuth": 170,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.1
+    }
+}

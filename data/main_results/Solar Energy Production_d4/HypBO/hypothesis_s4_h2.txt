@@ -1,0 +1,11 @@
+{
+    "name": "Balanced Solar Configuration",
+    "rationale": "A tilt angle of 30° is generally effective across many regions for maximizing solar input throughout the year, particularly in temperate zones. Maintaining an azimuth of 180° ensures the panel is optimally positioned for sunlight capture. A system capacity of 12 kW is suggested to provide a good balance of energy production without overextending the system. A DC to AC ratio of 1.1 should provide sufficient efficiency while maintaining reliable output.",
+    "confidence": 0.7,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.1
+    }
+}

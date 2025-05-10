@@ -1,0 +1,59 @@
+{
+  "name": "Greenhouse Biomass Production",
+  "domain": "greenhouse",
+  "description": "This experiment aims to maximize the monthly biomass production of sugar beet in a greenhouse. The weather conditions are maintained throughout the month, and the biomass produced is measured at the end. The initial biomass is 0.41 kg/ha.",
+  "parameters": [
+    {
+      "name": "irrad",
+      "description": "Irradiance (kJ/m2/day)",
+      "bounds": [0, 8000],
+      "type": "continuous"
+    },
+    {
+      "name": "tmin",
+      "description": "Daily minimum temperature (°C)",
+      "bounds": [-30, 30],
+      "type": "continuous"
+    },
+    {
+      "name": "tmax",
+      "description": "Daily maximum temperature (°C)",
+      "bounds": [-20, 50],
+      "type": "continuous"
+    },
+    {
+      "name": "vap",
+      "description": "Daily mean vapour pressure (kPA)",
+      "bounds": [0.06, 10],
+      "type": "continuous"
+    },
+    {
+      "name": "wind",
+      "description": "Daily mean wind speed at 2m above the surface (m/s)",
+      "bounds": [0, 5],
+      "type": "continuous"
+    },
+    {
+      "name": "rain",
+      "description": "Daily rainfall sum (mm)",
+      "bounds": [0, 20],
+      "type": "continuous"
+    },
+    {
+      "name": "wav",
+      "description": "Initial amount of water in total soil profile (cm)",
+      "bounds": [0, 100],
+      "type": "continuous"
+    },
+    {
+      "name": "SMLIM",
+      "description": "Initial maximum moisture content in initial rooting depth zone",
+      "bounds": [0, 1],
+      "type": "continuous"
+    }
+  ],
+  "target": {
+    "name": "TAGP",
+    "description": "Total aboveground biomass (kg/ha)"
+  }
+}

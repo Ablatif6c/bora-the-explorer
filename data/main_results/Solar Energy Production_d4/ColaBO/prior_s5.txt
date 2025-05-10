@@ -1,0 +1,10 @@
+{
+    "rationale": "The optimal settings for solar energy production generally favor a tilt angle that matches the latitude of the installation location. For many regions, a tilt angle in the range of 30° to 45° often yields high energy generation. The azimuth angle is typically set toward true south (around 180°) for maximum sun exposure. A larger system capacity (closer to 20 kW) will capture more energy during peak sunlight hours, and a DC to AC ratio around 1.2 is often efficient for small to medium-scale solar systems to optimize performance without significantly oversizing the inverter.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 35,
+        "azimuth": 180,
+        "system_capacity": 20,
+        "dc_ac_ratio": 1.2
+    }
+}

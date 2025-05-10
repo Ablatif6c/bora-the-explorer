@@ -1,0 +1,17 @@
+```
+{
+    "name": "Balanced Greenhouse Conditions for Sugar Beet",
+    "rationale": "Maximizing biomass requires a combination of sufficient light, appropriate temperature, and adequate moisture without overwhelming the plants. Setting irradiation close to its maximum promotes growth, while maintaining moderate temperature helps in avoiding stress. Optimal humidity levels and moisture supplied via rainfall and soil water will foster a conducive environment, ensuring healthy biomass production.",
+    "confidence": 0.75,
+    "optimum_location": {
+        "irrad": 7000,
+        "tmin": 10,
+        "tmax": 28,
+        "vap": 1.5,
+        "wind": 1,
+        "rain": 10,
+        "wav": 70,
+        "SMLIM": 0.9
+    }
+}
+```

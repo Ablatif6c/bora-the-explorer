@@ -1,0 +1,14 @@
+{
+    "name": "Balanced Launch Strategy",
+    "rationale": "Considering the trajectory needed to reach a target that is 50 m away, a pitch angle of around 40° can effectively balance the height and distance required. Setting the yaw to 0° ensures a straight aim at the target. An initial velocity of 45 m/s is ideal as it allows the projectile to cover the required distance efficiently. A spin rate of 1200 rpm can add stability without too much energy loss. Launching from a height of 1.2 m provides enough elevation to enhance the trajectory without excessive height. A mass of 1.5 kg balances enough weight for momentum while still allowing for effective range.",
+    "confidence": "0.75",
+    "optimum_location": {
+        "pitch_deg": 40,
+        "yaw_deg": 0,
+        "v0": 45,
+        "spin_rpm": 1200,
+        "spin_axis_deg": 0,
+        "h0": 1.2,
+        "mass": 1.5
+    }
+}

@@ -1,0 +1,17 @@
+```
+{
+    "name": "Initial Warm Start for Sugar Beet Biomass Optimization",
+    "rationale": "Based on general knowledge of optimal conditions for sugar beet growth, higher irradiance supports photosynthesis, while moderate temperatures enhance metabolic processes. Sufficient water availability is crucial, as well as a balanced vapour pressure and low wind speed to reduce stress on the plants.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "irrad": 7200,
+        "tmin": 10,
+        "tmax": 30,
+        "vap": 3,
+        "wind": 1,
+        "rain": 5,
+        "wav": 80,
+        "SMLIM": 0.8
+    }
+}
+```

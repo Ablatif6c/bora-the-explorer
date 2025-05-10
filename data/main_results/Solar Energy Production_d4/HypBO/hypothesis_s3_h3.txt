@@ -1,0 +1,11 @@
+{
+    "name": "Balanced Year-Round Optimization",
+    "rationale": "To achieve a balance between summer and winter performance, a tilt angle close to 30° is often optimal as it provides a good compromise for seasonal variability. The azimuth remains at 180°, ensuring the panels face true south. A system capacity of 12 kW allows for substantial energy capture without excessive installation costs. A dc_ac_ratio of 1.25 enhances efficiency while avoiding the inefficiencies of oversizing the system.",
+    "confidence": "0.78",
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 12,
+        "dc_ac_ratio": 1.25
+    }
+}

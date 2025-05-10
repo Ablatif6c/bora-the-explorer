@@ -1,0 +1,1255 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Corner Dominance",
+            "rationale": "Testing the extreme values as they often reveal significant behaviors of the function. The point is chosen to explore a corner of the parameter space.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Middle Exploration",
+            "rationale": "Selecting midpoint values to capture average interactions between variables, fostering a focused exploration of potential optima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": -10,
+                    "x_4": 10,
+                    "x_5": -5,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": -5,
+                    "x_9": 0,
+                    "x_10": -10,
+                    "x_11": 10,
+                    "x_12": 5,
+                    "x_13": -5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, -10, 10, -5, 0, 5, -5, 0, -10, 10, 5, -5, 0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Symmetrical Negative and Positive Spread",
+            "rationale": "Placing parameters symmetrically around zero could uncover interactions that lead to high values, particularly if the target function has a symmetrical nature.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": -10,
+                    "x_2": 10,
+                    "x_3": -10,
+                    "x_4": 10,
+                    "x_5": -10,
+                    "x_6": 10,
+                    "x_7": -10,
+                    "x_8": 10,
+                    "x_9": -10,
+                    "x_10": 10,
+                    "x_11": -10,
+                    "x_12": 10,
+                    "x_13": -10,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10, -10, 10]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Clustered Sampling",
+            "rationale": "By clustering parameters, this hypothesis aims to investigate any local maxima that may occur due to interactions among closely situated parameter values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "5": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "8": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Refined Central Tendency",
+            "rationale": "Building on the strong performance at iteration 4, this hypothesis seeks to explore a point close to zero with a slight positive adjustment.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 0.5,
+                    "x_5": 0.5,
+                    "x_6": 0.5,
+                    "x_7": 0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.5,
+                    "x_10": 0.5,
+                    "x_11": 0.5,
+                    "x_12": 0.5,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]"
+    },
+    "9": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Slight Negative Perturbation",
+            "rationale": "Exploring slight negative adjustments around the successful parameters to understand the function's sensitivity and potential nuances.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": -1,
+                    "x_2": -1,
+                    "x_3": -1,
+                    "x_4": -1,
+                    "x_5": -1,
+                    "x_6": -1,
+                    "x_7": -1,
+                    "x_8": -1,
+                    "x_9": -1,
+                    "x_10": -1,
+                    "x_11": -1,
+                    "x_12": -1,
+                    "x_13": -1,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]"
+    },
+    "10": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Variance Exploration",
+            "rationale": "Testing a mix of positive and negative values around zero may expose beneficial interactions that lead to increased target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": -5,
+                    "x_2": 5,
+                    "x_3": -5,
+                    "x_4": 5,
+                    "x_5": -5,
+                    "x_6": 5,
+                    "x_7": -5,
+                    "x_8": 5,
+                    "x_9": -5,
+                    "x_10": 5,
+                    "x_11": -5,
+                    "x_12": 5,
+                    "x_13": -5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, -5, 5, -5, 5, -5, 5, -5, 5, -5, 5, -5, 5, -5, 5]"
+    },
+    "16": {
+        "trust_score": 0.6793986128667294,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined Central Concentration",
+            "rationale": "Focusing near the successful zero point with slight deviations might capture optimal conditions and potential maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.1,
+                    "x_1": 0.1,
+                    "x_2": 0.1,
+                    "x_3": 0.1,
+                    "x_4": 0.1,
+                    "x_5": 0.1,
+                    "x_6": 0.1,
+                    "x_7": 0.1,
+                    "x_8": 0.1,
+                    "x_9": 0.1,
+                    "x_10": 0.1,
+                    "x_11": 0.1,
+                    "x_12": 0.1,
+                    "x_13": 0.1,
+                    "x_14": 0.1
+                }
+            ]
+        },
+        "point": "[0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]"
+    },
+    "17": {
+        "trust_score": 0.6793986128667294,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment",
+            "rationale": "Investigating a slightly adjusted configuration may yield higher interactions that could lead to improved targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 0.75,
+                    "x_3": 0.75,
+                    "x_4": 0.75,
+                    "x_5": 0.75,
+                    "x_6": 0.75,
+                    "x_7": 0.75,
+                    "x_8": 0.75,
+                    "x_9": 0.75,
+                    "x_10": 0.75,
+                    "x_11": 0.75,
+                    "x_12": 0.75,
+                    "x_13": 0.75,
+                    "x_14": 0.75
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75]"
+    },
+    "18": {
+        "trust_score": 0.6793986128667294,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Slight Negative Variation",
+            "rationale": "Testing a mildly negative configuration aims to further probe this promising area that previously yielded high outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": -0.5,
+                    "x_2": -0.5,
+                    "x_3": -0.5,
+                    "x_4": -0.5,
+                    "x_5": -0.5,
+                    "x_6": -0.5,
+                    "x_7": -0.5,
+                    "x_8": -0.5,
+                    "x_9": -0.5,
+                    "x_10": -0.5,
+                    "x_11": -0.5,
+                    "x_12": -0.5,
+                    "x_13": -0.5,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5, -0.5]"
+    },
+    "19": {
+        "trust_score": 0.6793986128667294,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Mixed Slight Perturbation",
+            "rationale": "Exploring clustered variations of positive and negative values could reveal beneficial interactions around zero.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": -3,
+                    "x_2": 3,
+                    "x_3": -3,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 3,
+                    "x_7": -3,
+                    "x_8": 3,
+                    "x_9": -3,
+                    "x_10": 3,
+                    "x_11": -3,
+                    "x_12": 3,
+                    "x_13": -3,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[3, -3, 3, -3, 3, -3, 3, -3, 3, -3, 3, -3, 3, -3, 3]"
+    },
+    "26": {
+        "trust_score": 0.6163033859661302,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Exploration",
+            "rationale": "Focusing on a point extremely close to zero might reveal sensitive interactions that can significantly improve target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.05,
+                    "x_1": 0.05,
+                    "x_2": 0.05,
+                    "x_3": 0.05,
+                    "x_4": 0.05,
+                    "x_5": 0.05,
+                    "x_6": 0.05,
+                    "x_7": 0.05,
+                    "x_8": 0.05,
+                    "x_9": 0.05,
+                    "x_10": 0.05,
+                    "x_11": 0.05,
+                    "x_12": 0.05,
+                    "x_13": 0.05,
+                    "x_14": 0.05
+                }
+            ]
+        },
+        "point": "[0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05, 0.05]"
+    },
+    "27": {
+        "trust_score": 0.6163033859661302,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment from Zero",
+            "rationale": "Exploring configurations slightly above zero should help identify beneficial interactions that enhance the target score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]"
+    },
+    "28": {
+        "trust_score": 0.6163033859661302,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Variation Near Origin",
+            "rationale": "Testing slightly negative values close to zero could provide deeper insights into the sensitivities of the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.2,
+                    "x_1": -0.2,
+                    "x_2": -0.2,
+                    "x_3": -0.2,
+                    "x_4": -0.2,
+                    "x_5": -0.2,
+                    "x_6": -0.2,
+                    "x_7": -0.2,
+                    "x_8": -0.2,
+                    "x_9": -0.2,
+                    "x_10": -0.2,
+                    "x_11": -0.2,
+                    "x_12": -0.2,
+                    "x_13": -0.2,
+                    "x_14": -0.2
+                }
+            ]
+        },
+        "point": "[-0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2, -0.2]"
+    },
+    "29": {
+        "trust_score": 0.6163033859661302,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Variation Exploration",
+            "rationale": "Exploring a balanced mixture of small positive and negative values can uncover intricate interactions enhancing target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": -1,
+                    "x_2": 1,
+                    "x_3": -2,
+                    "x_4": 2,
+                    "x_5": -1,
+                    "x_6": 1,
+                    "x_7": -2,
+                    "x_8": 2,
+                    "x_9": -1,
+                    "x_10": 1,
+                    "x_11": -2,
+                    "x_12": 2,
+                    "x_13": -1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, -1, 1, -2, 2, -1, 1, -2, 2, -1, 1, -2, 2, -1, 1]"
+    },
+    "36": {
+        "trust_score": 0.4817245377888019,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Ultra-Central Focus",
+            "rationale": "Positioning parameters extremely close to zero may reveal nuanced interactions that could optimize the target values further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.01,
+                    "x_1": 0.01,
+                    "x_2": 0.01,
+                    "x_3": 0.01,
+                    "x_4": 0.01,
+                    "x_5": 0.01,
+                    "x_6": 0.01,
+                    "x_7": 0.01,
+                    "x_8": 0.01,
+                    "x_9": 0.01,
+                    "x_10": 0.01,
+                    "x_11": 0.01,
+                    "x_12": 0.01,
+                    "x_13": 0.01,
+                    "x_14": 0.01
+                }
+            ]
+        },
+        "point": "[0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]"
+    },
+    "37": {
+        "trust_score": 0.4817245377888019,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Configuration",
+            "rationale": "Testing slightly positive configurations from the baseline may identify beneficial interactions that improve the target score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.6,
+                    "x_1": 0.6,
+                    "x_2": 0.6,
+                    "x_3": 0.6,
+                    "x_4": 0.6,
+                    "x_5": 0.6,
+                    "x_6": 0.6,
+                    "x_7": 0.6,
+                    "x_8": 0.6,
+                    "x_9": 0.6,
+                    "x_10": 0.6,
+                    "x_11": 0.6,
+                    "x_12": 0.6,
+                    "x_13": 0.6,
+                    "x_14": 0.6
+                }
+            ]
+        },
+        "point": "[0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6]"
+    },
+    "38": {
+        "trust_score": 0.4817245377888019,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mixed Values Exploration",
+            "rationale": "Exploring mixed positive and negative values around the center tends to uncover intricate interactions that may enhance target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": -2,
+                    "x_2": 2,
+                    "x_3": -1,
+                    "x_4": 1,
+                    "x_5": -1,
+                    "x_6": 2,
+                    "x_7": -2,
+                    "x_8": 3,
+                    "x_9": -3,
+                    "x_10": 2,
+                    "x_11": -1,
+                    "x_12": 1,
+                    "x_13": -2,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[2, -2, 2, -1, 1, -1, 2, -2, 3, -3, 2, -1, 1, -2, 0]"
+    },
+    "39": {
+        "trust_score": 0.4817245377888019,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Evaluate Near Maximum Values",
+            "rationale": "Testing values close to previously successful configurations can help assess if further optima exist in nearby parameter settings.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": -0.9,
+                    "x_2": 0.9,
+                    "x_3": -0.9,
+                    "x_4": 0.9,
+                    "x_5": -0.9,
+                    "x_6": 0.9,
+                    "x_7": -0.9,
+                    "x_8": 0.9,
+                    "x_9": -0.9,
+                    "x_10": 0.9,
+                    "x_11": -0.9,
+                    "x_12": 0.9,
+                    "x_13": -0.9,
+                    "x_14": 0.9
+                }
+            ]
+        },
+        "point": "[0.9, -0.9, 0.9, -0.9, 0.9, -0.9, 0.9, -0.9, 0.9, -0.9, 0.9, -0.9, 0.9, -0.9, 0.9]"
+    },
+    "46": {
+        "trust_score": 0.49528791419548474,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Greater Ultra-Central Focus",
+            "rationale": "Positioning parameters extremely close to zero may unveil subtle interactions that could optimize target values further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.005,
+                    "x_1": 0.005,
+                    "x_2": 0.005,
+                    "x_3": 0.005,
+                    "x_4": 0.005,
+                    "x_5": 0.005,
+                    "x_6": 0.005,
+                    "x_7": 0.005,
+                    "x_8": 0.005,
+                    "x_9": 0.005,
+                    "x_10": 0.005,
+                    "x_11": 0.005,
+                    "x_12": 0.005,
+                    "x_13": 0.005,
+                    "x_14": 0.005
+                }
+            ]
+        },
+        "point": "[0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005, 0.005]"
+    },
+    "47": {
+        "trust_score": 0.49528791419548474,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Positive Configuration",
+            "rationale": "Slightly adjusting parameters positively from zero aims to uncover beneficial interactions that may enhance target scores.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.3,
+                    "x_1": 0.3,
+                    "x_2": 0.3,
+                    "x_3": 0.3,
+                    "x_4": 0.3,
+                    "x_5": 0.3,
+                    "x_6": 0.3,
+                    "x_7": 0.3,
+                    "x_8": 0.3,
+                    "x_9": 0.3,
+                    "x_10": 0.3,
+                    "x_11": 0.3,
+                    "x_12": 0.3,
+                    "x_13": 0.3,
+                    "x_14": 0.3
+                }
+            ]
+        },
+        "point": "[0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3, 0.3]"
+    },
+    "48": {
+        "trust_score": 0.49528791419548474,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Tail Exploration",
+            "rationale": "Testing configurations slightly negative but close to zero may help understand sensitivities and uncover paths for improvement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.1,
+                    "x_1": -0.1,
+                    "x_2": -0.1,
+                    "x_3": -0.1,
+                    "x_4": -0.1,
+                    "x_5": -0.1,
+                    "x_6": -0.1,
+                    "x_7": -0.1,
+                    "x_8": -0.1,
+                    "x_9": -0.1,
+                    "x_10": -0.1,
+                    "x_11": -0.1,
+                    "x_12": -0.1,
+                    "x_13": -0.1,
+                    "x_14": -0.1
+                }
+            ]
+        },
+        "point": "[-0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1, -0.1]"
+    },
+    "49": {
+        "trust_score": 0.49528791419548474,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Slight Variation",
+            "rationale": "Testing a balanced mix of small positive and negative values could enhance target maximization by revealing intricate interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.2,
+                    "x_1": -0.2,
+                    "x_2": 0.2,
+                    "x_3": -0.1,
+                    "x_4": 0.1,
+                    "x_5": -0.2,
+                    "x_6": 0.1,
+                    "x_7": -0.1,
+                    "x_8": 0.3,
+                    "x_9": -0.3,
+                    "x_10": 0.2,
+                    "x_11": -0.2,
+                    "x_12": 0.2,
+                    "x_13": -0.3,
+                    "x_14": 0.2
+                }
+            ]
+        },
+        "point": "[0.2, -0.2, 0.2, -0.1, 0.1, -0.2, 0.1, -0.1, 0.3, -0.3, 0.2, -0.2, 0.2, -0.3, 0.2]"
+    },
+    "56": {
+        "trust_score": 0.49850385866697305,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Ultra-Central Precision",
+            "rationale": "Exploring parameters even closer to zero may reveal insights into small interactions that could optimize target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.001,
+                    "x_1": 0.001,
+                    "x_2": 0.001,
+                    "x_3": 0.001,
+                    "x_4": 0.001,
+                    "x_5": 0.001,
+                    "x_6": 0.001,
+                    "x_7": 0.001,
+                    "x_8": 0.001,
+                    "x_9": 0.001,
+                    "x_10": 0.001,
+                    "x_11": 0.001,
+                    "x_12": 0.001,
+                    "x_13": 0.001,
+                    "x_14": 0.001
+                }
+            ]
+        },
+        "point": "[0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]"
+    },
+    "57": {
+        "trust_score": 0.49850385866697305,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment From Center",
+            "rationale": "Exploring configurations slightly above zero should help identify beneficial interactions that enhance the target score.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.2,
+                    "x_1": 0.3,
+                    "x_2": 0.2,
+                    "x_3": 0.1,
+                    "x_4": 0.2,
+                    "x_5": 0.2,
+                    "x_6": 0.1,
+                    "x_7": 0.3,
+                    "x_8": 0.2,
+                    "x_9": 0.1,
+                    "x_10": 0.2,
+                    "x_11": 0.3,
+                    "x_12": 0.1,
+                    "x_13": 0.2,
+                    "x_14": 0.3
+                }
+            ]
+        },
+        "point": "[0.2, 0.3, 0.2, 0.1, 0.2, 0.2, 0.1, 0.3, 0.2, 0.1, 0.2, 0.3, 0.1, 0.2, 0.3]"
+    },
+    "58": {
+        "trust_score": 0.49850385866697305,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mixed Values Exploration",
+            "rationale": "Probing a balanced mix of small positive and negative values could uncover useful interactions without straying from effective configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.2,
+                    "x_1": -0.2,
+                    "x_2": 0.1,
+                    "x_3": -0.1,
+                    "x_4": 0.3,
+                    "x_5": -0.2,
+                    "x_6": 0.1,
+                    "x_7": -0.1,
+                    "x_8": 0.2,
+                    "x_9": -0.3,
+                    "x_10": 0.2,
+                    "x_11": -0.1,
+                    "x_12": 0.1,
+                    "x_13": -0.2,
+                    "x_14": 0.1
+                }
+            ]
+        },
+        "point": "[0.2, -0.2, 0.1, -0.1, 0.3, -0.2, 0.1, -0.1, 0.2, -0.3, 0.2, -0.1, 0.1, -0.2, 0.1]"
+    },
+    "65": {
+        "trust_score": 0.49973418402282865,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Ultra-Central Exploration",
+            "rationale": "Further refining the exploration around the central point (0, 0, ..., 0) may expose deeper interactions that optimize the target values even more effectively.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0005,
+                    "x_1": 0.0005,
+                    "x_2": 0.0005,
+                    "x_3": 0.0005,
+                    "x_4": 0.0005,
+                    "x_5": 0.0005,
+                    "x_6": 0.0005,
+                    "x_7": 0.0005,
+                    "x_8": 0.0005,
+                    "x_9": 0.0005,
+                    "x_10": 0.0005,
+                    "x_11": 0.0005,
+                    "x_12": 0.0005,
+                    "x_13": 0.0005,
+                    "x_14": 0.0005
+                }
+            ]
+        },
+        "point": "[0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005, 0.0005]"
+    },
+    "66": {
+        "trust_score": 0.49973418402282865,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment Focus",
+            "rationale": "Investigating configurations slightly above zero should help identify beneficial interactions, maximizing the target score through minute elevation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.1,
+                    "x_1": 0.2,
+                    "x_2": 0.1,
+                    "x_3": 0.1,
+                    "x_4": 0.1,
+                    "x_5": 0.2,
+                    "x_6": 0.1,
+                    "x_7": 0.2,
+                    "x_8": 0.1,
+                    "x_9": 0.1,
+                    "x_10": 0.2,
+                    "x_11": 0.1,
+                    "x_12": 0.1,
+                    "x_13": 0.2,
+                    "x_14": 0.1
+                }
+            ]
+        },
+        "point": "[0.1, 0.2, 0.1, 0.1, 0.1, 0.2, 0.1, 0.2, 0.1, 0.1, 0.2, 0.1, 0.1, 0.2, 0.1]"
+    },
+    "67": {
+        "trust_score": 0.49973418402282865,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Value Exploration",
+            "rationale": "Testing configurations with small negative values provides insights into the sensitivities close to successful configurations while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.01,
+                    "x_1": -0.01,
+                    "x_2": -0.01,
+                    "x_3": -0.01,
+                    "x_4": -0.01,
+                    "x_5": -0.01,
+                    "x_6": -0.01,
+                    "x_7": -0.01,
+                    "x_8": -0.01,
+                    "x_9": -0.01,
+                    "x_10": -0.01,
+                    "x_11": -0.01,
+                    "x_12": -0.01,
+                    "x_13": -0.01,
+                    "x_14": -0.01
+                }
+            ]
+        },
+        "point": "[-0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01, -0.01]"
+    },
+    "68": {
+        "trust_score": 0.49973418402282865,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Slight Values Exploration",
+            "rationale": "Testing a balanced mix of small positive and negative values around the center can enhance interactions and ultimately lead to greater target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.05,
+                    "x_1": -0.05,
+                    "x_2": 0.05,
+                    "x_3": -0.05,
+                    "x_4": 0.05,
+                    "x_5": -0.05,
+                    "x_6": 0.05,
+                    "x_7": -0.05,
+                    "x_8": 0.05,
+                    "x_9": -0.05,
+                    "x_10": 0.05,
+                    "x_11": -0.05,
+                    "x_12": 0.05,
+                    "x_13": -0.05,
+                    "x_14": 0.05
+                }
+            ]
+        },
+        "point": "[0.05, -0.05, 0.05, -0.05, 0.05, -0.05, 0.05, -0.05, 0.05, -0.05, 0.05, -0.05, 0.05, -0.05, 0.05]"
+    },
+    "75": {
+        "trust_score": 0.49989747096090725,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Ultra-Central Exploration",
+            "rationale": "Focusing on parameters extremely close to zero is crucial for uncovering nuanced interactions that can optimize target values even further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0001,
+                    "x_1": 0.0001,
+                    "x_2": 0.0001,
+                    "x_3": 0.0001,
+                    "x_4": 0.0001,
+                    "x_5": 0.0001,
+                    "x_6": 0.0001,
+                    "x_7": 0.0001,
+                    "x_8": 0.0001,
+                    "x_9": 0.0001,
+                    "x_10": 0.0001,
+                    "x_11": 0.0001,
+                    "x_12": 0.0001,
+                    "x_13": 0.0001,
+                    "x_14": 0.0001
+                }
+            ]
+        },
+        "point": "[0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001, 0.0001]"
+    },
+    "76": {
+        "trust_score": 0.49989747096090725,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment",
+            "rationale": "Testing a configuration slightly adjusted to the right of zero may uncover beneficial interactions that enhance the target output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.15,
+                    "x_1": 0.05,
+                    "x_2": 0.1,
+                    "x_3": 0.0,
+                    "x_4": 0.2,
+                    "x_5": 0.1,
+                    "x_6": 0.05,
+                    "x_7": 0.15,
+                    "x_8": 0.1,
+                    "x_9": 0.2,
+                    "x_10": 0.05,
+                    "x_11": 0.1,
+                    "x_12": 0.2,
+                    "x_13": 0.05,
+                    "x_14": 0.15
+                }
+            ]
+        },
+        "point": "[0.15, 0.05, 0.1, 0.0, 0.2, 0.1, 0.05, 0.15, 0.1, 0.2, 0.05, 0.1, 0.2, 0.05, 0.15]"
+    },
+    "77": {
+        "trust_score": 0.49989747096090725,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Variation",
+            "rationale": "Exploring configurations with small negative values slightly below zero can yield insights into sensitivity and interactions that enhance the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.02,
+                    "x_1": -0.02,
+                    "x_2": -0.02,
+                    "x_3": -0.02,
+                    "x_4": -0.02,
+                    "x_5": -0.02,
+                    "x_6": -0.02,
+                    "x_7": -0.02,
+                    "x_8": -0.02,
+                    "x_9": -0.02,
+                    "x_10": -0.02,
+                    "x_11": -0.02,
+                    "x_12": -0.02,
+                    "x_13": -0.02,
+                    "x_14": -0.02
+                }
+            ]
+        },
+        "point": "[-0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02, -0.02]"
+    },
+    "78": {
+        "trust_score": 0.49989747096090725,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mixed Values Exploration",
+            "rationale": "Testing a mixed configuration of small positive and negative values surrounding zero could uncover beneficial interactions fulfilling target maximization objectives.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.03,
+                    "x_1": -0.03,
+                    "x_2": 0.01,
+                    "x_3": -0.01,
+                    "x_4": 0.03,
+                    "x_5": -0.03,
+                    "x_6": 0.01,
+                    "x_7": -0.01,
+                    "x_8": 0.03,
+                    "x_9": -0.03,
+                    "x_10": 0.01,
+                    "x_11": -0.01,
+                    "x_12": 0.03,
+                    "x_13": -0.03,
+                    "x_14": 0.01
+                }
+            ]
+        },
+        "point": "[0.03, -0.03, 0.01, -0.01, 0.03, -0.03, 0.01, -0.01, 0.03, -0.03, 0.01, -0.01, 0.03, -0.03, 0.01]"
+    },
+    "85": {
+        "trust_score": 0.49997721576777504,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Ultra-Central Precision",
+            "rationale": "Focusing on parameters very close to zero may reveal nuanced interactions capable of optimizing target values further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0002,
+                    "x_1": 0.0002,
+                    "x_2": 0.0002,
+                    "x_3": 0.0002,
+                    "x_4": 0.0002,
+                    "x_5": 0.0002,
+                    "x_6": 0.0002,
+                    "x_7": 0.0002,
+                    "x_8": 0.0002,
+                    "x_9": 0.0002,
+                    "x_10": 0.0002,
+                    "x_11": 0.0002,
+                    "x_12": 0.0002,
+                    "x_13": 0.0002,
+                    "x_14": 0.0002
+                }
+            ]
+        },
+        "point": "[0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002, 0.0002]"
+    },
+    "86": {
+        "trust_score": 0.49997721576777504,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Subtle Positive Adjustments",
+            "rationale": "Exploring small positive deviations from zero may help identify beneficial interactions that further optimize target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.05,
+                    "x_1": 0.15,
+                    "x_2": 0.05,
+                    "x_3": 0.1,
+                    "x_4": 0.2,
+                    "x_5": 0.1,
+                    "x_6": 0.15,
+                    "x_7": 0.1,
+                    "x_8": 0.05,
+                    "x_9": 0.1,
+                    "x_10": 0.15,
+                    "x_11": 0.1,
+                    "x_12": 0.2,
+                    "x_13": 0.05,
+                    "x_14": 0.1
+                }
+            ]
+        },
+        "point": "[0.05, 0.15, 0.05, 0.1, 0.2, 0.1, 0.15, 0.1, 0.05, 0.1, 0.15, 0.1, 0.2, 0.05, 0.1]"
+    },
+    "87": {
+        "trust_score": 0.49997721576777504,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Perturbation Focus",
+            "rationale": "Testing configurations with small negative values close to zero may provide insights into sensitivities that enhance target scoring.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.001,
+                    "x_1": -0.001,
+                    "x_2": -0.001,
+                    "x_3": -0.001,
+                    "x_4": -0.001,
+                    "x_5": -0.001,
+                    "x_6": -0.001,
+                    "x_7": -0.001,
+                    "x_8": -0.001,
+                    "x_9": -0.001,
+                    "x_10": -0.001,
+                    "x_11": -0.001,
+                    "x_12": -0.001,
+                    "x_13": -0.001,
+                    "x_14": -0.001
+                }
+            ]
+        },
+        "point": "[-0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001, -0.001]"
+    },
+    "88": {
+        "trust_score": 0.49997721576777504,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Slight Variance",
+            "rationale": "Testing a combination of small positive and negative values around zero could uncover further beneficial interactions that maximize the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.02,
+                    "x_1": -0.02,
+                    "x_2": 0.02,
+                    "x_3": -0.02,
+                    "x_4": 0.02,
+                    "x_5": -0.02,
+                    "x_6": 0.02,
+                    "x_7": -0.02,
+                    "x_8": 0.02,
+                    "x_9": -0.02,
+                    "x_10": 0.02,
+                    "x_11": -0.02,
+                    "x_12": 0.02,
+                    "x_13": -0.02,
+                    "x_14": 0.02
+                }
+            ]
+        },
+        "point": "[0.02, -0.02, 0.02, -0.02, 0.02, -0.02, 0.02, -0.02, 0.02, -0.02, 0.02, -0.02, 0.02, -0.02, 0.02]"
+    },
+    "95": {
+        "trust_score": 0.49999240525591454,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Ultra-Central Exploration",
+            "rationale": "Exploring configurations very close to zero may reveal subtle interactions leading to optimal target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0003,
+                    "x_1": 0.0003,
+                    "x_2": 0.0003,
+                    "x_3": 0.0003,
+                    "x_4": 0.0003,
+                    "x_5": 0.0003,
+                    "x_6": 0.0003,
+                    "x_7": 0.0003,
+                    "x_8": 0.0003,
+                    "x_9": 0.0003,
+                    "x_10": 0.0003,
+                    "x_11": 0.0003,
+                    "x_12": 0.0003,
+                    "x_13": 0.0003,
+                    "x_14": 0.0003
+                }
+            ]
+        },
+        "point": "[0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003, 0.0003]"
+    },
+    "96": {
+        "trust_score": 0.49999240525591454,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive Adjustment",
+            "rationale": "Testing configurations with slight positive deviations from zero aims to maximize beneficial interactions that could enhance target scores.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.05,
+                    "x_1": 0.1,
+                    "x_2": 0.05,
+                    "x_3": 0.1,
+                    "x_4": 0.15,
+                    "x_5": 0.1,
+                    "x_6": 0.05,
+                    "x_7": 0.1,
+                    "x_8": 0.1,
+                    "x_9": 0.1,
+                    "x_10": 0.1,
+                    "x_11": 0.1,
+                    "x_12": 0.1,
+                    "x_13": 0.1,
+                    "x_14": 0.1
+                }
+            ]
+        },
+        "point": "[0.05, 0.1, 0.05, 0.1, 0.15, 0.1, 0.05, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]"
+    },
+    "97": {
+        "trust_score": 0.49999240525591454,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Negative Variation",
+            "rationale": "Configuring parameters with small negative values near zero can reveal sensitivities that enhance target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.005,
+                    "x_1": -0.005,
+                    "x_2": -0.005,
+                    "x_3": -0.005,
+                    "x_4": -0.005,
+                    "x_5": -0.005,
+                    "x_6": -0.005,
+                    "x_7": -0.005,
+                    "x_8": -0.005,
+                    "x_9": -0.005,
+                    "x_10": -0.005,
+                    "x_11": -0.005,
+                    "x_12": -0.005,
+                    "x_13": -0.005,
+                    "x_14": -0.005
+                }
+            ]
+        },
+        "point": "[-0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005, -0.005]"
+    },
+    "98": {
+        "trust_score": 0.49999240525591454,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Slight Adjustments",
+            "rationale": "Testing a combination of positive and negative slight adjustments around zero can uncover beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0.02,
+                    "x_1": -0.02,
+                    "x_2": 0.01,
+                    "x_3": -0.01,
+                    "x_4": 0.02,
+                    "x_5": -0.01,
+                    "x_6": 0.02,
+                    "x_7": -0.02,
+                    "x_8": 0.01,
+                    "x_9": -0.01,
+                    "x_10": 0.02,
+                    "x_11": -0.02,
+                    "x_12": 0.02,
+                    "x_13": -0.02,
+                    "x_14": 0.01
+                }
+            ]
+        },
+        "point": "[0.02, -0.02, 0.01, -0.01, 0.02, -0.01, 0.02, -0.02, 0.01, -0.01, 0.02, -0.02, 0.02, -0.02, 0.01]"
+    },
+    "105": {
+        "trust_score": 0.49999620262795524,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Ultra-Central Focus",
+            "rationale": "Exploring points very near to zero may reveal subtle interactions leading to improved target scores.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0004,
+                    "x_1": 0.0004,
+                    "x_2": 0.0004,
+                    "x_3": 0.0004,
+                    "x_4": 0.0004,
+                    "x_5": 0.0004,
+                    "x_6": 0.0004,
+                    "x_7": 0.0004,
+                    "x_8": 0.0004,
+                    "x_9": 0.0004,
+                    "x_10": 0.0004,
+                    "x_11": 0.0004,
+                    "x_12": 0.0004,
+                    "x_13": 0.0004,
+                    "x_14": 0.0004
+                }
+            ]
+        },
+        "point": "[0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004, 0.0004]"
+    }
+}

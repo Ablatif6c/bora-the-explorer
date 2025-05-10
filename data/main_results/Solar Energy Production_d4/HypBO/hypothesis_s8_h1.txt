@@ -1,0 +1,11 @@
+{
+    "name": "High Performance Solar Setup",
+    "rationale": "Research indicates that a 45° tilt can enhance performance during summer months due to higher sun angles, while an azimuth angle of 200° allows for optimal capture of late afternoon sunlight. A system capacity of 18 kW maximizes energy output for larger installations, and a dc_ac_ratio of 1.4 ensures efficiency and minimizes energy losses.",
+    "confidence": 0.80,
+    "optimum_location": {
+        "tilt": 45,
+        "azimuth": 200,
+        "system_capacity": 18,
+        "dc_ac_ratio": 1.4
+    }
+}

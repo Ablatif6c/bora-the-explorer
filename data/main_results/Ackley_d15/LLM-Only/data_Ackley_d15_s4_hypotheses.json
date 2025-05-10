@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Upper Bound Exploration",
+            "rationale": "This hypothesis explores the upper bounds of the parameters to assess if the target function exhibits significant outputs at these extreme values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Lower Bound Exploration",
+            "rationale": "This hypothesis examines the lower bounds to uncover behaviors of the function at negative extremities, which is critical for understanding the full landscape of the black-box function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -30,
+                    "x_2": -30,
+                    "x_3": -30,
+                    "x_4": -30,
+                    "x_5": -30,
+                    "x_6": -30,
+                    "x_7": -30,
+                    "x_8": -30,
+                    "x_9": -30,
+                    "x_10": -30,
+                    "x_11": -30,
+                    "x_12": -30,
+                    "x_13": -30,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Mid-Range Investigation",
+            "rationale": "Sampling mid-range values can uncover interesting interactions among input parameters that may not be visible at the extremes, leading to the identification of local optima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": 10,
+                    "x_4": -5,
+                    "x_5": -15,
+                    "x_6": 2,
+                    "x_7": -20,
+                    "x_8": 15,
+                    "x_9": 12,
+                    "x_10": -8,
+                    "x_11": 8,
+                    "x_12": -2,
+                    "x_13": 14,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-10, 5, 0, 10, -5, -15, 2, -20, 15, 12, -8, 8, -2, 14, -1]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Symmetrical Distribution",
+            "rationale": "Testing a symmetrical distribution around zero might expose how the target function reacts to balanced positive and negative values, indicating potential underlying structures.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": -10,
+                    "x_2": 5,
+                    "x_3": -5,
+                    "x_4": 0,
+                    "x_5": 15,
+                    "x_6": -15,
+                    "x_7": 8,
+                    "x_8": -8,
+                    "x_9": 2,
+                    "x_10": -2,
+                    "x_11": 12,
+                    "x_12": -12,
+                    "x_13": 18,
+                    "x_14": -18
+                }
+            ]
+        },
+        "point": "[10, -10, 5, -5, 0, 15, -15, 8, -8, 2, -2, 12, -12, 18, -18]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Diverse Sampling Strategy",
+            "rationale": "Combining diverse parameters can reveal interesting interactions and potential local peaks that aren't captured by a single extreme value.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": 10,
+                    "x_2": -15,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 18,
+                    "x_6": -8,
+                    "x_7": 17,
+                    "x_8": -3,
+                    "x_9": 12,
+                    "x_10": -10,
+                    "x_11": 3,
+                    "x_12": -2,
+                    "x_13": 14,
+                    "x_14": -28
+                }
+            ]
+        },
+        "point": "[-20, 10, -15, 5, 0, 18, -8, 17, -3, 12, -10, 3, -2, 14, -28]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Improved Mid-Range Exploration",
+            "rationale": "Further refine mid-range values based on successful previous results to maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 15,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -10,
+                    "x_5": -8,
+                    "x_6": 2,
+                    "x_7": -5,
+                    "x_8": 20,
+                    "x_9": 10,
+                    "x_10": -2,
+                    "x_11": 0,
+                    "x_12": -3,
+                    "x_13": 16,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-5, 15, 5, 10, -10, -8, 2, -5, 20, 10, -2, 0, -3, 16, -1]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Refined Symmetrical Sampling",
+            "rationale": "Building on previous symmetrical approaches that yielded high targets, we will sample slightly adjusted values around zero to observe potential improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": -12,
+                    "x_2": 3,
+                    "x_3": -3,
+                    "x_4": 1,
+                    "x_5": 10,
+                    "x_6": -10,
+                    "x_7": 6,
+                    "x_8": -6,
+                    "x_9": 4,
+                    "x_10": -4,
+                    "x_11": 14,
+                    "x_12": -14,
+                    "x_13": 18,
+                    "x_14": -18
+                }
+            ]
+        },
+        "point": "[8, -12, 3, -3, 1, 10, -10, 6, -6, 4, -4, 14, -14, 18, -18]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Diverse Balance with Focused Positives",
+            "rationale": "Testing mid-range combinations while slightly leaning towards positive values to assess if this adjustment enhances the target output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -8,
+                    "x_1": 12,
+                    "x_2": 8,
+                    "x_3": 0,
+                    "x_4": 3,
+                    "x_5": -6,
+                    "x_6": 9,
+                    "x_7": -2,
+                    "x_8": 16,
+                    "x_9": 5,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 10,
+                    "x_13": -2,
+                    "x_14": -15
+                }
+            ]
+        },
+        "point": "[-8, 12, 8, 0, 3, -6, 9, -2, 16, 5, -1, 1, 10, -2, -15]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Refining the mid-range exploration based on the best-performing targets by focusing around the successful areas identified in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 7,
+                    "x_3": 9,
+                    "x_4": -8,
+                    "x_5": -5,
+                    "x_6": 3,
+                    "x_7": -4,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": -2,
+                    "x_13": 15,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-3, 14, 7, 9, -8, -5, 3, -4, 19, 11, -1, 1, -2, 15, -3]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Further Refined Symmetrical Balance",
+            "rationale": "Adjusting the symmetrical pairings around zero while integrating learnings from previous evaluations, aiming to enhance target output further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": -11,
+                    "x_2": 2,
+                    "x_3": -2,
+                    "x_4": 2,
+                    "x_5": 9,
+                    "x_6": -9,
+                    "x_7": 5,
+                    "x_8": -7,
+                    "x_9": 3,
+                    "x_10": -3,
+                    "x_11": 13,
+                    "x_12": -13,
+                    "x_13": 17,
+                    "x_14": -17
+                }
+            ]
+        },
+        "point": "[7, -11, 2, -2, 2, 9, -9, 5, -7, 3, -3, 13, -13, 17, -17]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Mid-Range with Positive Bias",
+            "rationale": "Continuing exploration in regions with a slight bias towards positive values to further investigate potential enhancements in target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -6,
+                    "x_1": 13,
+                    "x_2": 9,
+                    "x_3": 1,
+                    "x_4": 5,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": -1,
+                    "x_8": 17,
+                    "x_9": 6,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 11,
+                    "x_13": -3,
+                    "x_14": -12
+                }
+            ]
+        },
+        "point": "[-6, 13, 9, 1, 5, -4, 8, -1, 17, 6, 0, 2, 11, -3, -12]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Highly Optimized Mid-Range Exploration",
+            "rationale": "Refining mid-range exploration further by testing configurations around the best-performing targets identified, focusing on values showing gradual improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 6,
+                    "x_3": 8,
+                    "x_4": -7,
+                    "x_5": -5,
+                    "x_6": 4,
+                    "x_7": -3,
+                    "x_8": 19,
+                    "x_9": 12,
+                    "x_10": -1,
+                    "x_11": 2,
+                    "x_12": -1,
+                    "x_13": 15,
+                    "x_14": -2
+                }
+            ]
+        },
+        "point": "[-4, 15, 6, 8, -7, -5, 4, -3, 19, 12, -1, 2, -1, 15, -2]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Further Enhanced Symmetrical Sampling",
+            "rationale": "Adjusting symmetrical pairings based on earlier successful configurations, now strategically emphasizing slightly higher positive values to assess if this translates into improved target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": -10,
+                    "x_2": 4,
+                    "x_3": -1,
+                    "x_4": 2,
+                    "x_5": 8,
+                    "x_6": -8,
+                    "x_7": 4,
+                    "x_8": -5,
+                    "x_9": 2,
+                    "x_10": -2,
+                    "x_11": 12,
+                    "x_12": -12,
+                    "x_13": 19,
+                    "x_14": -19
+                }
+            ]
+        },
+        "point": "[5, -10, 4, -1, 2, 8, -8, 4, -5, 2, -2, 12, -12, 19, -19]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Mid-Range with Positive Confidence",
+            "rationale": "Testing configurations with a stronger positive bias while still maintaining a mixture of negative inputs, to further probe the interactions leading to enhanced target evaluations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 14,
+                    "x_2": 8,
+                    "x_3": 0,
+                    "x_4": 4,
+                    "x_5": -4,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 7,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-5, 14, 8, 0, 4, -4, 7, 0, 18, 7, 1, 3, 12, -1, -10]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Optimized Mid-Range Exploration",
+            "rationale": "Refining mid-range parameters based on successful evaluations to push the limits of the target function while maintaining a positive bias.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 7,
+                    "x_3": 9,
+                    "x_4": -6,
+                    "x_5": -4,
+                    "x_6": 5,
+                    "x_7": -3,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": 15,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-4, 15, 7, 9, -6, -4, 5, -3, 19, 11, 0, 1, -1, 15, -3]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Enhanced Positive Bias Exploration",
+            "rationale": "Testing configurations with a strong positive bias while retaining a balanced mixture of negative values to assess the improvements in target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 9,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -9
+                }
+            ]
+        },
+        "point": "[-3, 15, 8, 1, 3, -3, 6, 0, 18, 9, 1, 2, 12, -1, -9]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Targeting Balanced Mid-Range",
+            "rationale": "Focusing on well-distributed sampling from positive and negative inputs can provide insights into achieving well-balanced configurations impacting target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 13,
+                    "x_2": 6,
+                    "x_3": 0,
+                    "x_4": 4,
+                    "x_5": -5,
+                    "x_6": 9,
+                    "x_7": -2,
+                    "x_8": 17,
+                    "x_9": 6,
+                    "x_10": 0,
+                    "x_11": 3,
+                    "x_12": 11,
+                    "x_13": -2,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-5, 13, 6, 0, 4, -5, 9, -2, 17, 6, 0, 3, 11, -2, -10]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Optimization",
+            "rationale": "Continuing to explore the successful mid-range configurations while emphasizing positive values to uncover further enhancements in target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 7,
+                    "x_3": 9,
+                    "x_4": -5,
+                    "x_5": -4,
+                    "x_6": 5,
+                    "x_7": -3,
+                    "x_8": 19,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": -1,
+                    "x_13": 15,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-4, 15, 7, 9, -5, -4, 5, -3, 19, 12, 1, 2, -1, 15, -3]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Enhanced Positive Bias Exploration",
+            "rationale": "Exploring configurations that maintain a strong positive bias, leveraging insights from previous successful trials to maximize outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 1,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 8, 1, 4, -2, 8, 0, 18, 10, 1, 3, 13, -2, -5]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Targeting",
+            "rationale": "Continuing to probe well-distributed sampling with a focus on gently balancing between positive and negative parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 14,
+                    "x_2": 6,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": -4,
+                    "x_6": 9,
+                    "x_7": -2,
+                    "x_8": 17,
+                    "x_9": 6,
+                    "x_10": 0,
+                    "x_11": 3,
+                    "x_12": 10,
+                    "x_13": -1,
+                    "x_14": -8
+                }
+            ]
+        },
+        "point": "[-5, 14, 6, 1, 3, -4, 9, -2, 17, 6, 0, 3, 10, -1, -8]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Diversity in Mid-Range with Positive Tuning",
+            "rationale": "Introducing diversity in configurations while ensuring they remain within the advantageous mid-range, emphasizing potential positive correlation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 13,
+                    "x_2": 9,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": -1,
+                    "x_8": 18,
+                    "x_9": 7,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 10,
+                    "x_13": -3,
+                    "x_14": -7
+                }
+            ]
+        },
+        "point": "[-4, 13, 9, 2, 5, -3, 7, -1, 18, 7, 1, 2, 10, -3, -7]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range With Strong Positive Bias",
+            "rationale": "Refining the search around highly successful configurations while emphasizing a strong positive bias to enhance outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 2,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 2, 4, -2, 6, 0, 18, 10, 1, 3, 13, -2, -4]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Refined Symmetrical Positive Sampling",
+            "rationale": "Exploring configurations that maintain symmetrical relationships with a focus on keeping the balance towards higher positive values for improved performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": -12,
+                    "x_2": 7,
+                    "x_3": -1,
+                    "x_4": 3,
+                    "x_5": 8,
+                    "x_6": -8,
+                    "x_7": 4,
+                    "x_8": -7,
+                    "x_9": 3,
+                    "x_10": -2,
+                    "x_11": 11,
+                    "x_12": -11,
+                    "x_13": 18,
+                    "x_14": -18
+                }
+            ]
+        },
+        "point": "[6, -12, 7, -1, 3, 8, -8, 4, -7, 3, -2, 11, -11, 18, -18]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range With Positive Tuning",
+            "rationale": "Testing configurations with a balanced approach, adjusting inputs slightly to ensure an equal distribution while staying positively inclined.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 8,
+                    "x_3": 3,
+                    "x_4": 2,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": -1,
+                    "x_8": 17,
+                    "x_9": 5,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 10,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 14, 8, 3, 2, -3, 7, -1, 17, 5, 0, 2, 10, -1, -5]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Positive Bias",
+            "rationale": "Building on our previous successful observations, this revised hypothesis emphasizes a balance of positive values while adjusting mid-range configurations to explore different outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-2, 15, 10, 2, 5, -3, 7, 1, 19, 11, 2, 3, 14, -1, -4]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Refined Symmetrical Positive Exploration",
+            "rationale": "Investigating symmetrical configurations that emphasize stronger positive values, following the encouraging results from symmetrical arrangements in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": -10,
+                    "x_2": 5,
+                    "x_3": -2,
+                    "x_4": 3,
+                    "x_5": 9,
+                    "x_6": -9,
+                    "x_7": 5,
+                    "x_8": -6,
+                    "x_9": 4,
+                    "x_10": -2,
+                    "x_11": 12,
+                    "x_12": -12,
+                    "x_13": 18,
+                    "x_14": -18
+                }
+            ]
+        },
+        "point": "[6, -10, 5, -2, 3, 9, -9, 5, -6, 4, -2, 12, -12, 18, -18]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Diversity with Enhanced Positives",
+            "rationale": "Testing diverse configurations across the mid-range that maintain a balance but with a focus on positively inclined values to explore potential enhancements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 8,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 8,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 11,
+                    "x_13": -2,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-4, 14, 8, 3, 5, -2, 7, 0, 18, 8, 2, 4, 11, -2, -6]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Continuing to refine around previously successful configurations while emphasizing strong positive inputs to achieve further enhancements in outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 2,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 2, 4, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring diverse parameters in the mid-range to mitigate redundancy while ensuring a stable mixture of positive and negative values for optimal outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 2,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 3, 3, -3, 7, 2, 19, 10, 1, 3, 12, -1, -6]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Refined Positive Bias Focus",
+            "rationale": "Focusing on configurations with a strong positive bias while keeping a balance of negative values, expecting further enhancements in established successful areas.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 1,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 8, 1, 5, -3, 7, 0, 18, 10, 2, 3, 13, -2, -5]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Exploratory Positive Tuning",
+            "rationale": "Continuing to explore slightly altered configurations that maintain positive values to assess possible enhancements in target evaluation outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 7,
+                    "x_3": 2,
+                    "x_4": 4,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": -1,
+                    "x_8": 17,
+                    "x_9": 6,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 11,
+                    "x_13": -1,
+                    "x_14": -7
+                }
+            ]
+        },
+        "point": "[-4, 14, 7, 2, 4, -4, 8, -1, 17, 6, 1, 2, 11, -1, -7]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining around previously successful configurations while emphasizing strong positive inputs combined with balanced negative values to further improve performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 2, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Diverse Mid-Range Exploration",
+            "rationale": "Continuing to explore diverse configurations around established mid-range clusters while ensuring a positive bias to capitalize on successful patterns observed in earlier iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 3, 3, -3, 8, 0, 19, 10, 2, 3, 13, -1, -5]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Targeting",
+            "rationale": "Creating configurations that effectively balance positive and negative inputs to explore interactions impacting target outputs for maximum performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 8,
+                    "x_3": 2,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": -1,
+                    "x_8": 18,
+                    "x_9": 6,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 11,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-4, 14, 8, 2, 3, -3, 7, -1, 18, 6, 1, 2, 11, -1, -6]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining around successful configurations while emphasizing a strong positive influence combined with balanced negative values to further improve performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-1, 15, 9, 2, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring variations around established mid-range configurations while ensuring strong positive biases to leverage successful patterns observed in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 2,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 17,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 4, 2, -4, 8, 1, 17, 10, 2, 4, 13, -1, -5]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Refined Exploration of Higher Positives",
+            "rationale": "Targeting configurations that feature elevated positive contributions while balancing them against negative influences to assess potential enhancements in output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 1,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-4, 15, 10, 1, 4, -3, 6, 0, 19, 11, 1, 2, 12, -1, -6]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Focused Balanced Sampling from Successfully Identified Areas",
+            "rationale": "Implementing a refined balance of inputs concentrating on previously identified subspaces that produced higher outputs while ensuring a mixture of both positive and negative influences.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 8,
+                    "x_3": 3,
+                    "x_4": 3,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": -1,
+                    "x_8": 18,
+                    "x_9": 7,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 11,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 14, 8, 3, 3, -2, 7, -1, 18, 7, 2, 3, 11, -2, -5]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around previously successful parameters by emphasizing strong positive inputs combined with balanced negative values to achieve higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 2, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring variations around established mid-range configurations ensuring a strong positive bias to leverage successful patterns observed in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 3,
+                    "x_4": 2,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 3, 2, -4, 8, 1, 19, 10, 2, 3, 13, -1, -5]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Balanced Positive and Negative Variations",
+            "rationale": "Implementing configurations that achieve a balance between positive and negative influences to enhance interactions among all parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 2,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": -1,
+                    "x_8": 18,
+                    "x_9": 8,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 10,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-4, 15, 8, 2, 3, -3, 8, -1, 18, 8, 1, 2, 10, -1, -6]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around previously successful parameters by emphasizing strong positive inputs combined with balanced negative values for further performance enhancement.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 3, 4, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Diverse Mid-Range Exploration",
+            "rationale": "Continuing to explore diverse configurations around established mid-range clusters while ensuring a positive bias to leverage successful patterns observed in earlier iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 3,
+                    "x_5": -4,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 3, -4, 7, 1, 19, 10, 2, 3, 13, -2, -6]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Balanced Configuration Exploration",
+            "rationale": "Exploring configurations to achieve balanced contributions from positive and negative inputs to enhance interactions among all parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-4, 15, 8, 3, 4, -3, 7, 0, 18, 11, 1, 2, 12, -1, -4]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Refined Higher Positives with Balance",
+            "rationale": "Focusing on configurations featuring elevated positive contributions while balancing them against negative influences to enhance outputs further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 1,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-2, 14, 10, 1, 5, -3, 6, 0, 19, 12, 1, 3, 13, -2, -6]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around previously successful parameters by emphasizing strong positive inputs combined with balanced negative values for enhanced performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 2, 5, -2, 6, 1, 18, 11, 1, 3, 14, -2, -3]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring variations around established mid-range configurations while ensuring a strong positive bias to leverage successful patterns observed in previous iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 12,
+                    "x_3": 3,
+                    "x_4": 2,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": 2,
+                    "x_8": 19,
+                    "x_9": 9,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 12, 3, 2, -4, 8, 2, 19, 9, 2, 4, 13, -2, -6]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Exploratory Balanced Configuration",
+            "rationale": "Targeting configurations that maintain a blend of positive and negative contributions to understand better their interactions and impacts on the target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 9, 3, 5, -3, 7, 0, 18, 10, 1, 3, 12, -2, -5]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration with Strong Positive Bias",
+            "rationale": "Continuing to focus on well-performing mid-range inputs, refining configurations demonstrating high target values while maintaining a strong positive bias.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 3, 5, -2, 6, 1, 18, 11, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring a variety of configurations around established mid-range inputs while ensuring strong positive contributions to leverage previous successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 3,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 3, -4, 8, 0, 19, 10, 2, 3, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Exploratory Balanced Configuration",
+            "rationale": "Implementing configurations that effectively maintain a blend of positive and negative contributions to better understand their interactions and impacts on target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 9, 3, 4, -3, 7, 0, 18, 10, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Continuing to refine configurations around previously successful parameters by emphasizing strong positive inputs combined with balanced negative values for higher output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 3, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Exploratory Higher Positives with Balance",
+            "rationale": "Focusing on configurations that involve elevated positive values while balancing against negative influences to assess their effect on outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -4,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-2, 14, 11, 3, 5, -4, 8, 0, 19, 10, 2, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Balanced Configuration Enhancement",
+            "rationale": "Testing well-distributed configurations that strategically balance positive and negative inputs while probing areas yielding optimal results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 8,
+                    "x_3": 2,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 8, 2, 4, -3, 7, 0, 18, 10, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration with Strong Positive Bias",
+            "rationale": "Continuing to focus on well-performing mid-range inputs, refining configurations demonstrating high target values while maintaining a strong positive bias.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-2, 15, 10, 4, 5, -2, 7, 1, 18, 12, 2, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Exploratory Higher Positives with Maintaining Balance",
+            "rationale": "Focusing on configurations that maintain elevated contributions from positive inputs while strategically aligning with negative parameters to explore potential enhancements in output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 14, 10, 3, 5, -3, 7, 0, 18, 12, 1, 3, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Balanced Configuration Enhancement",
+            "rationale": "Testing configurations that maintain a blend of positive and negative inputs in areas yielding optimal results while exploring slight variations to maximize output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 17,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 4, 4, -3, 8, 1, 17, 10, 1, 3, 12, -2, -5]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Integrated Mid-Range Optimization",
+            "rationale": "Focus on various combinations within the favorable mid-range, targeting configurations with attributes shown to yield high outputs while incorporating successful patterns.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 2,
+                    "x_4": 3,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 2,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-2, 14, 11, 2, 3, -3, 7, 2, 19, 11, 1, 4, 13, -1, -4]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to further maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 4, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Bias Configuration",
+            "rationale": "Testing configurations that further elevate positive contributions while balancing with negative parameters, in search of maximizing outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 3, 5, -3, 7, 1, 18, 11, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Balanced Mid-Range Configuration",
+            "rationale": "Exploring further balanced configurations that maintain positive influences near our highest performing range while slightly varying negative inputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 3, 4, -3, 8, 0, 19, 10, 1, 3, 12, -2, -5]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Diversity in Positive-Weighted Mid-Range",
+            "rationale": "Introducing diverse configurations within the mid-range that continue to lean positively to discover potential improvements in output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 2,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 4, 4, -2, 7, 2, 19, 11, 2, 3, 14, -1, -4]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to further maximize the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 6,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 2,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 4, 6, -2, 7, 2, 18, 12, 2, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Bias Configuration",
+            "rationale": "Introducing configurations that further elevate positive contributions while balancing with negative parameters, in search of maximizing outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 12,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 17,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-2, 15, 12, 3, 5, -3, 8, 1, 17, 11, 1, 4, 13, -2, -6]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Balanced Configuration Exploration",
+            "rationale": "Exploring configurations that maintain a blend of positive and negative inputs while probing for optimal results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 14,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 14, 9, 4, 4, -3, 8, 0, 19, 10, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Diversity in Positive-Weighted Mid-Range",
+            "rationale": "Introducing diverse configurations within the mid-range that continue to lean positively to discover potential improvements in output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-1, 14, 11, 4, 5, -2, 6, 1, 18, 12, 2, 3, 13, -1, -3]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Continuing to refine configurations around previously successful parameters, while placing an even greater emphasis on strong positive inputs and maintaining a balanced mix of negative values, to exploit observed patterns further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 4, 5, -2, 7, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Exploratory Positive Bias with Balanced Configurations",
+            "rationale": "Testing configurations that continue to elevate positive contributions, while focusing on maintaining a balanced influence of negative parameters to maximize outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 4, 5, -3, 8, 1, 19, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Deploying configurations that maintain a balance between positive and negative inputs while exploring slight variations to maximize outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 9, 4, 4, -3, 8, 0, 18, 10, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around previously successful parameters while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 10, 5, 5, -2, 6, 1, 18, 11, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Bias Configuration",
+            "rationale": "Testing configurations that continue to elevate positive contributions while balancing with negative parameters to maximize outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 2, 5, -3, 8, 1, 18, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Exploring new configurations that maintain a balance between positive and negative inputs while probing for optimal results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-4, 15, 10, 3, 4, -3, 8, 1, 19, 11, 2, 3, 12, -1, -4]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "Diversity in Positive-Weighted Mid-Range",
+            "rationale": "Introducing diverse configurations within the mid-range that maintain strong positive influences to discover potential improvements in output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-2, 14, 10, 4, 5, -2, 6, 0, 18, 10, 1, 4, 13, -1, -3]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around previously successful parameters while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 4, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Bias Configuration",
+            "rationale": "Testing configurations that further elevate positive contributions while balancing with negative parameters, to maximize outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 2, 5, -3, 7, 1, 18, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Exploring configurations that maintain a balanced blend of positive and negative inputs to optimize target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 6,
+                    "x_7": 2,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-3, 15, 10, 3, 5, -3, 6, 2, 19, 11, 2, 3, 12, -1, -4]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 10, 4, 5, -2, 7, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring a variety of upper mid-range configurations while ensuring strong positive contributions to leverage previous successes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 4, 4, -3, 8, 1, 19, 10, 1, 3, 14, -1, -6]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Targeting configurations that maintain high positive values while balancing with negative influences to assess potential enhancements in outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 4, 5, -3, 7, 1, 19, 11, 2, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Implementing configurations that maintain a balanced blend of positive and negative inputs while exploring slight variations to maximize output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 9, 3, 4, -3, 8, 0, 18, 10, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 12,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 5, 4, -2, 6, 1, 19, 12, 2, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Diverse Exploration of Balanced Configurations",
+            "rationale": "Introducing diverse mid-range configurations that maintain a strong positive bias while ensuring negative contributions are still effectively managed.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 3,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 3, 4, -3, 8, 1, 19, 10, 1, 3, 14, -1, -6]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Targeting configurations that maintain high positive values while balancing with negative influences to assess potential enhancements in outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 4, 5, -3, 7, 1, 18, 11, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Integrated Mid-Range Optimization",
+            "rationale": "Focus on slight variations of successful configurations while ensuring that both positive and negative parameters are balanced to refine output further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 4, 5, -2, 6, 0, 18, 12, 2, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 2,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 4, 5, -2, 6, 2, 18, 11, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Balanced Exploration of Higher Positives",
+            "rationale": "Testing configurations with a higher focus on positive values while balancing against effective negative contributions to explore potential increases in output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 4, 5, -3, 7, 1, 19, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Diverse Mid-Range Optimization",
+            "rationale": "Implementing new configurations while maintaining a balance between positive and negative influences to maximize outputs based on observed successful patterns.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 4, -3, 8, 1, 19, 10, 1, 3, 14, -1, -6]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "High-Positive Bias with Negative Balancing",
+            "rationale": "Exploring configurations with high positive influences while maintaining balance with key negative contributions, aiming for maximized outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 14, 11, 2, 5, -3, 7, 0, 18, 11, 1, 4, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 5,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 5, 4, -3, 6, 1, 18, 11, 1, 3, 13, -2, -4]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Testing configurations that maintain high positive values while balancing against selected negative parameters to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 4, 5, -3, 8, 1, 19, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Introducing varied mid-range configurations that maintain a strong positive bias while effectively managing negative contributions to uncover potential improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 8,
+                    "x_7": 0,
+                    "x_8": 19,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 5, -2, 8, 0, 19, 11, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Refined Mid-Range Exploration with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted previously while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-3, 15, 10, 3, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -4]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Exploratory Balanced Configuration",
+            "rationale": "Testing configurations that maintain high positive contributions while balancing with negative influences to discover improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 10, 4, 5, -3, 7, 0, 18, 11, 1, 3, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Diverse Exploration of Mid-Range Configurations",
+            "rationale": "Introducing varied mid-range configurations that maintain a strong positive bias while ensuring negative contributions are still effectively managed.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 11, 4, 5, -2, 8, 1, 19, 10, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Testing configurations that maintain high positive values while balancing against selected negative parameters to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 12,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-2, 15, 12, 3, 5, -3, 7, 1, 18, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Diversity in Positive-Weighted Mid-Range",
+            "rationale": "Introducing diverse configurations within the mid-range that maintain strong positive influences to discover potential improvements in output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 15, 9, 4, 5, -2, 7, 1, 19, 10, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Implementing configurations that maintain a balanced blend of positive and negative inputs while exploring slight variations to maximize output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 2,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 10, 3, 5, -2, 7, 1, 18, 11, 2, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 10, 4, 5, -2, 6, 1, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Testing configurations that maintain high positive values while balancing against selected negative parameters to optimize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 18,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 4, 5, -3, 8, 1, 18, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Exploring various configurations that maintain strong positive influences and effectively manage negative contributions to uncover potential improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 4,
+                    "x_5": -3,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 4, -3, 8, 1, 19, 10, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Testing configurations that maintain a balanced blend of positive and negative inputs while exploring slight variations to maximize output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 3,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 11, 3, 5, -2, 7, 0, 18, 11, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Maximized Mid-Range with Strong Positive Bias",
+            "rationale": "Refining configurations around successful combinations noted in previous iterations while maintaining a strong positive input to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 15,
+                    "x_2": 9,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 6,
+                    "x_7": 2,
+                    "x_8": 18,
+                    "x_9": 12,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -2,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-2, 15, 9, 4, 5, -2, 6, 2, 18, 12, 1, 3, 14, -2, -5]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Exploratory High Positive Contribution",
+            "rationale": "Testing configurations that maintain high positive values while balancing against selected negative parameters to maximize target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": -3,
+                    "x_6": 7,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 4,
+                    "x_12": 13,
+                    "x_13": -1,
+                    "x_14": -6
+                }
+            ]
+        },
+        "point": "[-1, 15, 11, 5, 5, -3, 7, 1, 19, 10, 1, 4, 13, -1, -6]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Diverse Balanced Mid-Range Exploration",
+            "rationale": "Introducing varied mid-range configurations that maintain strong positive influences while effectively managing negative contributions to uncover potential improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 14,
+                    "x_2": 10,
+                    "x_3": 4,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 8,
+                    "x_7": 1,
+                    "x_8": 19,
+                    "x_9": 10,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 14,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-3, 14, 10, 4, 5, -2, 8, 1, 19, 10, 1, 3, 14, -1, -5]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Balanced Configuration Optimization",
+            "rationale": "Testing configurations that maintain a balanced blend of positive and negative inputs while exploring slight variations to maximize output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 15,
+                    "x_2": 11,
+                    "x_3": 2,
+                    "x_4": 5,
+                    "x_5": -2,
+                    "x_6": 7,
+                    "x_7": 0,
+                    "x_8": 18,
+                    "x_9": 11,
+                    "x_10": 1,
+                    "x_11": 3,
+                    "x_12": 12,
+                    "x_13": -1,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-4, 15, 11, 2, 5, -2, 7, 0, 18, 11, 1, 3, 12, -1, -5]",
+        "action": "LLM"
+    }
+}

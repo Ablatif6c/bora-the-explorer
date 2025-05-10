@@ -1,0 +1,24 @@
+```
+{
+    "name": "mixed_strategy_guess_for_maximum",
+    "rationale": "To capture potential non-linearities of the target function, I opted for a mixed approach by setting half of the parameters to their maximum value (20) and the other half to their minimum value (-30). This might help identify a peak that could lie in a non-boundary region or near extreme values.",
+    "confidence": 0.6,
+    "optimum_location": {
+        "x_0": 20,
+        "x_1": 20,
+        "x_2": -30,
+        "x_3": -30,
+        "x_4": 20,
+        "x_5": -30,
+        "x_6": 20,
+        "x_7": -30,
+        "x_8": 20,
+        "x_9": -30,
+        "x_10": 20,
+        "x_11": -30,
+        "x_12": 20,
+        "x_13": -30,
+        "x_14": -30
+    }
+}
+```

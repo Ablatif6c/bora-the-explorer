@@ -1,0 +1,15 @@
+{
+    "name": "Maximized Light and Moisture Setup",
+    "rationale": "This configuration emphasizes high irradiance to optimize photosynthetic activity while maintaining temperature ranges that prevent stress to the sugar beet. Adequate moisture levels are balanced with manageable rainfall and soil water content to create favorable growing conditions, ensuring maximum biomass production.",
+    "confidence": 0.76,
+    "optimum_location": {
+        "irrad": 6800,
+        "tmin": 14,
+        "tmax": 24,
+        "vap": 2.0,
+        "wind": 1.2,
+        "rain": 6,
+        "wav": 70,
+        "SMLIM": 0.75
+    }
+}

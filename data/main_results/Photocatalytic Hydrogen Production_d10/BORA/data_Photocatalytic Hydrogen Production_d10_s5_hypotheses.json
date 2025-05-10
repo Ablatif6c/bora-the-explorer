@@ -1,0 +1,530 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Hole Scavenger Optimization",
+            "rationale": "Increasing L-Cysteine concentration may enhance charge separation efficiency, thus improving HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Surfactant Influence",
+            "rationale": "Incorporating SDS may stabilize the photocatalyst and enhance HER through improved dispersion.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 1.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 2.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 1.0, 1.0, 1.0, 5.0, 0.0, 0.0, 2.0, 0.0]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "pH Adjustment",
+            "rationale": "Adjusting NaOH concentration may optimize the pH for photocatalytic activity, enhancing HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 3.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 0.0, 0.0, 1.0, 3.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Combined Dyes Effect",
+            "rationale": "Using a combination of Acid Red 87 and Methylene Blue may create a synergistic effect for enhanced light absorption.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 1.0,
+                    "L-Cysteine-100gL": 0.0,
+                    "MethyleneB_250mgL": 2.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[1.0, 0.0, 2.0, 1.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "20": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaOH",
+            "rationale": "Maintaining moderate levels of L-Cysteine and NaOH appears to enhance HER significantly.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "21": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Minimized Dye Concentration",
+            "rationale": "Reducing dye concentrations while optimizing L-Cysteine and NaOH may prevent detrimental effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 0.5, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced Surfactant and Hole Scavenger",
+            "rationale": "Incorporating a small amount of SDS with L-Cysteine may enhance dispersion and charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.0,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.25,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 1.0, 5.0, 0.0, 0.0, 0.25, 0.0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploring Higher NaCl Concentration",
+            "rationale": "Testing higher NaCl concentrations may reveal beneficial ionic strength effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 2.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "34": {
+        "trust_score": 0.697154039288254,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Optimized L-Cysteine and NaOH",
+            "rationale": "Maintaining moderate levels of L-Cysteine and NaOH continues to enhance HER significantly.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 1.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "35": {
+        "trust_score": 0.697154039288254,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Minimized Dye Concentration",
+            "rationale": "Reducing dye concentrations while optimizing L-Cysteine and NaOH may prevent detrimental effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 0.5,
+                    "NaOH-1M": 1.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 0.5, 1.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "36": {
+        "trust_score": 0.697154039288254,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploring Higher NaCl Concentration",
+            "rationale": "Testing higher NaCl concentrations may reveal beneficial ionic strength effects on HER, but should be balanced with L-Cysteine.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "48": {
+        "trust_score": 0.6060210607254894,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Refined L-Cysteine and NaOH Optimization",
+            "rationale": "Maintaining L-Cysteine at 1.50 g/L and NaOH at 0.75 M continues to yield the highest HER.",
+            "confidence": "high",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "49": {
+        "trust_score": 0.6060210607254894,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Minimized Dye Concentration with Enhanced NaCl",
+            "rationale": "Reducing dye concentrations while optimizing NaCl may prevent detrimental effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.5, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "50": {
+        "trust_score": 0.6060210607254894,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Surfactant and Hole Scavenger",
+            "rationale": "Incorporating a small amount of SDS with L-Cysteine may enhance dispersion and charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.25,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 1.0, 0.75, 5.0, 0.0, 0.0, 0.25, 0.0]"
+    },
+    "51": {
+        "trust_score": 0.6060210607254894,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Exploring Higher NaCl Concentration with Reduced L-Cysteine",
+            "rationale": "Testing higher NaCl concentrations while slightly reducing L-Cysteine may reveal beneficial ionic strength effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 2.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 2.0, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "62": {
+        "trust_score": 0.45972884110883266,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Minimized Dye Concentration with Enhanced NaCl",
+            "rationale": "Reducing dye concentrations while optimizing NaCl may prevent detrimental effects on HER.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.5,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.5, 0.0, 1.5, 0.5, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "63": {
+        "trust_score": 0.45972884110883266,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced Surfactant and Hole Scavenger",
+            "rationale": "Incorporating a small amount of SDS with L-Cysteine may enhance dispersion and charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.25,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.25, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "64": {
+        "trust_score": 0.45972884110883266,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploring Low Dye Concentration with High L-Cysteine",
+            "rationale": "Testing low concentrations of Methylene Blue while maximizing L-Cysteine may yield better HER results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.25,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.25, 1.0, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "76": {
+        "trust_score": 0.43449762324537317,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Exploring Low Dye Concentration with High L-Cysteine",
+            "rationale": "Testing low concentrations of Methylene Blue while maximizing L-Cysteine may yield better HER results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.5,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.5, 1.0, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "89": {
+        "trust_score": 0.3833580107042265,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Balanced Surfactant and Hole Scavenger",
+            "rationale": "Incorporating a small amount of SDS with L-Cysteine may enhance dispersion and charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.5,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.0, 0.5, 5.0, 0.0, 0.0, 0.5, 0.0]"
+    },
+    "90": {
+        "trust_score": 0.3833580107042265,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Low Dye Concentration with High L-Cysteine",
+            "rationale": "Testing low concentrations of Methylene Blue while maximizing L-Cysteine may yield better HER results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 2.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.0,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.0,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 2.0, 0.0, 1.0, 0.75, 5.0, 0.0, 0.0, 0.0, 0.0]"
+    },
+    "104": {
+        "trust_score": 0.3834680157452886,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Surfactant and Hole Scavenger",
+            "rationale": "Incorporating a small amount of SDS with L-Cysteine may enhance dispersion and charge separation.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "AcidRed871_0gL": 0.0,
+                    "L-Cysteine-100gL": 1.0,
+                    "MethyleneB_250mgL": 0.0,
+                    "NaCl-3M": 1.5,
+                    "NaOH-1M": 0.75,
+                    "P10-MIX1": 5.0,
+                    "PVP-1wt": 0.0,
+                    "RhodamineB1_0gL": 0.0,
+                    "SDS-1wt": 0.5,
+                    "Sodiumsilicate-1wt": 0.0
+                }
+            ]
+        },
+        "point": "[0.0, 1.0, 0.0, 1.5, 0.75, 5.0, 0.0, 0.0, 0.5, 0.0]"
+    }
+}

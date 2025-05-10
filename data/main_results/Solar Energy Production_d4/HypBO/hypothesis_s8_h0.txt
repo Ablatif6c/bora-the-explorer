@@ -1,0 +1,11 @@
+{
+    "name": "Optimal Solar Panel Configuration",
+    "rationale": "A tilt angle around 30° is generally effective for capturing sunlight throughout the day, striking a balance between morning and afternoon exposure. An azimuth angle of 180° (true south in the northern hemisphere) maximizes exposure to the sun. A system capacity of 15 kW provides a good balance of power generation, while a DC to AC ratio of 1.2 optimizes energy conversion without excessive losses.",
+    "confidence": 0.85,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 15,
+        "dc_ac_ratio": 1.2
+    }
+}

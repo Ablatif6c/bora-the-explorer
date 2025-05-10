@@ -1,0 +1,11 @@
+{
+    "name": "Optimized Solar Panel Performance",
+    "rationale": "A tilt angle of 45° is often effective in maximizing solar energy capture, especially in high-latitude areas where sunlight is more oblique during certain seasons. An azimuth angle of 190° can help utilize solar gain during midday and early afternoon. A system capacity of 18 kW provides substantial energy production potential without exceeding the typical installation thresholds, and a DC to AC ratio of 1.1 is beneficial for ensuring efficiency while accommodating variable production conditions.",
+    "confidence": "0.72",
+    "optimum_location": {
+        "tilt": 45,
+        "azimuth": 190,
+        "system_capacity": 18,
+        "dc_ac_ratio": 1.1
+    }
+}

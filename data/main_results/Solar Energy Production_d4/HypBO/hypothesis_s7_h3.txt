@@ -1,0 +1,11 @@
+{
+    "name": "Optimized High-Performance Settings",
+    "rationale": "In regions with ample sunlight, a tilt angle of 45° can be beneficial for maximizing energy production, especially during summer months. Setting the azimuth angle to 180° captures maximum sunlight exposure throughout the day by facing directly south. A system capacity of 20 kW leverages the maximum allowed capacity, thus optimizing energy yield, and a DC to AC ratio of 1.4 ensures that the inverter operates efficiently under peak conditions while accommodating some losses.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "tilt": 45,
+        "azimuth": 180,
+        "system_capacity": 20,
+        "dc_ac_ratio": 1.4
+    }
+}

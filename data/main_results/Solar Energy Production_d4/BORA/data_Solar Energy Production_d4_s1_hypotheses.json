@@ -1,0 +1,704 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Optimal Mid-Tilt Configuration",
+            "rationale": "A tilt angle around 30-40\u00b0 is often optimal for solar panels in temperate regions, balancing direct sunlight capture and seasonal variations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 35,
+                    "azimuth": 180,
+                    "system_capacity": 10,
+                    "dc_ac_ratio": 1.2
+                }
+            ]
+        },
+        "point": "[35.0, 180.0, 10.0, 1.2]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Capacity with Low Tilt",
+            "rationale": "A low tilt angle (around 10\u00b0) can be effective in maximizing energy capture in regions with high solar incidence, especially during summer months.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 10,
+                    "azimuth": 200,
+                    "system_capacity": 15,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[10.0, 200.0, 15.0, 1.3]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "East-Facing Configuration",
+            "rationale": "An azimuth angle of 90\u00b0 (east-facing) can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 25,
+                    "azimuth": 90,
+                    "system_capacity": 8,
+                    "dc_ac_ratio": 1.1
+                }
+            ]
+        },
+        "point": "[25.0, 90.0, 8.0, 1.1]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "West-Facing High Capacity",
+            "rationale": "A west-facing panel (azimuth 270\u00b0) can capture afternoon sunlight, which is advantageous in areas with high energy demand in the evening.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 30,
+                    "azimuth": 270,
+                    "system_capacity": 12,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[30.0, 270.0, 12.0, 1.4]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Balanced Configuration",
+            "rationale": "A balanced approach with moderate tilt and azimuth can provide consistent energy production throughout the day.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 45,
+                    "azimuth": 180,
+                    "system_capacity": 5,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[45.0, 180.0, 5.0, 1.5]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "High Tilt and Capacity",
+            "rationale": "High tilt angles (above 60\u00b0) have shown to maximize energy capture, especially with maximum system capacity.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[70.0, 180.0, 20.0, 1.5]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Optimal High Tilt Configuration",
+            "rationale": "Continuing to explore high tilt angles with slight variations in azimuth can help identify the best orientation for energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 80,
+                    "azimuth": 175,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[80.0, 175.0, 20.0, 1.5]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Maximized Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 270,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[75.0, 270.0, 20.0, 1.4]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 60,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[60.0, 180.0, 20.0, 1.3]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 4,
+        "hypothesis": {
+            "name": "Exploratory High Tilt",
+            "rationale": "Further exploration of high tilt angles with varying azimuths can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 85,
+                    "azimuth": 190,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[85.0, 190.0, 20.0, 1.5]"
+    },
+    "26": {
+        "trust_score": 0.687769419117141,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60\u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 85,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[85.0, 180.0, 20.0, 1.5]"
+    },
+    "27": {
+        "trust_score": 0.687769419117141,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 75,
+                    "azimuth": 260,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[75.0, 260.0, 20.0, 1.4]"
+    },
+    "28": {
+        "trust_score": 0.687769419117141,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploratory High Tilt with Variation",
+            "rationale": "Further exploration of high tilt angles with slight variations in azimuth can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 90,
+                    "azimuth": 185,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 185.0, 20.0, 1.5]"
+    },
+    "29": {
+        "trust_score": 0.687769419117141,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 70,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[70.0, 180.0, 20.0, 1.3]"
+    },
+    "30": {
+        "trust_score": 0.687769419117141,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 80,
+                    "azimuth": 90,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[80.0, 90.0, 20.0, 1.5]"
+    },
+    "39": {
+        "trust_score": 0.6172725978917607,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60\u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[88.0, 182.0, 20.0, 1.5]"
+    },
+    "40": {
+        "trust_score": 0.6172725978917607,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 265,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[76.0, 265.0, 20.0, 1.4]"
+    },
+    "41": {
+        "trust_score": 0.6172725978917607,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploratory High Tilt with Variation",
+            "rationale": "Further exploration of high tilt angles with slight variations in azimuth can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 188,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[89.0, 188.0, 20.0, 1.5]"
+    },
+    "42": {
+        "trust_score": 0.6172725978917607,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 81,
+                    "azimuth": 92,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[81.0, 92.0, 20.0, 1.5]"
+    },
+    "43": {
+        "trust_score": 0.6172725978917607,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 179,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[72.0, 179.0, 20.0, 1.3]"
+    },
+    "53": {
+        "trust_score": 0.4757855439698547,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60\u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 88,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[88.0, 180.0, 20.0, 1.5]"
+    },
+    "54": {
+        "trust_score": 0.4757855439698547,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 275,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[76.0, 275.0, 20.0, 1.4]"
+    },
+    "55": {
+        "trust_score": 0.4757855439698547,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Exploratory High Tilt with Variation",
+            "rationale": "Further exploration of high tilt angles with slight variations in azimuth can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 90,
+                    "azimuth": 192,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 192.0, 20.0, 1.5]"
+    },
+    "56": {
+        "trust_score": 0.4757855439698547,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 82,
+                    "azimuth": 95,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[82.0, 95.0, 20.0, 1.5]"
+    },
+    "57": {
+        "trust_score": 0.4757855439698547,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 185,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[72.0, 185.0, 20.0, 1.3]"
+    },
+    "68": {
+        "trust_score": 0.4755388740459418,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60\u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 87,
+                    "azimuth": 178,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[87.0, 178.0, 20.0, 1.5]"
+    },
+    "69": {
+        "trust_score": 0.4755388740459418,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 76,
+                    "azimuth": 270,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[76.0, 270.0, 20.0, 1.4]"
+    },
+    "70": {
+        "trust_score": 0.4755388740459418,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploratory High Tilt with Variation",
+            "rationale": "Further exploration of high tilt angles with slight variations in azimuth can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 186,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[89.0, 186.0, 20.0, 1.5]"
+    },
+    "71": {
+        "trust_score": 0.4755388740459418,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 82,
+                    "azimuth": 90,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[82.0, 90.0, 20.0, 1.5]"
+    },
+    "72": {
+        "trust_score": 0.4755388740459418,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 72,
+                    "azimuth": 180,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[72.0, 180.0, 20.0, 1.3]"
+    },
+    "82": {
+        "trust_score": 0.4752921683103691,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 178,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[89.0, 178.0, 20.0, 1.5]"
+    },
+    "83": {
+        "trust_score": 0.4752921683103691,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 77,
+                    "azimuth": 265,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[77.0, 265.0, 20.0, 1.4]"
+    },
+    "84": {
+        "trust_score": 0.4752921683103691,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 83,
+                    "azimuth": 92,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[83.0, 92.0, 20.0, 1.5]"
+    },
+    "85": {
+        "trust_score": 0.4752921683103691,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 73,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[73.0, 182.0, 20.0, 1.3]"
+    },
+    "96": {
+        "trust_score": 0.4750454983864562,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Maximized High Tilt and Capacity",
+            "rationale": "Continuing to explore high tilt angles (above 60\u00b0) with maximum system capacity has shown to maximize energy capture.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 89,
+                    "azimuth": 182,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[89.0, 182.0, 20.0, 1.5]"
+    },
+    "97": {
+        "trust_score": 0.4750454983864562,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Optimal Afternoon Capture",
+            "rationale": "Exploring azimuth angles that capture afternoon sunlight effectively, combined with high tilt, can enhance energy production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "tilt": 78,
+                    "azimuth": 265,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.4
+                }
+            ]
+        },
+        "point": "[78.0, 265.0, 20.0, 1.4]"
+    },
+    "98": {
+        "trust_score": 0.4750454983864562,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Exploratory High Tilt with Variation",
+            "rationale": "Further exploration of high tilt angles with slight variations in azimuth can uncover optimal configurations not yet tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 90,
+                    "azimuth": 188,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 188.0, 20.0, 1.5]"
+    },
+    "99": {
+        "trust_score": 0.4750454983864562,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Tilt with East Orientation",
+            "rationale": "Exploring high tilt angles with an east-facing orientation can capture morning sunlight effectively, which may be beneficial in certain climates.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 84,
+                    "azimuth": 92,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.5
+                }
+            ]
+        },
+        "point": "[84.0, 92.0, 20.0, 1.5]"
+    },
+    "100": {
+        "trust_score": 0.4750454983864562,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Balanced High Capacity",
+            "rationale": "A balanced approach with high capacity and moderate tilt can provide consistent energy production throughout the day.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "tilt": 74,
+                    "azimuth": 179,
+                    "system_capacity": 20,
+                    "dc_ac_ratio": 1.3
+                }
+            ]
+        },
+        "point": "[74.0, 179.0, 20.0, 1.3]"
+    }
+}

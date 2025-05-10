@@ -1,0 +1,11 @@
+{
+    "name": "Optimized Solar Panel Configuration",
+    "rationale": "Solar panels typically perform best with a tilt angle that is equal to the latitude of the installation location to maximize solar exposure. The azimuth angle for solar panels in the northern hemisphere is ideally set to face south (around 180°), thus optimizing sun exposure throughout the day. A system capacity closer to the higher end can maximize energy production, as can a DC to AC ratio above 1 to ensure that the inverter can handle peak output efficiently.",
+    "confidence": 0.8,
+    "optimum_location": {
+        "tilt": 30,
+        "azimuth": 180,
+        "system_capacity": 20,
+        "dc_ac_ratio": 1.3
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Alternative High-Speed Throw Estimate",
+    "rationale": "Considering that a higher initial velocity can significantly increase the range, I propose an aggressive initial velocity (v0) of 40 m/s, which should maximize the distance covered. Maintaining a pitch_deg of 35° is slightly lower than the optimal 45° to balance the projectile's arc with high-speed trajectory. A yaw_deg of 0° continues to aim straight at the target. Setting spin_rpm to 1500 rpm should provide good stability during flight. The spin_axis_deg remains at 0° for a direct throw, while a release height (h0) of 1.5 m can leverage the increased device height for better trajectory upon release. The mass (mass) of 0.5 kg could support a faster throw without overly complicating dynamics.",
+    "confidence": 0.7,
+    "optimum_location": {
+        "pitch_deg": 35,
+        "yaw_deg": 0,
+        "v0": 40,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 1.5,
+        "mass": 0.5
+    }
+}

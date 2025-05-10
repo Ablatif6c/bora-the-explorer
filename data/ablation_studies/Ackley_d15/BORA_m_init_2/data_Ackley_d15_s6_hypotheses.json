@@ -1,0 +1,1278 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Center Exploration",
+            "rationale": "This point explores the central region of the parameter space, where interactions among parameters may yield a stable outcome.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Positive Shift Focus",
+            "rationale": "This hypothesis targets the upper bound of the parameter space, hypothesizing that maximizing positive inputs might lead to higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 15,
+                    "x_2": 15,
+                    "x_3": 15,
+                    "x_4": 15,
+                    "x_5": 15,
+                    "x_6": 15,
+                    "x_7": 15,
+                    "x_8": 15,
+                    "x_9": 15,
+                    "x_10": 15,
+                    "x_11": 15,
+                    "x_12": 15,
+                    "x_13": 15,
+                    "x_14": 15
+                }
+            ]
+        },
+        "point": "[15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Negative Extremes Exploration",
+            "rationale": "By exploring the lower bounds, this hypothesis aims to determine if significant negative values yield favorable outcomes due to interaction effects.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -20,
+                    "x_2": -20,
+                    "x_3": -20,
+                    "x_4": -20,
+                    "x_5": -20,
+                    "x_6": -20,
+                    "x_7": -20,
+                    "x_8": -20,
+                    "x_9": -20,
+                    "x_10": -20,
+                    "x_11": -20,
+                    "x_12": -20,
+                    "x_13": -20,
+                    "x_14": -20
+                }
+            ]
+        },
+        "point": "[-20, -20, -20, -20, -20, -20, -20, -20, -20, -20, -20, -20, -20, -20, -20]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Mixed Extremes Approach",
+            "rationale": "This hypothesis seeks to explore the effect of combining extremes with both positive and negative values, allowing potential strong interactions to emerge.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": -20,
+                    "x_2": 20,
+                    "x_3": -20,
+                    "x_4": 20,
+                    "x_5": -20,
+                    "x_6": 20,
+                    "x_7": -20,
+                    "x_8": 20,
+                    "x_9": -20,
+                    "x_10": 20,
+                    "x_11": -20,
+                    "x_12": 20,
+                    "x_13": -20,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[20, -20, 20, -20, 20, -20, 20, -20, 20, -20, 20, -20, 20, -20, 0]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Cascade of Positive Values",
+            "rationale": "This hypothesis focuses on a gradual increase of positive values, hypothesizing that small incremental changes might lead to a finely tuned maximum.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 5,
+                    "x_4": 5,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 5,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 5,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]"
+    },
+    "8": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Adjusted Central Exploration",
+            "rationale": "This point probes the central region slightly adjusted from zero in all dimensions, aiming to capture potential subtle improvements in the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.5,
+                    "x_1": 0.5,
+                    "x_2": 0.5,
+                    "x_3": 0.5,
+                    "x_4": 0.5,
+                    "x_5": 0.5,
+                    "x_6": 0.5,
+                    "x_7": 0.5,
+                    "x_8": 0.5,
+                    "x_9": 0.5,
+                    "x_10": 0.5,
+                    "x_11": 0.5,
+                    "x_12": 0.5,
+                    "x_13": 0.5,
+                    "x_14": 0.5
+                }
+            ]
+        },
+        "point": "[0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5]"
+    },
+    "9": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "New Moderate Positive Configuration",
+            "rationale": "This hypothesis tests another moderate setting to explore interactions that might achieve an even better target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 10,
+                    "x_2": 10,
+                    "x_3": 10,
+                    "x_4": 10,
+                    "x_5": 10,
+                    "x_6": 10,
+                    "x_7": 10,
+                    "x_8": 10,
+                    "x_9": 10,
+                    "x_10": 10,
+                    "x_11": 10,
+                    "x_12": 10,
+                    "x_13": 10,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]"
+    },
+    "10": {
+        "trust_score": 0.9,
+        "plateau_duration": 2,
+        "hypothesis": {
+            "name": "Balanced Negative and Positive Mix",
+            "rationale": "This approach focuses on balancing negative and positive values to explore possible synergy that was not previously identified.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 4,
+                    "x_2": -4,
+                    "x_3": 4,
+                    "x_4": -4,
+                    "x_5": 4,
+                    "x_6": -4,
+                    "x_7": 4,
+                    "x_8": -4,
+                    "x_9": 4,
+                    "x_10": -4,
+                    "x_11": 4,
+                    "x_12": -4,
+                    "x_13": 4,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-4, 4, -4, 4, -4, 4, -4, 4, -4, 4, -4, 4, -4, 4, 0]"
+    },
+    "16": {
+        "trust_score": 0.6758502055688203,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Refined Central Exploration",
+            "rationale": "Building on the proven success of central configurations, slight refinements aim to discover further enhancements in the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.75,
+                    "x_1": 0.75,
+                    "x_2": 0.75,
+                    "x_3": 0.75,
+                    "x_4": 0.75,
+                    "x_5": 0.75,
+                    "x_6": 0.75,
+                    "x_7": 0.75,
+                    "x_8": 0.75,
+                    "x_9": 0.75,
+                    "x_10": 0.75,
+                    "x_11": 0.75,
+                    "x_12": 0.75,
+                    "x_13": 0.75,
+                    "x_14": 0.75
+                }
+            ]
+        },
+        "point": "[0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75, 0.75]"
+    },
+    "17": {
+        "trust_score": 0.6758502055688203,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Enhanced Moderate Configuration",
+            "rationale": "Exploring configurations centered around a new moderate set of values to search for improved target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 8,
+                    "x_1": 9,
+                    "x_2": 7,
+                    "x_3": 10,
+                    "x_4": 8,
+                    "x_5": 9,
+                    "x_6": 7,
+                    "x_7": 10,
+                    "x_8": 8,
+                    "x_9": 9,
+                    "x_10": 7,
+                    "x_11": 10,
+                    "x_12": 8,
+                    "x_13": 9,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[8, 9, 7, 10, 8, 9, 7, 10, 8, 9, 7, 10, 8, 9, 6]"
+    },
+    "18": {
+        "trust_score": 0.6758502055688203,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Moderate Positive-Negative Balance",
+            "rationale": "Focusing on a balanced mix of both positive and negative values derived from current insights to explore potential gradients for improved performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -1,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": 4,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": -2,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 2, -1, 2, 0, 1, -1, 2, 0, 4, -1, 1, -2, 1, 0]"
+    },
+    "19": {
+        "trust_score": 0.6758502055688203,
+        "plateau_duration": 5,
+        "hypothesis": {
+            "name": "Exploring Interaction Effects",
+            "rationale": "Probing a previously overlooked combination of parameters to potentially unveil strong interaction effects contributing to target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": -3,
+                    "x_2": 4,
+                    "x_3": -2,
+                    "x_4": 6,
+                    "x_5": -4,
+                    "x_6": 5,
+                    "x_7": -3,
+                    "x_8": 3,
+                    "x_9": -1,
+                    "x_10": 8,
+                    "x_11": -5,
+                    "x_12": 3,
+                    "x_13": -7,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[5, -3, 4, -2, 6, -4, 5, -3, 3, -1, 8, -5, 3, -7, 0]"
+    },
+    "26": {
+        "trust_score": 0.6001898928064718,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slightly Adjusted Central Values",
+            "rationale": "Focusing on slightly varying values around the central point to uncover potential subtle improvements in the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.6,
+                    "x_1": 0.6,
+                    "x_2": 0.6,
+                    "x_3": 0.6,
+                    "x_4": 0.6,
+                    "x_5": 0.6,
+                    "x_6": 0.6,
+                    "x_7": 0.6,
+                    "x_8": 0.6,
+                    "x_9": 0.6,
+                    "x_10": 0.6,
+                    "x_11": 0.6,
+                    "x_12": 0.6,
+                    "x_13": 0.6,
+                    "x_14": 0.6
+                }
+            ]
+        },
+        "point": "[0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6, 0.6]"
+    },
+    "27": {
+        "trust_score": 0.6001898928064718,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Moderate Configuration",
+            "rationale": "Exploring a combination of moderate values to search for better target outputs based on prior promising results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 8,
+                    "x_2": 6,
+                    "x_3": 9,
+                    "x_4": 7,
+                    "x_5": 8,
+                    "x_6": 6,
+                    "x_7": 9,
+                    "x_8": 7,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 9,
+                    "x_12": 7,
+                    "x_13": 8,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 8, 6, 9, 7, 8, 6, 9, 7, 8, 6, 9, 7, 8, 5]"
+    },
+    "28": {
+        "trust_score": 0.6001898928064718,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mix with Minor Extremes",
+            "rationale": "This hypothesis probes a balanced approach with a slight introduction of extremes to assess potential synergistic interactions that have not yet been fully explored.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 2, 0, 1, -1, 1, 0, 2, -1, 1, 0, 1, -1]"
+    },
+    "29": {
+        "trust_score": 0.6001898928064718,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Negative Positivity",
+            "rationale": "This hypothesis examines settings utilizing a negative-leaning but positive-centric combination to explore any hidden potential in this mixed region.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": -0.2,
+                    "x_2": -0.1,
+                    "x_3": -0.3,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": -0.5,
+                    "x_10": 0.5,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, -0.2, -0.1, -0.3, 1.0, 2.0, 0.0, 1.0, 0.0, -0.5, 0.5, 1.0, 0.0, 0.0, 0.0]"
+    },
+    "36": {
+        "trust_score": 0.4523305866681735,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Engagement",
+            "rationale": "Exploring slight variations around the central values to capture potential enhancements based on the success of (0, 0, ..., 0).",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.8,
+                    "x_1": 0.8,
+                    "x_2": 0.8,
+                    "x_3": 0.8,
+                    "x_4": 0.8,
+                    "x_5": 0.8,
+                    "x_6": 0.8,
+                    "x_7": 0.8,
+                    "x_8": 0.8,
+                    "x_9": 0.8,
+                    "x_10": 0.8,
+                    "x_11": 0.8,
+                    "x_12": 0.8,
+                    "x_13": 0.8,
+                    "x_14": 0.8
+                }
+            ]
+        },
+        "point": "[0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8]"
+    },
+    "37": {
+        "trust_score": 0.4523305866681735,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Mixed Configuration",
+            "rationale": "Exploring balanced configurations that integrate both positive and corrective negative values to optimize interactions and gauge output improvements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -0.5,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": -0.5,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, 1.0, 0.0, 2.0, 0.0, 1.0, -0.5, 2.0, 0.0, 3.0, -0.5, 1.0, 0.0, 1.0, 0.0]"
+    },
+    "38": {
+        "trust_score": 0.4523305866681735,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Elevated Moderate Focus",
+            "rationale": "Continuing exploration of moderate values while assessing combinations that might elicit impactful nonlinear interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 7,
+                    "x_6": 5,
+                    "x_7": 8,
+                    "x_8": 7,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 9,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 7, 6, 7, 5, 8, 7, 8, 6, 9, 6, 7, 5]"
+    },
+    "39": {
+        "trust_score": 0.4523305866681735,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Single-Sided Positive Exploration",
+            "rationale": "To better understand upper-end configurations by testing a non-duplicated set of positive values while evaluating their performance potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 5,
+                    "x_2": 8,
+                    "x_3": 11,
+                    "x_4": 12,
+                    "x_5": 9,
+                    "x_6": 7,
+                    "x_7": 10,
+                    "x_8": 6,
+                    "x_9": 4,
+                    "x_10": 3,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[10, 5, 8, 11, 12, 9, 7, 10, 6, 4, 3, 2, 1, 5, 4]"
+    },
+    "46": {
+        "trust_score": 0.4521049003774434,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Parameter Seeker",
+            "rationale": "Exploring minor adjustments within the central area to identify any hidden enhancements in the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.85,
+                    "x_1": 0.85,
+                    "x_2": 0.85,
+                    "x_3": 0.85,
+                    "x_4": 0.85,
+                    "x_5": 0.85,
+                    "x_6": 0.85,
+                    "x_7": 0.85,
+                    "x_8": 0.85,
+                    "x_9": 0.85,
+                    "x_10": 0.85,
+                    "x_11": 0.85,
+                    "x_12": 0.85,
+                    "x_13": 0.85,
+                    "x_14": 0.85
+                }
+            ]
+        },
+        "point": "[0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85, 0.85]"
+    },
+    "47": {
+        "trust_score": 0.4521049003774434,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimized Moderate Configuration",
+            "rationale": "Testing combinations of moderate values centered on previously successful configurations to explore for potentially superior target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 8,
+                    "x_2": 5,
+                    "x_3": 9,
+                    "x_4": 7,
+                    "x_5": 8,
+                    "x_6": 6,
+                    "x_7": 9,
+                    "x_8": 8,
+                    "x_9": 7,
+                    "x_10": 6,
+                    "x_11": 9,
+                    "x_12": 7,
+                    "x_13": 8,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[7, 8, 5, 9, 7, 8, 6, 9, 8, 7, 6, 9, 7, 8, 6]"
+    },
+    "48": {
+        "trust_score": 0.4521049003774434,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Mix with Slight Adjustments",
+            "rationale": "Introducing slight positive and negative values to explore new peaks while avoiding detrimental extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": -1,
+                    "x_2": 1,
+                    "x_3": -1,
+                    "x_4": 1,
+                    "x_5": 0,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, -1, 1, -1, 1, 0, -1, 1, 0, 1, -1, 0, 1, -1, 0]"
+    },
+    "55": {
+        "trust_score": 0.4577249354719834,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Central Parameter Exploration",
+            "rationale": "Building on the success of prior central configurations, this hypothesis seeks to fine-tune the central parameter recommendations for potentially greater target outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": 0.9,
+                    "x_2": 0.9,
+                    "x_3": 0.9,
+                    "x_4": 0.9,
+                    "x_5": 0.9,
+                    "x_6": 0.9,
+                    "x_7": 0.9,
+                    "x_8": 0.9,
+                    "x_9": 0.9,
+                    "x_10": 0.9,
+                    "x_11": 0.9,
+                    "x_12": 0.9,
+                    "x_13": 0.9,
+                    "x_14": 0.9
+                }
+            ]
+        },
+        "point": "[0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9, 0.9]"
+    },
+    "56": {
+        "trust_score": 0.4577249354719834,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Positive and Negative Refinement",
+            "rationale": "This hypothesis aims to combine moderate positive and negative values slightly adjusted from current insights to explore potential regions yielding higher targets.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": -0.5,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": -0.5
+                }
+            ]
+        },
+        "point": "[-0.5, 1.0, 0.0, 1.0, 1.0, 2.0, -0.5, 2.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, -0.5]"
+    },
+    "57": {
+        "trust_score": 0.4577249354719834,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Explorative Moderate Configuration",
+            "rationale": "Aiming to characterize the relationships in moderate settings while assessing combinations that involve slight fluctuations around central values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 8,
+                    "x_7": 5,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 5,
+                    "x_11": 6,
+                    "x_12": 5,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[5, 5, 5, 7, 6, 5, 8, 5, 7, 6, 5, 6, 5, 7, 6]"
+    },
+    "58": {
+        "trust_score": 0.4577249354719834,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Explorative Negative Regions Design",
+            "rationale": "This hypothesis investigates the synergy within moderately negative configurations to identify any potentially productive combinations not yet explored.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": -2,
+                    "x_2": -2,
+                    "x_3": -1,
+                    "x_4": 4,
+                    "x_5": 2,
+                    "x_6": -1,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": -2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-3, -2, -2, -1, 4, 2, -1, 2, 0, -2, 0, 1, 1, 0, -1]"
+    },
+    "65": {
+        "trust_score": 0.4579812296890542,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Fine-tuned Central Exploration",
+            "rationale": "Continuing the exploration of the central region with slight refinements to capture any hidden enhancements in the target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.95,
+                    "x_2": 0.95,
+                    "x_3": 0.95,
+                    "x_4": 0.95,
+                    "x_5": 0.95,
+                    "x_6": 0.95,
+                    "x_7": 0.95,
+                    "x_8": 0.95,
+                    "x_9": 0.95,
+                    "x_10": 0.95,
+                    "x_11": 0.95,
+                    "x_12": 0.95,
+                    "x_13": 0.95,
+                    "x_14": 0.95
+                }
+            ]
+        },
+        "point": "[0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95, 0.95]"
+    },
+    "66": {
+        "trust_score": 0.4579812296890542,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Exploration with Adjustments",
+            "rationale": "Testing a combination of values with slight positive adjustments centered around identified moderate configurations observed to yield success.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 8,
+                    "x_4": 7,
+                    "x_5": 8,
+                    "x_6": 5,
+                    "x_7": 9,
+                    "x_8": 6,
+                    "x_9": 8,
+                    "x_10": 7,
+                    "x_11": 9,
+                    "x_12": 7,
+                    "x_13": 8,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 8, 7, 8, 5, 9, 6, 8, 7, 9, 7, 8, 6]"
+    },
+    "67": {
+        "trust_score": 0.4579812296890542,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Slight Positive and Negative Blend",
+            "rationale": "Exploring configurations that blend minor positive and negative values to assess potential interactions without reaching extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": -0.5,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0.0, -0.5, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, 0.0, 1.0, -1.0, 1.0, 0.0, 0.0, 0.0]"
+    },
+    "68": {
+        "trust_score": 0.4579812296890542,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring New Mixed Combinations",
+            "rationale": "Introducing new combinations of moderate configurations to capture diverse interactions and potentially enhance performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 8,
+                    "x_2": 5,
+                    "x_3": 6,
+                    "x_4": 7,
+                    "x_5": 2,
+                    "x_6": 4,
+                    "x_7": 7,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 8,
+                    "x_11": 6,
+                    "x_12": 3,
+                    "x_13": 5,
+                    "x_14": 4
+                }
+            ]
+        },
+        "point": "[3, 8, 5, 6, 7, 2, 4, 7, 6, 5, 8, 6, 3, 5, 4]"
+    },
+    "75": {
+        "trust_score": 0.46383604310555304,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Central Value Optimization",
+            "rationale": "Focusing on a very slight adjustment from the maximum observed point around the central region to identify further enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.9,
+                    "x_1": 0.8,
+                    "x_2": 0.85,
+                    "x_3": 0.75,
+                    "x_4": 0.85,
+                    "x_5": 0.9,
+                    "x_6": 0.8,
+                    "x_7": 0.85,
+                    "x_8": 0.75,
+                    "x_9": 0.8,
+                    "x_10": 0.7,
+                    "x_11": 0.9,
+                    "x_12": 0.85,
+                    "x_13": 0.75,
+                    "x_14": 0.8
+                }
+            ]
+        },
+        "point": "[0.9, 0.8, 0.85, 0.75, 0.85, 0.9, 0.8, 0.85, 0.75, 0.8, 0.7, 0.9, 0.85, 0.75, 0.8]"
+    },
+    "76": {
+        "trust_score": 0.46383604310555304,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Adjustments Exploration",
+            "rationale": "Exploring combinations of slightly varied moderate values to uncover hidden interaction effects that could enhance performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 8,
+                    "x_2": 6,
+                    "x_3": 8,
+                    "x_4": 7,
+                    "x_5": 8,
+                    "x_6": 6,
+                    "x_7": 8,
+                    "x_8": 7,
+                    "x_9": 8,
+                    "x_10": 6,
+                    "x_11": 9,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[7, 8, 6, 8, 7, 8, 6, 8, 7, 8, 6, 9, 6, 7, 5]"
+    },
+    "77": {
+        "trust_score": 0.46383604310555304,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Positive-Negative Combined Strategy",
+            "rationale": "This hypothesis focuses on transitions through mild yet diverse blends of positive and negative values, aiming to explore synergies not previously tested.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1.5,
+                    "x_2": -0.5,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -0.5,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, 1.5, -0.5, 1.0, 0.0, 1.0, -0.5, 2.0, 0.0, 2.0, -1.0, 1.0, 0.0, 1.0, 0.0]"
+    },
+    "78": {
+        "trust_score": 0.46383604310555304,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring New Moderate Combinations",
+            "rationale": "Introducing new configurations that combine previously successful values to identify potential interaction benefits among them.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 4.5,
+                    "x_1": 6.5,
+                    "x_2": 5.5,
+                    "x_3": 6.5,
+                    "x_4": 7.5,
+                    "x_5": 4.5,
+                    "x_6": 5.5,
+                    "x_7": 6.5,
+                    "x_8": 5.5,
+                    "x_9": 6.5,
+                    "x_10": 4.5,
+                    "x_11": 7.5,
+                    "x_12": 5.5,
+                    "x_13": 6.5,
+                    "x_14": 4.5
+                }
+            ]
+        },
+        "point": "[4.5, 6.5, 5.5, 6.5, 7.5, 4.5, 5.5, 6.5, 5.5, 6.5, 4.5, 7.5, 5.5, 6.5, 4.5]"
+    },
+    "79": {
+        "trust_score": 0.46383604310555304,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Negative Configuration",
+            "rationale": "Assessing the performance of moderately negative values combined with central parameters to explore potential benefits in diverse configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.5,
+                    "x_1": -2.5,
+                    "x_2": -2.5,
+                    "x_3": -1.5,
+                    "x_4": 4,
+                    "x_5": 3,
+                    "x_6": -2,
+                    "x_7": -1,
+                    "x_8": 0,
+                    "x_9": -2,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1.5, -2.5, -2.5, -1.5, 4.0, 3.0, -2.0, -1.0, 0.0, -2.0, 1.0, 0.0, 0.0, 1.0, -1.0]"
+    },
+    "86": {
+        "trust_score": 0.45907320246074024,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Central Parameter Maximization",
+            "rationale": "Continuing to refine around the maximum observed configuration, focusing on slight adjustments to explore potential optimizations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.85,
+                    "x_1": 0.9,
+                    "x_2": 0.95,
+                    "x_3": 0.85,
+                    "x_4": 0.9,
+                    "x_5": 0.95,
+                    "x_6": 0.9,
+                    "x_7": 0.85,
+                    "x_8": 0.95,
+                    "x_9": 0.9,
+                    "x_10": 0.95,
+                    "x_11": 0.9,
+                    "x_12": 0.85,
+                    "x_13": 0.9,
+                    "x_14": 0.95
+                }
+            ]
+        },
+        "point": "[0.85, 0.9, 0.95, 0.85, 0.9, 0.95, 0.9, 0.85, 0.95, 0.9, 0.95, 0.9, 0.85, 0.9, 0.95]"
+    },
+    "87": {
+        "trust_score": 0.45907320246074024,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Mixed Configuration",
+            "rationale": "Exploring combinations of moderate positive and negative values to maximize possible interactions for higher output performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -0.5,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -0.5,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, 1.0, 0.0, 1.0, 0.0, 1.0, -0.5, 1.0, 0.0, 2.0, -0.5, 1.0, 0.0, 1.0, 0.0]"
+    },
+    "88": {
+        "trust_score": 0.45907320246074024,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploratory Adjusted Moderates",
+            "rationale": "Slightly varied moderate configurations to better understand the potential interactions and maximize performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 6,
+                    "x_2": 5,
+                    "x_3": 7,
+                    "x_4": 6,
+                    "x_5": 5,
+                    "x_6": 7,
+                    "x_7": 5,
+                    "x_8": 6,
+                    "x_9": 5,
+                    "x_10": 6,
+                    "x_11": 5,
+                    "x_12": 7,
+                    "x_13": 6,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[5, 6, 5, 7, 6, 5, 7, 5, 6, 5, 6, 5, 7, 6, 5]"
+    },
+    "89": {
+        "trust_score": 0.45907320246074024,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Confirmed Moderate Extensions",
+            "rationale": "Testing slightly extended moderate configurations based on previously validated results to ascertain their maximum potential.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]"
+    },
+    "96": {
+        "trust_score": 0.4596086229597875,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Fine-tuned Central Exploration",
+            "rationale": "Building on the success of the (0, 0, ..., 0) configuration, we will explore slight adjustments around this central configuration to identify potential optimizations and enhancements.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.95,
+                    "x_1": 0.9,
+                    "x_2": 0.85,
+                    "x_3": 0.8,
+                    "x_4": 0.85,
+                    "x_5": 0.9,
+                    "x_6": 0.8,
+                    "x_7": 0.85,
+                    "x_8": 0.8,
+                    "x_9": 0.9,
+                    "x_10": 0.85,
+                    "x_11": 0.9,
+                    "x_12": 0.85,
+                    "x_13": 0.9,
+                    "x_14": 0.9
+                }
+            ]
+        },
+        "point": "[0.95, 0.9, 0.85, 0.8, 0.85, 0.9, 0.8, 0.85, 0.8, 0.9, 0.85, 0.9, 0.85, 0.9, 0.9]"
+    },
+    "97": {
+        "trust_score": 0.4596086229597875,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Moderate Positive-Negative Blend",
+            "rationale": "This hypothesis aims to explore configurations that blend slight positive with moderate negative values in the vicinity of success regions to better assess interactions and optimize performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -0.5,
+                    "x_1": 1.5,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": -0.3,
+                    "x_7": 2,
+                    "x_8": 0.5,
+                    "x_9": 1,
+                    "x_10": -0.5,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-0.5, 1.5, 0.0, 1.0, 1.0, 1.0, -0.3, 2.0, 0.5, 1.0, -0.5, 1.0, 0.0, 1.0, 0.0]"
+    },
+    "98": {
+        "trust_score": 0.4596086229597875,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Enhanced Moderate Configurations",
+            "rationale": "Refining previously successful moderate parameter combinations to assess their interactions and identify further improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 6,
+                    "x_1": 7,
+                    "x_2": 6,
+                    "x_3": 8,
+                    "x_4": 7,
+                    "x_5": 6,
+                    "x_6": 5,
+                    "x_7": 9,
+                    "x_8": 7,
+                    "x_9": 6,
+                    "x_10": 7,
+                    "x_11": 8,
+                    "x_12": 6,
+                    "x_13": 7,
+                    "x_14": 6
+                }
+            ]
+        },
+        "point": "[6, 7, 6, 8, 7, 6, 5, 9, 7, 6, 7, 8, 6, 7, 6]"
+    },
+    "99": {
+        "trust_score": 0.4596086229597875,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploratory Negative Balance Configuration",
+            "rationale": "This configuration examines the integration of balanced negative characteristics with moderate values that previously yielded notable results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": -2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 4,
+                    "x_5": 2,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-2, -2, -1, 1, 4, 2, -1, 1, 0, 2, -1, 1, 0, 1, 0]"
+    }
+}

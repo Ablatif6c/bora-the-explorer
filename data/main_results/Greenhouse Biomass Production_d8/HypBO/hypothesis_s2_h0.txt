@@ -1,0 +1,17 @@
+```
+{
+    "name": "Optimal Sugar Beet Growth Conditions",
+    "rationale": "To maximize biomass production of sugar beet, optimal conditions such as high irradiance and appropriate temperature are crucial. Irradiance around the maximum value (8000 kJ/m2/day) ensures the plants receive ample light for photosynthesis. Temperatures should be warm but not extreme; setting tmin at 10°C and tmax at 30°C creates a favorable growth environment while avoiding heat stress. Daily mean vapor pressure around 1 kPA balances moisture without excessive humidity, while a wind speed of 1 m/s helps with air circulation. Rainfall should be moderate at around 5 mm to support soil moisture, complemented by 50 cm of initial water in the soil profile and optimal SMLIM at 0.8 to retain moisture effectively.",
+    "confidence": "0.85",
+    "optimum_location": {
+        "irrad": 8000,
+        "tmin": 10,
+        "tmax": 30,
+        "vap": 1,
+        "wind": 1,
+        "rain": 5,
+        "wav": 50,
+        "SMLIM": 0.8
+    }
+}
+```

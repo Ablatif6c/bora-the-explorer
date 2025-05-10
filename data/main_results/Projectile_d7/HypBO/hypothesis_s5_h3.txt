@@ -1,0 +1,14 @@
+{
+    "name": "precision_throw_setup",
+    "rationale": "For maximizing the score, precision in both angle and velocity is crucial. A pitch angle of 42 degrees allows for a solid trajectory that offers both height and distance, optimizing the projectile's path toward the target. A yaw of 0 ensures direct aim at the target to minimize lateral deviation. Choosing an initial velocity of 32 m/s balances the speed and airtime, providing a controlled flight. A spin of 800 RPM can enhance accuracy without impacting the range significantly. Releasing from a height of 1 meter aids in maintaining trajectory control. Selecting a mass of 1.2 kg stabilizes the flight, contributing to an overall precise landing. This configuration is anticipated to produce a high score due to its focus on precision.",
+    "confidence": "0.8",
+    "optimum_location": {
+        "pitch_deg": 42,
+        "yaw_deg": 0,
+        "v0": 32,
+        "spin_rpm": 800,
+        "spin_axis_deg": 0,
+        "h0": 1,
+        "mass": 1.2
+    }
+}

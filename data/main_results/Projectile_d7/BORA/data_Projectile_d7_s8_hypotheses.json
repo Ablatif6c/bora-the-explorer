@@ -1,0 +1,674 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Launch Angle with Moderate Velocity",
+            "rationale": "A high pitch angle may allow the projectile to gain altitude and cover more horizontal distance, especially with a moderate initial velocity.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 75,
+                    "yaw_deg": 0,
+                    "v0": 30,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[75, 0, 30, 1500, 0, 1, 1]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Low Launch Angle with High Velocity",
+            "rationale": "A low pitch angle combined with a high initial velocity could result in a flatter trajectory, potentially allowing for a more direct path to the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 15,
+                    "yaw_deg": 0,
+                    "v0": 45,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 0.5,
+                    "mass": 0.5
+                }
+            ]
+        },
+        "point": "[15.0, 0.0, 45.0, 1000.0, 0.0, 0.5, 0.5]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Approach with Moderate Parameters",
+            "rationale": "Using moderate values for all parameters may provide a balanced trajectory that optimally reaches the target.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 0,
+                    "v0": 25,
+                    "spin_rpm": 500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 0, 25, 500, 0, 1, 2]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Spin Rate for Stability",
+            "rationale": "Increasing the spin rate may stabilize the projectile's flight, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 10,
+                    "v0": 35,
+                    "spin_rpm": 2500,
+                    "spin_axis_deg": 45,
+                    "h0": 1.5,
+                    "mass": 0.8
+                }
+            ]
+        },
+        "point": "[30.0, 10.0, 35.0, 2500.0, 45.0, 1.5, 0.8]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Vertical Launch with Minimal Horizontal Movement",
+            "rationale": "A vertical launch may allow for a controlled descent towards the target, especially if the initial velocity is carefully calibrated.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 90,
+                    "yaw_deg": 0,
+                    "v0": 20,
+                    "spin_rpm": 0,
+                    "spin_axis_deg": 0,
+                    "h0": 2,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 0.0, 20.0, 0.0, 0.0, 2.0, 1.5]"
+    },
+    "12": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 3, maintaining a moderate pitch and velocity may yield optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 5,
+                    "v0": 28,
+                    "spin_rpm": 600,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 5, 28, 600, 0, 1, 2]"
+    },
+    "13": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploring Higher Yaw with Moderate Pitch",
+            "rationale": "Testing a higher yaw angle while keeping pitch moderate may help identify optimal lateral aiming adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 30,
+                    "v0": 25,
+                    "spin_rpm": 500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 30, 25, 500, 0, 1, 2]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Lower Pitch with Increased Velocity",
+            "rationale": "A lower pitch angle combined with a higher velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 20,
+                    "yaw_deg": 0,
+                    "v0": 40,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[20.0, 0.0, 40.0, 1000.0, 0.0, 1.0, 1.5]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Spin for Stability",
+            "rationale": "Increasing the spin rate while maintaining moderate pitch and velocity may enhance stability and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 0,
+                    "v0": 30,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35, 0, 30, 2000, 0, 1, 1]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Vertical Launch with Controlled Velocity",
+            "rationale": "Testing a vertical launch with a controlled velocity may provide insights into the projectile's descent behavior.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 90,
+                    "yaw_deg": 0,
+                    "v0": 25,
+                    "spin_rpm": 0,
+                    "spin_axis_deg": 0,
+                    "h0": 2,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 0.0, 25.0, 0.0, 0.0, 2.0, 1.5]"
+    },
+    "32": {
+        "trust_score": 0.5978893733538284,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 20, maintaining a moderate pitch and velocity may yield optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 5,
+                    "v0": 26,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 5, 26, 2000, 0, 1, 2]"
+    },
+    "33": {
+        "trust_score": 0.5978893733538284,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Yaw",
+            "rationale": "Testing a slightly higher yaw angle while keeping pitch moderate may help identify optimal lateral aiming adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 15,
+                    "v0": 25,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 15, 25, 1500, 0, 1, 2]"
+    },
+    "34": {
+        "trust_score": 0.5978893733538284,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Lower Pitch with Controlled Velocity",
+            "rationale": "A lower pitch angle combined with a controlled velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 25,
+                    "yaw_deg": 0,
+                    "v0": 30,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[25.0, 0.0, 30.0, 1000.0, 0.0, 1.0, 1.5]"
+    },
+    "35": {
+        "trust_score": 0.5978893733538284,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Moderate Spin for Enhanced Stability",
+            "rationale": "Increasing the spin rate while maintaining moderate pitch and velocity may enhance stability and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 35,
+                    "yaw_deg": 0,
+                    "v0": 28,
+                    "spin_rpm": 2500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[35, 0, 28, 2500, 0, 1, 1]"
+    },
+    "36": {
+        "trust_score": 0.5978893733538284,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Testing Vertical Launch with Adjusted Parameters",
+            "rationale": "Testing a vertical launch with a controlled velocity and moderate parameters may provide insights into the projectile's descent behavior.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 90,
+                    "yaw_deg": 0,
+                    "v0": 22,
+                    "spin_rpm": 500,
+                    "spin_axis_deg": 0,
+                    "h0": 2,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 0.0, 22.0, 500.0, 0.0, 2.0, 1.5]"
+    },
+    "49": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 20, maintaining a moderate pitch and velocity may yield optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 10,
+                    "v0": 27,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 10, 27, 2000, 0, 1, 2]"
+    },
+    "50": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Yaw",
+            "rationale": "Testing a slightly higher yaw angle while keeping pitch moderate may help identify optimal lateral aiming adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 46,
+                    "yaw_deg": 20,
+                    "v0": 25,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[46, 20, 25, 1500, 0, 1, 2]"
+    },
+    "51": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Lower Pitch with Controlled Velocity",
+            "rationale": "A lower pitch angle combined with a controlled velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 5,
+                    "v0": 32,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 5.0, 32.0, 1000.0, 0.0, 1.0, 1.5]"
+    },
+    "52": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Moderate Spin for Enhanced Stability",
+            "rationale": "Increasing the spin rate while maintaining moderate pitch and velocity may enhance stability and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 36,
+                    "yaw_deg": 2,
+                    "v0": 29,
+                    "spin_rpm": 2400,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[36, 2, 29, 2400, 0, 1, 1]"
+    },
+    "53": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Testing Vertical Launch with Adjusted Parameters",
+            "rationale": "Testing a vertical launch with a controlled velocity and moderate parameters may provide insights into the projectile's descent behavior.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 90,
+                    "yaw_deg": 5,
+                    "v0": 24,
+                    "spin_rpm": 600,
+                    "spin_axis_deg": 0,
+                    "h0": 2,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 5.0, 24.0, 600.0, 0.0, 2.0, 1.5]"
+    },
+    "54": {
+        "trust_score": 0.5127033176150214,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Lower Pitch with Higher Velocity",
+            "rationale": "A lower pitch angle combined with a higher velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 18,
+                    "yaw_deg": 0,
+                    "v0": 36,
+                    "spin_rpm": 1100,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[18.0, 0.0, 36.0, 1100.0, 0.0, 1.0, 1.5]"
+    },
+    "68": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 20, maintaining a moderate pitch and velocity may yield optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 45,
+                    "yaw_deg": 10,
+                    "v0": 26,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[45, 10, 26, 2000, 0, 1, 2]"
+    },
+    "69": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Yaw",
+            "rationale": "Testing a slightly higher yaw angle while keeping pitch moderate may help identify optimal lateral aiming adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 46,
+                    "yaw_deg": 15,
+                    "v0": 25,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[46, 15, 25, 1500, 0, 1, 2]"
+    },
+    "70": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Lower Pitch with Controlled Velocity",
+            "rationale": "A lower pitch angle combined with a controlled velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 7,
+                    "v0": 31,
+                    "spin_rpm": 1200,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 7.0, 31.0, 1200.0, 0.0, 1.0, 1.5]"
+    },
+    "71": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Moderate Spin for Enhanced Stability",
+            "rationale": "Increasing the spin rate while maintaining moderate pitch and velocity may enhance stability and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 36,
+                    "yaw_deg": 3,
+                    "v0": 28,
+                    "spin_rpm": 2300,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[36, 3, 28, 2300, 0, 1, 1]"
+    },
+    "72": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Testing Vertical Launch with Adjusted Parameters",
+            "rationale": "Testing a vertical launch with a controlled velocity and moderate parameters may provide insights into the projectile's descent behavior.",
+            "confidence": "low",
+            "points": [
+                {
+                    "pitch_deg": 90,
+                    "yaw_deg": 10,
+                    "v0": 23,
+                    "spin_rpm": 700,
+                    "spin_axis_deg": 0,
+                    "h0": 2,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[90.0, 10.0, 23.0, 700.0, 0.0, 2.0, 1.5]"
+    },
+    "73": {
+        "trust_score": 0.31419862284399674,
+        "plateau_duration": 13,
+        "hypothesis": {
+            "name": "Exploring Lower Pitch with Higher Velocity",
+            "rationale": "A lower pitch angle combined with a higher velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 19,
+                    "yaw_deg": 1,
+                    "v0": 37,
+                    "spin_rpm": 1150,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[19.0, 1.0, 37.0, 1150.0, 0.0, 1.0, 1.5]"
+    },
+    "86": {
+        "trust_score": 0.3304614701316307,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Refined Moderate Pitch and Velocity",
+            "rationale": "Building on the successful configuration from iteration 76, maintaining a moderate pitch and velocity may yield optimal results.",
+            "confidence": "high",
+            "points": [
+                {
+                    "pitch_deg": 41.5,
+                    "yaw_deg": 5,
+                    "v0": 28,
+                    "spin_rpm": 2000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[41.5, 5.0, 28.0, 2000.0, 0.0, 1.0, 2.0]"
+    },
+    "87": {
+        "trust_score": 0.3304614701316307,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Slightly Higher Yaw",
+            "rationale": "Testing a slightly higher yaw angle while keeping pitch moderate may help identify optimal lateral aiming adjustments.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 42,
+                    "yaw_deg": 15,
+                    "v0": 25,
+                    "spin_rpm": 1500,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 2
+                }
+            ]
+        },
+        "point": "[42, 15, 25, 1500, 0, 1, 2]"
+    },
+    "88": {
+        "trust_score": 0.3304614701316307,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Lower Pitch with Controlled Velocity",
+            "rationale": "A lower pitch angle combined with a controlled velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 30,
+                    "yaw_deg": 6,
+                    "v0": 33,
+                    "spin_rpm": 1000,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[30.0, 6.0, 33.0, 1000.0, 0.0, 1.0, 1.5]"
+    },
+    "89": {
+        "trust_score": 0.3304614701316307,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Moderate Spin for Enhanced Stability",
+            "rationale": "Increasing the spin rate while maintaining moderate pitch and velocity may enhance stability and accuracy.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 36,
+                    "yaw_deg": 3,
+                    "v0": 28,
+                    "spin_rpm": 2400,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1
+                }
+            ]
+        },
+        "point": "[36, 3, 28, 2400, 0, 1, 1]"
+    },
+    "90": {
+        "trust_score": 0.3304614701316307,
+        "plateau_duration": 12,
+        "hypothesis": {
+            "name": "Exploring Lower Pitch with Higher Velocity",
+            "rationale": "A lower pitch angle combined with a higher velocity may create a flatter trajectory, potentially improving accuracy towards the target.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "pitch_deg": 19,
+                    "yaw_deg": 2,
+                    "v0": 38,
+                    "spin_rpm": 1150,
+                    "spin_axis_deg": 0,
+                    "h0": 1,
+                    "mass": 1.5
+                }
+            ]
+        },
+        "point": "[19.0, 2.0, 38.0, 1150.0, 0.0, 1.0, 1.5]"
+    }
+}

@@ -1,0 +1,554 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Moderate Irradiance and Temperature",
+            "rationale": "Moderate levels of irradiance and temperature are expected to optimize photosynthesis without causing stress to the plants.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 4000,
+                    "tmin": 15,
+                    "tmax": 25,
+                    "vap": 2,
+                    "wind": 1,
+                    "rain": 5,
+                    "wav": 50,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[4000.0, 15.0, 25.0, 2.0, 1.0, 5.0, 50.0, 0.5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Optimal Moisture",
+            "rationale": "High irradiance combined with adequate soil moisture may enhance growth rates significantly, provided temperatures are kept within a suitable range.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7000,
+                    "tmin": 10,
+                    "tmax": 30,
+                    "vap": 3,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 70,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7000.0, 10.0, 30.0, 3.0, 0.5, 2.0, 70.0, 0.7]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Cool Temperatures with High Humidity",
+            "rationale": "Cooler temperatures with higher vapor pressure may reduce stress and promote biomass accumulation, especially in the early growth stages.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 3000,
+                    "tmin": 5,
+                    "tmax": 20,
+                    "vap": 5,
+                    "wind": 0.2,
+                    "rain": 10,
+                    "wav": 80,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[3000.0, 5.0, 20.0, 5.0, 0.2, 10.0, 80.0, 0.6]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Conditions for Growth",
+            "rationale": "A balanced approach with moderate values across all parameters may provide a stable environment for optimal growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 5000,
+                    "tmin": 12,
+                    "tmax": 22,
+                    "vap": 4,
+                    "wind": 1.5,
+                    "rain": 3,
+                    "wav": 60,
+                    "SMLIM": 0.4
+                }
+            ]
+        },
+        "point": "[5000.0, 12.0, 22.0, 4.0, 1.5, 3.0, 60.0, 0.4]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Temperature and Low Wind",
+            "rationale": "Higher temperatures with low wind speeds may create a warm microclimate conducive to growth, assuming sufficient moisture is available.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6000,
+                    "tmin": 18,
+                    "tmax": 35,
+                    "vap": 2,
+                    "wind": 0.1,
+                    "rain": 1,
+                    "wav": 40,
+                    "SMLIM": 0.3
+                }
+            ]
+        },
+        "point": "[6000.0, 18.0, 35.0, 2.0, 0.1, 1.0, 40.0, 0.3]"
+    },
+    "13": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "20": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "27": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "34": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance and Moderate Temperature",
+            "rationale": "High irradiance combined with moderate temperatures is expected to enhance photosynthesis and biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7425,
+                    "tmin": 15,
+                    "tmax": 25,
+                    "vap": 4,
+                    "wind": 1,
+                    "rain": 3,
+                    "wav": 80,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[7425.0, 15.0, 25.0, 4.0, 1.0, 3.0, 80.0, 0.5]"
+    },
+    "35": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimal Moisture with Moderate Temperatures",
+            "rationale": "Maintaining optimal moisture levels while keeping temperatures moderate can reduce stress and promote growth.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7400,
+                    "tmin": 12,
+                    "tmax": 22,
+                    "vap": 3,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 90,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7400.0, 12.0, 22.0, 3.0, 0.5, 2.0, 90.0, 0.6]"
+    },
+    "36": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Irradiance with Low Wind",
+            "rationale": "High irradiance with low wind speeds may create a favorable microclimate for growth, enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7430,
+                    "tmin": 18,
+                    "tmax": 30,
+                    "vap": 2,
+                    "wind": 0.1,
+                    "rain": 1,
+                    "wav": 70,
+                    "SMLIM": 0.4
+                }
+            ]
+        },
+        "point": "[7430.0, 18.0, 30.0, 2.0, 0.1, 1.0, 70.0, 0.4]"
+    },
+    "37": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Balanced Conditions for Growth",
+            "rationale": "A balanced approach with moderate values across all parameters may provide a stable environment for optimal growth.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5000,
+                    "tmin": 15,
+                    "tmax": 20,
+                    "vap": 4,
+                    "wind": 1,
+                    "rain": 3,
+                    "wav": 75,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[5000.0, 15.0, 20.0, 4.0, 1.0, 3.0, 75.0, 0.5]"
+    },
+    "38": {
+        "trust_score": 0.9,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "High Temperature and High Moisture",
+            "rationale": "Higher temperatures with sufficient moisture may enhance growth rates, provided other conditions are optimal.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7000,
+                    "tmin": 20,
+                    "tmax": 35,
+                    "vap": 5,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7000.0, 20.0, 35.0, 5.0, 0.5, 2.0, 85.0, 0.7]"
+    },
+    "48": {
+        "trust_score": 0.699499500218269,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance and Moderate Temperature",
+            "rationale": "High irradiance combined with moderate temperatures is expected to enhance photosynthesis and biomass production, as evidenced by previous successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7420,
+                    "tmin": 16,
+                    "tmax": 24,
+                    "vap": 4,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[7420.0, 16.0, 24.0, 4.0, 0.5, 2.0, 85.0, 0.5]"
+    },
+    "49": {
+        "trust_score": 0.699499500218269,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Optimal Moisture with High Irradiance",
+            "rationale": "Maintaining optimal moisture levels while maximizing irradiance can reduce stress and promote growth, as seen in successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7430,
+                    "tmin": 14,
+                    "tmax": 22,
+                    "vap": 3,
+                    "wind": 0.2,
+                    "rain": 1,
+                    "wav": 90,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7430.0, 14.0, 22.0, 3.0, 0.2, 1.0, 90.0, 0.6]"
+    },
+    "50": {
+        "trust_score": 0.699499500218269,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Irradiance with Low Wind and Moderate Temperature",
+            "rationale": "High irradiance with low wind speeds and moderate temperatures may create a favorable microclimate for growth, enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7415,
+                    "tmin": 18,
+                    "tmax": 28,
+                    "vap": 2,
+                    "wind": 0.1,
+                    "rain": 1,
+                    "wav": 75,
+                    "SMLIM": 0.4
+                }
+            ]
+        },
+        "point": "[7415.0, 18.0, 28.0, 2.0, 0.1, 1.0, 75.0, 0.4]"
+    },
+    "51": {
+        "trust_score": 0.699499500218269,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "Balanced Conditions for Growth",
+            "rationale": "A balanced approach with moderate values across all parameters may provide a stable environment for optimal growth, as indicated by previous trials.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 5000,
+                    "tmin": 15,
+                    "tmax": 20,
+                    "vap": 4,
+                    "wind": 1,
+                    "rain": 3,
+                    "wav": 80,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[5000.0, 15.0, 20.0, 4.0, 1.0, 3.0, 80.0, 0.5]"
+    },
+    "52": {
+        "trust_score": 0.699499500218269,
+        "plateau_duration": 9,
+        "hypothesis": {
+            "name": "High Temperature and High Moisture",
+            "rationale": "Higher temperatures with sufficient moisture may enhance growth rates, provided other conditions are optimal, as seen in some successful trials.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7000,
+                    "tmin": 22,
+                    "tmax": 35,
+                    "vap": 5,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.7
+                }
+            ]
+        },
+        "point": "[7000.0, 22.0, 35.0, 5.0, 0.5, 2.0, 85.0, 0.7]"
+    },
+    "63": {
+        "trust_score": 0.6324157520091377,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance and Moderate Temperature",
+            "rationale": "High irradiance combined with moderate temperatures is expected to enhance photosynthesis and biomass production, as evidenced by previous successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7425,
+                    "tmin": 16,
+                    "tmax": 24,
+                    "vap": 4,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[7425.0, 16.0, 24.0, 4.0, 0.5, 2.0, 85.0, 0.5]"
+    },
+    "64": {
+        "trust_score": 0.6324157520091377,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "Optimal Moisture with High Irradiance",
+            "rationale": "Maintaining optimal moisture levels while maximizing irradiance can reduce stress and promote growth, as seen in successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7435,
+                    "tmin": 15,
+                    "tmax": 23,
+                    "vap": 3,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 92,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7435.0, 15.0, 23.0, 3.0, 0.3, 1.0, 92.0, 0.6]"
+    },
+    "65": {
+        "trust_score": 0.6324157520091377,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "High Irradiance with Low Wind and Moderate Temperature",
+            "rationale": "High irradiance with low wind speeds and moderate temperatures may create a favorable microclimate for growth, enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7418,
+                    "tmin": 19,
+                    "tmax": 27,
+                    "vap": 2,
+                    "wind": 0.2,
+                    "rain": 1,
+                    "wav": 78,
+                    "SMLIM": 0.4
+                }
+            ]
+        },
+        "point": "[7418.0, 19.0, 27.0, 2.0, 0.2, 1.0, 78.0, 0.4]"
+    },
+    "66": {
+        "trust_score": 0.6324157520091377,
+        "plateau_duration": 10,
+        "hypothesis": {
+            "name": "New Hypothesis: High Irradiance with Moderate Temperature and High Moisture",
+            "rationale": "Combining high irradiance with moderate temperatures and high moisture levels may create optimal conditions for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7420,
+                    "tmin": 17,
+                    "tmax": 25,
+                    "vap": 4,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 90,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7420.0, 17.0, 25.0, 4.0, 0.3, 2.0, 90.0, 0.6]"
+    },
+    "78": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "90": {
+        "trust_score": 0.4968303037373319,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Irradiance and Moderate Temperature",
+            "rationale": "High irradiance combined with moderate temperatures is expected to enhance photosynthesis and biomass production, as evidenced by previous successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7940,
+                    "tmin": 18,
+                    "tmax": 25,
+                    "vap": 4,
+                    "wind": 0.5,
+                    "rain": 2,
+                    "wav": 85,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[7940.0, 18.0, 25.0, 4.0, 0.5, 2.0, 85.0, 0.5]"
+    },
+    "91": {
+        "trust_score": 0.4968303037373319,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Optimal Moisture with High Irradiance",
+            "rationale": "Maintaining optimal moisture levels while maximizing irradiance can reduce stress and promote growth, as seen in successful trials.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7945,
+                    "tmin": 16,
+                    "tmax": 24,
+                    "vap": 3,
+                    "wind": 0.3,
+                    "rain": 1,
+                    "wav": 90,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7945.0, 16.0, 24.0, 3.0, 0.3, 1.0, 90.0, 0.6]"
+    },
+    "92": {
+        "trust_score": 0.4968303037373319,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "High Irradiance with Low Wind and Moderate Temperature",
+            "rationale": "High irradiance with low wind speeds and moderate temperatures may create a favorable microclimate for growth, enhancing biomass production.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 7930,
+                    "tmin": 19,
+                    "tmax": 27,
+                    "vap": 2,
+                    "wind": 0.1,
+                    "rain": 1,
+                    "wav": 78,
+                    "SMLIM": 0.4
+                }
+            ]
+        },
+        "point": "[7930.0, 19.0, 27.0, 2.0, 0.1, 1.0, 78.0, 0.4]"
+    },
+    "93": {
+        "trust_score": 0.4968303037373319,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "New Hypothesis: High Irradiance with Moderate Temperature and High Moisture",
+            "rationale": "Combining high irradiance with moderate temperatures and high moisture levels may create optimal conditions for biomass production.",
+            "confidence": "high",
+            "points": [
+                {
+                    "irrad": 7920,
+                    "tmin": 17,
+                    "tmax": 25,
+                    "vap": 4,
+                    "wind": 0.3,
+                    "rain": 2,
+                    "wav": 92,
+                    "SMLIM": 0.6
+                }
+            ]
+        },
+        "point": "[7920.0, 17.0, 25.0, 4.0, 0.3, 2.0, 92.0, 0.6]"
+    },
+    "94": {
+        "trust_score": 0.4968303037373319,
+        "plateau_duration": 11,
+        "hypothesis": {
+            "name": "Balanced Conditions for Growth",
+            "rationale": "A balanced approach with moderate values across all parameters may provide a stable environment for optimal growth, as indicated by previous trials.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "irrad": 6000,
+                    "tmin": 15,
+                    "tmax": 20,
+                    "vap": 4,
+                    "wind": 1,
+                    "rain": 3,
+                    "wav": 80,
+                    "SMLIM": 0.5
+                }
+            ]
+        },
+        "point": "[6000.0, 15.0, 20.0, 4.0, 1.0, 3.0, 80.0, 0.5]"
+    }
+}

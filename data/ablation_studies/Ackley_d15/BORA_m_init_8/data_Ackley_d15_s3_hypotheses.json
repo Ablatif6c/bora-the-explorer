@@ -1,0 +1,606 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Midpoint Exploration",
+            "rationale": "Sampling around the midpoint of the parameter bounds may reveal a central tendency in the function's behavior.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 0,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -10,
+                    "x_5": 15,
+                    "x_6": -5,
+                    "x_7": 0,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": -10,
+                    "x_11": 15,
+                    "x_12": -5,
+                    "x_13": 0,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 0, 5, 10, -10, 15, -5, 0, 5, 10, -10, 15, -5, 0, 5]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Boundary Exploration",
+            "rationale": "Exploring the boundaries of the parameter space may uncover extreme behaviors of the function.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": 20,
+                    "x_2": -30,
+                    "x_3": 20,
+                    "x_4": -30,
+                    "x_5": 20,
+                    "x_6": -30,
+                    "x_7": 20,
+                    "x_8": -30,
+                    "x_9": 20,
+                    "x_10": -30,
+                    "x_11": 20,
+                    "x_12": -30,
+                    "x_13": 20,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Positive Bias",
+            "rationale": "Focusing on positive values may help identify regions where the function performs well.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 15,
+                    "x_4": 10,
+                    "x_5": 15,
+                    "x_6": 10,
+                    "x_7": 15,
+                    "x_8": 10,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 15,
+                    "x_12": 10,
+                    "x_13": 15,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Negative Bias",
+            "rationale": "Sampling negative values may reveal different dynamics in the function's response.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -15,
+                    "x_2": -10,
+                    "x_3": -5,
+                    "x_4": -20,
+                    "x_5": -15,
+                    "x_6": -10,
+                    "x_7": -5,
+                    "x_8": -20,
+                    "x_9": -15,
+                    "x_10": -10,
+                    "x_11": -5,
+                    "x_12": -20,
+                    "x_13": -15,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10, -5, -20, -15, -10]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Random Sampling",
+            "rationale": "A random point within the bounds can help explore unexpected regions of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -12.5,
+                    "x_1": 7.3,
+                    "x_2": -1.2,
+                    "x_3": 14.8,
+                    "x_4": -25.0,
+                    "x_5": 3.6,
+                    "x_6": -18.4,
+                    "x_7": 11.1,
+                    "x_8": -7.7,
+                    "x_9": 19.0,
+                    "x_10": -15.5,
+                    "x_11": 8.2,
+                    "x_12": -22.1,
+                    "x_13": 4.4,
+                    "x_14": -9.9
+                }
+            ]
+        },
+        "point": "[-12.5, 7.3, -1.2, 14.8, -25.0, 3.6, -18.4, 11.1, -7.7, 19.0, -15.5, 8.2, -22.1, 4.4, -9.9]"
+    },
+    "14": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Refined Midpoint Exploration",
+            "rationale": "Focusing on the midpoints of the parameter space has shown potential for higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": 5,
+                    "x_3": 10,
+                    "x_4": -5,
+                    "x_5": 15,
+                    "x_6": 0,
+                    "x_7": 5,
+                    "x_8": 5,
+                    "x_9": 10,
+                    "x_10": -10,
+                    "x_11": 15,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 5
+                }
+            ]
+        },
+        "point": "[-5, 5, 5, 10, -5, 15, 0, 5, 5, 10, -10, 15, 0, 5, 5]"
+    },
+    "15": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Exploration of Positive Values",
+            "rationale": "Continuing to explore positive values may help identify configurations that yield higher targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 15,
+                    "x_2": 10,
+                    "x_3": 15,
+                    "x_4": 5,
+                    "x_5": 15,
+                    "x_6": 10,
+                    "x_7": 15,
+                    "x_8": 10,
+                    "x_9": 15,
+                    "x_10": 10,
+                    "x_11": 15,
+                    "x_12": 10,
+                    "x_13": 15,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 15, 10, 15, 5, 15, 10, 15, 10, 15, 10, 15, 10, 15, 10]"
+    },
+    "16": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Targeted Negative Exploration",
+            "rationale": "Exploring specific negative values that have shown some potential in previous iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": -5,
+                    "x_2": -5,
+                    "x_3": -5,
+                    "x_4": -10,
+                    "x_5": -5,
+                    "x_6": -10,
+                    "x_7": -5,
+                    "x_8": -5,
+                    "x_9": -5,
+                    "x_10": -10,
+                    "x_11": -5,
+                    "x_12": -5,
+                    "x_13": -5,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-10, -5, -5, -5, -10, -5, -10, -5, -5, -5, -10, -5, -5, -5, -5]"
+    },
+    "17": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "New Random Sampling",
+            "rationale": "Introducing a new random point to explore unexpected regions of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -15.0,
+                    "x_1": 10.0,
+                    "x_2": -5.0,
+                    "x_3": 5.0,
+                    "x_4": -20.0,
+                    "x_5": 0.0,
+                    "x_6": 10.0,
+                    "x_7": -10.0,
+                    "x_8": 5.0,
+                    "x_9": 0.0,
+                    "x_10": -15.0,
+                    "x_11": 5.0,
+                    "x_12": 10.0,
+                    "x_13": -5.0,
+                    "x_14": -10.0
+                }
+            ]
+        },
+        "point": "[-15.0, 10.0, -5.0, 5.0, -20.0, 0.0, 10.0, -10.0, 5.0, 0.0, -15.0, 5.0, 10.0, -5.0, -10.0]"
+    },
+    "18": {
+        "trust_score": 0.9,
+        "plateau_duration": 8,
+        "hypothesis": {
+            "name": "Boundary Exploration (Refined)",
+            "rationale": "Revisiting the boundaries with a refined approach to see if any configurations yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": 10,
+                    "x_2": -30,
+                    "x_3": 20,
+                    "x_4": -30,
+                    "x_5": 10,
+                    "x_6": -30,
+                    "x_7": 20,
+                    "x_8": -30,
+                    "x_9": 10,
+                    "x_10": -30,
+                    "x_11": 20,
+                    "x_12": -30,
+                    "x_13": 10,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, 10, -30, 20, -30, 10, -30, 20, -30, 10, -30, 20, -30, 10, -30]"
+    },
+    "54": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Optimized Midpoint Exploration",
+            "rationale": "Focusing on the midpoints and moderate positive values has shown potential for higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.5,
+                    "x_1": 2.0,
+                    "x_2": 0.5,
+                    "x_3": 1.0,
+                    "x_4": -1.0,
+                    "x_5": 1.5,
+                    "x_6": 0.0,
+                    "x_7": 1.0,
+                    "x_8": 1.0,
+                    "x_9": 2.0,
+                    "x_10": -1.5,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 1.0,
+                    "x_14": 1.0
+                }
+            ]
+        },
+        "point": "[1.5, 2.0, 0.5, 1.0, -1.0, 1.5, 0.0, 1.0, 1.0, 2.0, -1.5, 2.0, 0.0, 1.0, 1.0]"
+    },
+    "55": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Positive Value Exploration",
+            "rationale": "Continuing to explore moderate positive values may help identify configurations that yield higher targets.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 2.0,
+                    "x_1": 3.0,
+                    "x_2": 1.0,
+                    "x_3": 2.0,
+                    "x_4": 0.0,
+                    "x_5": 3.0,
+                    "x_6": 2.0,
+                    "x_7": 3.0,
+                    "x_8": 1.0,
+                    "x_9": 3.0,
+                    "x_10": 1.0,
+                    "x_11": 3.0,
+                    "x_12": 1.0,
+                    "x_13": 3.0,
+                    "x_14": 1.0
+                }
+            ]
+        },
+        "point": "[2.0, 3.0, 1.0, 2.0, 0.0, 3.0, 2.0, 3.0, 1.0, 3.0, 1.0, 3.0, 1.0, 3.0, 1.0]"
+    },
+    "56": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Targeted Negative Exploration (Refined)",
+            "rationale": "Exploring specific negative values that have shown some potential in previous iterations, but with a refined approach.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": -2,
+                    "x_2": -1,
+                    "x_3": -1,
+                    "x_4": -5,
+                    "x_5": -2,
+                    "x_6": -5,
+                    "x_7": -2,
+                    "x_8": -1,
+                    "x_9": -2,
+                    "x_10": -5,
+                    "x_11": -2,
+                    "x_12": -1,
+                    "x_13": -2,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-5, -2, -1, -1, -5, -2, -5, -2, -1, -2, -5, -2, -1, -2, -1]"
+    },
+    "57": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Exploratory Random Sampling",
+            "rationale": "Introducing a new random point to explore unexpected regions of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 1.0,
+                    "x_2": -2.0,
+                    "x_3": 0.0,
+                    "x_4": -1.5,
+                    "x_5": 0.5,
+                    "x_6": 1.5,
+                    "x_7": -0.5,
+                    "x_8": 0.0,
+                    "x_9": 1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.0,
+                    "x_12": 1.0,
+                    "x_13": -1.0,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[-1.0, 1.0, -2.0, 0.0, -1.5, 0.5, 1.5, -0.5, 0.0, 1.0, -1.0, 0.0, 1.0, -1.0, 0.0]"
+    },
+    "58": {
+        "trust_score": 0.95,
+        "plateau_duration": 7,
+        "hypothesis": {
+            "name": "Boundary Exploration (Refined)",
+            "rationale": "Revisiting the boundaries with a refined approach to see if any configurations yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": 15,
+                    "x_2": -20,
+                    "x_3": 20,
+                    "x_4": -20,
+                    "x_5": 15,
+                    "x_6": -20,
+                    "x_7": 20,
+                    "x_8": -20,
+                    "x_9": 15,
+                    "x_10": -20,
+                    "x_11": 20,
+                    "x_12": -20,
+                    "x_13": 15,
+                    "x_14": -20
+                }
+            ]
+        },
+        "point": "[-20, 15, -20, 20, -20, 15, -20, 20, -20, 15, -20, 20, -20, 15, -20]"
+    },
+    "65": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "72": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "79": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "86": {
+        "trust_score": "FAILED",
+        "plateau_duration": "FAILED",
+        "hypothesis": "FAILED",
+        "point": "FAILED"
+    },
+    "93": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Optimized Midpoint and Positive Exploration",
+            "rationale": "Focusing on moderate positive values for (x_0) and (x_1) has shown potential for higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1.0,
+                    "x_1": 2.0,
+                    "x_2": -1.0,
+                    "x_3": 1.0,
+                    "x_4": -1.0,
+                    "x_5": 1.5,
+                    "x_6": 0.0,
+                    "x_7": 1.0,
+                    "x_8": 1.0,
+                    "x_9": 2.0,
+                    "x_10": -1.5,
+                    "x_11": 2.0,
+                    "x_12": 0.0,
+                    "x_13": 1.0,
+                    "x_14": 1.0
+                }
+            ]
+        },
+        "point": "[1.0, 2.0, -1.0, 1.0, -1.0, 1.5, 0.0, 1.0, 1.0, 2.0, -1.5, 2.0, 0.0, 1.0, 1.0]"
+    },
+    "94": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Targeted Negative Exploration",
+            "rationale": "Exploring specific negative values that have shown potential in previous iterations, particularly for (x_2) and (x_4).",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 1.5,
+                    "x_2": -3.0,
+                    "x_3": 0.5,
+                    "x_4": -1.0,
+                    "x_5": 0.0,
+                    "x_6": 1.0,
+                    "x_7": -0.5,
+                    "x_8": 0.5,
+                    "x_9": 1.0,
+                    "x_10": -1.0,
+                    "x_11": 0.5,
+                    "x_12": 1.0,
+                    "x_13": -1.5,
+                    "x_14": 0.0
+                }
+            ]
+        },
+        "point": "[-2.0, 1.5, -3.0, 0.5, -1.0, 0.0, 1.0, -0.5, 0.5, 1.0, -1.0, 0.5, 1.0, -1.5, 0.0]"
+    },
+    "95": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Exploratory Random Sampling",
+            "rationale": "Introducing a new random point to explore unexpected regions of the parameter space.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -5.0,
+                    "x_1": 3.0,
+                    "x_2": -1.0,
+                    "x_3": 2.0,
+                    "x_4": -2.0,
+                    "x_5": 1.0,
+                    "x_6": 0.0,
+                    "x_7": -1.0,
+                    "x_8": 1.0,
+                    "x_9": 0.0,
+                    "x_10": -1.0,
+                    "x_11": 1.0,
+                    "x_12": 0.0,
+                    "x_13": -1.0,
+                    "x_14": 1.0
+                }
+            ]
+        },
+        "point": "[-5.0, 3.0, -1.0, 2.0, -2.0, 1.0, 0.0, -1.0, 1.0, 0.0, -1.0, 1.0, 0.0, -1.0, 1.0]"
+    },
+    "96": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Refined Boundary Exploration",
+            "rationale": "Revisiting the boundaries with a refined approach to see if any configurations yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15.0,
+                    "x_1": 10.0,
+                    "x_2": -15.0,
+                    "x_3": 20.0,
+                    "x_4": -15.0,
+                    "x_5": 10.0,
+                    "x_6": -15.0,
+                    "x_7": 20.0,
+                    "x_8": -15.0,
+                    "x_9": 10.0,
+                    "x_10": -15.0,
+                    "x_11": 20.0,
+                    "x_12": -15.0,
+                    "x_13": 10.0,
+                    "x_14": -15.0
+                }
+            ]
+        },
+        "point": "[-15.0, 10.0, -15.0, 20.0, -15.0, 10.0, -15.0, 20.0, -15.0, 10.0, -15.0, 20.0, -15.0, 10.0, -15.0]"
+    },
+    "97": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 6,
+        "hypothesis": {
+            "name": "Focused Positive Value Exploration",
+            "rationale": "Continuing to explore moderate positive values may help identify configurations that yield higher targets.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 3.0,
+                    "x_1": 4.0,
+                    "x_2": 2.0,
+                    "x_3": 3.0,
+                    "x_4": 1.0,
+                    "x_5": 4.0,
+                    "x_6": 3.0,
+                    "x_7": 4.0,
+                    "x_8": 2.0,
+                    "x_9": 4.0,
+                    "x_10": 2.0,
+                    "x_11": 4.0,
+                    "x_12": 2.0,
+                    "x_13": 4.0,
+                    "x_14": 2.0
+                }
+            ]
+        },
+        "point": "[3.0, 4.0, 2.0, 3.0, 1.0, 4.0, 3.0, 4.0, 2.0, 4.0, 2.0, 4.0, 2.0, 4.0, 2.0]"
+    }
+}

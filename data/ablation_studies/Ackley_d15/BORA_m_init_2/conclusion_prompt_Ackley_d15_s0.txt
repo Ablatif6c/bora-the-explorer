@@ -1,0 +1,1603 @@
+You generated the following comments in the previous iterations:
+## Iteration 8:
+ {
+    "comment": "As we reach iteration 7 of the Bayesian Optimization process, we can derive several insights from the accumulated data. The highest observed target value is 5.621, which was achieved in iteration 1, while the lowest target value of 1.995 occurred in iteration 2, where all parameters were set to their extreme negative bounds. The subsequent iterations yielded target values consistently around the range of 3.6, indicating a possibility of suboptimal configurations among those parameters. The analysis suggests that a combination of mid-range positive values alongside strategically chosen negative values yields promising results. The mixed configurations, particularly those incorporating parameters around (x_1 = 6.422) and (x_3 = 10.531), demonstrate higher performance compared to the extremes. This observation points to encouraging regions for target maximization. Moving forward, it would be prudent to refine our hypotheses by focusing on parameter combinations exhibited in iterations that performed well. This encourages exploration centered on balanced parameter configurations that have previously shown efficacy while abandoning extremes that appear detrimental. Emphasizing mixed moderate values seems advantageous for identifying local maxima, thus enhancing the Bayesian Optimization journey.",
+    "hypotheses": [
+        {
+            "name": "Optimized Central Configuration",
+            "rationale": "This hypothesis focuses on refining the successful combination seen in iteration 1 while maintaining slight adjustments to probe further for potential maxima.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 5,
+                    "x_2": 8,
+                    "x_3": 11,
+                    "x_4": -7,
+                    "x_5": 15,
+                    "x_6": -4,
+                    "x_7": 10,
+                    "x_8": -10,
+                    "x_9": 1,
+                    "x_10": 5,
+                    "x_11": -5,
+                    "x_12": 2,
+                    "x_13": -5,
+                    "x_14": 8
+                }
+            ]
+        },
+        {
+            "name": "Balanced Positive Exploration",
+            "rationale": "This configuration aims to leverage combinations of high positive parameters that previously yielded notable results, specifically focusing on upper ranges around central positive values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 20,
+                    "x_2": 10,
+                    "x_3": 5,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 15,
+                    "x_7": 10,
+                    "x_8": 5,
+                    "x_9": -5,
+                    "x_10": 0,
+                    "x_11": -5,
+                    "x_12": 10,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Mixed Moderate Presence",
+            "rationale": "This hypothesis seeks to explore a mix between positive and moderate negative values, finding nuanced interactions that present opportunities for higher target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -15,
+                    "x_1": 10,
+                    "x_2": -5,
+                    "x_3": 15,
+                    "x_4": 2,
+                    "x_5": 12,
+                    "x_6": -3,
+                    "x_7": 8,
+                    "x_8": 0,
+                    "x_9": 5,
+                    "x_10": 3,
+                    "x_11": -10,
+                    "x_12": 4,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        {
+            "name": "Upper Bounds Focus",
+            "rationale": "This configuration employs parameters at higher boundary limits that have hitherto generated positive target outputs, maximizing responses near allowable boundaries.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 15,
+                    "x_4": 12,
+                    "x_5": 7,
+                    "x_6": 10,
+                    "x_7": 15,
+                    "x_8": 20,
+                    "x_9": -5,
+                    "x_10": 0,
+                    "x_11": -5,
+                    "x_12": 5,
+                    "x_13": 10,
+                    "x_14": -3
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Negative-Positive Mix",
+            "rationale": "This configuration introduces slight negative values interspersed with higher positives, aiming to uncover local maxima that may not have been identified in prior iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": 10,
+                    "x_2": 5,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 13,
+                    "x_6": -7,
+                    "x_7": 9,
+                    "x_8": 0,
+                    "x_9": 4,
+                    "x_10": -5,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 3,
+                    "x_14": 12
+                }
+            ]
+        }
+    ]
+}
+## Iteration 14:
+ {
+    "comment": "As we reach iteration 13 of the Bayesian Optimization process, the accumulated data offers several critical insights into parameter influences on the target function. The highest observed target value is 6.344, attained in iteration 8 with a configuration emphasizing moderate positive values combined with some negative parameters. This configuration appears to provide an optimal balance, indicating regions around mid-range positive values, particularly around (x_1) between 6 and 10, exhibit promising results. Other iterations, such as 10 and 12, also returned competitive values (6.014 and 6.097), suggesting that configurations near these settings are crucial for maximizing the target. Conversely, configurations heavily skewed toward extreme negative values (notably in iteration 2) and lower combinations (like those in iteration 6) have consistently yielded suboptimal outputs. The insights indicate that combinations involving mixed moderate positive and controlled negative values are the most effective. As we move into further explorations, hypotheses should focus on estimated successful parameter spaces while discarding configurations that have proven ineffective. The below hypotheses prioritize these observations while exploring regions that previously yielded higher target outputs.",
+    "hypotheses": [
+        {
+            "name": "Refined Moderates and Positives",
+            "rationale": "This hypothesis builds on successful outcomes from iteration 8, balancing positive and moderate negative parameters to uncover further maximization opportunities.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 10,
+                    "x_2": 8,
+                    "x_3": 11,
+                    "x_4": -5,
+                    "x_5": 15,
+                    "x_6": -2,
+                    "x_7": 10,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 4,
+                    "x_11": -3,
+                    "x_12": 6,
+                    "x_13": 4,
+                    "x_14": 8
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Exploration",
+            "rationale": "This point targets a mix of upper-bound parameters along with light negatives that have recently returned high values, leveraging insights from previous successful iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 15,
+                    "x_1": 18,
+                    "x_2": 15,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 7,
+                    "x_6": 4,
+                    "x_7": 15,
+                    "x_8": 5,
+                    "x_9": 0,
+                    "x_10": -2,
+                    "x_11": -4,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Focus on Successful Combinations",
+            "rationale": "Utilizing successful combinations from iterations 8 to 12, this hypothesis tests configurations that merged effective parameters, focusing on stabilizing high outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 7,
+                    "x_1": 12,
+                    "x_2": 10,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -5,
+                    "x_7": 8,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Mixed Exploration",
+            "rationale": "This examines the interplay of mixed performance characteristics, adjusting negative values while enhancing positive areas based on the highest performing iterations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 3,
+                    "x_3": 12,
+                    "x_4": 1,
+                    "x_5": 11,
+                    "x_6": -3,
+                    "x_7": 9,
+                    "x_8": -2,
+                    "x_9": 2,
+                    "x_10": -5,
+                    "x_11": 2,
+                    "x_12": 8,
+                    "x_13": 3,
+                    "x_14": 9
+                }
+            ]
+        }
+    ]
+}
+## Iteration 19:
+ {
+    "comment": "As we advance into iteration 18 of the Bayesian Optimization process, the analysis of the accumulated dataset yields valuable insights into the interactions of parameters affecting the target function. The current highest observed target value is 6.780, achieved in iteration 17, which signifies that configurations emphasizing a combination of moderate positive values with carefully chosen negative parameters optimize results effectively. Key parameters appear to cluster around (x_1) in the range of 10 to 14 and (x_3) around 10 to 12. The exploration of configurations combining moderate positives with slight negatives has consistently led to higher outputs, reinforcing the notion of balance as crucial for optimization.On the other hand, configurations weighted towards extreme negative values, particularly the all-negatives setting from iteration 2 (resulting in a low target of 1.995), yield significantly poorer outcomes. These configurations should be avoided in future hypotheses. Given these insights, future hypotheses should prioritize moderate positive values around previously successful configurations, while selectively exploring variations with slight negative values. Moreover, discarding configurations that have historically resulted in underperformance will streamline our focus towards more promising regions of the parameter space. This consolidated understanding provides a strong basis for the next steps in our optimization journey.",
+    "hypotheses": [
+        {
+            "name": "Moderate Positive and Balanced Negative",
+            "rationale": "This hypothesis seeks to further explore combinations of moderate positive values with well-distributed negative variables, building on the successful configurations seen in iterations 14 to 18.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 12,
+                    "x_2": 8,
+                    "x_3": 10,
+                    "x_4": -3,
+                    "x_5": 11,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Controlled Upper Bound Exploration",
+            "rationale": "This point targets an exploration of upper-bound parameter configurations with a mix of slightly negative values, consistent with combinations that recently returned high target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 16,
+                    "x_2": 14,
+                    "x_3": 13,
+                    "x_4": -2,
+                    "x_5": 8,
+                    "x_6": 3,
+                    "x_7": 12,
+                    "x_8": 6,
+                    "x_9": 2,
+                    "x_10": -3,
+                    "x_11": -4,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Mixed Exploration",
+            "rationale": "This hypothesis promotes a dynamic mixture of moderate positive and low negative values with slight variations to test subtle interactions that may yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 13,
+                    "x_2": 3,
+                    "x_3": 11,
+                    "x_4": 1,
+                    "x_5": 10,
+                    "x_6": -4,
+                    "x_7": 8,
+                    "x_8": -1,
+                    "x_9": 3,
+                    "x_10": -5,
+                    "x_11": 2,
+                    "x_12": 9,
+                    "x_13": 3,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Dimensional Search",
+            "rationale": "This point aims to explore previously neglected areas that might still yield competitive results, providing a holistic view of the parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -8,
+                    "x_1": 10,
+                    "x_2": 6,
+                    "x_3": 14,
+                    "x_4": 0,
+                    "x_5": 12,
+                    "x_6": -1,
+                    "x_7": 7,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": -4,
+                    "x_11": -2,
+                    "x_12": 10,
+                    "x_13": 2,
+                    "x_14": 4
+                }
+            ]
+        },
+        {
+            "name": "Focus on Previous Highs",
+            "rationale": "Utilizing previous successful parameter combinations, this hypothesis seeks to stabilize and refine configurations maximizing around known high targets.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 11,
+                    "x_2": 10,
+                    "x_3": 13,
+                    "x_4": 1,
+                    "x_5": 9,
+                    "x_6": -5,
+                    "x_7": 9,
+                    "x_8": 4,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 5,
+                    "x_13": 7,
+                    "x_14": 10
+                }
+            ]
+        }
+    ]
+}
+## Iteration 25:
+ {
+    "comment": "As we conclude iteration 24 of the Bayesian Optimization process, the accumulated data reveals pivotal insights regarding parameter influences on the target function. The highest target value recorded is 7.062, achieved in iteration 19, which showcases the effectiveness of configurations revolving around moderate positive values and balanced negative values. Specifically, parameters centered around (x_1) within the range of 11 to 14 and (x_3) around 10 to 12 proved particularly influential in optimizing the target output. In stark contrast, configurations skewed towards extreme negative values, as evidenced in iteration 2, consistently resulted in suboptimal outcomes, contributing to the lowest target value of 1.995. This reinforces the notion that balancing moderate positive values with selective negatives enhances performance, while overly extreme settings detract from it. Moving forward, future hypotheses must prioritize configurations that utilize these successful parameter interactions, enhancing exploration within verified high-performing regions while discarding consistently poor-performing configurations. The suggested hypotheses will reflect this understanding, focusing on improved combinations that leverage previous insights to maximize target outcomes.",
+    "hypotheses": [
+        {
+            "name": "Moderate Positives with Selected Negatives",
+            "rationale": "This hypothesis builds on successful observations, focusing on balanced configurations of moderate positive values with slight negative contributions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 7,
+                    "x_3": 10,
+                    "x_4": -3,
+                    "x_5": 12,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Balanced Positivity",
+            "rationale": "This configuration targets upper bound values while maintaining minimal negative values, aiming to capitalize on previously successful ranges.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 15,
+                    "x_2": 14,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 6,
+                    "x_9": 1,
+                    "x_10": -2,
+                    "x_11": -3,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Exploration of Effective Ranges",
+            "rationale": "This hypothesis explores finer variations within effective areas based on previous successful iterations, aiming for nuanced interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 12,
+                    "x_2": 5,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -4,
+                    "x_7": 8,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": -5,
+                    "x_11": 2,
+                    "x_12": 7,
+                    "x_13": 4,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Negative Mix",
+            "rationale": "This updated configuration replaces extreme negative values with moderate negatives while exploring untested positive ranges.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 14,
+                    "x_4": 1,
+                    "x_5": 9,
+                    "x_6": -1,
+                    "x_7": 7,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": -1,
+                    "x_12": 8,
+                    "x_13": 2,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Parameter Adjustment",
+            "rationale": "By diversifying the positive parameters around known successful ranges while minimizing negatives, this hypothesis aims to find finely-tuned configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 10,
+                    "x_3": 12,
+                    "x_4": -2,
+                    "x_5": 11,
+                    "x_6": -3,
+                    "x_7": 8,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 6,
+                    "x_13": 4,
+                    "x_14": 10
+                }
+            ]
+        }
+    ]
+}
+## Iteration 31:
+ {
+    "comment": "As we approach iteration 30 of the Bayesian Optimization process, the dataset reveals critical insights regarding parameter configurations that influence target output. The highest recorded target value is 7.262, achieved in iteration 29, indicating that configurations incorporating moderate positive values alongside selective negatives are key in maximizing outcomes. Specifically, regions with (x_1) values between 11 to 14 and (x_3) values around 10 to 13 exhibit promising performance. Previous configurations heavily skewed toward extreme negative values\u2014most notably the all-negative combination tested in iteration 2\u2014yielded the lowest target value of 1.995, supporting the notion that extreme negative contributions detract from overall optimism. The data emphasizes the effectiveness of balancing moderate positive values with slight negatives, as seen in iterations with stable high outputs. As we move forward, it is essential to refine our hypotheses to focus on these successful configurations while discouraging consistently poor-performing combinations. Future hypotheses will leverage this understanding to maximize target outputs wisely.",
+    "hypotheses": [
+        {
+            "name": "Focused Exploration on High Yield Areas",
+            "rationale": "This hypothesis aims to capitalize on successful patterns seen in previous iterations, specifically focusing on balanced configurations of moderate positives and slight negatives around known successful ranges.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 7,
+                    "x_3": 11,
+                    "x_4": -2,
+                    "x_5": 12,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 8
+                }
+            ]
+        },
+        {
+            "name": "Upper Bounded Positive with Moderate Negatives",
+            "rationale": "This hypothesis targets upper bounds while ensuring minimal negatives, focusing on effective configurations that have previously returned high output values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 15,
+                    "x_2": 14,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": -4,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Positive Exploration Focus",
+            "rationale": "This hypothesis examines a deeper mix of moderate positive and slightly negative values to explore nuanced interactions that may yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 14,
+                    "x_2": 3,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 11,
+                    "x_6": -3,
+                    "x_7": 9,
+                    "x_8": -1,
+                    "x_9": 3,
+                    "x_10": -5,
+                    "x_11": 2,
+                    "x_12": 9,
+                    "x_13": 3,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Range Adjustment",
+            "rationale": "This revised hypothesis introduces subtle adjustments across high-performing positive regions while maintaining focus on minimal negatives, fostering fine-tuned configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 11,
+                    "x_2": 10,
+                    "x_3": 13,
+                    "x_4": -2,
+                    "x_5": 9,
+                    "x_6": -5,
+                    "x_7": 8,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Negative Reduction",
+            "rationale": "This hypothesis aims to test previous configurations with a mix of moderate positives while exploring regions that significantly limit negative values, opening up new interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 10,
+                    "x_2": 6,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -1,
+                    "x_7": 8,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": -2,
+                    "x_11": -1,
+                    "x_12": 10,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 37:
+ {
+    "comment": "As we approach the conclusion of the Bayesian Optimization process at iteration 36, the compiled dataset has yielded significant insights into the interactions of parameters affecting the target output. The highest observed target value recorded is now 7.579, achieved in iteration 35, indicating consistent progress and improvements towards maximizing the target. Configurations that balance moderate positive values with carefully selected negative parameters have been particularly effective. Specifically, values of ( x_1 ) in the range of 11 to 14 and ( x_3 ) between 10 to 13 have demonstrated superior performance. In contrast, extreme negative configurations, exemplified by the all-negative combination tested in iteration 2, resulted in the lowest target value of 1.995, reinforcing the need to exclude such configurations from future hypotheses. Moving forward, it is imperative to prioritize hypotheses that explore successful interactions while discarding poorly performing combinations. The refined hypotheses will concentrate on maintaining a balance of moderate positives and minimal negatives to further enhance the chances of uncovering potential local maxima. This strategic focus will guide the exploration effectively as we aim to discover the optimal parameters that maximize the target outcomes.",
+    "hypotheses": [
+        {
+            "name": "Balanced Positive Exploration",
+            "rationale": "This hypothesis aims to maintain a balance of moderate positive values that have previously yielded high outputs while minimizing negative impacts.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 7,
+                    "x_3": 12,
+                    "x_4": -2,
+                    "x_5": 11,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Focus with Minimal Negatives",
+            "rationale": "Targeting upper boundary configurations of positive parameters while keeping negative values low to leverage insights from previous successful iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 15,
+                    "x_2": 14,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 1,
+                    "x_10": -4,
+                    "x_11": -3,
+                    "x_12": 5,
+                    "x_13": 6,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive and Minimal Negatives",
+            "rationale": "Exploring a balance of moderate positive values with slight negative contributions to uncover more nuanced parameter interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 12,
+                    "x_2": 6,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -3,
+                    "x_7": 8,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": -5,
+                    "x_11": 2,
+                    "x_12": 9,
+                    "x_13": 4,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Dynamic Parameter Exploration",
+            "rationale": "This hypothesis focuses on fine-tuning previously successful ranges while strategically reducing negative parameters to test for improved outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 12,
+                    "x_4": -2,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Parameter Adjustment",
+            "rationale": "This configuration seeks to broadly explore the parameter space by slightly adjusting previously successful configurations to discover additional high-yield interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 10,
+                    "x_2": 5,
+                    "x_3": 13,
+                    "x_4": 0,
+                    "x_5": 9,
+                    "x_6": -1,
+                    "x_7": 8,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": -1,
+                    "x_12": 10,
+                    "x_13": 2,
+                    "x_14": 4
+                }
+            ]
+        }
+    ]
+}
+## Iteration 43:
+ {
+    "comment": "As we conclude iteration 42 of the Bayesian Optimization process, the findings drawn from the dataset reveal significant insights into parameter influences on the target output. The highest target value recorded is 7.579, achieved in iteration 35, indicating that configurations that effectively balance moderate positive values, particularly around ((x_1)) in the range of 11 to 14 and ((x_3)) between 10 to 13, tend to optimize results. This observation reinforces the idea that these specific parameter areas are crucial contributors to maximizing the target output. Conversely, configurations heavily skewed toward extreme negative values, as evidenced by the all-negative configuration tested in iteration 2 (yielding the lowest target of 1.995), highlight the detrimental effects of using excessively negative parameters. Moving forward, it is paramount to refine hypotheses and strategically focus on effective combinations, minimizing detrimental configurations and enhancing exploration of promising parameter spaces. Improved hypotheses should emphasize moderate positives, incorporate slight negatives, and leverage previously successful configurations to maximize target outputs more effectively.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Positives",
+            "rationale": "Focusing on moderate positive values tied to previous successful outcomes while reducing negative influences to enhance performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 8,
+                    "x_3": 11,
+                    "x_4": -2,
+                    "x_5": 12,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Exploration",
+            "rationale": "Targeting upper bounds for positive parameters while ensuring minimal negative values aligns with strategies proven successful in recent iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 16,
+                    "x_1": 14,
+                    "x_2": 13,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 7,
+                    "x_6": -1,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 3,
+                    "x_10": -2,
+                    "x_11": -3,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 19
+                }
+            ]
+        },
+        {
+            "name": "Moderate Positive Exploration",
+            "rationale": "Exploring a deeper mix of moderate positives with slight negatives to uncover hidden interactions that may lead to higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 13,
+                    "x_2": 6,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -4,
+                    "x_11": 2,
+                    "x_12": 9,
+                    "x_13": 3,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Minimized Negatives while Retaining Positives",
+            "rationale": "This configuration seeks to reduce negative impacts while maintaining a robust presence of positive values known to yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 12,
+                    "x_2": 7,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": -1,
+                    "x_12": 10,
+                    "x_13": 4,
+                    "x_14": 5
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Parameter Dynamics",
+            "rationale": "This hypothesis explores variations around previously successful configurations, seeking new interactions that may yield improved results.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 9,
+                    "x_6": -3,
+                    "x_7": 8,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 3,
+                    "x_14": 6
+                }
+            ]
+        }
+    ]
+}
+## Iteration 52:
+ {
+    "comment": "As we reach iteration 51 of the Bayesian Optimization process, we derive significant insights from the dataset regarding parameter interactions and their influence on the target output. The highest observed target value is now 7.579, achieved in iteration 35, indicating a strong correlation with configurations that balance moderate positive values. Specifically, parameters (x_1) (within the range of 11 to 14) and (x_3) (around 10 to 13) consistently yield favorable outcomes, signaling a promising subspace for further exploration. In contrast, configurations skewed towards extreme negative values, including those tested in iterations 2, 42, and 48, resulted in the lowest target values, revealing the detrimental effects of using excessive negative settings. To optimize future iterations, hypotheses must emphasize successful parameter combinations that incorporate moderate positives and minimal negatives. The focus should shift away from detrimental extremes while exploring slight adjustments within high-performing areas. The proposed hypotheses below aim to leverage these insights for maximizing target outputs in upcoming experiments.",
+    "hypotheses": [
+        {
+            "name": "Focused Positive Configuration",
+            "rationale": "This hypothesis targets a refined positive configuration that reinforces the successful parameters observed in iterations with high outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 7,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 12,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Exploration",
+            "rationale": "This configuration seeks to maximize outputs by leveraging upper bound parameters while exhibiting slight negative influences, exploring successful areas identified in prior iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 14,
+                    "x_2": 13,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 0,
+                    "x_10": -2,
+                    "x_11": -3,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive with Selective Negatives",
+            "rationale": "Exploring a blend of moderate positive and minimal negative values around previously successful configurations to possibly uncover higher output interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 12,
+                    "x_2": 6,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -3,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -4,
+                    "x_11": 2,
+                    "x_12": 9,
+                    "x_13": 4,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Parameter Dynamics Adjustment",
+            "rationale": "This hypothesis aims to dynamically adjust around fruitful areas, introducing slight variations to previously high-performing setups for enhanced exploration.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 11,
+                    "x_2": 9,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 11,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Reduction of Negatives",
+            "rationale": "This hypothesis intends to gradually remove extreme negative influences while testing effective positive combinations to seek better interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 12,
+                    "x_2": 6,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -1,
+                    "x_7": 8,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 9,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 63:
+ {
+    "comment": "As we reach iteration 62 of the Bayesian Optimization process, the analysis of the accumulated dataset reveals significant insights regarding parameter influences on the target output. The highest observed target value is now 7.579, achieved during iteration 35, stemming from configurations emphasizing moderate positive values, particularly within the ranges of (x_1) (11 to 14) and (x_3) (10 to 13). These parameter ranges show a compelling trend towards maximizing outputs when balanced with slight negative values. In stark contrast, configurations skewed towards extreme negative values\u2014such as those represented in iterations 2 and 42\u2014were detrimental, yielding target values as low as 1.995. This indicates that future hypotheses must prioritize combinations of moderate positive values while minimizing extremes in negative parameters. The hypotheses provided below are formulated to capitalize on previously successful areas while also introducing potential for new explorations, ensuring a well-rounded approach that seeks to enhance and identify local maxima effectively.",
+    "hypotheses": [
+        {
+            "name": "Optimized Positive and Balanced Configurations",
+            "rationale": "This hypothesis aims to leverage previously successful parameters centered around moderate positive values while incorporating minimal negative influences that have been shown to yield high outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 7,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 12,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Focused Upper Bound Exploration",
+            "rationale": "This configuration targets upper bounds for positive parameters while ensuring that negative influences are kept to a minimum, fostering settings from prior successful iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 8,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 0,
+                    "x_10": -2,
+                    "x_11": -3,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Positive Dynamics Exploration",
+            "rationale": "This hypothesis aims to amplify moderate positive influences while slightly reducing negative impacts to explore new dynamics that could lead to superior outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 12,
+                    "x_2": 6,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 9,
+                    "x_13": 4,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Selective Negative Reduction",
+            "rationale": "This configuration deliberately minimizes the influence of negative parameters while strengthening positive value contributions to uncover new favorable interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -1,
+                    "x_7": 8,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Subspace Adjustment",
+            "rationale": "This hypothesis seeks to explore previously neglected parameter spaces while maintaining quality configurations known to yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 12,
+                    "x_2": 7,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 74:
+ {
+    "comment": "As we reach iteration 73 of the Bayesian Optimization process, the analysis of the accumulated dataset reveals insightful trends regarding the interactions of parameters and their influence on the target output. The highest recorded target value is now 7.579, achieved in iteration 35, indicating that configurations emphasizing moderate positive values, particularly around (x_1) in the range of 11 to 14 and (x_3) between 10 and 13, are effective in maximizing outputs. Combining these moderate positives with minimal negative influences tends to optimize results. In contrast, configurations skewed heavily towards extreme negative values, such as those tested in iterations 2 and 42, consistently produced low outputs, highlighting the detrimental effects of relying too much on negative parameters. Given these insights, future hypotheses must concentrate on exploring successful parameter combinations that maintain a balance of moderate positive values while gently minimizing negative influences to uncover potential local maxima. This approach will allow for targeted exploration in fruitful parameter spaces, discarding ineffective configurations that have historically led to poor outcomes.",
+    "hypotheses": [
+        {
+            "name": "Refined Moderate Positive Exploration",
+            "rationale": "This hypothesis focuses on leveraging successful moderate positive parameters while minimizing negative influences to explore high-yield areas.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 13,
+                    "x_2": 6,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 11,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 3,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Focused Upper Positive Configuration",
+            "rationale": "This configuration aims to maximize outputs by utilizing upper bounds for positive parameters while keeping negative contributions to a minimum, targeting regions identified in previous successful iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 17,
+                    "x_1": 14,
+                    "x_2": 12,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 8,
+                    "x_6": 3,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 1,
+                    "x_10": -2,
+                    "x_11": -3,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 19
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive with Subtle Negatives",
+            "rationale": "Exploring a balance of moderate positive values with slight negative contributions to uncover nuanced interactions that may yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 9,
+                    "x_6": -1,
+                    "x_7": 7,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 4,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Selective Negative Reduction",
+            "rationale": "This configuration aims to reduce negative influences while boosting positive value contributions, exploring the potential for beneficial interactions that could enhance target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 12,
+                    "x_2": 9,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 8,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 5,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Parameter Dynamics",
+            "rationale": "This hypothesis seeks to explore variations around previously successful configurations while maintaining quality parameter settings known to yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 11,
+                    "x_2": 8,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 7,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 85:
+ {
+    "comment": "As we continue the Bayesian Optimization process, the analysis of the accumulated dataset reinforces the effectiveness of configurations centered around moderate positive values, particularly those within the ranges of (x_1) between 11 to 14 and (x_3) between 10 to 12. The highest recorded target value of 7.591 affirms our strategies targeting balanced parameter settings. Given the latest results, future hypotheses must focus on slight adjustments in these regions while ensuring minimal influence from negative parameters. Continuing exploration in these fruitful parameter spaces is vital. The proposed hypotheses below enhance our approach to maximize the target outputs while introducing new points that maintain diversity in our sampling strategy.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Positives with Controlled Negatives",
+            "rationale": "This hypothesis emphasizes configurations that utilize moderate positive values known to yield high outputs along with minimal negative influences.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 13,
+                    "x_2": 6,
+                    "x_3": 12,
+                    "x_4": 0,
+                    "x_5": 11,
+                    "x_6": -2,
+                    "x_7": 8,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": -3,
+                    "x_11": 2,
+                    "x_12": 7,
+                    "x_13": 5,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Upper Bound Configuration with Minimal Negatives",
+            "rationale": "Targeting upper bounds of positive parameters while carefully minimizing negative values, aiming to maximize areas identified as high-performing in past iterations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18,
+                    "x_1": 14,
+                    "x_2": 11,
+                    "x_3": 12,
+                    "x_4": -1,
+                    "x_5": 9,
+                    "x_6": 2,
+                    "x_7": 12,
+                    "x_8": 5,
+                    "x_9": 0,
+                    "x_10": -2,
+                    "x_11": -4,
+                    "x_12": 6,
+                    "x_13": 5,
+                    "x_14": 20
+                }
+            ]
+        },
+        {
+            "name": "Enhanced Exploration of Favorable Ranges",
+            "rationale": "This hypothesis encourages slight variations around previously identified successful parameter combinations to uncover potentially higher interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 12,
+                    "x_2": 8,
+                    "x_3": 11,
+                    "x_4": 2,
+                    "x_5": 10,
+                    "x_6": -3,
+                    "x_7": 9,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 9,
+                    "x_13": 6,
+                    "x_14": 10
+                }
+            ]
+        },
+        {
+            "name": "Selective Negative Reduction Strategy",
+            "rationale": "This configuration aims to reduce the influence of negative parameters while enhancing positive value contributions to explore beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 11,
+                    "x_2": 9,
+                    "x_3": 10,
+                    "x_4": 0,
+                    "x_5": 10,
+                    "x_6": -2,
+                    "x_7": 8,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -3,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 4,
+                    "x_14": 9
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Parameter Dynamics",
+            "rationale": "This hypothesis seeks to explore variations around previously successful configurations while maintaining quality parameter settings known to yield better results.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": 12,
+                    "x_2": 6,
+                    "x_3": 11,
+                    "x_4": 0,
+                    "x_5": 9,
+                    "x_6": -1,
+                    "x_7": 9,
+                    "x_8": 2,
+                    "x_9": 0,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": 8,
+                    "x_13": 3,
+                    "x_14": 5
+                }
+            ]
+        }
+    ]
+}
+## Iteration 96:
+ {
+    "comment": "As we reach iteration 95 of the Bayesian Optimization process, the analysis of our dataset reveals significant insights into parameter interactions and their influence on the target output. The highest recorded target value is now 7.591, achieved in iteration 76, affirming that configurations emphasizing moderate positive values are key for maximizing outputs. Notably, parameters such as (x_1) within the range of 11 to 14 and (x_3) between 10 and 12 have consistently produced favorable outcomes. The combination of these moderate positive values with minimal negative influences has proven effective. Conversely, extreme parameter settings, particularly those leaning heavily on negative values - notably as seen in iterations 2 and 42 - yielded the lowest outputs, clustering around 1.995. This illustrates the detrimental impact of excessive negative parameters. Moving forward, it is crucial that future hypotheses revolve around enhanced combinations of successful parameters while minimizing extremes that have previously resulted in poor performance. The subsequent hypotheses below are informed by these insights, focusing on refining positive configurations and exploring variations that could further elevate target outputs.",
+    "hypotheses": [
+        {
+            "name": "Optimized Moderate Positives with Minimal Negatives",
+            "rationale": "This hypothesis targets configurations characterized by successful moderate positive values while minimizing negative influences based on previous high outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0.0,
+                    "x_1": 13.0,
+                    "x_2": 6.0,
+                    "x_3": 12.0,
+                    "x_4": 0.0,
+                    "x_5": 12.0,
+                    "x_6": -1.0,
+                    "x_7": 9.0,
+                    "x_8": 2.0,
+                    "x_9": 0.0,
+                    "x_10": -4.0,
+                    "x_11": 1.0,
+                    "x_12": 8.0,
+                    "x_13": 5.0,
+                    "x_14": 10.0
+                }
+            ]
+        },
+        {
+            "name": "Focused Upper Bound Configuration",
+            "rationale": "This configuration enhances the upper bounds of positive parameters while keeping negative values to a minimum to maximize outputs based on identified high-performing areas.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 18.0,
+                    "x_1": 14.0,
+                    "x_2": 12.0,
+                    "x_3": 12.0,
+                    "x_4": 0.0,
+                    "x_5": 9.0,
+                    "x_6": 2.0,
+                    "x_7": 12.0,
+                    "x_8": 5.0,
+                    "x_9": 0.0,
+                    "x_10": -2.0,
+                    "x_11": -3.0,
+                    "x_12": 6.0,
+                    "x_13": 5.0,
+                    "x_14": 20.0
+                }
+            ]
+        },
+        {
+            "name": "Mixed Positive with Selective Negatives",
+            "rationale": "This hypothesis explores the benefits of combining moderate positive values with slight negative adjustments to uncover more nuanced interactions that could yield higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2.0,
+                    "x_1": 12.0,
+                    "x_2": 8.0,
+                    "x_3": 10.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": -1.0,
+                    "x_7": 9.0,
+                    "x_8": 1.0,
+                    "x_9": 1.0,
+                    "x_10": -3.0,
+                    "x_11": 1.0,
+                    "x_12": 8.0,
+                    "x_13": 4.0,
+                    "x_14": 10.0
+                }
+            ]
+        },
+        {
+            "name": "Minimus Negative Impact Strategy",
+            "rationale": "This hypothesis aims to reduce negative impacts significantly while boosting contributions from known effective positive parameters, exploring potentially beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1.0,
+                    "x_1": 11.0,
+                    "x_2": 9.0,
+                    "x_3": 11.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": -1.0,
+                    "x_7": 8.0,
+                    "x_8": 1.0,
+                    "x_9": 1.0,
+                    "x_10": -3.0,
+                    "x_11": 1.0,
+                    "x_12": 8.0,
+                    "x_13": 5.0,
+                    "x_14": 9.0
+                }
+            ]
+        },
+        {
+            "name": "Exploratory Parameter Dynamics",
+            "rationale": "This hypothesis seeks to explore variations around previously successful configurations while maintaining quality parameter settings known to yield better results.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -4.0,
+                    "x_1": 11.0,
+                    "x_2": 8.0,
+                    "x_3": 12.0,
+                    "x_4": 0.0,
+                    "x_5": 10.0,
+                    "x_6": -1.0,
+                    "x_7": 9.0,
+                    "x_8": 2.0,
+                    "x_9": 0.0,
+                    "x_10": -4.0,
+                    "x_11": 1.0,
+                    "x_12": 8.0,
+                    "x_13": 3.0,
+                    "x_14": 5.0
+                }
+            ]
+        }
+    ]
+}
+
+
+We have now finished the optimization, and below is the complete dataset of 105 experiments:
+ Iteration     x_0     x_1     x_2     x_3     x_4     x_5     x_6     x_7     x_8     x_9    x_10    x_11    x_12    x_13    x_14  target
+         1  -5.000   0.000   5.000  10.000 -10.000  15.000  -5.000  10.000 -15.000   0.000   5.000  -5.000   1.000 -10.000  10.000   5.621
+         2 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000   1.995
+         3   5.000  10.000  15.000  20.000  15.000  10.000   5.000   0.000  -5.000 -10.000 -15.000 -20.000  15.000  10.000   5.000   3.720
+         4 -20.000  10.000 -10.000  15.000  -5.000  20.000 -15.000   5.000   0.000  -5.000  10.000 -20.000   0.000  10.000 -10.000   3.696
+         5  20.000  15.000  10.000   5.000   0.000  -5.000  10.000  15.000  20.000 -10.000   0.000  -5.000   5.000 -15.000 -20.000   3.649
+         6  17.378 -29.309  -6.475   9.159   1.459 -11.811 -28.902  14.879  -4.857 -15.019 -27.568  19.661  10.844 -21.557  14.287   0.749
+         7  -4.007   6.422   8.816  10.531  -8.145  16.128   1.397   8.999 -12.388   0.271   6.861  -9.516   1.590  -7.471   6.649   3.822
+         8  -4.000   5.000   8.000  11.000  -7.000  15.000  -4.000  10.000 -10.000   1.000   5.000  -5.000   2.000  -5.000   8.000   6.344
+         9  15.000  20.000  10.000   5.000   0.000   5.000  15.000  10.000   5.000  -5.000   0.000  -5.000  10.000   5.000  10.000   4.842
+        10 -15.000  10.000  -5.000  15.000   2.000  12.000  -3.000   8.000   0.000   5.000   3.000 -10.000   4.000   2.000   1.000   6.014
+        11  20.000  20.000  20.000  15.000  12.000   7.000  10.000  15.000  20.000  -5.000   0.000  -5.000   5.000  10.000  -3.000   3.437
+        12 -10.000  10.000   5.000  12.000   0.000  13.000  -7.000   9.000   0.000   4.000  -5.000   1.000   8.000   3.000  12.000   6.097
+        13   5.865  17.217  19.445 -16.449  -1.039 -13.591  16.540   7.872   4.087  -6.317 -11.609  -7.320  -9.791   4.655 -21.005   1.825
+        14  -3.000  10.000   8.000  11.000  -5.000  15.000  -2.000  10.000   0.000   1.000   4.000  -3.000   6.000   4.000   8.000   6.630
+        15  15.000  18.000  15.000  12.000  -1.000   7.000   4.000  15.000   5.000   0.000  -2.000  -4.000   6.000   5.000  20.000   4.302
+        16   7.000  12.000  10.000  10.000   0.000  10.000  -5.000   8.000   3.000   1.000  -4.000   1.000   7.000   5.000  10.000   6.660
+        17  -2.000  14.000   3.000  12.000   1.000  11.000  -3.000   9.000  -2.000   2.000  -5.000   2.000   8.000   3.000   9.000   6.780
+        18  -0.744   5.362   5.221  11.313  -4.114  12.254  -8.870  10.223  -5.731   1.757   1.976   0.858   3.187  -0.873   8.067   5.907
+        19  -1.000  12.000   8.000  10.000  -3.000  11.000  -2.000   9.000   1.000   0.000  -4.000   1.000   7.000   5.000   9.000   7.062
+        20  18.000  16.000  14.000  13.000  -2.000   8.000   3.000  12.000   6.000   2.000  -3.000  -4.000   5.000   6.000  20.000   4.336
+        21  -2.000  13.000   3.000  11.000   1.000  10.000  -4.000   8.000  -1.000   3.000  -5.000   2.000   9.000   3.000  10.000   6.983
+        22  -8.000  10.000   6.000  14.000   0.000  12.000  -1.000   7.000   2.000   1.000  -4.000  -2.000  10.000   2.000   4.000   6.877
+        23   5.000  11.000  10.000  13.000   1.000   9.000  -5.000   9.000   4.000   1.000  -3.000   1.000   5.000   7.000  10.000   6.571
+        24  -1.414  12.781   4.735   8.798  -0.996   7.940  -0.846   3.612   4.607   3.582  -2.993   1.112  12.066   5.708   7.477   5.820
+        25  -1.000  13.000   7.000  10.000  -3.000  12.000  -2.000   9.000   1.000   0.000  -4.000   1.000   8.000   5.000  10.000   6.744
+        26  18.000  15.000  14.000  12.000  -1.000   8.000   2.000  12.000   6.000   1.000  -2.000  -3.000   5.000   6.000  20.000   4.459
+        27  -2.000  12.000   5.000  11.000   0.000  10.000  -4.000   8.000   0.000   3.000  -5.000   2.000   7.000   4.000   9.000   7.263
+        28  -3.000  11.000   8.000  14.000   1.000   9.000  -1.000   7.000   1.000   0.000  -4.000  -1.000   8.000   2.000  10.000   7.007
+        29  -1.000  13.000  10.000  12.000  -2.000  11.000  -3.000   8.000   3.000   1.000  -4.000   1.000   6.000   4.000  10.000   6.626
+        30  -1.720   7.138   7.515   8.567   0.710   7.393  -2.333   9.501  -1.656   2.173  -7.225  -0.408   6.111   4.076   7.033   6.414
+        31  -1.000  13.000   7.000  11.000  -2.000  12.000  -2.000   9.000   2.000   1.000  -3.000   1.000   8.000   5.000   8.000   6.849
+        32  18.000  15.000  14.000  12.000  -1.000   8.000   2.000  12.000   5.000   1.000  -3.000  -4.000   5.000   6.000  20.000   4.458
+        33  -2.000  14.000   3.000  12.000   0.000  11.000  -3.000   9.000  -1.000   3.000  -5.000   2.000   9.000   3.000  10.000   6.617
+        34  -1.000  11.000  10.000  13.000  -2.000   9.000  -5.000   8.000   3.000   1.000  -4.000   1.000   6.000   5.000  10.000   6.794
+        35  -3.000  10.000   6.000  12.000   0.000  10.000  -1.000   8.000   1.000   1.000  -2.000  -1.000  10.000   4.000   5.000   7.579
+        36 -10.683  -6.502  12.245  13.083 -12.639  11.325 -12.547  10.022   7.113 -17.321   9.516   0.636  11.398  14.628   1.264   2.191
+        37  -1.000  13.000   7.000  12.000  -2.000  11.000  -1.000   9.000   2.000   1.000  -3.000   1.000   8.000   5.000  10.000   6.700
+        38  18.000  15.000  14.000  12.000  -1.000   8.000   2.000  12.000   5.000   1.000  -4.000  -3.000   5.000   6.000  20.000   4.458
+        39  -2.000  12.000   6.000  11.000   0.000  10.000  -3.000   8.000   0.000   3.000  -5.000   2.000   9.000   4.000   9.000   7.077
+        40  -1.000  11.000   8.000  12.000  -2.000  10.000  -2.000   9.000   3.000   1.000  -3.000   1.000   7.000   5.000  10.000   6.983
+        41  -3.000  10.000   5.000  13.000   0.000   9.000  -1.000   8.000   2.000   0.000  -4.000  -1.000  10.000   2.000   4.000   7.651
+        42 -20.003 -27.080 -30.000 -30.000  20.000  -3.871  18.628 -30.000 -30.000 -11.626 -30.000 -30.000  20.000  20.000   5.198   1.422
+        43  -1.000  13.000   8.000  11.000  -2.000  12.000  -1.000   9.000   1.000   1.000  -3.000   1.000   8.000   5.000  10.000   6.647
+        44  16.000  14.000  13.000  11.000   0.000   7.000  -1.000  12.000   5.000   3.000  -2.000  -3.000   6.000   5.000  19.000   4.832
+        45  -2.000  13.000   6.000  10.000   0.000  10.000  -2.000   9.000   1.000   3.000  -4.000   2.000   9.000   3.000  10.000   6.978
+        46  -3.000  12.000   7.000  11.000   0.000  10.000  -1.000   9.000   2.000   0.000  -4.000  -1.000  10.000   4.000   5.000   7.216
+        47  -1.000  11.000   8.000  12.000  -1.000   9.000  -3.000   8.000   1.000   1.000  -3.000   1.000   7.000   3.000   6.000   7.645
+        48  20.000   5.316 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000  20.000  20.000   7.316 -26.229 -30.000 -30.000   5.034   1.493
+        49 -30.000 -30.000  20.000 -30.000  20.000  20.000   9.281 -30.000  16.671  20.000  20.000  20.000 -30.000 -19.068  20.000   1.684
+        50  20.000 -30.000 -30.000   4.414  16.114 -30.000  20.000 -30.000 -30.000  13.345  20.000  20.000 -30.000  20.000 -30.000   1.516
+        51 -30.000 -26.317 -30.000 -30.000 -30.000 -30.000  20.000  20.000  20.000 -30.000  20.000  20.000 -30.000 -30.000  20.000   1.808
+        52  -1.000  13.000   7.000  12.000  -1.000  12.000  -1.000   9.000   2.000   0.000  -4.000   1.000   7.000   5.000  10.000   6.652
+        53  18.000  14.000  13.000  12.000  -1.000   8.000   2.000  12.000   5.000   0.000  -2.000  -3.000   6.000   5.000  20.000   4.573
+        54  -1.000  12.000   6.000  11.000   0.000  10.000  -3.000   9.000   1.000   3.000  -4.000   2.000   9.000   4.000  10.000   6.954
+        55  -2.000  11.000   9.000  12.000   0.000  11.000  -2.000   9.000   3.000   1.000  -3.000   1.000   7.000   5.000  10.000   6.808
+        56  -3.000  12.000   6.000  11.000   0.000  10.000  -1.000   8.000   2.000   0.000  -4.000   1.000   9.000   3.000   5.000   7.526
+        57  -3.474   9.756   4.405  11.457   0.020   6.971  -1.680   7.531   0.798  -1.149  -0.137   1.303   7.183   0.969   4.171   7.062
+        58 -30.000  20.000 -30.000  20.000  20.000 -30.000  20.000 -30.000  20.000 -30.000 -30.000   6.584  20.000 -30.000 -30.000   1.753
+        59 -30.000  20.000 -30.000  13.283  20.000  20.000 -30.000  20.000  20.000  20.000 -30.000  20.000 -30.000  20.000 -30.000   1.894
+        60 -30.000  20.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000 -30.000  20.000 -30.000  20.000   2.046
+        61 -30.000  20.000  20.000  20.000 -30.000 -30.000 -30.000 -30.000 -30.000  20.000 -30.000  20.000 -30.000 -30.000 -30.000   2.034
+        62  20.000 -30.000  20.000 -30.000  20.000 -30.000 -30.000 -30.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000  20.000   2.046
+        63  -1.000  13.000   7.000  12.000  -1.000  12.000  -1.000   9.000   2.000   0.000  -4.000   1.000   8.000   5.000  10.000   6.587
+        64  18.000  14.000  11.000  12.000  -1.000   8.000   2.000  12.000   5.000   0.000  -2.000  -3.000   6.000   5.000  20.000   4.658
+        65  -2.000  12.000   6.000  11.000   0.000  10.000  -2.000   9.000   1.000   2.000  -4.000   1.000   9.000   4.000  10.000   7.002
+        66  -1.000  11.000   8.000  10.000   0.000  10.000  -1.000   8.000   1.000   1.000  -3.000   1.000   7.000   5.000   9.000   7.485
+        67  -3.000  12.000   7.000  11.000   0.000  10.000  -2.000   9.000   2.000   0.000  -4.000   1.000   8.000   3.000   5.000   7.434
+        68 -30.000  20.000 -30.000 -30.000  20.000  20.000 -30.000 -30.000 -30.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000   2.034
+        69 -30.000 -30.000 -30.000 -30.000 -30.000  20.000 -30.000  20.000  20.000  20.000 -30.000 -30.000 -30.000  20.000  20.000   2.046
+        70  20.000  20.000 -30.000 -30.000 -30.000  20.000  20.000 -30.000 -30.000 -30.000 -30.000  20.000  20.000 -30.000 -30.000   2.046
+        71   0.310   9.119   5.913  11.102   0.501  10.531  -0.978   5.484   1.019   0.269  -2.975   0.189   6.983   2.457   5.066   6.963
+        72  -0.317  13.640   9.174   4.195   1.198   6.968  -3.794   5.687  -2.256   0.595  -0.351   5.794   1.929   5.715  13.172   5.741
+        73 -13.291   2.872   9.463  12.956  -9.022  15.048 -13.040  12.056  -8.493  12.141   8.451  -4.620   3.334  -5.448  12.109   2.930
+        74  -1.000  13.000   6.000  12.000  -1.000  11.000  -1.000   9.000   3.000   0.000  -4.000   1.000   8.000   5.000  10.000   6.722
+        75  17.000  14.000  12.000  12.000   0.000   8.000   3.000  12.000   5.000   1.000  -2.000  -3.000   6.000   5.000  19.000   4.743
+        76  -2.000  11.000   8.000  10.000   0.000   9.000  -1.000   7.000   2.000   1.000  -3.000   1.000   7.000   4.000  10.000   7.591
+        77  -1.000  12.000   9.000  11.000   0.000  10.000  -2.000   8.000   1.000   1.000  -3.000   1.000   8.000   5.000   9.000   7.062
+        78  -4.000  11.000   8.000  12.000   0.000  10.000  -1.000   9.000   2.000   0.000  -4.000   1.000   7.000   3.000   5.000   7.412
+        79  14.445 -20.627  20.000 -30.000  20.000 -30.000 -30.000 -30.000 -30.000  20.000  20.000 -30.000  20.000 -30.000 -30.000   1.480
+        80  20.000  20.000 -30.000 -30.000 -30.000 -30.000 -30.000 -30.000  20.000 -30.000 -30.000 -30.000  20.000  20.000 -30.000   2.034
+        81 -30.000 -30.000 -30.000  20.000 -30.000  20.000  20.000 -30.000  20.000 -30.000   7.286 -30.000 -30.000 -30.000 -30.000   1.829
+        82  20.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000  20.000 -30.000  20.000 -30.000 -30.000 -30.000 -30.000 -30.000   2.034
+        83 -30.000  20.000 -30.000 -30.000 -30.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000  20.000 -30.000 -30.000   2.095
+        84 -30.000 -30.000  20.000 -30.000  20.000 -30.000  20.000  20.000 -30.000 -30.000  20.000  20.000  20.000 -30.000 -30.000   2.060
+        85   0.000  13.000   6.000  12.000   0.000  11.000  -2.000   8.000   3.000   1.000  -3.000   2.000   7.000   5.000  10.000   6.877
+        86  18.000  14.000  11.000  12.000  -1.000   9.000   2.000  12.000   5.000   0.000  -2.000  -4.000   6.000   5.000  20.000   4.615
+        87  -2.000  12.000   8.000  11.000   2.000  10.000  -3.000   9.000   1.000   3.000  -4.000   1.000   9.000   6.000  10.000   6.713
+        88  -1.000  11.000   9.000  10.000   0.000  10.000  -2.000   8.000   1.000   2.000  -3.000   1.000   8.000   4.000   9.000   7.323
+        89  -3.000  12.000   6.000  11.000   0.000   9.000  -1.000   9.000   2.000   0.000  -4.000   1.000   8.000   3.000   5.000   7.639
+        90 -30.000 -30.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000  20.000  20.000  20.000 -30.000 -30.000  20.000 -30.000   2.046
+        91 -30.000 -30.000 -30.000  20.000 -30.000 -30.000  20.000 -30.000 -30.000   9.603 -30.000  20.000 -30.000  20.000  20.000   1.747
+        92  20.000  20.000 -30.000  20.000 -30.000 -30.000 -30.000  20.000 -30.000 -30.000 -30.000  20.000 -30.000  20.000 -30.000   2.046
+        93 -30.000 -30.000 -30.000  20.000  20.000  20.000 -30.000 -30.000  20.000  20.000 -30.000 -30.000  20.000 -30.000 -30.000   2.046
+        94  -2.695  10.289   6.549  11.881  -1.364   7.105  -0.357   8.249   1.572   2.225  -2.667   0.910   7.115   2.718   5.347   6.283
+        95  -4.486  10.246   2.891  13.058   1.843   8.669  -0.167   9.892   0.991  -4.502  -3.252  -0.324   9.722   3.741   3.605   5.717
+        96   0.000  13.000   6.000  12.000   0.000  12.000  -1.000   9.000   2.000   0.000  -4.000   1.000   8.000   5.000  10.000   6.652
+        97  18.000  14.000  12.000  12.000   0.000   9.000   2.000  12.000   5.000   0.000  -2.000  -3.000   6.000   5.000  20.000   4.588
+        98  -2.000  12.000   8.000  10.000   0.000  10.000  -1.000   9.000   1.000   1.000  -3.000   1.000   8.000   4.000  10.000   7.117
+        99  -1.000  11.000   9.000  11.000   0.000  10.000  -1.000   8.000   1.000   1.000  -3.000   1.000   8.000   5.000   9.000   7.195
+       100  -4.000  11.000   8.000  12.000   0.000  10.000  -1.000   9.000   2.000   0.000  -4.000   1.000   8.000   3.000   5.000   7.328
+       101  -9.548  12.325 -20.743  19.562  15.347  13.376 -11.776   1.487  -6.110  16.998 -14.912 -11.461   2.992  18.556   3.381   1.416
+       102   8.561 -23.845  19.346 -30.000 -28.965 -21.039   7.569   1.232 -30.000  20.000  20.000  20.000 -30.000  15.209   3.548   0.983
+       103 -28.882  18.911  -4.372 -21.694  14.688  10.323   4.360   8.198  18.739  -8.608  -4.838   5.132   0.578  -5.564  14.682   1.370
+       104  -4.294  -1.446  -0.451  11.829 -30.000 -13.266  20.000 -30.000   4.100 -30.000 -30.000  20.000 -30.000 -30.000  11.205   1.148
+       105  20.000   7.084 -30.000  20.000  18.975 -29.956 -30.000 -30.000  -1.870 -30.000  -9.148 -27.890 -27.668 -21.704   7.941   1.517
+
+**Task:**
+Please explain briefly (<250 words) how your hypotheses evolved and particularly, how your hypotheses changed from the initial set in light of experimental data. End it with a table summary showing how your confidence in the hypotheses evolved during the optimization.
+
+\n```md

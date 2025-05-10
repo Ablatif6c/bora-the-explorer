@@ -1,0 +1,727 @@
+{
+    "1": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Exploratory Center",
+            "rationale": "This point is chosen to investigate the central region of the parameter space, which may reveal underlying trends of the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    "2": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Positive Extremes",
+            "rationale": "This hypothesis aims to explore the upper bounds of the parameter space, which may lead to the discovery of regions yielding higher target values.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]"
+    },
+    "3": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Negative Midpoint",
+            "rationale": "This point focuses on the negative segment of the parameter space to determine if lower values yield a beneficial impact on the target function.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -20,
+                    "x_1": -10,
+                    "x_2": -5,
+                    "x_3": -15,
+                    "x_4": -20,
+                    "x_5": -10,
+                    "x_6": -5,
+                    "x_7": -20,
+                    "x_8": -10,
+                    "x_9": -15,
+                    "x_10": -5,
+                    "x_11": -10,
+                    "x_12": -15,
+                    "x_13": -5,
+                    "x_14": -10
+                }
+            ]
+        },
+        "point": "[-20, -10, -5, -15, -20, -10, -5, -20, -10, -15, -5, -10, -15, -5, -10]"
+    },
+    "4": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Symmetrical Variation",
+            "rationale": "This hypothesis explores symmetrical patterns in the input variables to identify interactions or dependencies between them.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -20,
+                    "x_2": -10,
+                    "x_3": -5,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": 10,
+                    "x_7": 15,
+                    "x_8": 20,
+                    "x_9": 10,
+                    "x_10": 2,
+                    "x_11": -8,
+                    "x_12": 5,
+                    "x_13": -15,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[-30, -20, -10, -5, 0, 5, 10, 15, 20, 10, 2, -8, 5, -15, 10]"
+    },
+    "5": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Spread",
+            "rationale": "This point is selected to sample a balanced distribution of values from both negative and positive bounds, which could provide insights into average performance across the parameter space.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": 10,
+                    "x_2": -5,
+                    "x_3": 5,
+                    "x_4": -10,
+                    "x_5": 15,
+                    "x_6": 0,
+                    "x_7": 10,
+                    "x_8": -5,
+                    "x_9": 20,
+                    "x_10": -15,
+                    "x_11": 0,
+                    "x_12": 5,
+                    "x_13": -10,
+                    "x_14": -20
+                }
+            ]
+        },
+        "point": "[-10, 10, -5, 5, -10, 15, 0, 10, -5, 20, -15, 0, 5, -10, -20]"
+    },
+    "22": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Central Negative Exploration",
+            "rationale": "Building on the highest target value, this hypothesis targets a cluster of central negative values that previously showed promise.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": -2,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": -1,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -2,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-3, -2, -1, 0, 0, -1, 0, 0, 0, 0, 0, 1, -2, -1, 0]"
+    },
+    "23": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Balanced Mid-range Variation",
+            "rationale": "Introducing near-zero variations across parameters while avoiding extremes could significantly improve target outcomes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 4,
+                    "x_2": -2,
+                    "x_3": 1,
+                    "x_4": -1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": -1,
+                    "x_9": 3,
+                    "x_10": -2,
+                    "x_11": 1,
+                    "x_12": 2,
+                    "x_13": 0,
+                    "x_14": -2
+                }
+            ]
+        },
+        "point": "[2, 4, -2, 1, -1, 2, 0, 1, -1, 3, -2, 1, 2, 0, -2]"
+    },
+    "24": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Positive Central Exploration",
+            "rationale": "Testing parameters within moderate positive values could uncover beneficial interactions leading to higher target values.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": 5,
+                    "x_2": -5,
+                    "x_3": 5,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 4,
+                    "x_9": 3,
+                    "x_10": 5,
+                    "x_11": 5,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[5, 5, -5, 5, 2, 2, 0, 0, 4, 3, 5, 5, 0, 0, 1]"
+    },
+    "25": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Exploratory Symmetric Variation",
+            "rationale": "By exploring symmetrical variations around zero with mild positive and negative values, we can evaluate their impact on target maximization.",
+            "confidence": "low",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -2,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-2, 2, -1, 1, 0, 1, -2, 2, 1, 0, 0, 1, 1, -1, 0]"
+    },
+    "26": {
+        "trust_score": 0.9,
+        "plateau_duration": 16,
+        "hypothesis": {
+            "name": "Moderate Boundary Exploration",
+            "rationale": "Investigating near boundary values while avoiding extreme negative settings could provide insights into optimal regional functions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -10,
+                    "x_1": -5,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": -5,
+                    "x_5": 1,
+                    "x_6": 5,
+                    "x_7": -2,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 4,
+                    "x_12": 3,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-10, -5, 0, 2, -5, 1, 5, -2, 0, 2, -1, 4, 3, 0, -1]"
+    },
+    "42": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Refined Central Negative Exploration",
+            "rationale": "Revising the hypothesis to cluster closely around previously successful configurations in the central negative region of the parameter space.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": -1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 0,
+                    "x_5": -1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-2, -1, 0, 0, 0, -1, 0, 1, 0, 0, 0, 1, -1, -1, 0]"
+    },
+    "43": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Balanced Mid-range Variation - Update",
+            "rationale": "Maintaining a balanced approach with near-zero adjustments while avoiding extremes to explore promising configurations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 3,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": -1,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[1, 3, -1, 1, -1, 1, 0, 1, 0, 2, -1, 1, 1, 0, -1]"
+    },
+    "44": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Moderate Positive Exploration",
+            "rationale": "Exploring slightly positive values around the middle ranges may reveal beneficial interactions enhancing target performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 3,
+                    "x_1": 3,
+                    "x_2": -2,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 3,
+                    "x_11": 2,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[3, 3, -2, 1, 2, 2, 0, 0, 1, 1, 3, 2, 0, 1, 1]"
+    },
+    "45": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Symmetric Low Variation",
+            "rationale": "Evaluating symmetric configurations of mild values may uncover potential beneficial patterns in target maximization.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 1, -1, 1, 0, 0, -1, 1, 1, 0, 0, 1, 1, -1, 0]"
+    },
+    "46": {
+        "trust_score": 0.95,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Central Moderate Boundary Exploration",
+            "rationale": "Investigating moderate values near the edges of the acceptable ranges while avoiding extreme negatives to uncover optimizations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": -5,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": -2,
+                    "x_5": 2,
+                    "x_6": 4,
+                    "x_7": -1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 3,
+                    "x_12": 2,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-5, -5, 0, 2, -2, 2, 4, -1, 0, 1, 0, 3, 2, 0, -1]"
+    },
+    "62": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Optimized Central Negative Cluster",
+            "rationale": "This hypothesis revisits a successful cluster in the central negative region to fine-tune around previously optimal configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": -1,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": -1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-2, -1, 0, 2, 0, -1, 0, 1, 0, 0, 0, 1, -1, -1, 0]"
+    },
+    "63": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Balanced Positive Adjustment",
+            "rationale": "Exploring moderate positive values that maintain near-balance to previous successful ranges may enhance outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 3,
+                    "x_2": -2,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, 3, -2, 1, 1, 2, 0, 1, 1, 2, -1, 2, 1, 0, 1]"
+    },
+    "64": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Moderate Central Exploration - Adopted",
+            "rationale": "Testing values slightly broader than previous attempts could reveal intricate interactions leading to target enhancement.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": -1,
+                    "x_5": 0,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1, 1, -1, 1, -1, 0, -1, 1, 1, 1, 0, 2, 0, 0, -1]"
+    },
+    "65": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Enhanced Symmetric Moderation",
+            "rationale": "Further exploration of symmetric adjustments around zero can provide a clearer insight into the influence of balance across parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-2, 2, -1, 1, 0, 1, -1, 1, 0, 0, 1, 0, 1, -1, 0]"
+    },
+    "66": {
+        "trust_score": 0.9666666666666667,
+        "plateau_duration": 15,
+        "hypothesis": {
+            "name": "Near Boundary Value Exploration",
+            "rationale": "Investigating configurations that approach boundaries while maintaining balance from extreme values could lead to new insights.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": -2,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": -1,
+                    "x_5": 3,
+                    "x_6": 5,
+                    "x_7": 0,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 3,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-5, -2, 0, 1, -1, 3, 5, 0, 2, 1, 1, 2, 3, 0, -1]"
+    },
+    "84": {
+        "trust_score": 0.831132602150972,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Optimized Central Negative Cluster - Focused",
+            "rationale": "This hypothesis builds upon the success of prior configurations by concentrating on the central negative region where previous optimal targets were achieved.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": -1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": -1,
+                    "x_6": 0,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, -1, 0, 1, 0, -1, 0, 0, 0, 0, 0, 1, -1, -1, 0]"
+    },
+    "85": {
+        "trust_score": 0.831132602150972,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Balanced Positive Adjustment - Revised",
+            "rationale": "Exploring moderate positive values while maintaining alignment with previously successful configurations could yield further beneficial insights.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": -2,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1, 2, -2, 1, 1, 1, 0, 1, 1, 2, 1, 1, 1, 0, 0]"
+    },
+    "86": {
+        "trust_score": 0.831132602150972,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Moderate Central Exploration",
+            "rationale": "Testing values across a broader range of configurations around zero allows for further exploration of potentially beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 0,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 0, -1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0]"
+    },
+    "87": {
+        "trust_score": 0.831132602150972,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Symmetric Variation Exploration",
+            "rationale": "Focusing on symmetric configurations enables the assessment of balanced interactions around zero while avoiding extremes.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": -1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": -1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 1, -1, 1, 0, 1, -1, 1, 0, 0, 1, 1, 1, -1, 0]"
+    },
+    "88": {
+        "trust_score": 0.831132602150972,
+        "plateau_duration": 17,
+        "hypothesis": {
+            "name": "Exploration of Slightly Negative Variations",
+            "rationale": "Investigating configurations just below zero could reveal additional maximization opportunities.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": -1,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": -2,
+                    "x_5": 0,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 0,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1, -1, -1, 0, -2, 0, 1, 1, 0, 0, 0, 1, 1, 0, -1]"
+    }
+}

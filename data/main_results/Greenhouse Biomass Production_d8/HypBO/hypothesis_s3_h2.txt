@@ -1,0 +1,15 @@
+{
+    "name": "Ideal Conditions for Maximizing Sugar Beet Biomass",
+    "rationale": "To achieve maximum biomass production in sugar beet, a strategy that combines high light availability with optimal temperature and humidity levels is essential. High irradiance enhances photosynthesis, while moderate temperatures prevent thermal stress. A balanced water supply and limited wind conditions will further support healthy growth and development. This combination reflects an environment conducive to robust biomass accumulation.",
+    "confidence": 0.82,
+    "optimum_location": {
+        "irrad": 7200,
+        "tmin": 12,
+        "tmax": 32,
+        "vap": 4,
+        "wind": 0.8,
+        "rain": 8,
+        "wav": 60,
+        "SMLIM": 0.75
+    }
+}

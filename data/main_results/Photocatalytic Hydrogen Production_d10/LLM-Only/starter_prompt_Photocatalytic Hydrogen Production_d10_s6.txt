@@ -1,0 +1,53 @@
+**Task:**
+For the initial sampling step, using your general knowledge of chemistry and the experiment description, generate a diverse set of 5 initial hypotheses for maximizing Hydrogen Evolution Rate (Âµmol/h). Consider parameter relationships, expected behaviors, and promising regions of the parameter space.
+
+Note: For this initialization step, for each hypothesis, give a single point for which the sum of all parameters excluding P10-MIX1 should not exceed 5 to fit inside the vial., and the discretization step sizes of the parameters are respected.
+
+Example response for two hypotheses:
+```
+{
+  "comment":"comment on the optimization progress and highlight the most important findings in about 200 words",
+  "hypotheses":
+    [
+      {
+        "name":"short meaningful name here",
+        "rationale":"Your rationale here...",
+        "confidence": high/medium/low,
+        "points":
+        [
+            {
+                "AcidRed871_0gL":0.75,
+                "L-Cysteine-100gL":0.25,
+                ...,
+            },
+            {
+                "AcidRed871_0gL":0.75,
+                "L-Cysteine-100gL":0.25,
+                ...,
+            },
+        ],
+      },
+      {
+        "name":"short meaningful name here",
+        "rationale":"...",
+        "confidence": high/medium/low,
+        "points":
+        [
+            {
+                "AcidRed871_0gL":0.75,
+                "L-Cysteine-100gL":0.25,
+                ...,
+            },
+            {
+                "AcidRed871_0gL":0.75,
+                "L-Cysteine-100gL":0.25,
+                ...,
+            },
+        ],
+      }, 
+    ]
+}
+```
+
+Important: Only provide your response in the exact JSON format above, without any additional syntax or libraries. The points must have values for all the parameters of the experiment.
+\n```json

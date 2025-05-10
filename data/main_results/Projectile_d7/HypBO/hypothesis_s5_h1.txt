@@ -1,0 +1,14 @@
+{
+    "name": "high_velocity_throw",
+    "rationale": "To maximize the score, it is essential to consider both the angle and the velocity. A pitch angle of around 50 degrees may provide a good balance between height and horizontal distance. Maintaining a straight aim (yaw of 0) targets the projectile directly at the target. Using a higher initial velocity close to the upper bound, such as 45 m/s, helps cover the distance more effectively. A spin of around 1500 RPM will assist in stabilizing trajectory without overspin. Releasing from a height of 0.5 meters provides a slight advantage due to reduced air resistance for the initial horizontal position. A projectile mass of 0.5 kg achieves a good compromise between being light enough to throw fast and heavy enough to maintain stability. This combination is anticipated to yield a high score.",
+    "confidence": "0.75",
+    "optimum_location": {
+        "pitch_deg": 50,
+        "yaw_deg": 0,
+        "v0": 45,
+        "spin_rpm": 1500,
+        "spin_axis_deg": 0,
+        "h0": 0.5,
+        "mass": 0.5
+    }
+}

@@ -1,0 +1,12 @@
+We are about to start experiments to find the best parameter settings maximizing [target] using Bayesian Optimization.
+
+**Experiment Overview:**
+[description]
+
+**Optimization Parameters:**
+The experiment design space is defined by the parameters below, including their bounds and any relevant constraints:
+[parameters_and_bounds]
+[constraint]
+
+**Task**
+In approximately 200 words, provide a clear and concise overview of this experiment. Summarize the experimental goal, describe the parameters and eventual constraints that will guide the optimization process, and explain the intended outcome. Tell us how Bayesian Optimization (BO) will be employed to systematically explore the parameter space, while receiving point suggestions from you when BO plateaus, identifying conditions that maximize [target].

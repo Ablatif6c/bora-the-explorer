@@ -1,0 +1,2942 @@
+{
+    "1": {
+        "hypothesis": {
+            "name": "Central Midpoint Exploration",
+            "rationale": "Choosing a central point allows us to evaluate the function's behavior near the middle of the parameter space, potentially capturing an average performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": -5,
+                    "x_2": -5,
+                    "x_3": -5,
+                    "x_4": -5,
+                    "x_5": -5,
+                    "x_6": -5,
+                    "x_7": -5,
+                    "x_8": -5,
+                    "x_9": -5,
+                    "x_10": -5,
+                    "x_11": -5,
+                    "x_12": -5,
+                    "x_13": -5,
+                    "x_14": -5
+                }
+            ]
+        },
+        "point": "[-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5]",
+        "action": "LLM"
+    },
+    "2": {
+        "hypothesis": {
+            "name": "Extreme Lower Bound Exploration",
+            "rationale": "Examining the lower bounds could reveal how the function behaves in extreme negative scenarios, providing insights into its minimum output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -30,
+                    "x_1": -30,
+                    "x_2": -30,
+                    "x_3": -30,
+                    "x_4": -30,
+                    "x_5": -30,
+                    "x_6": -30,
+                    "x_7": -30,
+                    "x_8": -30,
+                    "x_9": -30,
+                    "x_10": -30,
+                    "x_11": -30,
+                    "x_12": -30,
+                    "x_13": -30,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[-30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30, -30]",
+        "action": "LLM"
+    },
+    "3": {
+        "hypothesis": {
+            "name": "Extreme Upper Bound Exploration",
+            "rationale": "Investigating the upper bounds helps assess potential maximum outputs, key to pinpointing high-performing parameter settings.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": 20,
+                    "x_2": 20,
+                    "x_3": 20,
+                    "x_4": 20,
+                    "x_5": 20,
+                    "x_6": 20,
+                    "x_7": 20,
+                    "x_8": 20,
+                    "x_9": 20,
+                    "x_10": 20,
+                    "x_11": 20,
+                    "x_12": 20,
+                    "x_13": 20,
+                    "x_14": 20
+                }
+            ]
+        },
+        "point": "[20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]",
+        "action": "LLM"
+    },
+    "4": {
+        "hypothesis": {
+            "name": "Mixed Extremes",
+            "rationale": "A combination of extreme negative and positive values will help explore potential influences of contrasting values on the function output.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 20,
+                    "x_1": -30,
+                    "x_2": -30,
+                    "x_3": 20,
+                    "x_4": -30,
+                    "x_5": 20,
+                    "x_6": -30,
+                    "x_7": 20,
+                    "x_8": -30,
+                    "x_9": 20,
+                    "x_10": -30,
+                    "x_11": 20,
+                    "x_12": -30,
+                    "x_13": 20,
+                    "x_14": -30
+                }
+            ]
+        },
+        "point": "[20, -30, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30, 20, -30]",
+        "action": "LLM"
+    },
+    "5": {
+        "hypothesis": {
+            "name": "Balanced Mixed Values",
+            "rationale": "This hypothesis targets a balance between positive and negative values to assess if hybrid configurations yield better outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 5,
+                    "x_1": -10,
+                    "x_2": 10,
+                    "x_3": -15,
+                    "x_4": 5,
+                    "x_5": 0,
+                    "x_6": -5,
+                    "x_7": 10,
+                    "x_8": -3,
+                    "x_9": 7,
+                    "x_10": -8,
+                    "x_11": 10,
+                    "x_12": -12,
+                    "x_13": 8,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[5, -10, 10, -15, 5, 0, -5, 10, -3, 7, -8, 10, -12, 8, -1]",
+        "action": "LLM"
+    },
+    "6": {
+        "hypothesis": {
+            "name": "Refined Central Exploration",
+            "rationale": "Continuing to explore the central area where we previously observed high performance, but introducing slight variations could reveal even better configurations.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": -5,
+                    "x_2": 0,
+                    "x_3": -5,
+                    "x_4": 0,
+                    "x_5": 5,
+                    "x_6": -3,
+                    "x_7": 0,
+                    "x_8": -1,
+                    "x_9": 3,
+                    "x_10": -7,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": -2,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, -5, 0, -5, 0, 5, -3, 0, -1, 3, -7, 0, 0, -2, 0]",
+        "action": "LLM"
+    },
+    "7": {
+        "hypothesis": {
+            "name": "Positive Cluster",
+            "rationale": "Exploring a cluster of positive values may uncover relationships that enhance performance due to positive reinforcement across parameters.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 10,
+                    "x_2": 10,
+                    "x_3": 0,
+                    "x_4": 10,
+                    "x_5": 5,
+                    "x_6": 5,
+                    "x_7": 10,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 5,
+                    "x_12": 3,
+                    "x_13": 10,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 10, 10, 0, 10, 5, 5, 10, 0, 3, 0, 5, 3, 10, 10]",
+        "action": "LLM"
+    },
+    "8": {
+        "hypothesis": {
+            "name": "Balanced Mixed Positive and Negative",
+            "rationale": "Testing a balanced approach with positive and negative values intertwined can help identify constructive interactions from varying parameter signs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -5,
+                    "x_1": 5,
+                    "x_2": -3,
+                    "x_3": 3,
+                    "x_4": -1,
+                    "x_5": 1,
+                    "x_6": -2,
+                    "x_7": 2,
+                    "x_8": 0,
+                    "x_9": 4,
+                    "x_10": -4,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": 5,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-5, 5, -3, 3, -1, 1, -2, 2, 0, 4, -4, 1, -1, 5, 0]",
+        "action": "LLM"
+    },
+    "9": {
+        "hypothesis": {
+            "name": "Narrower Exploration Around Previous Best",
+            "rationale": "This new hypothesis will explore smaller adjustments around the parameter configuration that provided the best target value to refine our understanding further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": -4,
+                    "x_2": -4,
+                    "x_3": -4,
+                    "x_4": -4,
+                    "x_5": -4,
+                    "x_6": -4,
+                    "x_7": -4,
+                    "x_8": -4,
+                    "x_9": -4,
+                    "x_10": -4,
+                    "x_11": -4,
+                    "x_12": -4,
+                    "x_13": -4,
+                    "x_14": -4
+                }
+            ]
+        },
+        "point": "[-4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4, -4]",
+        "action": "LLM"
+    },
+    "10": {
+        "hypothesis": {
+            "name": "Refined Central Exploration Enhanced",
+            "rationale": "Further refining centered configurations by making slight adjustments around the previously high-performing points to discover even better outcomes.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": -3,
+                    "x_2": 0,
+                    "x_3": -5,
+                    "x_4": 0,
+                    "x_5": 4,
+                    "x_6": -2,
+                    "x_7": 0,
+                    "x_8": -2,
+                    "x_9": 2,
+                    "x_10": -6,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-2, -3, 0, -5, 0, 4, -2, 0, -2, 2, -6, 1, 1, 0, -1]",
+        "action": "LLM"
+    },
+    "11": {
+        "hypothesis": {
+            "name": "Positive Cluster Adjustment",
+            "rationale": "This hypothesis will further explore clusters of positive values while allowing for slight adjustments based on insights from high target outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 10,
+                    "x_1": 8,
+                    "x_2": 10,
+                    "x_3": 0,
+                    "x_4": 10,
+                    "x_5": 6,
+                    "x_6": 4,
+                    "x_7": 10,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 5,
+                    "x_12": 4,
+                    "x_13": 10,
+                    "x_14": 10
+                }
+            ]
+        },
+        "point": "[10, 8, 10, 0, 10, 6, 4, 10, 1, 3, 1, 5, 4, 10, 10]",
+        "action": "LLM"
+    },
+    "12": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration",
+            "rationale": "This configuration aims to integrate both positive and negative values, optimizing interactions while staying close to prior high outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -4,
+                    "x_1": 3,
+                    "x_2": -1,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": -1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 5,
+                    "x_10": -2,
+                    "x_11": 3,
+                    "x_12": 0,
+                    "x_13": 5,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-4, 3, -1, 2, 1, 2, -1, 2, 1, 5, -2, 3, 0, 5, 2]",
+        "action": "LLM"
+    },
+    "13": {
+        "hypothesis": {
+            "name": "Minimal Variance Test Near Best",
+            "rationale": "Focusing on minimal variance adjustments around the previously highest outputs to pinpoint the optimal configuration accurately.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": -4,
+                    "x_2": -3,
+                    "x_3": -4,
+                    "x_4": -4,
+                    "x_5": -3,
+                    "x_6": -4,
+                    "x_7": -4,
+                    "x_8": -3,
+                    "x_9": -5,
+                    "x_10": -3,
+                    "x_11": -4,
+                    "x_12": -4,
+                    "x_13": -4,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-3, -4, -3, -4, -4, -3, -4, -4, -3, -5, -3, -4, -4, -4, -3]",
+        "action": "LLM"
+    },
+    "14": {
+        "hypothesis": {
+            "name": "Further Refined Minimal Variance Test",
+            "rationale": "This hypothesis will continue to refine around the best-performing configuration with small adjustments to maximize the value.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -3,
+                    "x_1": -3,
+                    "x_2": -3,
+                    "x_3": -4,
+                    "x_4": -4,
+                    "x_5": -2,
+                    "x_6": -4,
+                    "x_7": -4,
+                    "x_8": -2,
+                    "x_9": -4,
+                    "x_10": -3,
+                    "x_11": -4,
+                    "x_12": -3,
+                    "x_13": -4,
+                    "x_14": -3
+                }
+            ]
+        },
+        "point": "[-3, -3, -3, -4, -4, -2, -4, -4, -2, -4, -3, -4, -3, -4, -3]",
+        "action": "LLM"
+    },
+    "15": {
+        "hypothesis": {
+            "name": "Central Exploration with Positive Tilt",
+            "rationale": "Targeting slightly adjusted positive configurations while maintaining proximity to previous successful outputs may reveal advantageous synergies.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": -3,
+                    "x_4": 1,
+                    "x_5": 5,
+                    "x_6": -2,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": -4,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, -3, 1, 5, -2, 1, 0, 3, -4, 2, 1, 0, -1]",
+        "action": "LLM"
+    },
+    "16": {
+        "hypothesis": {
+            "name": "Balanced Mixed Optimized",
+            "rationale": "This hypothesis integrates balanced positive and negative values with adjustments based on the latest successful configurations for optimal performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -2,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 3,
+                    "x_6": 0,
+                    "x_7": 3,
+                    "x_8": 2,
+                    "x_9": 5,
+                    "x_10": -1,
+                    "x_11": 2,
+                    "x_12": 0,
+                    "x_13": 4,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-2, 2, -1, 1, 0, 3, 0, 3, 2, 5, -1, 2, 0, 4, 1]",
+        "action": "LLM"
+    },
+    "17": {
+        "hypothesis": {
+            "name": "Exploration of Zero Crossings",
+            "rationale": "Investigating configurations with zero or close to zero values might help identify fruitful interactions as they tend to have shown higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": -1,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": -1
+                }
+            ]
+        },
+        "point": "[0, 0, -1, 1, 0, 2, 1, -1, 0, 1, -1, 0, 0, 1, -1]",
+        "action": "LLM"
+    },
+    "18": {
+        "hypothesis": {
+            "name": "Further Refined Central Exploration",
+            "rationale": "To build on the strong performance of the leading configuration, we will test a variation with small perturbations around the successful zero-centered point.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -2,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 0, 1, 3, 1, 0, 0, 2, -2, 1, 0, 0, 0]",
+        "action": "LLM"
+    },
+    "19": {
+        "hypothesis": {
+            "name": "Positive Value Intensification",
+            "rationale": "By augmenting positive values while minimizing negative influences, this hypothesis aims to harness beneficial interactions within the region of high performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 4,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -1,
+                    "x_11": 3,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, 2, 1, 0, 2, 4, 2, 1, 1, 3, -1, 3, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "20": {
+        "hypothesis": {
+            "name": "Optimized Mixed Distribution",
+            "rationale": "Exploring a mix of positive and negative values around successful hotspots may reveal new interactions that enhance output further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 3,
+                    "x_8": 0,
+                    "x_9": 4,
+                    "x_10": -1,
+                    "x_11": 3,
+                    "x_12": -1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 2, -1, 0, 1, 2, 0, 3, 0, 4, -1, 3, -1, 1, 2]",
+        "action": "LLM"
+    },
+    "21": {
+        "hypothesis": {
+            "name": "Exploration of Slight Variance Near Best",
+            "rationale": "To optimize our understanding, we will further investigate slight variations around the peak configuration to potentially discover even higher-performing setups.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -2,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 0, 0, 1, 0, 3, 1, 1, 0, 2, -2, 0, 1, 0, 0]",
+        "action": "LLM"
+    },
+    "22": {
+        "hypothesis": {
+            "name": "Refined Optimal Central Configuration",
+            "rationale": "Further refining the successful optimal configuration from iteration 17, this hypothesis tests slight positive variations at a central point.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 0, 1, 3, 1, 0, 0, 2, 0, 2, 1, 0, 0]",
+        "action": "LLM"
+    },
+    "23": {
+        "hypothesis": {
+            "name": "Augmented Positive Cluster",
+            "rationale": "Testing an intensified set of positive values near previous successful configurations may enhance performance further by reinforcing beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 4,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 3,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, 2, 1, 0, 2, 4, 2, 1, 1, 3, 0, 3, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "24": {
+        "hypothesis": {
+            "name": "Continued Mixed Exploration",
+            "rationale": "Integrating both positive and negative values around identified successful hotspots can uncover new interactions, potentially leading to higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 4,
+                    "x_10": -1,
+                    "x_11": 3,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, -1, 1, 0, 2, 0, 2, 1, 4, -1, 3, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "25": {
+        "hypothesis": {
+            "name": "Zero-Centered Slight Variance",
+            "rationale": "Examine configurations with slight deviations from zero might help in optimizing interactions that lead to higher outputs.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 1, 1, 1, 0, 0, 1, -1, 0, 0, 0, 1]",
+        "action": "LLM"
+    },
+    "26": {
+        "hypothesis": {
+            "name": "Further Refined Zero-Centered Exploration",
+            "rationale": "Building on the best-performing configuration, we will explore slight positive perturbations around a zero-centered point to seek further optimization.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 1, 1, 2, 0, 0, 2, -1, 1, 0, 0, 1]",
+        "action": "LLM"
+    },
+    "27": {
+        "hypothesis": {
+            "name": "Slightly Augmented Positive Focus",
+            "rationale": "Testing configurations that emphasize slightly elevated positive values will explore the synergistic effects observed in previous successful trials.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 0, 2, 3, 1, 1, 1, 3, 0, 2, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "28": {
+        "hypothesis": {
+            "name": "Continued Balanced Positive-Negative Exploration",
+            "rationale": "Incorporating both positive and negative values near established successful points could reveal beneficial interactions to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": -2,
+                    "x_8": 0,
+                    "x_9": 3,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 1, 0, 2, 1, -2, 0, 3, -1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "29": {
+        "hypothesis": {
+            "name": "Exploration of Zero-Centered Positive Augmentations",
+            "rationale": "Further examining configurations around zero, particularly with more positive influences, may yield higher outputs reflective of previous trends.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 0, 1, 2, 1, 0, 1, 1, 0, 1, 0, 0, 0]",
+        "action": "LLM"
+    },
+    "30": {
+        "hypothesis": {
+            "name": "Refined Central Positive Tilt",
+            "rationale": "This hypothesis tests slight positive variations around the successful central configuration to maximize synergy and interactions among parameters.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, 1, 1, 2, 0, 0, 0, 0, 1]",
+        "action": "LLM"
+    },
+    "31": {
+        "hypothesis": {
+            "name": "Augmented Positive Focused Configuration",
+            "rationale": "Exploring augmented positive values while maintaining a close relationship with prior high-performance outputs may reveal new synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 0, 2, 3, 1, 0, 1, 3, -1, 0, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "32": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration",
+            "rationale": "This configuration will focus on integrating fine-tuned balanced combinations of positive and negative values to enhance interactions further.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 1, 0, 2, 0, 1, 1, 3, -1, 1, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "33": {
+        "hypothesis": {
+            "name": "Slight Positive Variations",
+            "rationale": "Investigating configurations that slightly deviate from previously successful configurations may reveal finer nuances for optimizing the output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 0, 2, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0]",
+        "action": "LLM"
+    },
+    "34": {
+        "hypothesis": {
+            "name": "Enhanced Central Positive Adjustment",
+            "rationale": "Refining the successful configuration by making slight positive adjustments around the zero-centered regions will help discover further synergies.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 2, 1, 1, 1, 2, 0, 1, 0, 1, 0]",
+        "action": "LLM"
+    },
+    "35": {
+        "hypothesis": {
+            "name": "Slight Positive Tilt in Balanced Configuration",
+            "rationale": "Targeting a mix of slightly increased positive values around previously successful setups may enhance interaction beneficially.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 1, 1, 3, 1, 0, 1, 2, 0, 1, 0, 1, 0]",
+        "action": "LLM"
+    },
+    "36": {
+        "hypothesis": {
+            "name": "Continued Mixed Exploration with Positive Emphasis",
+            "rationale": "This configuration will incorporate a balanced negative interaction while emphasizing positive values to potentially unveil new output enhancements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 1, -1, 1, 1, 2, 0, 2, 1, 3, 0, 1, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "37": {
+        "hypothesis": {
+            "name": "Refined Near Previous Best Configuration",
+            "rationale": "Focusing on slight deviations from the configuration that yielded the best performance will help pinpoint optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 2, 1, 2, 1, 0, 1, 2, 0, 1, 0, 1, 0]",
+        "action": "LLM"
+    },
+    "38": {
+        "hypothesis": {
+            "name": "Optimized Positive Central Configuration",
+            "rationale": "This hypothesis targets slight positive adjustments around the highest-performing zero-centered point to optimize interactions further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, 0, 1, 2, 0, 1, 0, 0, 2]",
+        "action": "LLM"
+    },
+    "39": {
+        "hypothesis": {
+            "name": "Augmented Positive Cluster Exploration",
+            "rationale": "Exploring higher positive values nearby may uncover deeper synergistic interactions and enhance performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, 1, 1, 0, 2, 3, 1, 1, 1, 3, 0, 2, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "40": {
+        "hypothesis": {
+            "name": "Balanced Exploration with Positive Emphasis",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing positive influences to unveil new enhancements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, -1, 1, 2, 2, 0, 2, 1, 3, 0, 0, 1, 1, 2]",
+        "action": "LLM"
+    },
+    "41": {
+        "hypothesis": {
+            "name": "Refined Near Previous Best Configuration",
+            "rationale": "Focusing on slight deviations from our highest-performing configuration will continue to refine optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 2, 0, 2, 1, 1, 0, 2, 1, 1, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "42": {
+        "hypothesis": {
+            "name": "Further Refined Central Positive Adjustment",
+            "rationale": "Testing slight positive adjustments around the highest-performing configuration, we aim to enhance interactions further and discover optimal mixtures.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 2, 1, 0, 1, 2, 0, 1, 0, 0, 2]",
+        "action": "LLM"
+    },
+    "43": {
+        "hypothesis": {
+            "name": "Optimized Slightly Augmented Positive Values",
+            "rationale": "Exploring configurations with slightly heightened positive values may unveil deeper synergistic interactions and enhance overall performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 0, 1, 3, 2, 0, 1, 3, 0, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "44": {
+        "hypothesis": {
+            "name": "Refined Mixed Configuration With Balance",
+            "rationale": "By maintaining balance but favoring positive interactions, this hypothesis aims to explore optimal combinations yielding higher outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": -1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, -1, 1, 3, -1, 1, 1, 1, 2]",
+        "action": "LLM"
+    },
+    "45": {
+        "hypothesis": {
+            "name": "Balanced Minor Deviations",
+            "rationale": "Investigating slight perturbations from previously high-performing configurations may reveal refined interactions for optimizing output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 0,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 2, 0, 1, 1, 1, 0, 2, 1, 1, 0, 2, 1]",
+        "action": "LLM"
+    },
+    "46": {
+        "hypothesis": {
+            "name": "Enhanced Central Positive Adjustment",
+            "rationale": "Testing slight positive variations around the highest-performing configuration to enhance interactions among parameters and discover optimal setups.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 1, 2, 0, 1, 2, 1, 0, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "47": {
+        "hypothesis": {
+            "name": "Refined Near Best Configuration",
+            "rationale": "Focusing on slight deviations from the previously highest-performing configurations will help pinpoint optimal interactions for even better performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 0, 2, 1]",
+        "action": "LLM"
+    },
+    "48": {
+        "hypothesis": {
+            "name": "Augmented Positive Focus Configurations",
+            "rationale": "Exploring slightly increased positive values around successful setups with the aim of unveiling deeper synergistic interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, 1, 1, 2, 3, 2, 0, 1, 3, 0, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "49": {
+        "hypothesis": {
+            "name": "Adjusted Mixed Exploration",
+            "rationale": "Integrating both positive and negative values while favoring positive influences may unveil new optimizations.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 2,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 2, -1, 1, 1, 2, 1, 2, 1, 3, 0, 1, 0, 2, 2]",
+        "action": "LLM"
+    },
+    "50": {
+        "hypothesis": {
+            "name": "Further Refined Central Configuration",
+            "rationale": "This hypothesis targets slight positive adjustments around a zero-centered point to optimize interactions further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 1, 2, 2, 1, 0, 1, 2, -1, 1, 0, 0, 2]",
+        "action": "LLM"
+    },
+    "51": {
+        "hypothesis": {
+            "name": "Augmented Positive Exploration Near Successful Values",
+            "rationale": "Exploring configurations with higher positive values close to successful outputs may uncover deeper synergistic interactions, enhancing performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 2, 3, 2, 1, 1, 3, 0, 2, 1, 2, 1]",
+        "action": "LLM"
+    },
+    "52": {
+        "hypothesis": {
+            "name": "Balanced Configuration with Emphasized Positivity",
+            "rationale": "Integrating both positive and negative values while favoring positive influences around previously successful points may reveal beneficial interactions.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 1, 1, 2, 1, 0, 1, 2, 0, 2, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "53": {
+        "hypothesis": {
+            "name": "Slight Adjustment Near Previous Best",
+            "rationale": "Focusing on minor perturbations from the configuration that achieved the highest target output will help refine optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 0,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 2, 0, 1, 1, 1, 1, 2, 1, 1, 0, 2, 1]",
+        "action": "LLM"
+    },
+    "54": {
+        "hypothesis": {
+            "name": "Enhanced Central Positive Adjustment",
+            "rationale": "This hypothesis tests slight positive variations around a zero-centered point to optimize interactions further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 1, 2, 1, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "55": {
+        "hypothesis": {
+            "name": "Refined Slight Positive Tilt",
+            "rationale": "Focusing on slight positive adjustments around the previously successful configurations will help refine optimal interactions for enhancing performance.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 1, 1, 2, 1, 0, 1, 2, 0, 1, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "56": {
+        "hypothesis": {
+            "name": "Continued Balanced Exploration",
+            "rationale": "Integrating both positive and negative parameter values, prioritizing balanced interactions with slight increases in positive influences, may reveal further improvements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 1, -1, 1, 1, 1, 0, 1, 1, 3, 1, 1, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "57": {
+        "hypothesis": {
+            "name": "Refined Near Previous Maximum Configuration",
+            "rationale": "Exploring slight variances around the configuration that previously yielded the highest target output may uncover more optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 1, 2, 1, 0, 1, 1, 2, 1, 0, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "58": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "This hypothesis continues to focus on slight positive variations around the successful configurations that have shown high performance, optimizing parameter interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 2, 1, 0, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "59": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis tests configurations with slightly increased positive values, allowing for exploration of potential new synergistic interactions around previously recorded successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 2, 3, 1, 1, 1, 3, 0, 2, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "60": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "Integrating both positive and negative values will provide balanced interactions while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, -1, 1, 2, 2, 1, 1, 1, 3, 0, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "61": {
+        "hypothesis": {
+            "name": "Zero-Centered Exploration of Slight Variance",
+            "rationale": "Investigating configurations with slight positive variations around successful zero-centered configurations could help maximize output through uncovering subtle interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 1, 1, 2, 1, 0, 1, 2, 0, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "62": {
+        "hypothesis": {
+            "name": "Enhanced Central Positive Adjustment",
+            "rationale": "This hypothesis continues to build on high-performing configurations by focusing on slight positive variations to optimize parameter interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 1, 2, 0, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "63": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis tests configurations with slightly increased positive values, allowing for exploration of potential new synergistic interactions around previously recorded successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 2, 3, 1, 1, 2, 3, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "64": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "Integrating both positive and negative values will provide balanced interactions while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 1, 2, 2, 1, 0, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "65": {
+        "hypothesis": {
+            "name": "Refined Near Previous Maximum Configuration",
+            "rationale": "Focusing on slight deviations from the configuration that achieved the highest target output will help pinpoint optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 1, 0, 1, 2, 1, 1, 0, 1, 2, 0, 0, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "66": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "This hypothesis will explore new slight positive variations around successful zero-centered configurations to optimize parameter interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 0, 2, 2, 1, 1, 1, 2, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "67": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "Testing configurations with new slightly increased positive values to explore untapped synergistic interactions around previously successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[2, 2, 1, 1, 3, 3, 2, 1, 2, 2, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "68": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "Integrating new configurations of both positive and negative values will provide balanced interactions while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, -1, 2, 1, 2, 0, 1, 1, 2, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "69": {
+        "hypothesis": {
+            "name": "Refined Near Previous Maximum Configuration",
+            "rationale": "Focusing on new slight deviations from the configuration that produced the highest target output will help identify optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": 1,
+                    "x_3": 2,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 2,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[-1, 0, 1, 2, 2, 1, 1, 0, 2, 1, 0, 2, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "70": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 2, 1, 0, 1, 1, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "71": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "Exploring slightly higher positive values around successful setups may reveal deeper interactions that boost performance.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 3, 3, 2, 1, 2, 2, 1, 2, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "72": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "Focusing on integrating progressive positive influences while maintaining balance could unveil additional enhancements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 2, 2, 1, 1, 1, 3, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "73": {
+        "hypothesis": {
+            "name": "New Zero-Centered Configuration Exploration",
+            "rationale": "Exploring new configurations centered around zero can optimize interactions and unveil new information beneficial for higher output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 0,
+                    "x_9": 1,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 0, 0, 1, 1, 2, 1, 0, 0, 1, -1, 1, 0, 1, 1]",
+        "action": "LLM"
+    },
+    "74": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Exploring slight positive variations around successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 1, 2, 2, 1, 0, 1, 2, 1, 1, 1, 0, 3]",
+        "action": "LLM"
+    },
+    "75": {
+        "hypothesis": {
+            "name": "Augmented Positive Near Successful Outputs",
+            "rationale": "Exploring configurations with slightly higher positive values near previously successful outputs may uncover beneficial interactions that enhance the target result.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 2, 3, 2, 1, 2, 3, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "76": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "Focusing on integrating progressive positive influences while maintaining balance could unveil additional enhancements.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 2,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[0, 2, -1, 1, 2, 1, 1, 0, 1, 2, 0, 1, 0, 1, 3]",
+        "action": "LLM"
+    },
+    "77": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "Testing new variations around zero may uncover subtle interactions that provide additional gains in target output.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": -1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, -1, 1, 2, 0, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "78": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 1, 2, 2, 1, 0, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "79": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis targets configurations that incorporate slightly elevated positive values, facilitating synergistic interactions around successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 3, 3, 2, 1, 2, 3, 1, 1, 1, 1, 2]",
+        "action": "LLM"
+    },
+    "80": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, -1, 1, 1, 1, 1, 1, 2, 1, 0, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "81": {
+        "hypothesis": {
+            "name": "New Zero-Centered Exploration",
+            "rationale": "By investigating slight positive variations around previously successful zero-centered configurations, we aim to maximize outputs further through previously unexplored interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "82": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 1, 2, 2, 1, 0, 1, 2, 1, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "83": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis targets configurations that incorporate slightly elevated positive values, facilitating synergistic interactions around successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 3,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 3, 3, 2, 1, 2, 3, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "84": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 0,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[-1, 0, -1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "85": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around successful zero-centered configurations, we aim to maximize outputs further through uncovering subtle interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 1, 2, 2, 1, 0, 1, 2, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "86": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Exploring new slight positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 0, 2, 2, 1, 1, 1, 2, 0, 1, 1, 1, 2]",
+        "action": "LLM"
+    },
+    "87": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "Testing configurations that incorporate slightly elevated positive values will facilitate synergistic interactions around successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 3,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 2, 3, 2, 0, 3, 2, 1, 1, 1, 1, 1]",
+        "action": "LLM"
+    },
+    "88": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": -1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[-1, 1, -1, 1, 2, 2, 1, 1, 2, 2, 0, 1, 1, 0, 3]",
+        "action": "LLM"
+    },
+    "89": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around successful zero-centered configurations, we aim to maximize outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 0,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 0, 1, 2, 1, 0, 1, 2, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "90": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": -1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 0, 2, 2, 1, 0, 1, 2, -1, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "91": {
+        "hypothesis": {
+            "name": "Augmented Positive Near Successful Outputs",
+            "rationale": "Exploring configurations with slightly higher positive values near previously successful outputs may uncover beneficial interactions that enhance the target result.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 2,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[2, 2, 1, 0, 3, 3, 1, 2, 1, 2, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "92": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": -1,
+                    "x_13": 1,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 1, -1, 1, 1, 2, 1, 0, 1, 2, 0, 1, -1, 1, 1]",
+        "action": "LLM"
+    },
+    "93": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around previously successful zero-centered configurations, we aim to maximize outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 2,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 0,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 2,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 2, 1, 2, 0, 1, 1, 2, 1, 1, 0, 2, 2]",
+        "action": "LLM"
+    },
+    "94": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 1,
+                    "x_6": 2,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 0, 2, 1, 2, 0, 1, 2, 0, 1, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "95": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis targets configurations that incorporate slightly elevated positive values, facilitating synergistic interactions around successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 0, 1, 3, 3, 2, 1, 2, 2, 1, 1, 1, 2, 1]",
+        "action": "LLM"
+    },
+    "96": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 0,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 3
+                }
+            ]
+        },
+        "point": "[1, 0, -1, 1, 1, 2, 1, 1, 1, 2, 0, 1, 1, 0, 3]",
+        "action": "LLM"
+    },
+    "97": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around successful zero-centered configurations, we aim to maximize outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 0, 1, 1, 2, 1, 0, 2, 1, 1, 1, 0, 1, 2]",
+        "action": "LLM"
+    },
+    "98": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, 0, 2, 2, 1, 0, 1, 2, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "99": {
+        "hypothesis": {
+            "name": "Slightly Augmented Configuration",
+            "rationale": "This hypothesis targets configurations that incorporate slightly elevated positive values to explore potential new synergistic interactions around successful outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 1,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 3,
+                    "x_9": 1,
+                    "x_10": 1,
+                    "x_11": 2,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 1, 1, 3, 3, 2, 1, 3, 1, 1, 2, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "100": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": -1,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 1,
+                    "x_6": 1,
+                    "x_7": 1,
+                    "x_8": 2,
+                    "x_9": 1,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, -1, 1, 1, 1, 1, 1, 2, 1, 0, 1, 1, 0, 2]",
+        "action": "LLM"
+    },
+    "101": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around successful zero-centered configurations, we aim to maximize outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 0,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 0
+                }
+            ]
+        },
+        "point": "[1, 0, 0, 1, 1, 2, 1, 2, 1, 2, 1, 1, 1, 1, 0]",
+        "action": "LLM"
+    },
+    "102": {
+        "hypothesis": {
+            "name": "Refined Central Positive Adjustment",
+            "rationale": "Continuing to explore subtle positive variations around previously successful configurations will help uncover optimal interactions.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 0,
+                    "x_1": 1,
+                    "x_2": 1,
+                    "x_3": -1,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 3,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[0, 1, 1, -1, 2, 2, 1, 0, 1, 3, 0, 1, 1, 1, 2]",
+        "action": "LLM"
+    },
+    "103": {
+        "hypothesis": {
+            "name": "Augmented Positive Near Successful Outputs",
+            "rationale": "Exploring configurations with slightly higher positive values near previously successful outputs may uncover beneficial interactions that enhance the target result.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 2,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 3,
+                    "x_5": 3,
+                    "x_6": 2,
+                    "x_7": 1,
+                    "x_8": 3,
+                    "x_9": 4,
+                    "x_10": 1,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 2,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 2, 0, 1, 3, 3, 2, 1, 3, 4, 1, 1, 1, 2, 1]",
+        "action": "LLM"
+    },
+    "104": {
+        "hypothesis": {
+            "name": "Balanced Mixed Exploration with Positive Shift",
+            "rationale": "This configuration integrates both positive and negative values while emphasizing slight positive shifts to further enhance outputs.",
+            "confidence": "medium",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 0,
+                    "x_2": -1,
+                    "x_3": 0,
+                    "x_4": 2,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 2,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 0,
+                    "x_11": 1,
+                    "x_12": 1,
+                    "x_13": 0,
+                    "x_14": 1
+                }
+            ]
+        },
+        "point": "[1, 0, -1, 0, 2, 2, 1, 2, 1, 2, 0, 1, 1, 0, 1]",
+        "action": "LLM"
+    },
+    "105": {
+        "hypothesis": {
+            "name": "Exploration of New Zero-Centered Configurations",
+            "rationale": "By investigating slight positive variations around successful zero-centered configurations, we aim to maximize outputs further.",
+            "confidence": "high",
+            "points": [
+                {
+                    "x_0": 1,
+                    "x_1": 1,
+                    "x_2": 0,
+                    "x_3": 1,
+                    "x_4": 1,
+                    "x_5": 2,
+                    "x_6": 1,
+                    "x_7": 0,
+                    "x_8": 1,
+                    "x_9": 2,
+                    "x_10": 1,
+                    "x_11": 0,
+                    "x_12": 0,
+                    "x_13": 1,
+                    "x_14": 2
+                }
+            ]
+        },
+        "point": "[1, 1, 0, 1, 1, 2, 1, 0, 1, 2, 1, 0, 0, 1, 2]",
+        "action": "LLM"
+    }
+}
